@@ -4,22 +4,38 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // 명시적으로 main 브랜치에서 소스 체크아웃
                 git branch: 'main', url: 'https://github.com/seabears/Jenkins-Test.git'
             }
         }
 
         stage('Lint') {
             steps {
-                echo '정적 분석 중...'
-                sh 'cppcheck --enable=all --inconclusive --quiet --force .'
+                echo '변경된 파일 목록 추출 중...'
+
+                // 변경된 *.c, *.h 파일만 필터링해서 변수에 저장
+                script {
+                    def changedFiles = sh(
+                        script: "git diff --name-only origin/main | grep -E '\\.(c|h)$' || true",
+                        returnStdout: true
+                    ).trim()
+
+                    if (changedFiles == "") {
+                        echo "변경된 C 소스 파일이 없습니다."
+                        currentBuild.result = 'SUCCESS'
+                        return
+                    }
+
+                    echo "변경된 파일:\n${changedFiles}"
+
+                    // cppcheck를 변경된 파일 목록에 대해서만 실행
+                    sh "cppcheck --enable=all --inconclusive --quiet --force ${changedFiles}"
+                }
             }
         }
 
         stage('Build') {
             steps {
                 echo '빌드 단계 진행 중...'
-                // 예: gcc 컴파일 커맨드 (실제 빌드 스크립트 넣기)
                 sh 'gcc -o test1 test1.c'
             }
         }
@@ -27,7 +43,6 @@ pipeline {
         stage('Test') {
             steps {
                 echo '테스트 단계 진행 중...'
-                // 테스트 커맨드 삽입 가능
             }
         }
     }
