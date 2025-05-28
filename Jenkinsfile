@@ -10,21 +10,21 @@ pipeline {
 
         stage('Lint') {
             steps {
-                echo '변경된 파일 목록 추출 중...'
+                echo '변경 및 추가된 C/H 파일 목록 추출 중...'
 
                 script {
                     def changedFiles = sh(
-                        script: "git diff --name-only origin/main | grep -E '\\\\.(c|h)\\\\$' || true",
+                        script: 'git diff --diff-filter=AM --name-only origin/main | grep -E "\\.(c|h)$" || true',
                         returnStdout: true
                     ).trim()
 
                     if (changedFiles == "") {
-                        echo "변경된 C 소스 파일이 없습니다."
+                        echo "변경 또는 추가된 C 소스 파일이 없습니다."
                         currentBuild.result = 'SUCCESS'
                         return
                     }
 
-                    echo "변경된 파일:\n${changedFiles}"
+                    echo "변경 및 추가된 파일:\n${changedFiles}"
 
                     sh "cppcheck --enable=all --inconclusive --quiet --force ${changedFiles}"
                 }
