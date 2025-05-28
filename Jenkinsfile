@@ -4,17 +4,23 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/seabears/Jenkins-Test.git'
+                // 명시적으로 main 브랜치에서 소스 체크아웃
+                git branch: 'main', url: 'https://github.com/seabears/Jenkins-Test.git'
             }
         }
+
         stage('Build') {
             steps {
-                sh 'gcc -o test_program main.c'
+                echo '빌드 단계 진행 중...'
+                // 예: gcc 컴파일 커맨드 (실제 빌드 스크립트 넣기)
+                sh 'gcc -o test1 test1.c'
             }
         }
+
         stage('Test') {
             steps {
-                sh './test_program'
+                echo '테스트 단계 진행 중...'
+                // 테스트 커맨드 삽입 가능
             }
         }
     }
