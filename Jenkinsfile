@@ -9,6 +9,13 @@ pipeline {
             }
         }
 
+        stage('Lint') {
+            steps {
+                echo '정적 분석 중...'
+                sh 'cppcheck --enable=all --inconclusive --quiet .'
+            }
+        }
+
         stage('Build') {
             steps {
                 echo '빌드 단계 진행 중...'
