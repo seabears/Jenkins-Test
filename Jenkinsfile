@@ -1,9 +1,20 @@
 pipeline {
     agent any
+
     stages {
-        stage('Hello') {
+        stage('Checkout') {
             steps {
-                echo 'Hello, Jenkins!'
+                git 'https://github.com/seabears/Jenkins-Test.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'gcc -o test_program main.c'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh './test_program'
             }
         }
     }
