@@ -12,7 +12,7 @@ pipeline {
         stage('Lint') {
             steps {
                 echo '정적 분석 중...'
-                sh 'cppcheck --enable=all --inconclusive --quiet .'
+                sh 'cppcheck --enable=all --inconclusive --quiet --force .'
             }
         }
 
