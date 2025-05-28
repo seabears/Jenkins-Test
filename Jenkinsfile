@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main', url: 'https://github.com/seabears/Jenkins-Test.git'
-        	sh 'git fetch origin'
+        	//sh 'git fetch origin'	// 없어도 되는 부분?
             }
         }
 
