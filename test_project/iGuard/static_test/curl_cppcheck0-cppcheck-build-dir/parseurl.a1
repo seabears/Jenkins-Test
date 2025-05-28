@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11776815595715709895">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\parseurl.c" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\parseurl.c" line="29" column="0"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/parseurl.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\parseurl.c" line="48" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/parseurl.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\parseurl.c" line="67" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/parseurl.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\parseurl.c" line="49" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/parseurl.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\parseurl.c" line="68" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/parseurl.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\parseurl.c" line="44" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/parseurl.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\parseurl.c" line="43" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/parseurl.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\parseurl.c" line="48" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/parseurl.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\parseurl.c" line="67" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/parseurl.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\parseurl.c" line="54" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/parseurl.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\parseurl.c" line="61" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/parseurl.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\parseurl.c" line="73" column="11"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/parseurl.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\parseurl.c" line="28" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="35"/>
+    <functioncall functionName="CURLUPART_HOST"/>
+    <functioncall functionName="CURLUPART_PATH"/>
+    <functioncall functionName="CURLUPART_URL"/>
+    <functioncall functionName="curl_free"/>
+    <functioncall functionName="curl_url"/>
+    <functioncall functionName="curl_url_cleanup"/>
+    <functioncall functionName="curl_url_get"/>
+    <functioncall functionName="curl_url_set"/>
+    <functioncall functionName="fail"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

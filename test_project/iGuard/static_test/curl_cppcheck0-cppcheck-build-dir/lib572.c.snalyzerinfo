@@ -1,0 +1,2 @@
+suburl call:[curl_maprintf] noreturn:[curl_maprintf]
+test global:[libtest_arg2] call:[close,curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_free,curl_global_cleanup,curl_global_init,curl_slist_free_all,fclose,fopen,fprintf,fstat,open,suburl] noreturn:[curl_slist_free_all,fclose]

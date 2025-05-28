@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8397026098392636595">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="74" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="75" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="76" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;windows.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;windows.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="79" column="0"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="sscanf() without field width limits can crash with huge input data." verbose="sscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.\012\012Sample program that can crash:\012\012#include &lt;stdio.h&gt;\012int main()\012{\012    char c[5];\012    scanf(&quot;%s&quot;, c);\012    return 0;\012}\012\012Typing in 5 or more characters may make the program crash. The correct usage here is &apos;scanf(&quot;%4s&quot;, c);&apos;, as the maximum field width does not include the terminating null byte.\012Source: http://linux.die.net/man/3/scanf\012Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="C:/test_workspace/curl-master/docs/examples/synctime.c">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="146" column="22"/>
+        </error>
+        <error id="constParameterCallback" severity="style" msg="Parameter &apos;ptr&apos; can be declared as pointer to const. However it seems that &apos;SyncTime_CURL_WriteOutput&apos; is a callback function, if &apos;ptr&apos; is declared with const you might also need to cast function pointer(s)." verbose="Parameter &apos;ptr&apos; can be declared as pointer to const. However it seems that &apos;SyncTime_CURL_WriteOutput&apos; is a callback function, if &apos;ptr&apos; is declared with const you might also need to cast function pointer(s)." cwe="398" file0="C:/test_workspace/curl-master/docs/examples/synctime.c">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="118" column="47" info="Parameter &apos;ptr&apos; can be declared as pointer to const"/>
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="187" column="49" info="You might need to cast the function pointer here"/>
+            <symbol>ptr</symbol>
+        </error>
+        <error id="constParameterCallback" severity="style" msg="Parameter &apos;ptr&apos; can be declared as pointer to const. However it seems that &apos;SyncTime_CURL_WriteHeader&apos; is a callback function, if &apos;ptr&apos; is declared with const you might also need to cast function pointer(s)." verbose="Parameter &apos;ptr&apos; can be declared as pointer to const. However it seems that &apos;SyncTime_CURL_WriteHeader&apos; is a callback function, if &apos;ptr&apos; is declared with const you might also need to cast function pointer(s)." cwe="398" file0="C:/test_workspace/curl-master/docs/examples/synctime.c">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="125" column="47" info="Parameter &apos;ptr&apos; can be declared as pointer to const"/>
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="188" column="50" info="You might need to cast the function pointer here"/>
+            <symbol>ptr</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;argv&apos; can be declared as const array" verbose="Parameter &apos;argv&apos; can be declared as const array" cwe="398" file0="C:/test_workspace/curl-master/docs/examples/synctime.c">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="243" column="26" info="Parameter &apos;argv&apos; can be declared as const array"/>
+            <symbol>argv</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/docs/examples/synctime.c:232:12" call-funcname="conf_init" call-argnr="1" file="C:/test_workspace/curl-master/docs/examples/synctime.c" line="252" col="12" call-argexpr="conf" call-argvaluetype="7" call-argvalue="-1"/><function-call call-id="C:/test_workspace/curl-master/docs/examples/synctime.c:191:17" call-funcname="SyncTime_CURL_Fetch" call-argnr="4" file="C:/test_workspace/curl-master/docs/examples/synctime.c" line="327" col="24" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/docs/examples/synctime.c:232:12" call-funcname="conf_init" call-argnr="1" file="C:/test_workspace/curl-master/docs/examples/synctime.c" line="357" col="14" call-argexpr="conf" call-argvaluetype="7" call-argvalue="-1"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/synctime.c:118:15" my-argnr="1" my-argname="ptr" file="C:/test_workspace/curl-master/docs/examples/synctime.c" line="121" col="10" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/synctime.c:118:15" my-argnr="4" my-argname="stream" file="C:/test_workspace/curl-master/docs/examples/synctime.c" line="121" col="28" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/synctime.c:177:13" my-argnr="2" my-argname="proxy_port" file="C:/test_workspace/curl-master/docs/examples/synctime.c" line="180" col="13" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/synctime.c:177:13" my-argnr="3" my-argname="proxy_user_password" file="C:/test_workspace/curl-master/docs/examples/synctime.c" line="183" col="13" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/synctime.c:232:12" my-argnr="1" my-argname="conf" file="C:/test_workspace/curl-master/docs/examples/synctime.c" line="236" col="4" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/synctime.c:118:15" my-argnr="1" my-argname="ptr" file="C:/test_workspace/curl-master/docs/examples/synctime.c" line="121" col="10" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/synctime.c:118:15" my-argnr="4" my-argname="stream" file="C:/test_workspace/curl-master/docs/examples/synctime.c" line="121" col="28" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/synctime.c:177:13" my-argnr="2" my-argname="proxy_port" file="C:/test_workspace/curl-master/docs/examples/synctime.c" line="180" col="13" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/synctime.c:177:13" my-argnr="3" my-argname="proxy_user_password" file="C:/test_workspace/curl-master/docs/examples/synctime.c" line="183" col="13" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="97" column="19"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="112" column="19"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="103" column="20"/>
+        </error>
+        <error id="misra-c2012-9.3" severity="style" msg="Required Arrays shall not be partially initialized" verbose="Required Arrays shall not be partially initialized" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="97" column="19"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="142" column="32"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="180" column="25"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="183" column="34"/>
+        </error>
+        <error id="misra-c2012-10.8" severity="style" msg="Required The value of a composite expression shall not be cast to a different essential type category or a wider essential type" verbose="Required The value of a composite expression shall not be cast to a different essential type category or a wider essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="309" column="8"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="133" column="27"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="135" column="14"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="137" column="42"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="142" column="17"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="146" column="29"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="169" column="14"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="237" column="16"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="128" column="19"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="207" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="287" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="275" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="132" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="136" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="142" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="180" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="183" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="198" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="207" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="237" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="257" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="260" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="263" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="266" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="269" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="281" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="309" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="311" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="121" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="133" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="137" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="170" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="208" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="214" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="216" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="217" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="218" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="220" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="221" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="223" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="225" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="227" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="228" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="252" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="258" column="17"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="267" column="17"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="270" column="17"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="282" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="310" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="312" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="317" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="323" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="324" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="331" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="336" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="341" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="347" column="17"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="352" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="357" column="14"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="74" column="0"/>
+        </error>
+        <error id="misra-c2012-21.10" severity="style" msg="Required The Standard Library time and date functions shall not be used" verbose="Required The Standard Library time and date functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/synctime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\synctime.c" line="75" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="SyncTime_CURL_WriteOutput" lineNumber="118"/>
+    <functiondecl functionName="SyncTime_CURL_WriteHeader" lineNumber="125"/>
+    <functiondecl functionName="SyncTime_CURL_Init" lineNumber="177"/>
+    <functiondecl functionName="SyncTime_CURL_Fetch" lineNumber="191"/>
+    <functiondecl functionName="showUsage" lineNumber="212"/>
+    <functiondecl functionName="conf_init" lineNumber="232"/>
+    <functiondecl functionName="main" lineNumber="243"/>
+    <functioncall functionName="CURLOPT_HEADERFUNCTION"/>
+    <functioncall functionName="CURLOPT_NOBODY"/>
+    <functioncall functionName="CURLOPT_PROXY"/>
+    <functioncall functionName="CURLOPT_PROXYUSERPWD"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_USERAGENT"/>
+    <functioncall functionName="CURLOPT_WRITEDATA"/>
+    <functioncall functionName="CURLOPT_WRITEFUNCTION"/>
+    <functioncall functionName="CURL_GLOBAL_ALL"/>
+    <functioncall functionName="GetLocalTime"/>
+    <functioncall functionName="GetSystemTime"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="SetSystemTime"/>
+    <functioncall functionName="SyncTime_CURL_Fetch"/>
+    <functioncall functionName="SyncTime_CURL_Init"/>
+    <functioncall functionName="SyncTime_CURL_WriteHeader"/>
+    <functioncall functionName="SyncTime_CURL_WriteOutput"/>
+    <functioncall functionName="WORD"/>
+    <functioncall functionName="conf_init"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_perform"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_global_init"/>
+    <functioncall functionName="difftime"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="fwrite"/>
+    <functioncall functionName="gmtime"/>
+    <functioncall functionName="localtime"/>
+    <functioncall functionName="mktime"/>
+    <functioncall functionName="showUsage"/>
+    <functioncall functionName="snprintf"/>
+    <functioncall functionName="sscanf"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="strncmp"/>
+    <functioncall functionName="time"/>
+  </FileInfo>
+</analyzerinfo>

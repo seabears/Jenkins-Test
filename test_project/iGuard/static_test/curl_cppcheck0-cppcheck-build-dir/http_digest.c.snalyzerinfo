@@ -1,0 +1,3 @@
+Curl_input_digest call:[Curl_auth_decode_digest_http_message,Curl_str_passblanks,curl_strnequal,sizeof,strlen] noreturn:[Curl_auth_decode_digest_http_message]
+Curl_output_digest global:[Curl_cfree,Curl_cstrdup] call:[Curl_auth_create_digest_http_message,Curl_cfree,Curl_cstrdup,curl_maprintf,strchr,while] noreturn:[Curl_cstrdup,curl_maprintf]
+Curl_http_auth_cleanup_digest call:[Curl_auth_digest_cleanup] noreturn:[Curl_auth_digest_cleanup]

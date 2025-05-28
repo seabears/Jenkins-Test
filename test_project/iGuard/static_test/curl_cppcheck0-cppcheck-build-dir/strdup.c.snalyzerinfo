@@ -1,0 +1,3 @@
+Curl_memdup global:[Curl_cmalloc] call:[Curl_cmalloc,memcpy]
+Curl_memdup0 global:[Curl_cmalloc] call:[Curl_cmalloc,memcpy,while] noreturn:[memcpy]
+Curl_saferealloc global:[Curl_cfree,Curl_crealloc] call:[Curl_cfree,Curl_crealloc] noreturn:[Curl_cfree]

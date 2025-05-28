@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="17207619232990142204">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\server_setup.h" line="29" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;timeval.h&quot; not found." verbose="Include file: &quot;timeval.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\util.h" line="72" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\server\util.h" line="95" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="50" column="0"/>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;argv&apos; can be declared as const array" verbose="Parameter &apos;argv&apos; can be declared as const array" cwe="398" file0="C:/test_workspace/curl-master/tests/server/resolve.c">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="52" column="26" info="Parameter &apos;argv&apos; can be declared as const array"/>
+            <symbol>argv</symbol>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;netdb.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;netdb.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="44" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;netinet/in.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;netinet/in.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="37" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/un.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/un.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\server\util.h" line="99" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;arpa/inet.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;arpa/inet.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="41" column="0"/>
+        </error>
+        <error id="misra-c2012-10.3" severity="style" msg="Required The value of an expression shall not be assigned to an object with a narrower essential type or of a different essential type category" verbose="Required The value of an expression shall not be assigned to an object with a narrower essential type or of a different essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="142" column="8"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="88" column="12"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="146" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="67" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="76" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="99" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="103" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="111" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="129" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="146" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="60" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="75" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="92" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="147" column="11"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\util.h" line="72" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\util.h" line="95" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\util.h" line="99" column="0"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="108" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="124" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="103" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/resolve.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\resolve.c" line="104" column="5"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="52"/>
+    <functiondecl functionName="main" lineNumber="52"/>
+    <functiondecl functionName="main" lineNumber="52"/>
+    <functiondecl functionName="main" lineNumber="52"/>
+    <functiondecl functionName="main" lineNumber="52"/>
+    <functiondecl functionName="main" lineNumber="52"/>
+    <functioncall functionName="CURL_PRINTF"/>
+    <functioncall functionName="CURL_UNCONST"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PF_INET"/>
+    <functioncall functionName="PF_INET6"/>
+    <functioncall functionName="SOCK_DGRAM"/>
+    <functioncall functionName="SOCK_STREAM"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="freeaddrinfo"/>
+    <functioncall functionName="getaddrinfo"/>
+    <functioncall functionName="gethostbyname"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="puts"/>
+    <functioncall functionName="sclose"/>
+    <functioncall functionName="socket"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="use_ipv6"/>
+    <functioncall functionName="win32_init"/>
+  </FileInfo>
+</analyzerinfo>

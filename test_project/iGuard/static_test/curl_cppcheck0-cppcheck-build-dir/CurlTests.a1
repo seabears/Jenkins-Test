@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11583742323926255668">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdatomic.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdatomic.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="349" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="343" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="346" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdbool.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdbool.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="109" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="106" column="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If macOS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If macOS is a macro then please configure it." file0="C:/test_workspace/curl-master/CMake/CurlTests.c">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="336" column="26"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="323" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="27" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;fcntl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;fcntl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="29" column="0"/>
+        </error>
+        <error id="badBitmaskCheck" severity="style" msg="Operator &apos;|&apos; with one operand equal to zero is redundant." verbose="Operator &apos;|&apos; with one operand equal to zero is redundant." cwe="571" file0="C:/test_workspace/curl-master/CMake/CurlTests.c">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="51" column="35"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="126" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/xattr.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/xattr.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="314" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/xattr.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/xattr.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="305" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="64" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;netdb.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;netdb.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="65" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="272" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;errno.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;errno.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="273" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;winsock2.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;winsock2.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="144" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;proto/bsdsocket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;proto/bsdsocket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="158" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;proto/bsdsocket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;proto/bsdsocket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="169" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/ioctl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/ioctl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="171" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;winsock2.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;winsock2.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="186" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stropts.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stropts.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="213" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/ioctl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/ioctl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="210" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/socket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/socket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="207" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="201" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="204" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;net/if.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;net/if.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="242" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stropts.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stropts.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="240" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/ioctl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/ioctl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="237" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/socket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/socket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="234" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="228" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="231" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="288" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;errno.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;errno.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="289" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/socket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/socket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="261" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="258" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;winsock2.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;winsock2.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="255" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;windows.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;windows.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="364" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;_mingw.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;_mingw.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="379" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="118" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdarg.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdarg.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="119" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="120" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;float.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;float.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="121" column="0"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="51" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="162" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="177" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="191" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="218" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="246" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="265" column="3"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="367" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="382" column="0"/>
+        </error>
+        <error id="misra-c2012-21.10" severity="style" msg="Required The Standard Library time and date functions shall not be used" verbose="Required The Standard Library time and date functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="323" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="118" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="119" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="120" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="121" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="126" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="158" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="169" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="242" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="272" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="273" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="288" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="289" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="305" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="314" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="323" column="0"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="52" column="5"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="64" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="65" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="106" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="109" column="0"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="132" column="12"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="132" column="53"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="133" column="53"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="163" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="178" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="192" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="219" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="247" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/CurlTests.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="266" column="5"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="351"/>
+    <functiondecl functionName="main" lineNumber="111"/>
+    <functiondecl functionName="main" lineNumber="324"/>
+    <functiondecl functionName="main" lineNumber="47"/>
+    <functiondecl functionName="main" lineNumber="135"/>
+    <functiondecl functionName="main" lineNumber="315"/>
+    <functiondecl functionName="main" lineNumber="306"/>
+    <functiondecl functionName="main" lineNumber="66"/>
+    <functiondecl functionName="check" lineNumber="275"/>
+    <functiondecl functionName="main" lineNumber="277"/>
+    <functiondecl functionName="main" lineNumber="146"/>
+    <functiondecl functionName="main" lineNumber="159"/>
+    <functiondecl functionName="main" lineNumber="173"/>
+    <functiondecl functionName="main" lineNumber="188"/>
+    <functiondecl functionName="main" lineNumber="215"/>
+    <functiondecl functionName="main" lineNumber="243"/>
+    <functiondecl functionName="check" lineNumber="292"/>
+    <functiondecl functionName="main" lineNumber="294"/>
+    <functiondecl functionName="main" lineNumber="263"/>
+    <functiondecl functionName="main" lineNumber="371"/>
+    <functioncall functionName="CLOCK_MONOTONIC"/>
+    <functioncall functionName="EACCES"/>
+    <functioncall functionName="FIONBIO"/>
+    <functioncall functionName="F_SETFL"/>
+    <functioncall functionName="IoctlSocket"/>
+    <functioncall functionName="O_NONBLOCK"/>
+    <functioncall functionName="SIOCGIFADDR"/>
+    <functioncall functionName="SOL_SOCKET"/>
+    <functioncall functionName="SO_NONBLOCK"/>
+    <functioncall functionName="check"/>
+    <functioncall functionName="clock_gettime"/>
+    <functioncall functionName="fcntl"/>
+    <functioncall functionName="fsetxattr"/>
+    <functioncall functionName="gethostbyname_r"/>
+    <functioncall functionName="ioctl"/>
+    <functioncall functionName="ioctlsocket"/>
+    <functioncall functionName="off_t"/>
+    <functioncall functionName="setsockopt"/>
+    <functioncall functionName="strerror_r"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,6 @@
+Curl_bufref_init call:[while]
+Curl_bufref_free call:[dtor,while] noreturn:[dtor]
+Curl_bufref_set call:[Curl_bufref_free,while]
+Curl_bufref_ptr call:[while]
+Curl_bufref_len call:[while]
+Curl_bufref_memdup call:[Curl_bufref_set,Curl_memdup0,while]

@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8588222285483441951">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="36" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_printf.h&quot; not found." verbose="Include file: &quot;curl_printf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="45" column="0"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;prereq_cb&apos; can be declared as pointer to const" verbose="Variable &apos;prereq_cb&apos; can be declared as pointer to const" cwe="398" file0="C:/test_workspace/curl-master/tests/libtest/libprereq.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="37" column="9" info="Variable &apos;prereq_cb&apos; can be declared as pointer to const"/>
+            <symbol>prereq_cb</symbol>
+        </error>
+        <error id="constParameterCallback" severity="style" msg="Parameter &apos;conn_primary_ip&apos; can be declared as pointer to const. However it seems that &apos;prereq_callback&apos; is a callback function, if &apos;conn_primary_ip&apos; is declared with const you might also need to cast function pointer(s)." verbose="Parameter &apos;conn_primary_ip&apos; can be declared as pointer to const. However it seems that &apos;prereq_callback&apos; is a callback function, if &apos;conn_primary_ip&apos; is declared with const you might also need to cast function pointer(s)." cwe="398" file0="C:/test_workspace/curl-master/tests/libtest/libprereq.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="32" column="34" info="Parameter &apos;conn_primary_ip&apos; can be declared as pointer to const"/>
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="77" column="52" info="You might need to cast the function pointer here"/>
+            <symbol>conn_primary_ip</symbol>
+        </error>
+        <error id="constParameterCallback" severity="style" msg="Parameter &apos;conn_local_ip&apos; can be declared as pointer to const. However it seems that &apos;prereq_callback&apos; is a callback function, if &apos;conn_local_ip&apos; is declared with const you might also need to cast function pointer(s)." verbose="Parameter &apos;conn_local_ip&apos; can be declared as pointer to const. However it seems that &apos;prereq_callback&apos; is a callback function, if &apos;conn_local_ip&apos; is declared with const you might also need to cast function pointer(s)." cwe="398" file0="C:/test_workspace/curl-master/tests/libtest/libprereq.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="33" column="34" info="Parameter &apos;conn_local_ip&apos; can be declared as pointer to const"/>
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="77" column="52" info="You might need to cast the function pointer here"/>
+            <symbol>conn_local_ip</symbol>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/select.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/select.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="40" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="42" column="0"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/libprereq.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="37" column="21"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/libprereq.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="39" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/libprereq.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="66" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/libprereq.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="67" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/libprereq.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="71" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/libprereq.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="81" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/libprereq.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="87" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/libprereq.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="90" column="7"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/libprereq.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="40" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/libprereq.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="41" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/libprereq.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="44" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/libprereq.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="45" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/libprereq.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="48" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/libprereq.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="49" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/libprereq.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="50" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/libprereq.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libprereq.c" line="88" column="14"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/libprereq.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="522" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="prereq_callback" lineNumber="31"/>
+    <functiondecl functionName="prereq_callback" lineNumber="31"/>
+    <functioncall functionName="CURLE_OK"/>
+    <functioncall functionName="CURLOPT_FOLLOWLOCATION"/>
+    <functioncall functionName="CURLOPT_PREREQDATA"/>
+    <functioncall functionName="CURLOPT_PREREQFUNCTION"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_WRITEDATA"/>
+    <functioncall functionName="CURL_GLOBAL_ALL"/>
+    <functioncall functionName="CURL_PREREQFUNC_ABORT"/>
+    <functioncall functionName="CURL_PREREQFUNC_OK"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_perform"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_easy_strerror"/>
+    <functioncall functionName="curl_global_cleanup"/>
+    <functioncall functionName="curl_global_init"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="prereq_callback"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strstr"/>
+    <functioncall functionName="test_cleanup"/>
+  </FileInfo>
+</analyzerinfo>

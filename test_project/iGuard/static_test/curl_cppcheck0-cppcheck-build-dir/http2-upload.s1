@@ -1,0 +1,5 @@
+dump call:[fprintf,fputc,fputs] noreturn:[fprintf,fputc,fputs]
+my_trace call:[curl_msnprintf,dump,fprintf,gettimeofday,localtime,sizeof,time]
+read_callback call:[fread]
+setup call:[curl_easy_init,curl_easy_setopt,curl_msnprintf,fclose,fopen,fprintf,stat,strerror]
+main call:[atoi,curl_easy_cleanup,curl_multi_add_handle,curl_multi_cleanup,curl_multi_init,curl_multi_perform,curl_multi_poll,curl_multi_remove_handle,curl_multi_setopt,setup,while] noreturn:[curl_easy_cleanup,curl_multi_add_handle,curl_multi_poll]

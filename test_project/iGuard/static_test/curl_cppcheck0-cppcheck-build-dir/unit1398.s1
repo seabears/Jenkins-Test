@@ -1,0 +1,3 @@
+unit_setup
+unit_stop
+test call:[curl_msnprintf,fprintf,return,strcmp,unit_setup,unit_stop,while] noreturn:[unit_stop,while]

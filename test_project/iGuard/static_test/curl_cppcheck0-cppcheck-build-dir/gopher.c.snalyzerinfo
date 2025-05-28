@@ -1,0 +1,1 @@
+gopher_do global:[Curl_cfree,Curl_cstrdup] call:[CURL_OFF_T_C,Curl_cfree,Curl_client_write,Curl_cstrdup,Curl_failf,Curl_socket_check,Curl_timeleft,Curl_urldecode,Curl_xfer_send,Curl_xfer_setup1,curl_maprintf,curlx_uztosz,strlen,while] noreturn:[CURL_OFF_T_C,Curl_cfree,Curl_cstrdup,Curl_xfer_send,curl_maprintf]

@@ -1,0 +1,6 @@
+send_ping call:[curl_ws_send,fprintf,strlen]
+recv_pong call:[curl_ws_recv,fprintf,memcmp,sizeof,strlen] noreturn:[fprintf]
+recv_any call:[curl_ws_recv,fprintf,sizeof]
+websocket_close call:[curl_ws_send,fprintf] noreturn:[fprintf]
+websocket call:[fprintf,printf,recv_any,recv_pong,send_ping,sleep,websocket_close,while] noreturn:[sleep,websocket_close]
+test call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_easy_strerror,curl_global_cleanup,curl_global_init,fprintf,websocket,while] noreturn:[curl_easy_cleanup,websocket]

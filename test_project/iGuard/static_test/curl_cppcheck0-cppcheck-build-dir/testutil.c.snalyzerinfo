@@ -1,0 +1,4 @@
+tutil_tvnow call:[GetTickCount]
+tutil_tvdiff call:[return]
+tutil_tvdiff_secs call:[return]
+win32_load_system_library call:[GetSystemDirectory,LoadLibrary,free,malloc,sizeof,wcscpy,wcslen]

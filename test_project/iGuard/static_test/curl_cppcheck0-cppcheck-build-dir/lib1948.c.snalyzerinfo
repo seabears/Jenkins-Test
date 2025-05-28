@@ -1,0 +1,2 @@
+put_callback call:[memcpy]
+test call:[CURL_UNCONST,curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_easy_strerror,curl_global_cleanup,curl_global_init,fprintf,strlen,while]

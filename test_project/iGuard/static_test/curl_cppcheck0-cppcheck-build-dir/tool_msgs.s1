@@ -1,0 +1,5 @@
+voutf global:[tool_stderr] call:[DEBUGASSERT,ISBLANK,curl_free,fputs,fwrite,get_terminal_columns,strchr,strlen,vaprintf] noreturn:[curl_free]
+notef call:[va_end,va_start,voutf] noreturn:[va_end,voutf]
+warnf call:[va_end,va_start,voutf] noreturn:[va_end]
+helpf call:[DEBUGASSERT,fprintf,fputs,strchr,va_end,va_start,vfprintf] noreturn:[fprintf,fputs]
+errorf call:[va_end,va_start,voutf] noreturn:[va_end]

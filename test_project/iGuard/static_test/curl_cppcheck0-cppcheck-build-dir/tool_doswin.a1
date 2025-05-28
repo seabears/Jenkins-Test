@@ -1,0 +1,749 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="14300565009119742578">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="38" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;timeval.h&quot; not found." verbose="Include file: &quot;timeval.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="33" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;tlhelp32.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;tlhelp32.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="34" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;dynbuf.h&quot; not found." verbose="Include file: &quot;dynbuf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\var.h" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curlx.h&quot; not found." verbose="Include file: &quot;curlx.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="42" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="43" column="0"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="C:/test_workspace/curl-master/src/tool_doswin.c">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="506" column="7"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p_len&apos; is assigned a value that is never used." verbose="Variable &apos;p_len&apos; is assigned a value that is never used." cwe="563" file0="C:/test_workspace/curl-master/src/tool_doswin.c">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="519" column="5"/>
+            <symbol>p_len</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_doswin.c:67:21" call-funcname="msdosify" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_doswin.c" line="184" col="16" call-argexpr="&amp;p" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_doswin.c:70:21" call-funcname="rename_if_reserved_dos" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_doswin.c" line="198" col="32" call-argexpr="&amp;p" call-argvaluetype="7" call-argvalue="1"/>  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;libgen.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;libgen.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="29" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_doswin.c:67:21" call-funcname="msdosify" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_doswin.c" line="184" col="16" call-argexpr="&amp;p" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_doswin.c:70:21" call-funcname="rename_if_reserved_dos" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_doswin.c" line="198" col="32" call-argexpr="&amp;p" call-argvaluetype="7" call-argvalue="1"/>  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="79" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_doswin.c:67:21" call-funcname="msdosify" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_doswin.c" line="184" col="16" call-argexpr="&amp;p" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_doswin.c:70:21" call-funcname="rename_if_reserved_dos" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_doswin.c" line="198" col="32" call-argexpr="&amp;p" call-argvaluetype="7" call-argvalue="1"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_doswin.c:67:21" call-funcname="msdosify" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_doswin.c" line="184" col="16" call-argexpr="&amp;p" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_doswin.c:70:21" call-funcname="rename_if_reserved_dos" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_doswin.c" line="198" col="32" call-argexpr="&amp;p" call-argvaluetype="7" call-argvalue="1"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_doswin.c:67:21" call-funcname="msdosify" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_doswin.c" line="184" col="16" call-argexpr="&amp;p" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_doswin.c:70:21" call-funcname="rename_if_reserved_dos" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_doswin.c" line="198" col="32" call-argexpr="&amp;p" call-argvaluetype="7" call-argvalue="1"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_doswin.c:70:21" call-funcname="rename_if_reserved_dos" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_doswin.c" line="198" col="32" call-argexpr="&amp;p" call-argvaluetype="7" call-argvalue="1"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_doswin.c:70:21" call-funcname="rename_if_reserved_dos" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_doswin.c" line="198" col="32" call-argexpr="&amp;p" call-argvaluetype="7" call-argvalue="1"/>  </FileInfo>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="108" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="113" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="118" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="125" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="132" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="136" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="140" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="173" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="186" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="200" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="246" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="251" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="254" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="257" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="265" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="305" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="310" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="313" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="332" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="334" column="12"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="347" column="11"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="351" column="13"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="356" column="14"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="363" column="11"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="366" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="369" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="375" column="11"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="383" column="13"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="395" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="398" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="404" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="413" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="449" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="460" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="466" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="488" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="494" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="508" column="10"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="515" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="522" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="538" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="598" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="601" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="625" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="628" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="639" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="647" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="658" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="680" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="689" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="704" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="711" column="3"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="107" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.h" line="34" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.h" line="36" column="0"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant MAX_PATH, please review configuration" verbose="Unknown constant MAX_PATH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="294" column="17"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant MAX_PATH, please review configuration" verbose="Unknown constant MAX_PATH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="443" column="14"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Required Operands shall not be of an inappropriate essential type" verbose="Required Operands shall not be of an inappropriate essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="116" column="14"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Required Operands shall not be of an inappropriate essential type" verbose="Required Operands shall not be of an inappropriate essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="152" column="19"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Required Operands shall not be of an inappropriate essential type" verbose="Required Operands shall not be of an inappropriate essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="153" column="19"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Required Operands shall not be of an inappropriate essential type" verbose="Required Operands shall not be of an inappropriate essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="167" column="16"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Required Operands shall not be of an inappropriate essential type" verbose="Required Operands shall not be of an inappropriate essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="197" column="16"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Required Operands shall not be of an inappropriate essential type" verbose="Required Operands shall not be of an inappropriate essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="325" column="20"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Required Operands shall not be of an inappropriate essential type" verbose="Required Operands shall not be of an inappropriate essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="332" column="19"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Required Operands shall not be of an inappropriate essential type" verbose="Required Operands shall not be of an inappropriate essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="334" column="24"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Required Operands shall not be of an inappropriate essential type" verbose="Required Operands shall not be of an inappropriate essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="342" column="21"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Required Operands shall not be of an inappropriate essential type" verbose="Required Operands shall not be of an inappropriate essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="502" column="20"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="257" column="33"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="261" column="19"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="262" column="40"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="301" column="58"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="303" column="42"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="517" column="29"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="540" column="36"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="129" column="37"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="151" column="17"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="152" column="40"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="153" column="54"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="173" column="20"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="267" column="23"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="313" column="24"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="323" column="18"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="329" column="33"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="332" column="40"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="334" column="59"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="342" column="42"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="343" column="25"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="344" column="26"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="372" column="25"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="373" column="20"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="381" column="25"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="400" column="18"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="466" column="10"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="478" column="37"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="486" column="29"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="515" column="22"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="538" column="24"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="103" column="10"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="298" column="10"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="329" column="14"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="442" column="10"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="324" column="10"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="346" column="16"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="350" column="18"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="374" column="16"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="382" column="18"/>
+        </error>
+        <error id="misra-c2012-14.2" severity="style" msg="Required A for loop shall be well-formed" verbose="Required A for loop shall be well-formed" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="154" column="8"/>
+        </error>
+        <error id="misra-c2012-14.2" severity="style" msg="Required A for loop shall be well-formed" verbose="Required A for loop shall be well-formed" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="160" column="10"/>
+        </error>
+        <error id="misra-c2012-14.2" severity="style" msg="Required A for loop shall be well-formed" verbose="Required A for loop shall be well-formed" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="329" column="3"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="116" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="178" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="186" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="200" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="257" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="317" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="330" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="409" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="508" column="12"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="537" column="7"/>
+        </error>
+        <error id="misra-c2012-15.4" severity="style" msg="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" verbose="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="329" column="58"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="109" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="114" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="133" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="137" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="187" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="193" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="201" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="207" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="247" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="252" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="255" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="258" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="266" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="306" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="311" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="314" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="414" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="450" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="467" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="516" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="539" column="9"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="509" column="0"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="388" column="19"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="469" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="517" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="540" column="14"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="301" column="39"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="319" column="31"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="381" column="21"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="389" column="15"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="413" column="58"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="517" column="15"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="540" column="20"/>
+        </error>
+        <error id="misra-c2012-18.8" severity="style" msg="Required Variable-length array types shall not be used" verbose="Required Variable-length array types shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="294" column="8"/>
+        </error>
+        <error id="misra-c2012-18.8" severity="style" msg="Required Variable-length array types shall not be used" verbose="Required Variable-length array types shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="443" column="8"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="38" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="57" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="132" column="0"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="185" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="192" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="199" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="206" column="11"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant MAX_PATH, please review configuration" verbose="Unknown constant MAX_PATH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="589" column="13"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="623" column="39"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="689" column="27"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="704" column="55"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="598" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="650" column="10"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="680" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="711" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="718" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="719" column="9"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="626" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="629" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="648" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="652" column="3"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="709" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="723" column="15"/>
+        </error>
+        <error id="misra-c2012-18.8" severity="style" msg="Required Variable-length array types shall not be used" verbose="Required Variable-length array types shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="589" column="9"/>
+        </error>
+        <error id="misra-c2012-11.4" severity="style" msg="Advisory A conversion should not be performed between a pointer to object and an integer type" verbose="Advisory A conversion should not be performed between a pointer to object and an integer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="557" column="10"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Required Operands shall not be of an inappropriate essential type" verbose="Required Operands shall not be of an inappropriate essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="140" column="15"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Required Operands shall not be of an inappropriate essential type" verbose="Required Operands shall not be of an inappropriate essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="457" column="15"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="118" column="29"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="457" column="36"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="458" column="27"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="461" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="462" column="5"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="142" column="16"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="sanitize_file_name" lineNumber="100"/>
+    <functiondecl functionName="truncate_dryrun" lineNumber="241"/>
+    <functiondecl functionName="msdosify" lineNumber="291"/>
+    <functiondecl functionName="rename_if_reserved_dos" lineNumber="435"/>
+    <functiondecl functionName="GetLoadedModulePaths" lineNumber="612"/>
+    <functiondecl functionName="win32_init" lineNumber="734"/>
+    <functiondecl functionName="sanitize_file_name" lineNumber="100"/>
+    <functiondecl functionName="truncate_dryrun" lineNumber="241"/>
+    <functiondecl functionName="msdosify" lineNumber="291"/>
+    <functiondecl functionName="rename_if_reserved_dos" lineNumber="435"/>
+    <functiondecl functionName="FindWin32CACert" lineNumber="584"/>
+    <functiondecl functionName="GetLoadedModulePaths" lineNumber="612"/>
+    <functiondecl functionName="restore_terminal" lineNumber="678"/>
+    <functiondecl functionName="signal_handler" lineNumber="687"/>
+    <functiondecl functionName="init_terminal" lineNumber="694"/>
+    <functiondecl functionName="win32_init" lineNumber="734"/>
+    <functiondecl functionName="sanitize_file_name" lineNumber="100"/>
+    <functiondecl functionName="truncate_dryrun" lineNumber="241"/>
+    <functiondecl functionName="msdosify" lineNumber="291"/>
+    <functiondecl functionName="rename_if_reserved_dos" lineNumber="435"/>
+    <functiondecl functionName="FindWin32CACert" lineNumber="584"/>
+    <functiondecl functionName="GetLoadedModulePaths" lineNumber="612"/>
+    <functiondecl functionName="restore_terminal" lineNumber="678"/>
+    <functiondecl functionName="signal_handler" lineNumber="687"/>
+    <functiondecl functionName="init_terminal" lineNumber="694"/>
+    <functiondecl functionName="win32_init" lineNumber="734"/>
+    <functiondecl functionName="sanitize_file_name" lineNumber="100"/>
+    <functiondecl functionName="truncate_dryrun" lineNumber="241"/>
+    <functiondecl functionName="msdosify" lineNumber="291"/>
+    <functiondecl functionName="rename_if_reserved_dos" lineNumber="435"/>
+    <functiondecl functionName="FindWin32CACert" lineNumber="584"/>
+    <functiondecl functionName="GetLoadedModulePaths" lineNumber="612"/>
+    <functiondecl functionName="restore_terminal" lineNumber="678"/>
+    <functiondecl functionName="signal_handler" lineNumber="687"/>
+    <functiondecl functionName="init_terminal" lineNumber="694"/>
+    <functiondecl functionName="win32_init" lineNumber="734"/>
+    <functiondecl functionName="sanitize_file_name" lineNumber="100"/>
+    <functiondecl functionName="truncate_dryrun" lineNumber="241"/>
+    <functiondecl functionName="msdosify" lineNumber="291"/>
+    <functiondecl functionName="rename_if_reserved_dos" lineNumber="435"/>
+    <functiondecl functionName="__crt0_glob_function" lineNumber="554"/>
+    <functiondecl functionName="FindWin32CACert" lineNumber="584"/>
+    <functiondecl functionName="GetLoadedModulePaths" lineNumber="612"/>
+    <functiondecl functionName="restore_terminal" lineNumber="678"/>
+    <functiondecl functionName="signal_handler" lineNumber="687"/>
+    <functiondecl functionName="init_terminal" lineNumber="694"/>
+    <functiondecl functionName="win32_init" lineNumber="734"/>
+    <functiondecl functionName="sanitize_file_name" lineNumber="100"/>
+    <functiondecl functionName="rename_if_reserved_dos" lineNumber="435"/>
+    <functiondecl functionName="GetLoadedModulePaths" lineNumber="612"/>
+    <functiondecl functionName="win32_init" lineNumber="734"/>
+    <functiondecl functionName="sanitize_file_name" lineNumber="100"/>
+    <functiondecl functionName="rename_if_reserved_dos" lineNumber="435"/>
+    <functiondecl functionName="FindWin32CACert" lineNumber="584"/>
+    <functiondecl functionName="GetLoadedModulePaths" lineNumber="612"/>
+    <functiondecl functionName="restore_terminal" lineNumber="678"/>
+    <functiondecl functionName="signal_handler" lineNumber="687"/>
+    <functiondecl functionName="init_terminal" lineNumber="694"/>
+    <functiondecl functionName="win32_init" lineNumber="734"/>
+    <functioncall functionName="BIT"/>
+    <functioncall functionName="CURLE_OK"/>
+    <functioncall functionName="CURLE_OUT_OF_MEMORY"/>
+    <functioncall functionName="CloseHandle"/>
+    <functioncall functionName="CreateToolhelp32Snapshot"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="GetConsoleMode"/>
+    <functioncall functionName="GetLastError"/>
+    <functioncall functionName="GetStdHandle"/>
+    <functioncall functionName="INVALID_HANDLE_VALUE"/>
+    <functioncall functionName="InterlockedExchange"/>
+    <functioncall functionName="LONG"/>
+    <functioncall functionName="MAX_PATH"/>
+    <functioncall functionName="MODULEENTRY32"/>
+    <functioncall functionName="Module32First"/>
+    <functioncall functionName="Module32Next"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PLATFORM_WINNT"/>
+    <functioncall functionName="SANITIZE_ERR_BAD_ARGUMENT"/>
+    <functioncall functionName="SANITIZE_ERR_INVALID_PATH"/>
+    <functioncall functionName="SANITIZE_ERR_OK"/>
+    <functioncall functionName="SANITIZE_ERR_OUT_OF_MEMORY"/>
+    <functioncall functionName="STD_OUTPUT_HANDLE"/>
+    <functioncall functionName="SearchPath"/>
+    <functioncall functionName="SetConsoleCtrlHandler"/>
+    <functioncall functionName="SetConsoleMode"/>
+    <functioncall functionName="TH32CS_SNAPMODULE"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="VERSION_GREATER_THAN_EQUAL"/>
+    <functioncall functionName="_use_lfn"/>
+    <functioncall functionName="alloc_filename"/>
+    <functioncall functionName="atexit"/>
+    <functioncall functionName="basename"/>
+    <functioncall functionName="cleanup"/>
+    <functioncall functionName="curl_slist_append"/>
+    <functioncall functionName="curl_slist_free_all"/>
+    <functioncall functionName="curl_strnequal"/>
+    <functioncall functionName="curlx_convert_tchar_to_UTF8"/>
+    <functioncall functionName="curlx_now_init"/>
+    <functioncall functionName="curlx_safefree"/>
+    <functioncall functionName="curlx_unicodefree"/>
+    <functioncall functionName="curlx_verify_windows_version"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="fopened"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="init_terminal"/>
+    <functioncall functionName="is_cd_filename"/>
+    <functioncall functionName="memchr"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memmove"/>
+    <functioncall functionName="msdosify"/>
+    <functioncall functionName="rename_if_reserved_dos"/>
+    <functioncall functionName="restore_terminal"/>
+    <functioncall functionName="s_isreg"/>
+    <functioncall functionName="signal_handler"/>
+    <functioncall functionName="stat"/>
+    <functioncall functionName="strdup"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="strncmp"/>
+    <functioncall functionName="strpbrk"/>
+    <functioncall functionName="tool_basename"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="truncate_dryrun"/>
+  </FileInfo>
+</analyzerinfo>

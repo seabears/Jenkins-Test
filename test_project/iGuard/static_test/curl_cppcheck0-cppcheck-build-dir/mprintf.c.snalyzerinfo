@@ -1,0 +1,18 @@
+dollarstring call:[Curl_str_number,Curl_str_single,return]
+parsefmt call:[Curl_str_number,dollarstring,memset,sizeof,va_arg,while]
+formatf global:[lower_digits,upper_digits] call:[curl_msnprintf,parsefmt,sizeof,stream,strlen,while] noreturn:[strlen,while]
+addbyter
+curl_mvsnprintf call:[formatf,while]
+curl_msnprintf call:[curl_mvsnprintf,va_end,va_start]
+alloc_addbyter call:[curlx_dyn_addn]
+Curl_dyn_vprintf call:[curlx_dyn_free,formatf]
+curl_mvaprintf global:[Curl_cstrdup] call:[Curl_cstrdup,curlx_dyn_free,curlx_dyn_init,curlx_dyn_len,curlx_dyn_ptr,formatf] noreturn:[Curl_cstrdup,curlx_dyn_ptr]
+curl_maprintf call:[curl_mvaprintf,va_end,va_start]
+storebuffer
+curl_msprintf call:[formatf,va_end,va_start]
+fputc_wrapper call:[fputc]
+curl_mprintf call:[formatf,va_end,va_start]
+curl_mfprintf call:[formatf,va_end,va_start]
+curl_mvsprintf call:[formatf]
+curl_mvprintf call:[formatf] noreturn:[formatf]
+curl_mvfprintf call:[formatf] noreturn:[formatf]

@@ -1,0 +1,2 @@
+curl_version call:[memcpy,sizeof,strlen,while]
+curl_version_info global:[feature_names,features_table,version_info] call:[present]

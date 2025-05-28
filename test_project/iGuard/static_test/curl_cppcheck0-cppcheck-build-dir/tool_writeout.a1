@@ -1,0 +1,738 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="17418691156466024424">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="38" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;timeval.h&quot; not found." verbose="Include file: &quot;timeval.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curlx.h&quot; not found." verbose="Include file: &quot;curlx.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;dynbuf.h&quot; not found." verbose="Include file: &quot;dynbuf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\var.h" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;dynbuf.h&quot; not found." verbose="Include file: &quot;dynbuf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="30" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="32" column="0"/>
+        </error>
+        <error id="shadowFunction" severity="style" msg="Local variable &apos;certinfo&apos; shadows outer function" verbose="Local variable &apos;certinfo&apos; shadows outer function" cwe="398" file0="C:/test_workspace/curl-master/src/tool_writeout.c">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="279" column="27" info="Shadow variable"/>
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="276" column="13" info="Shadowed declaration"/>
+            <symbol>certinfo</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;ptr&apos; can be declared as pointer to const" verbose="Variable &apos;ptr&apos; can be declared as pointer to const" cwe="398" file0="C:/test_workspace/curl-master/src/tool_writeout.c">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="343" column="21" info="Variable &apos;ptr&apos; can be declared as pointer to const"/>
+            <symbol>ptr</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;config&apos; can be declared as pointer to const" verbose="Parameter &apos;config&apos; can be declared as pointer to const" cwe="398" file0="C:/test_workspace/curl-master/src/tool_writeout.c">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="542" column="42" info="Parameter &apos;config&apos; can be declared as pointer to const"/>
+            <symbol>config</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_writeout.c:195:12" call-funcname="urlpart" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="405" col="20" call-argexpr="&amp;strinfo" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_writeout_json.h:32:6" call-funcname="ourWriteOutJSON" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="605" col="30" call-argexpr="variables" call-argvaluetype="7" call-argvalue="-1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_writeout_json.h:32:6" call-funcname="ourWriteOutJSON" call-argnr="4" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="605" col="15" my-id="C:/test_workspace/curl-master/src/tool_writeout.h:115:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:34:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="167" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:276:13" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="278" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:38:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="295" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:42:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="443" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:46:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="507" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.h:115:6" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="546" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:34:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="167" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:276:13" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="278" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:38:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="295" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:42:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="443" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:46:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="507" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.h:115:6" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="546" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_writeout.c:195:12" call-funcname="urlpart" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="405" col="20" call-argexpr="&amp;strinfo" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_writeout_json.h:32:6" call-funcname="ourWriteOutJSON" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="605" col="30" call-argexpr="variables" call-argvaluetype="7" call-argvalue="-1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_writeout_json.h:32:6" call-funcname="ourWriteOutJSON" call-argnr="4" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="605" col="15" my-id="C:/test_workspace/curl-master/src/tool_writeout.h:115:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:34:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="167" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:276:13" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="278" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:38:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="295" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:42:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="443" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:46:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="507" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.h:115:6" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="546" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:34:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="167" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:276:13" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="278" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:38:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="295" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:42:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="443" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:46:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="507" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.h:115:6" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="546" col="27" value="0"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="79" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_writeout.c:195:12" call-funcname="urlpart" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="405" col="20" call-argexpr="&amp;strinfo" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_writeout_json.h:32:6" call-funcname="ourWriteOutJSON" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="605" col="30" call-argexpr="variables" call-argvaluetype="7" call-argvalue="-1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_writeout_json.h:32:6" call-funcname="ourWriteOutJSON" call-argnr="4" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="605" col="15" my-id="C:/test_workspace/curl-master/src/tool_writeout.h:115:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:34:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="167" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:276:13" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="278" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:38:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="295" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:42:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="443" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:46:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="507" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.h:115:6" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="546" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:34:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="167" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:276:13" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="278" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:38:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="295" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:42:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="443" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:46:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="507" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.h:115:6" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="546" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_writeout.c:195:12" call-funcname="urlpart" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="405" col="20" call-argexpr="&amp;strinfo" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_writeout_json.h:32:6" call-funcname="ourWriteOutJSON" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="605" col="30" call-argexpr="variables" call-argvaluetype="7" call-argvalue="-1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_writeout_json.h:32:6" call-funcname="ourWriteOutJSON" call-argnr="4" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="605" col="15" my-id="C:/test_workspace/curl-master/src/tool_writeout.h:115:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:34:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="167" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:276:13" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="278" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:38:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="295" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:42:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="443" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:46:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="507" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.h:115:6" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="546" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:34:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="167" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:276:13" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="278" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:38:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="295" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:42:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="443" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:46:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="507" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.h:115:6" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="546" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_writeout.c:195:12" call-funcname="urlpart" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="405" col="20" call-argexpr="&amp;strinfo" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_writeout_json.h:32:6" call-funcname="ourWriteOutJSON" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="605" col="30" call-argexpr="variables" call-argvaluetype="7" call-argvalue="-1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_writeout_json.h:32:6" call-funcname="ourWriteOutJSON" call-argnr="4" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="605" col="15" my-id="C:/test_workspace/curl-master/src/tool_writeout.h:115:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:34:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="167" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:276:13" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="278" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:38:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="295" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:42:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="443" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:46:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="507" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.h:115:6" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="546" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:34:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="167" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:276:13" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="278" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:38:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="295" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:42:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="443" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.c:46:12" my-argnr="2" my-argname="wovar" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="507" col="15" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_writeout.h:115:6" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_writeout.c" line="546" col="27" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="73" column="26"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="74" column="24"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="75" column="25"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="67" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="68" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="69" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="70" column="7"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="55" column="29"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="74" column="33"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="344" column="26"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="534" column="32"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="535" column="32"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="581" column="16"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="484" column="37"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="557" column="20"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="681" column="26"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="169" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="200" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="206" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="297" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="302" column="14"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="321" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="329" column="15"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="330" column="17"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="336" column="17"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="342" column="15"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="346" column="19"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="366" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="373" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="379" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="404" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="445" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="509" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="585" column="13"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="627" column="13"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="651" column="13"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="660" column="17"/>
+        </error>
+        <error id="misra-c2012-15.4" severity="style" msg="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" verbose="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="327" column="79"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="272" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="553" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="170" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="181" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="188" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="206" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="209" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="260" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="264" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="267" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="271" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="313" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="356" column="11"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="362" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="423" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="427" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="446" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="481" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="484" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="486" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="491" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="510" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="518" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="524" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="552" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="588" column="15"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="593" column="15"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="599" column="15"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="634" column="15"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="640" column="11"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="662" column="17"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="670" column="11"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="705" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="182" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="184" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="189" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="420" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="424" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="428" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="482" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="485" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="487" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="492" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="519" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="521" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="525" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="560" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="573" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="594" column="23"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="600" column="23"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="618" column="20"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="632" column="21"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="636" column="22"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="641" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="656" column="21"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="663" column="25"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="671" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="675" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="676" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="684" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="687" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="690" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="694" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="695" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="701" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="706" column="11"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="561" column="13"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="571" column="15"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="576" column="22"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="622" column="21"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="625" column="15"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="630" column="24"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="638" column="23"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="645" column="15"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="648" column="17"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="653" column="31"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="668" column="23"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="677" column="15"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="698" column="11"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="38" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="57" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="132" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="107" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.h" line="34" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.h" line="36" column="0"/>
+        </error>
+        <error id="misra-c2012-21.9" severity="style" msg="Required The Standard Library functions bsearch and qsort of &lt;stdlib.h&gt; shall not be used" verbose="Required The Standard Library functions bsearch and qsort of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_writeout.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_writeout.c" line="581" column="18"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="writeTime" lineNumber="158"/>
+    <functiondecl functionName="urlpart" lineNumber="195"/>
+    <functiondecl functionName="certinfo" lineNumber="276"/>
+    <functiondecl functionName="writeString" lineNumber="285"/>
+    <functiondecl functionName="writeLong" lineNumber="436"/>
+    <functiondecl functionName="writeOffset" lineNumber="498"/>
+    <functiondecl functionName="matchvar" lineNumber="532"/>
+    <functiondecl functionName="ourWriteOut" lineNumber="542"/>
+    <functiondecl functionName="writeTime" lineNumber="158"/>
+    <functiondecl functionName="urlpart" lineNumber="195"/>
+    <functiondecl functionName="certinfo" lineNumber="276"/>
+    <functiondecl functionName="writeString" lineNumber="285"/>
+    <functiondecl functionName="writeLong" lineNumber="436"/>
+    <functiondecl functionName="writeOffset" lineNumber="498"/>
+    <functiondecl functionName="matchvar" lineNumber="532"/>
+    <functiondecl functionName="ourWriteOut" lineNumber="542"/>
+    <functiondecl functionName="writeTime" lineNumber="158"/>
+    <functiondecl functionName="urlpart" lineNumber="195"/>
+    <functiondecl functionName="certinfo" lineNumber="276"/>
+    <functiondecl functionName="writeString" lineNumber="285"/>
+    <functiondecl functionName="writeLong" lineNumber="436"/>
+    <functiondecl functionName="writeOffset" lineNumber="498"/>
+    <functiondecl functionName="matchvar" lineNumber="532"/>
+    <functiondecl functionName="ourWriteOut" lineNumber="542"/>
+    <functiondecl functionName="writeTime" lineNumber="158"/>
+    <functiondecl functionName="urlpart" lineNumber="195"/>
+    <functiondecl functionName="certinfo" lineNumber="276"/>
+    <functiondecl functionName="writeString" lineNumber="285"/>
+    <functiondecl functionName="writeLong" lineNumber="436"/>
+    <functiondecl functionName="writeOffset" lineNumber="498"/>
+    <functiondecl functionName="matchvar" lineNumber="532"/>
+    <functiondecl functionName="ourWriteOut" lineNumber="542"/>
+    <functiondecl functionName="writeTime" lineNumber="158"/>
+    <functiondecl functionName="urlpart" lineNumber="195"/>
+    <functiondecl functionName="certinfo" lineNumber="276"/>
+    <functiondecl functionName="writeString" lineNumber="285"/>
+    <functiondecl functionName="writeLong" lineNumber="436"/>
+    <functiondecl functionName="writeOffset" lineNumber="498"/>
+    <functiondecl functionName="matchvar" lineNumber="532"/>
+    <functiondecl functionName="ourWriteOut" lineNumber="542"/>
+    <functioncall functionName="BIT"/>
+    <functioncall functionName="CURLH_HEADER"/>
+    <functioncall functionName="CURLINFO_APPCONNECT_TIME_T"/>
+    <functioncall functionName="CURLINFO_CERTINFO"/>
+    <functioncall functionName="CURLINFO_CONNECT_TIME_T"/>
+    <functioncall functionName="CURLINFO_CONN_ID"/>
+    <functioncall functionName="CURLINFO_CONTENT_TYPE"/>
+    <functioncall functionName="CURLINFO_EARLYDATA_SENT_T"/>
+    <functioncall functionName="CURLINFO_EFFECTIVE_METHOD"/>
+    <functioncall functionName="CURLINFO_EFFECTIVE_URL"/>
+    <functioncall functionName="CURLINFO_FTP_ENTRY_PATH"/>
+    <functioncall functionName="CURLINFO_HEADER_SIZE"/>
+    <functioncall functionName="CURLINFO_HTTP_CONNECTCODE"/>
+    <functioncall functionName="CURLINFO_HTTP_VERSION"/>
+    <functioncall functionName="CURLINFO_LOCAL_IP"/>
+    <functioncall functionName="CURLINFO_LOCAL_PORT"/>
+    <functioncall functionName="CURLINFO_NAMELOOKUP_TIME_T"/>
+    <functioncall functionName="CURLINFO_NONE"/>
+    <functioncall functionName="CURLINFO_NUM_CONNECTS"/>
+    <functioncall functionName="CURLINFO_POSTTRANSFER_TIME_T"/>
+    <functioncall functionName="CURLINFO_PRETRANSFER_TIME_T"/>
+    <functioncall functionName="CURLINFO_PRIMARY_IP"/>
+    <functioncall functionName="CURLINFO_PRIMARY_PORT"/>
+    <functioncall functionName="CURLINFO_PROXY_SSL_VERIFYRESULT"/>
+    <functioncall functionName="CURLINFO_QUEUE_TIME_T"/>
+    <functioncall functionName="CURLINFO_REDIRECT_COUNT"/>
+    <functioncall functionName="CURLINFO_REDIRECT_TIME_T"/>
+    <functioncall functionName="CURLINFO_REDIRECT_URL"/>
+    <functioncall functionName="CURLINFO_REFERER"/>
+    <functioncall functionName="CURLINFO_REQUEST_SIZE"/>
+    <functioncall functionName="CURLINFO_RESPONSE_CODE"/>
+    <functioncall functionName="CURLINFO_SCHEME"/>
+    <functioncall functionName="CURLINFO_SIZE_DOWNLOAD_T"/>
+    <functioncall functionName="CURLINFO_SIZE_UPLOAD_T"/>
+    <functioncall functionName="CURLINFO_SPEED_DOWNLOAD_T"/>
+    <functioncall functionName="CURLINFO_SPEED_UPLOAD_T"/>
+    <functioncall functionName="CURLINFO_SSL_VERIFYRESULT"/>
+    <functioncall functionName="CURLINFO_STARTTRANSFER_TIME_T"/>
+    <functioncall functionName="CURLINFO_TOTAL_TIME_T"/>
+    <functioncall functionName="CURLINFO_USED_PROXY"/>
+    <functioncall functionName="CURLINFO_XFER_ID"/>
+    <functioncall functionName="CURLUPART_FRAGMENT"/>
+    <functioncall functionName="CURLUPART_HOST"/>
+    <functioncall functionName="CURLUPART_OPTIONS"/>
+    <functioncall functionName="CURLUPART_PASSWORD"/>
+    <functioncall functionName="CURLUPART_PATH"/>
+    <functioncall functionName="CURLUPART_PORT"/>
+    <functioncall functionName="CURLUPART_QUERY"/>
+    <functioncall functionName="CURLUPART_SCHEME"/>
+    <functioncall functionName="CURLUPART_URL"/>
+    <functioncall functionName="CURLUPART_USER"/>
+    <functioncall functionName="CURLUPART_ZONEID"/>
+    <functioncall functionName="CURLU_DEFAULT_PORT"/>
+    <functioncall functionName="CURLU_NON_SUPPORT_SCHEME"/>
+    <functioncall functionName="CURL_ARRAYSIZE"/>
+    <functioncall functionName="CURL_HTTP_VERSION_1_0"/>
+    <functioncall functionName="CURL_HTTP_VERSION_1_1"/>
+    <functioncall functionName="CURL_HTTP_VERSION_2"/>
+    <functioncall functionName="CURL_HTTP_VERSION_3"/>
+    <functioncall functionName="CURL_HTTP_VERSION_NONE"/>
+    <functioncall functionName="CURL_UNCONST"/>
+    <functioncall functionName="CURLcode"/>
+    <functioncall functionName="DEBUGASSERT"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="FOPEN_APPENDTEXT"/>
+    <functioncall functionName="FOPEN_WRITETEXT"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="VAR_APPCONNECT_TIME"/>
+    <functioncall functionName="VAR_CERT"/>
+    <functioncall functionName="VAR_CONNECT_TIME"/>
+    <functioncall functionName="VAR_CONN_ID"/>
+    <functioncall functionName="VAR_CONTENT_TYPE"/>
+    <functioncall functionName="VAR_EASY_ID"/>
+    <functioncall functionName="VAR_EFFECTIVE_FILENAME"/>
+    <functioncall functionName="VAR_EFFECTIVE_METHOD"/>
+    <functioncall functionName="VAR_EFFECTIVE_URL"/>
+    <functioncall functionName="VAR_ERRORMSG"/>
+    <functioncall functionName="VAR_EXITCODE"/>
+    <functioncall functionName="VAR_FTP_ENTRY_PATH"/>
+    <functioncall functionName="VAR_HEADER_JSON"/>
+    <functioncall functionName="VAR_HEADER_SIZE"/>
+    <functioncall functionName="VAR_HTTP_CODE"/>
+    <functioncall functionName="VAR_HTTP_CODE_PROXY"/>
+    <functioncall functionName="VAR_HTTP_VERSION"/>
+    <functioncall functionName="VAR_INPUT_URL"/>
+    <functioncall functionName="VAR_INPUT_URLEFRAGMENT"/>
+    <functioncall functionName="VAR_INPUT_URLEHOST"/>
+    <functioncall functionName="VAR_INPUT_URLEOPTIONS"/>
+    <functioncall functionName="VAR_INPUT_URLEPASSWORD"/>
+    <functioncall functionName="VAR_INPUT_URLEPATH"/>
+    <functioncall functionName="VAR_INPUT_URLEPORT"/>
+    <functioncall functionName="VAR_INPUT_URLEQUERY"/>
+    <functioncall functionName="VAR_INPUT_URLESCHEME"/>
+    <functioncall functionName="VAR_INPUT_URLEUSER"/>
+    <functioncall functionName="VAR_INPUT_URLEZONEID"/>
+    <functioncall functionName="VAR_INPUT_URLFRAGMENT"/>
+    <functioncall functionName="VAR_INPUT_URLHOST"/>
+    <functioncall functionName="VAR_INPUT_URLOPTIONS"/>
+    <functioncall functionName="VAR_INPUT_URLPASSWORD"/>
+    <functioncall functionName="VAR_INPUT_URLPATH"/>
+    <functioncall functionName="VAR_INPUT_URLPORT"/>
+    <functioncall functionName="VAR_INPUT_URLQUERY"/>
+    <functioncall functionName="VAR_INPUT_URLSCHEME"/>
+    <functioncall functionName="VAR_INPUT_URLUSER"/>
+    <functioncall functionName="VAR_INPUT_URLZONEID"/>
+    <functioncall functionName="VAR_JSON"/>
+    <functioncall functionName="VAR_LOCAL_IP"/>
+    <functioncall functionName="VAR_LOCAL_PORT"/>
+    <functioncall functionName="VAR_NAMELOOKUP_TIME"/>
+    <functioncall functionName="VAR_NUM_CERTS"/>
+    <functioncall functionName="VAR_NUM_CONNECTS"/>
+    <functioncall functionName="VAR_NUM_HEADERS"/>
+    <functioncall functionName="VAR_NUM_RETRY"/>
+    <functioncall functionName="VAR_ONERROR"/>
+    <functioncall functionName="VAR_POSTTRANSFER_TIME"/>
+    <functioncall functionName="VAR_PRETRANSFER_TIME"/>
+    <functioncall functionName="VAR_PRIMARY_IP"/>
+    <functioncall functionName="VAR_PRIMARY_PORT"/>
+    <functioncall functionName="VAR_PROXY_SSL_VERIFY_RESULT"/>
+    <functioncall functionName="VAR_PROXY_USED"/>
+    <functioncall functionName="VAR_QUEUE_TIME"/>
+    <functioncall functionName="VAR_REDIRECT_COUNT"/>
+    <functioncall functionName="VAR_REDIRECT_TIME"/>
+    <functioncall functionName="VAR_REDIRECT_URL"/>
+    <functioncall functionName="VAR_REFERER"/>
+    <functioncall functionName="VAR_REQUEST_SIZE"/>
+    <functioncall functionName="VAR_SCHEME"/>
+    <functioncall functionName="VAR_SIZE_DOWNLOAD"/>
+    <functioncall functionName="VAR_SIZE_UPLOAD"/>
+    <functioncall functionName="VAR_SPEED_DOWNLOAD"/>
+    <functioncall functionName="VAR_SPEED_UPLOAD"/>
+    <functioncall functionName="VAR_SSL_VERIFY_RESULT"/>
+    <functioncall functionName="VAR_STARTTRANSFER_TIME"/>
+    <functioncall functionName="VAR_STDERR"/>
+    <functioncall functionName="VAR_STDOUT"/>
+    <functioncall functionName="VAR_TLS_EARLYDATA_SENT"/>
+    <functioncall functionName="VAR_TOTAL_TIME"/>
+    <functioncall functionName="VAR_URLNUM"/>
+    <functioncall functionName="alloc_filename"/>
+    <functioncall functionName="bsearch"/>
+    <functioncall functionName="certinfo"/>
+    <functioncall functionName="curl_easy_getinfo"/>
+    <functioncall functionName="curl_easy_header"/>
+    <functioncall functionName="curl_easy_strerror"/>
+    <functioncall functionName="curl_free"/>
+    <functioncall functionName="curl_strnequal"/>
+    <functioncall functionName="curl_url"/>
+    <functioncall functionName="curl_url_cleanup"/>
+    <functioncall functionName="curl_url_get"/>
+    <functioncall functionName="curl_url_set"/>
+    <functioncall functionName="curlx_dyn_add"/>
+    <functioncall functionName="curlx_dyn_addn"/>
+    <functioncall functionName="curlx_dyn_free"/>
+    <functioncall functionName="curlx_dyn_init"/>
+    <functioncall functionName="curlx_dyn_len"/>
+    <functioncall functionName="curlx_dyn_ptr"/>
+    <functioncall functionName="curlx_dyn_reset"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fopened"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="fputc"/>
+    <functioncall functionName="fputs"/>
+    <functioncall functionName="headerJSON"/>
+    <functioncall functionName="is_cd_filename"/>
+    <functioncall functionName="jsonWriteString"/>
+    <functioncall functionName="matchvar"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="ourWriteOutJSON"/>
+    <functioncall functionName="s_isreg"/>
+    <functioncall functionName="stdout"/>
+    <functioncall functionName="strchr"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strncmp"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="urlpart"/>
+    <functioncall functionName="writeLong"/>
+    <functioncall functionName="writeOffset"/>
+    <functioncall functionName="writeString"/>
+    <functioncall functionName="writeTime"/>
+    <functioncall functionName="writefunc"/>
+  </FileInfo>
+</analyzerinfo>

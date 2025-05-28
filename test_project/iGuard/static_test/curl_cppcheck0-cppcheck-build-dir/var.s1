@@ -1,0 +1,7 @@
+Memdup call:[malloc,memcpy] noreturn:[memcpy]
+varcleanup call:[CURL_UNCONST,free] noreturn:[free]
+varcontent call:[strlen,strncmp]
+varfunc call:[ISSPACE,Memdup,curl_easy_escape,curl_free,curlx_base64_decode,curlx_base64_encode,curlx_dyn_add,curlx_dyn_addn,curlx_dyn_free,curlx_dyn_len,curlx_dyn_ptr,curlx_dyn_reset,errorf,free,jsonquoted,sizeof,strncmp] noreturn:[curl_free,curlx_dyn_free,free]
+varexpand call:[CURL_UNCONST,ISALNUM,curlx_dyn_add,curlx_dyn_addn,curlx_dyn_free,curlx_dyn_init,curlx_dyn_len,curlx_dyn_ptr,errorf,memchr,memcpy,sizeof,strstr,varcontent,varfunc,warnf,while] noreturn:[curlx_dyn_free,curlx_dyn_len]
+addvariable call:[DEBUGASSERT,Memdup,calloc,free,memcpy,notef,sizeof,varcontent] noreturn:[free,notef]
+setvariable call:[CURL_UNCONST,ISALNUM,ISDIGIT,addvariable,curlx_dyn_free,curlx_dyn_init,curlx_str_number,curlx_str_single,errorf,fclose,file2memory_range,fopen,free,getenv,memcpy,strcmp,strerror,strlen,warnf] noreturn:[fclose,free,strlen]

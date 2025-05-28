@@ -1,0 +1,4 @@
+unit_setup
+unit_stop
+do_test call:[Curl_dyn_ptr,Curl_dyn_reset,Curl_x509_GTime2str,fprintf,strcmp,strlen]
+test global:[test_specs] call:[CURL_ARRAYSIZE,Curl_dyn_free,Curl_dyn_init,curl_global_cleanup,curl_global_init,do_test,fprintf,return,unit_setup,unit_stop,while] noreturn:[curl_global_cleanup,unit_stop,while]

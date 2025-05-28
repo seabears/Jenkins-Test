@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8248919199281095087">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;test.h&quot; not found." verbose="Include file: &quot;test.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_fnmatch.h&quot; not found." verbose="Include file: &quot;curl_fnmatch.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="26" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;machine==SYSTEM_LINUX&apos; is always false" verbose="Condition &apos;machine==SYSTEM_LINUX&apos; is always false" cwe="570" file0="C:/test_workspace/curl-master/tests/unit/unit1307.c">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="298" column="46" info="Condition &apos;machine==SYSTEM_LINUX&apos; is always false"/>
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="291" column="13" info="Assignment &apos;machine=SYSTEM_CUSTOM&apos;, assigned value is 0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;machine==SYSTEM_MACOS&apos; is always false" verbose="Condition &apos;machine==SYSTEM_MACOS&apos; is always false" cwe="570" file0="C:/test_workspace/curl-master/tests/unit/unit1307.c">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="300" column="49" info="Condition &apos;machine==SYSTEM_MACOS&apos; is always false"/>
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="291" column="13" info="Assignment &apos;machine=SYSTEM_CUSTOM&apos;, assigned value is 0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;machine==SYSTEM_MACOS&apos; is always false" verbose="Condition &apos;machine==SYSTEM_MACOS&apos; is always false" cwe="570" file0="C:/test_workspace/curl-master/tests/unit/unit1307.c">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="300" column="49" info="Condition &apos;machine==SYSTEM_MACOS&apos; is always false"/>
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="285" column="13" info="Assignment &apos;machine=SYSTEM_LINUX&apos;, assigned value is 1"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;machine == SYSTEM_LINUX&apos; is always true because &apos;machine&apos; and &apos;SYSTEM_LINUX&apos; represent the same value." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="C:/test_workspace/curl-master/tests/unit/unit1307.c">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="288" column="18"/>
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="285" column="13" info="&apos;machine&apos; is assigned value &apos;SYSTEM_LINUX&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;machine == SYSTEM_LINUX&apos; is always true because &apos;machine&apos; and &apos;SYSTEM_LINUX&apos; represent the same value." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="C:/test_workspace/curl-master/tests/unit/unit1307.c">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="298" column="46"/>
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="285" column="13" info="&apos;machine&apos; is assigned value &apos;SYSTEM_LINUX&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;machine==SYSTEM_LINUX&apos; is always false" verbose="Condition &apos;machine==SYSTEM_LINUX&apos; is always false" cwe="570" file0="C:/test_workspace/curl-master/tests/unit/unit1307.c">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="288" column="18" info="Condition &apos;machine==SYSTEM_LINUX&apos; is always false"/>
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="283" column="13" info="Assignment &apos;machine=SYSTEM_MACOS&apos;, assigned value is 2"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;machine==SYSTEM_LINUX&apos; is always false" verbose="Condition &apos;machine==SYSTEM_LINUX&apos; is always false" cwe="570" file0="C:/test_workspace/curl-master/tests/unit/unit1307.c">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="298" column="46" info="Condition &apos;machine==SYSTEM_LINUX&apos; is always false"/>
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="283" column="13" info="Assignment &apos;machine=SYSTEM_MACOS&apos;, assigned value is 2"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;machine == SYSTEM_MACOS&apos; is always true because &apos;machine&apos; and &apos;SYSTEM_MACOS&apos; represent the same value." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="C:/test_workspace/curl-master/tests/unit/unit1307.c">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="300" column="49"/>
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="283" column="13" info="&apos;machine&apos; is assigned value &apos;SYSTEM_MACOS&apos; here."/>
+        </error>
+        <error id="misra-c2012-4.1" severity="style" msg="Required Octal and hexadecimal escape sequences shall be terminated" verbose="Required Octal and hexadecimal escape sequences shall be terminated" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="142" column="5"/>
+        </error>
+        <error id="misra-c2012-4.1" severity="style" msg="Required Octal and hexadecimal escape sequences shall be terminated" verbose="Required Octal and hexadecimal escape sequences shall be terminated" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="143" column="5"/>
+        </error>
+        <error id="misra-c2012-4.1" severity="style" msg="Required Octal and hexadecimal escape sequences shall be terminated" verbose="Required Octal and hexadecimal escape sequences shall be terminated" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="144" column="5"/>
+        </error>
+        <error id="misra-c2012-4.1" severity="style" msg="Required Octal and hexadecimal escape sequences shall be terminated" verbose="Required Octal and hexadecimal escape sequences shall be terminated" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="249" column="4"/>
+        </error>
+        <error id="misra-c2012-4.1" severity="style" msg="Required Octal and hexadecimal escape sequences shall be terminated" verbose="Required Octal and hexadecimal escape sequences shall be terminated" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="251" column="4"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="276" column="1"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="66" column="30"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="276" column="1"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="297" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="313" column="1"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="259" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="261" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="263" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="265" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="298" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="300" column="12"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="301" column="0"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="276" column="1"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="290" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="305" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="309" column="7"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="45" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="27" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="36" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="67" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="77" column="0"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="317" column="1"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="317" column="1"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="318" column="1"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="317" column="1"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="288" column="34"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1307.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1307.c" line="287" column="9"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="unit_setup" lineNumber="28"/>
+    <functiondecl functionName="unit_stop" lineNumber="33"/>
+    <functiondecl functionName="ret2name" lineNumber="255"/>
+    <functiondecl functionName="test" lineNumber="276"/>
+    <functiondecl functionName="unit_setup" lineNumber="28"/>
+    <functiondecl functionName="unit_stop" lineNumber="33"/>
+    <functiondecl functionName="test" lineNumber="317"/>
+    <functiondecl functionName="unit_setup" lineNumber="28"/>
+    <functiondecl functionName="unit_stop" lineNumber="33"/>
+    <functiondecl functionName="ret2name" lineNumber="255"/>
+    <functiondecl functionName="test" lineNumber="276"/>
+    <functiondecl functionName="unit_setup" lineNumber="28"/>
+    <functiondecl functionName="unit_stop" lineNumber="33"/>
+    <functiondecl functionName="ret2name" lineNumber="255"/>
+    <functiondecl functionName="test" lineNumber="276"/>
+    <functioncall functionName="CURLE_OK"/>
+    <functioncall functionName="CURL_ARRAYSIZE"/>
+    <functioncall functionName="CURL_FNMATCH_MATCH"/>
+    <functioncall functionName="CURL_FNMATCH_NOMATCH"/>
+    <functioncall functionName="CURLcode"/>
+    <functioncall functionName="Curl_fnmatch"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="SYSTEM_CUSTOM"/>
+    <functioncall functionName="SYSTEM_LINUX"/>
+    <functioncall functionName="SYSTEM_MACOS"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="ret2name"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="unit_setup"/>
+    <functioncall functionName="unit_stop"/>
+    <functioncall functionName="unit_test_abort"/>
+    <functioncall functionName="unitfail"/>
+  </FileInfo>
+</analyzerinfo>

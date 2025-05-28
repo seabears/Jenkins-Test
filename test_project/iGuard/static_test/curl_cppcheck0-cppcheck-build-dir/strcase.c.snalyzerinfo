@@ -1,0 +1,6 @@
+Curl_raw_toupper global:[touppermap] call:[return]
+Curl_raw_tolower global:[tolowermap] call:[return]
+Curl_strntoupper call:[Curl_raw_toupper,while] noreturn:[Curl_raw_toupper,while]
+Curl_strntolower call:[Curl_raw_tolower,while] noreturn:[Curl_raw_tolower,while]
+Curl_safecmp call:[strcmp] noreturn:[strcmp]
+Curl_timestrcmp

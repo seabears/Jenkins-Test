@@ -1,0 +1,5 @@
+log_line_start call:[fprintf,fputs] noreturn:[fprintf,fputs]
+debug_cb call:[curl_easy_getinfo,curl_msnprintf,fprintf,fwrite,log_line_start,sizeof] noreturn:[curl_msnprintf,fwrite,log_line_start]
+write_cb
+add_transfer call:[curl_easy_cleanup,curl_easy_init,curl_easy_setopt,curl_multi_add_handle,curl_multi_strerror,fprintf] noreturn:[curl_easy_setopt]
+main call:[add_transfer,curl_easy_cleanup,curl_easy_getinfo,curl_free,curl_msnprintf,curl_multi_cleanup,curl_multi_get_handles,curl_multi_info_read,curl_multi_init,curl_multi_perform,curl_multi_poll,curl_multi_remove_handle,curl_multi_strerror,curl_share_cleanup,curl_share_init,curl_share_setopt,curl_slist_append,curl_slist_free_all,curl_url,curl_url_cleanup,curl_url_get,curl_url_set,fprintf,sizeof,strcmp,while] noreturn:[curl_easy_cleanup,curl_free,curl_multi_cleanup,fprintf]

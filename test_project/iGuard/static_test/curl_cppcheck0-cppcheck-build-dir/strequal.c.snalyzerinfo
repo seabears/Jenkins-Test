@@ -1,0 +1,4 @@
+casecompare call:[Curl_raw_toupper]
+ncasecompare call:[Curl_raw_toupper] noreturn:[Curl_raw_toupper]
+curl_strequal call:[casecompare] noreturn:[casecompare]
+curl_strnequal call:[ncasecompare] noreturn:[ncasecompare]

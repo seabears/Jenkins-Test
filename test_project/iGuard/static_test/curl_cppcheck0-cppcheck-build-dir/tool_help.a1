@@ -1,0 +1,580 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8988250337573072092">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="38" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;timeval.h&quot; not found." verbose="Include file: &quot;timeval.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curlx.h&quot; not found." verbose="Include file: &quot;curlx.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="26" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curlver.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curlver.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_version.h" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="37" column="0"/>
+        </error>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 2) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 2) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" file0="C:/test_workspace/curl-master/src/tool_help.c">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="322" column="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="79" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_hugehelp.h:29:6" call-funcname="showhelp" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_help.c" line="286" col="17" call-argexpr="cmdbuf" call-argvaluetype="7" call-argvalue="80"/><function-call call-id="C:/test_workspace/curl-master/src/tool_hugehelp.h:29:6" call-funcname="showhelp" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_help.c" line="288" col="17" call-argexpr="cmdbuf" call-argvaluetype="7" call-argvalue="80"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_help.h:46:6" my-argnr="1" my-argname="ctx" file="C:/test_workspace/curl-master/src/tool_help.c" line="163" col="3" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-8.11" severity="style" msg="Advisory When an array with external linkage is declared, its size should be explicitly specified" verbose="Advisory When an array with external linkage is declared, its size should be explicitly specified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.h" line="91" column="29"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="98" column="33"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="99" column="28"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="100" column="23"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="138" column="20"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="144" column="23"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="146" column="18"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="151" column="17"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="365" column="64"/>
+        </error>
+        <error id="misra-c2012-10.7" severity="style" msg="Required If a composite expression is used as one operand of an operator in which the usual arithmetic conversions are performed then the other operand shall not have wider essential type" verbose="Required If a composite expression is used as one operand of an operator in which the usual arithmetic conversions are performed then the other operand shall not have wider essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="100" column="23"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" verbose="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="367" column="14"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" verbose="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="374" column="13"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" verbose="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="380" column="12"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="91" column="25"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="98" column="24"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="138" column="24"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="144" column="27"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="351" column="17"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" verbose="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="55" column="39"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" verbose="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="56" column="29"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" verbose="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="57" column="29"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" verbose="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="58" column="35"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" verbose="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="59" column="29"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" verbose="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="60" column="34"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" verbose="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="61" column="36"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" verbose="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="62" column="27"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" verbose="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="63" column="29"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" verbose="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="64" column="29"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" verbose="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="65" column="27"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" verbose="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="66" column="33"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" verbose="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="67" column="29"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" verbose="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="68" column="38"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" verbose="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="69" column="30"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" verbose="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="70" column="38"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" verbose="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="71" column="39"/>
+        </error>
+        <error id="misra-c2012-12.2" severity="style" msg="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" verbose="Required The right hand operand of a shift operator shall lie in the range zero to one less than the width in bits of the essential type of the left hand operand" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="240" column="20"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="95" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="113" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="246" column="10"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="250" column="10"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="297" column="10"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="308" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="327" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="332" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="359" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="366" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="383" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="398" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="116" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="309" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="82" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="85" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="88" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="91" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="94" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="99" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="101" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="112" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="125" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="138" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="140" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="184" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="202" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="207" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="215" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="246" column="8"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="250" column="8"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="264" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="269" column="10"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="277" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="279" column="12"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="281" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="284" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="287" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="307" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="308" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="316" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="334" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="336" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="348" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="377" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="399" column="5"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="300" column="3"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="341" column="7"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="104" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="114" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="126" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="139" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="142" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="145" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="150" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="239" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="241" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="243" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="292" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="298" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="317" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="320" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="325" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="344" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="349" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="352" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="357" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="367" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="376" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="378" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="379" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="384" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="397" column="7"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="400" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="403" column="9"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="107" column="0"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="301" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="365" column="22"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="380" column="11"/>
+        </error>
+        <error id="misra-c2012-21.9" severity="style" msg="Required The Standard Library functions bsearch and qsort of &lt;stdlib.h&gt; shall not be used" verbose="Required The Standard Library functions bsearch and qsort of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="374" column="7"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="371" column="34"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="322" column="9"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="182" column="55"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="183" column="27"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="189" column="18"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="190" column="55"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="191" column="27"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="200" column="53"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="201" column="25"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="205" column="15"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="264" column="29"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="279" column="23"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="284" column="17"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="209" column="30"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="217" column="30"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="279" column="14"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="203" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="208" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="216" column="9"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="270" column="0"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="173" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="182" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="190" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="194" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="200" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="211" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="272" column="14"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="260" column="16"/>
+        </error>
+        <error id="misra-c2012-21.16" severity="style" msg="Required The pointer arguments to the Standard Library function memcmp shall point to either a pointer type, an essentially signed type, an essentially unsigned type, an essentially Boolean type or an essentially enum type" verbose="Required The pointer arguments to the Standard Library function memcmp shall point to either a pointer type, an essentially signed type, an essentially unsigned type, an essentially Boolean type or an essentially enum type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="184" column="11"/>
+        </error>
+        <error id="misra-c2012-21.16" severity="style" msg="Required The pointer arguments to the Standard Library function memcmp shall point to either a pointer type, an essentially signed type, an essentially unsigned type, an essentially Boolean type or an essentially enum type" verbose="Required The pointer arguments to the Standard Library function memcmp shall point to either a pointer type, an essentially signed type, an essentially unsigned type, an essentially Boolean type or an essentially enum type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="192" column="11"/>
+        </error>
+        <error id="misra-c2012-21.16" severity="style" msg="Required The pointer arguments to the Standard Library function memcmp shall point to either a pointer type, an essentially signed type, an essentially unsigned type, an essentially Boolean type or an essentially enum type" verbose="Required The pointer arguments to the Standard Library function memcmp shall point to either a pointer type, an essentially signed type, an essentially unsigned type, an essentially Boolean type or an essentially enum type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_help.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_help.c" line="202" column="9"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="print_category" lineNumber="74"/>
+    <functiondecl functionName="get_category_content" lineNumber="109"/>
+    <functiondecl functionName="get_categories" lineNumber="122"/>
+    <functiondecl functionName="get_categories_list" lineNumber="130"/>
+    <functiondecl functionName="tool_help" lineNumber="225"/>
+    <functiondecl functionName="is_debug" lineNumber="304"/>
+    <functiondecl functionName="tool_version_info" lineNumber="313"/>
+    <functiondecl functionName="tool_list_engines" lineNumber="389"/>
+    <functiondecl functionName="print_category" lineNumber="74"/>
+    <functiondecl functionName="get_category_content" lineNumber="109"/>
+    <functiondecl functionName="get_categories" lineNumber="122"/>
+    <functiondecl functionName="get_categories_list" lineNumber="130"/>
+    <functiondecl functionName="tool_help" lineNumber="225"/>
+    <functiondecl functionName="is_debug" lineNumber="304"/>
+    <functiondecl functionName="tool_version_info" lineNumber="313"/>
+    <functiondecl functionName="tool_list_engines" lineNumber="389"/>
+    <functiondecl functionName="print_category" lineNumber="74"/>
+    <functiondecl functionName="get_category_content" lineNumber="109"/>
+    <functiondecl functionName="get_categories" lineNumber="122"/>
+    <functiondecl functionName="get_categories_list" lineNumber="130"/>
+    <functiondecl functionName="tool_help" lineNumber="225"/>
+    <functiondecl functionName="is_debug" lineNumber="304"/>
+    <functiondecl functionName="tool_version_info" lineNumber="313"/>
+    <functiondecl functionName="tool_list_engines" lineNumber="389"/>
+    <functiondecl functionName="print_category" lineNumber="74"/>
+    <functiondecl functionName="get_category_content" lineNumber="109"/>
+    <functiondecl functionName="get_categories" lineNumber="122"/>
+    <functiondecl functionName="get_categories_list" lineNumber="130"/>
+    <functiondecl functionName="tool_help" lineNumber="225"/>
+    <functiondecl functionName="is_debug" lineNumber="304"/>
+    <functiondecl functionName="tool_version_info" lineNumber="313"/>
+    <functiondecl functionName="tool_list_engines" lineNumber="389"/>
+    <functiondecl functionName="print_category" lineNumber="74"/>
+    <functiondecl functionName="get_category_content" lineNumber="109"/>
+    <functiondecl functionName="get_categories" lineNumber="122"/>
+    <functiondecl functionName="get_categories_list" lineNumber="130"/>
+    <functiondecl functionName="tool_help" lineNumber="225"/>
+    <functiondecl functionName="is_debug" lineNumber="304"/>
+    <functiondecl functionName="tool_version_info" lineNumber="313"/>
+    <functiondecl functionName="tool_list_engines" lineNumber="389"/>
+    <functiondecl functionName="print_category" lineNumber="74"/>
+    <functiondecl functionName="get_category_content" lineNumber="109"/>
+    <functiondecl functionName="get_categories" lineNumber="122"/>
+    <functiondecl functionName="get_categories_list" lineNumber="130"/>
+    <functiondecl functionName="inithelpscan" lineNumber="158"/>
+    <functiondecl functionName="helpscan" lineNumber="176"/>
+    <functiondecl functionName="tool_help" lineNumber="225"/>
+    <functiondecl functionName="is_debug" lineNumber="304"/>
+    <functiondecl functionName="tool_version_info" lineNumber="313"/>
+    <functiondecl functionName="tool_list_engines" lineNumber="389"/>
+    <functiondecl functionName="print_category" lineNumber="74"/>
+    <functiondecl functionName="get_category_content" lineNumber="109"/>
+    <functiondecl functionName="get_categories" lineNumber="122"/>
+    <functiondecl functionName="get_categories_list" lineNumber="130"/>
+    <functiondecl functionName="tool_help" lineNumber="225"/>
+    <functiondecl functionName="is_debug" lineNumber="304"/>
+    <functiondecl functionName="tool_version_info" lineNumber="313"/>
+    <functiondecl functionName="tool_list_engines" lineNumber="389"/>
+    <functioncall functionName="CURLINFO_SSL_ENGINES"/>
+    <functioncall functionName="CURL_ARRAYSIZE"/>
+    <functioncall functionName="DEBUGASSERT"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="LIBCURL_TIMESTAMP"/>
+    <functioncall functionName="LIBCURL_VERSION"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_getinfo"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_slist_free_all"/>
+    <functioncall functionName="curl_strequal"/>
+    <functioncall functionName="curl_strnequal"/>
+    <functioncall functionName="curl_version"/>
+    <functioncall functionName="findlongopt"/>
+    <functioncall functionName="findshortopt"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="fputs"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="get_categories"/>
+    <functioncall functionName="get_categories_list"/>
+    <functioncall functionName="get_category_content"/>
+    <functioncall functionName="get_terminal_columns"/>
+    <functioncall functionName="is_debug"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memcmp"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memmove"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="msnprintf"/>
+    <functioncall functionName="print_category"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="puts"/>
+    <functioncall functionName="qsort"/>
+    <functioncall functionName="showhelp"/>
+    <functioncall functionName="stdout"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="strncmp"/>
+    <functioncall functionName="struplocompare4sort"/>
+  </FileInfo>
+</analyzerinfo>

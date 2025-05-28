@@ -1,0 +1,3 @@
+is_ifs
+parse_command_line call:[fprintf,fputs,is_ifs]
+main call:[_CALLPGMV,_LUWRKA,fputs,free,malloc,parse_command_line,rslvsp,sizeof] noreturn:[free]

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16739268776244891564">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\disabled.c" line="34" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;multihandle.h&quot; not found." verbose="Include file: &quot;multihandle.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\disabled.c" line="35" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;tool_xattr.h&quot; not found." verbose="Include file: &quot;tool_xattr.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\disabled.c" line="36" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_sha512_256.h&quot; not found." verbose="Include file: &quot;curl_sha512_256.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\disabled.c" line="37" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\server\disabled.c" line="38" column="0"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/disabled.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\disabled.c" line="40" column="20"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/disabled.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\disabled.c" line="132" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/disabled.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\disabled.c" line="133" column="11"/>
+        </error>
+        <error id="misra-c2012-20.9" severity="style" msg="Required All identifiers used in the controlling expression of #if or #elif preprocessing directives shall be #define\342\200\231d before evaluation" verbose="Required All identifiers used in the controlling expression of #if or #elif preprocessing directives shall be #define\342\200\231d before evaluation" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/disabled.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\disabled.c" line="101" column="2"/>
+        </error>
+        <error id="misra-c2012-20.9" severity="style" msg="Required All identifiers used in the controlling expression of #if or #elif preprocessing directives shall be #define\342\200\231d before evaluation" verbose="Required All identifiers used in the controlling expression of #if or #elif preprocessing directives shall be #define\342\200\231d before evaluation" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/disabled.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\disabled.c" line="104" column="2"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/disabled.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\disabled.c" line="38" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functiondecl functionName="main" lineNumber="125"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

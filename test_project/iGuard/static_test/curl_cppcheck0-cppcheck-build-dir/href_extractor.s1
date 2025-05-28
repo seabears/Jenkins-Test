@@ -1,0 +1,2 @@
+write_callback call:[html_parser_char_parse,html_parser_cmp_attr,html_parser_cmp_tag,html_parser_is_in,html_parser_val,html_parser_val_length,printf] noreturn:[printf]
+main call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,html_parser_cleanup,html_parser_init,html_parser_set_attr_buffer,html_parser_set_attr_to_lower,html_parser_set_tag_buffer,html_parser_set_tag_to_lower,html_parser_set_val_buffer,printf,sizeof]

@@ -1,0 +1,9 @@
+fileinfo_dtor call:[Curl_fileinfo_cleanup] noreturn:[Curl_fileinfo_cleanup]
+Curl_wildcard_init call:[Curl_llist_init]
+Curl_wildcard_dtor global:[Curl_cfree] call:[Curl_cfree,Curl_llist_destroy,dtor,while]
+Curl_ftp_parselist_data_alloc global:[Curl_ccalloc] call:[Curl_ccalloc,sizeof] noreturn:[Curl_ccalloc]
+Curl_ftp_parselist_data_free global:[Curl_cfree] call:[Curl_cfree,Curl_fileinfo_cleanup] noreturn:[Curl_fileinfo_cleanup]
+Curl_ftp_parselist_geterror
+ftp_pl_get_permission
+ftp_pl_insert_finfo call:[Curl_fileinfo_cleanup,Curl_llist_append,Curl_set_in_callback,compare,curlx_dyn_ptr,strstr] noreturn:[Curl_fileinfo_cleanup,Curl_llist_append]
+Curl_ftp_parselist call:[CURL_OFF_T_C,Curl_fileinfo_alloc,Curl_fileinfo_cleanup,Curl_str_number,Curl_str_numblanks,Curl_str_passblanks,curlx_dyn_addn,curlx_dyn_init,curlx_dyn_len,curlx_dyn_ptr,curlx_dyn_reset,curlx_dyn_setlen,ftp_pl_get_permission,ftp_pl_insert_finfo,strchr,strcmp,strncmp] noreturn:[curlx_dyn_init,curlx_dyn_reset,curlx_dyn_setlen]

@@ -1,0 +1,3 @@
+test global:[libtest_arg2,realHeaderSize] call:[curl_easy_cleanup,curl_easy_getinfo,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_easy_strerror,curl_global_cleanup,curl_global_init,fprintf,printf,while]
+WriteOutput call:[fwrite]
+WriteHeader global:[realHeaderSize] call:[curlx_uztoul]

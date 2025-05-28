@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="6303626142698373523">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="38" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;timeval.h&quot; not found." verbose="Include file: &quot;timeval.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;dynbuf.h&quot; not found." verbose="Include file: &quot;dynbuf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\var.h" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curlx.h&quot; not found." verbose="Include file: &quot;curlx.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_filetime.c" line="27" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error: keyword &apos;while&apos; is not allowed in global scope" verbose="syntax error: keyword &apos;while&apos; is not allowed in global scope" file0="C:/test_workspace/curl-master/src/tool_filetime.c">
+            <location file="C:\test_workspace\curl-master\src\tool_filetime.c" line="91" column="6"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="79" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/utime.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/utime.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_filetime.c" line="32" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utime.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utime.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_filetime.c" line="30" column="0"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="73" column="26"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="74" column="24"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="75" column="25"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="67" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="68" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="69" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="70" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_filetime.c" line="59" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_filetime.c" line="84" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="38" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="57" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="132" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="107" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.h" line="34" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.h" line="36" column="0"/>
+        </error>
+        <error id="misra-c2012-20.9" severity="style" msg="Required All identifiers used in the controlling expression of #if or #elif preprocessing directives shall be #define\342\200\231d before evaluation" verbose="Required All identifiers used in the controlling expression of #if or #elif preprocessing directives shall be #define\342\200\231d before evaluation" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_filetime.h" line="33" column="2"/>
+        </error>
+        <error id="misra-c2012-5.5" severity="style" msg="Required Identifiers shall be distinct from macro names" verbose="Required Identifiers shall be distinct from macro names" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_filetime.c" line="93" column="1"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_filetime.c" line="137" column="39"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_filetime.c" line="138" column="41"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_filetime.c" line="139" column="7"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_filetime.c" line="120" column="46"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_filetime.c" line="55" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_filetime.c" line="108" column="7"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_filetime.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_filetime.c" line="77" column="3"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="getfiletime" lineNumber="36"/>
+    <functiondecl functionName="getfiletime" lineNumber="36"/>
+    <functiondecl functionName="setfiletime" lineNumber="91"/>
+    <functiondecl functionName="getfiletime" lineNumber="36"/>
+    <functiondecl functionName="getfiletime" lineNumber="36"/>
+    <functiondecl functionName="setfiletime" lineNumber="91"/>
+    <functiondecl functionName="getfiletime" lineNumber="36"/>
+    <functiondecl functionName="getfiletime" lineNumber="36"/>
+    <functioncall functionName="BIT"/>
+    <functioncall functionName="CURL_OFF_T_C"/>
+    <functioncall functionName="CURL_PRINTF"/>
+    <functioncall functionName="CloseHandle"/>
+    <functioncall functionName="CreateFile"/>
+    <functioncall functionName="DWORD"/>
+    <functioncall functionName="FILE_READ_ATTRIBUTES"/>
+    <functioncall functionName="FILE_SHARE_DELETE"/>
+    <functioncall functionName="FILE_WRITE_ATTRIBUTES"/>
+    <functioncall functionName="GetFileTime"/>
+    <functioncall functionName="GetLastError"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="OPEN_EXISTING"/>
+    <functioncall functionName="SetFileTime"/>
+    <functioncall functionName="alloc_filename"/>
+    <functioncall functionName="curl_off_t"/>
+    <functioncall functionName="curlx_convert_UTF8_to_tchar"/>
+    <functioncall functionName="curlx_unicodefree"/>
+    <functioncall functionName="errno"/>
+    <functioncall functionName="fopened"/>
+    <functioncall functionName="is_cd_filename"/>
+    <functioncall functionName="s_isreg"/>
+    <functioncall functionName="stat"/>
+    <functioncall functionName="strerror"/>
+    <functioncall functionName="utimes"/>
+    <functioncall functionName="warnf"/>
+  </FileInfo>
+</analyzerinfo>

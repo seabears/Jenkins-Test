@@ -1,0 +1,413 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="5463784308137838673">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="51" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/socket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/socket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="52" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;netinet/in.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;netinet/in.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="53" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;arpa/inet.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;arpa/inet.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="54" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="57" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="58" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="59" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="61" column="0"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;x&apos; can be declared as pointer to const" verbose="Variable &apos;x&apos; can be declared as pointer to const" cwe="398" file0="C:/test_workspace/curl-master/docs/examples/block_ip.c">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="221" column="20" info="Variable &apos;x&apos; can be declared as pointer to const"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="33" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;winsock2.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;winsock2.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="47" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;ws2tcpip.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;ws2tcpip.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="48" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;windows.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;windows.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="49" column="0"/>
+        </error>
+        <error id="misra-c2012-10.1" severity="style" msg="Required Operands shall not be of an inappropriate essential type" verbose="Required Operands shall not be of an inappropriate essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="208" column="52"/>
+        </error>
+        <error id="misra-c2012-10.8" severity="style" msg="Required The value of a composite expression shall not be cast to a different essential type category or a wider essential type" verbose="Required The value of a composite expression shall not be cast to a different essential type category or a wider essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="208" column="30"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="199" column="7"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="245" column="19"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="253" column="42"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="138" column="26"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="142" column="31"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="260" column="42"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="269" column="13"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="278" column="19"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="110" column="16"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="195" column="12"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="196" column="25"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="202" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="117" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="136" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="163" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="177" column="8"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="187" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="207" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="251" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="270" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="279" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="303" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="115" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="122" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="131" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="145" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="160" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="167" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="203" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="210" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="276" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="285" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="301" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="305" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="312" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="114" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="125" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="150" column="8"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="153" column="8"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="163" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="166" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="168" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="202" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="209" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="223" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="227" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="244" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="247" column="10"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="260" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="263" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="300" column="3"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="151" column="0"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="286" column="7"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="273" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="282" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="342" column="12"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="181" column="10"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="137" column="30"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="77" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="82" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="39" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="42" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="45" column="0"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="113" column="27"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="121" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="130" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="143" column="11"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="144" column="11"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="158" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="159" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="179" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="180" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="189" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="299" column="46"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="304" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="311" column="9"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="33" column="0"/>
+        </error>
+        <error id="misra-c2012-21.7" severity="style" msg="Required The Standard Library functions atof, atoi, atol and atoll functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The Standard Library functions atof, atoi, atol and atoll functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="137" column="24"/>
+        </error>
+        <error id="misra-c2012-10.3" severity="style" msg="Required The value of an expression shall not be assigned to an object with a narrower essential type or of a different essential type category" verbose="Required The value of an expression shall not be assigned to an object with a narrower essential type or of a different essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="255" column="18"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="228" column="26"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="221" column="24"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="248" column="19"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="264" column="25"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="140" column="32"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="227" column="17"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="228" column="17"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="263" column="19"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="223" column="9"/>
+        </error>
+        <error id="misra-c2012-15.4" severity="style" msg="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" verbose="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="259" column="49"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="229" column="7"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="154" column="0"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="248" column="0"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="264" column="50"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="34" column="24"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="47" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="48" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="49" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="51" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="52" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="53" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="54" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="57" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="58" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="59" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/block_ip.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\block_ip.c" line="61" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="ip_list_append" lineNumber="108"/>
+    <functiondecl functionName="ip_list_free_all" lineNumber="174"/>
+    <functiondecl functionName="free_connection_filter" lineNumber="185"/>
+    <functiondecl functionName="ip_match" lineNumber="193"/>
+    <functiondecl functionName="opensocket" lineNumber="236"/>
+    <functiondecl functionName="main" lineNumber="293"/>
+    <functiondecl functionName="ip_list_append" lineNumber="108"/>
+    <functiondecl functionName="ip_list_free_all" lineNumber="174"/>
+    <functiondecl functionName="free_connection_filter" lineNumber="185"/>
+    <functiondecl functionName="ip_match" lineNumber="193"/>
+    <functiondecl functionName="is_ipv4_mapped_ipv6_address" lineNumber="217"/>
+    <functiondecl functionName="opensocket" lineNumber="236"/>
+    <functiondecl functionName="main" lineNumber="293"/>
+    <functiondecl functionName="main" lineNumber="34"/>
+    <functioncall functionName="AF_INET"/>
+    <functioncall functionName="CONNECTION_FILTER_BLACKLIST"/>
+    <functioncall functionName="CURLOPT_OPENSOCKETDATA"/>
+    <functioncall functionName="CURLOPT_OPENSOCKETFUNCTION"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_VERBOSE"/>
+    <functioncall functionName="CURL_GLOBAL_DEFAULT"/>
+    <functioncall functionName="CURL_SOCKET_BAD"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="atoi"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_perform"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_easy_strerror"/>
+    <functioncall functionName="curl_global_cleanup"/>
+    <functioncall functionName="curl_global_init"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="free_connection_filter"/>
+    <functioncall functionName="inet_ntop"/>
+    <functioncall functionName="inet_pton"/>
+    <functioncall functionName="ip_list_append"/>
+    <functioncall functionName="ip_list_free_all"/>
+    <functioncall functionName="ip_match"/>
+    <functioncall functionName="is_ipv4_mapped_ipv6_address"/>
+    <functioncall functionName="opensocket"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="socket"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strchr"/>
+    <functioncall functionName="strdup"/>
+  </FileInfo>
+</analyzerinfo>

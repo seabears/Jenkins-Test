@@ -1,0 +1,1052 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="18256833639716159330">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;config-os400.h&quot; not found." verbose="Include file: &quot;config-os400.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="31" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/socket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/socket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="32" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/un.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/un.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="33" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="35" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stddef.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stddef.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="36" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="37" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;pthread.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;pthread.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="38" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;netdb.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;netdb.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="39" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;qadrt.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;qadrt.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="40" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;errno.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;errno.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="41" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;ldap.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;ldap.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="52" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;netinet/in.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;netinet/in.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="55" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;arpa/inet.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;arpa/inet.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="56" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;srcu&apos; can be reduced." verbose="The scope of the variable &apos;srcu&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="C:/test_workspace/curl-master/packages/OS400/os400sys.c">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="834" column="29"/>
+            <symbol>srcu</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;dstu&apos; can be reduced." verbose="The scope of the variable &apos;dstu&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="C:/test_workspace/curl-master/packages/OS400/os400sys.c">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="835" column="23"/>
+            <symbol>dstu</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;dstsize&apos; can be reduced." verbose="The scope of the variable &apos;dstsize&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="C:/test_workspace/curl-master/packages/OS400/os400sys.c">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="836" column="16"/>
+            <symbol>dstsize</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;destaddr&apos; can be declared as pointer to const" verbose="Parameter &apos;destaddr&apos; can be declared as pointer to const" cwe="398" file0="C:/test_workspace/curl-master/packages/OS400/os400sys.c">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="874" column="45" info="Parameter &apos;destaddr&apos; can be declared as pointer to const"/>
+            <symbol>destaddr</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;localaddr&apos; can be declared as pointer to const" verbose="Parameter &apos;localaddr&apos; can be declared as pointer to const" cwe="398" file0="C:/test_workspace/curl-master/packages/OS400/os400sys.c">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="888" column="42" info="Parameter &apos;localaddr&apos; can be declared as pointer to const"/>
+            <symbol>localaddr</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:795:1" call-funcname="sockaddr2ebcdic" call-argnr="1" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="879" col="22" call-argexpr="&amp;laddr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:795:1" call-funcname="sockaddr2ebcdic" call-argnr="1" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="893" col="22" call-argexpr="&amp;laddr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:795:1" call-funcname="sockaddr2ebcdic" call-argnr="1" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="908" col="22" call-argexpr="&amp;laddr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:831:1" call-funcname="sockaddr2ascii" call-argnr="3" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="937" col="30" call-argexpr="&amp;laddr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:831:1" call-funcname="sockaddr2ascii" call-argnr="3" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="953" col="30" call-argexpr="&amp;laddr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:831:1" call-funcname="sockaddr2ascii" call-argnr="3" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="970" col="30" call-argexpr="&amp;laddr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:795:1" call-funcname="sockaddr2ebcdic" call-argnr="2" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="879" col="7" my-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:874:1" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:795:1" call-funcname="sockaddr2ebcdic" call-argnr="2" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="893" col="7" my-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:888:1" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:795:1" call-funcname="sockaddr2ebcdic" call-argnr="2" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="908" col="7" my-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:902:1" my-argnr="5"/>
+<function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:831:1" call-funcname="sockaddr2ascii" call-argnr="1" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="953" col="16" my-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:946:1" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:831:1" call-funcname="sockaddr2ascii" call-argnr="1" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="970" col="16" my-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:963:1" my-argnr="2"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;gssapi.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;gssapi.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="48" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:795:1" call-funcname="sockaddr2ebcdic" call-argnr="1" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="879" col="22" call-argexpr="&amp;laddr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:795:1" call-funcname="sockaddr2ebcdic" call-argnr="1" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="893" col="22" call-argexpr="&amp;laddr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:795:1" call-funcname="sockaddr2ebcdic" call-argnr="1" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="908" col="22" call-argexpr="&amp;laddr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:831:1" call-funcname="sockaddr2ascii" call-argnr="3" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="937" col="30" call-argexpr="&amp;laddr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:831:1" call-funcname="sockaddr2ascii" call-argnr="3" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="953" col="30" call-argexpr="&amp;laddr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:831:1" call-funcname="sockaddr2ascii" call-argnr="3" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="970" col="30" call-argexpr="&amp;laddr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:795:1" call-funcname="sockaddr2ebcdic" call-argnr="2" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="879" col="7" my-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:874:1" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:795:1" call-funcname="sockaddr2ebcdic" call-argnr="2" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="893" col="7" my-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:888:1" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:795:1" call-funcname="sockaddr2ebcdic" call-argnr="2" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="908" col="7" my-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:902:1" my-argnr="5"/>
+<function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:831:1" call-funcname="sockaddr2ascii" call-argnr="1" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="953" col="16" my-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:946:1" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:831:1" call-funcname="sockaddr2ascii" call-argnr="1" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="970" col="16" my-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:963:1" my-argnr="2"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;zlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;zlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="44" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:795:1" call-funcname="sockaddr2ebcdic" call-argnr="1" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="879" col="22" call-argexpr="&amp;laddr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:795:1" call-funcname="sockaddr2ebcdic" call-argnr="1" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="893" col="22" call-argexpr="&amp;laddr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:795:1" call-funcname="sockaddr2ebcdic" call-argnr="1" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="908" col="22" call-argexpr="&amp;laddr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:831:1" call-funcname="sockaddr2ascii" call-argnr="3" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="937" col="30" call-argexpr="&amp;laddr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:831:1" call-funcname="sockaddr2ascii" call-argnr="3" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="953" col="30" call-argexpr="&amp;laddr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:831:1" call-funcname="sockaddr2ascii" call-argnr="3" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="970" col="30" call-argexpr="&amp;laddr" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:795:1" call-funcname="sockaddr2ebcdic" call-argnr="2" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="879" col="7" my-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:874:1" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:795:1" call-funcname="sockaddr2ebcdic" call-argnr="2" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="893" col="7" my-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:888:1" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:795:1" call-funcname="sockaddr2ebcdic" call-argnr="2" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="908" col="7" my-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:902:1" my-argnr="5"/>
+<function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:831:1" call-funcname="sockaddr2ascii" call-argnr="1" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="953" col="16" my-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:946:1" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:831:1" call-funcname="sockaddr2ascii" call-argnr="1" file="C:/test_workspace/curl-master/packages/OS400/os400sys.c" line="970" col="16" my-id="C:/test_workspace/curl-master/packages/OS400/os400sys.c:963:1" my-argnr="2"/>
+  </FileInfo>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="253" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="300" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="520" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="543" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="583" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="664" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="695" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="701" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="731" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="762" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="874" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="888" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="902" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="917" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="946" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="963" column="1"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="80" column="25"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="143" column="18"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="154" column="16"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="240" column="17"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="531" column="20"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="805" column="25"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="806" column="43"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="820" column="12"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="821" column="65"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="852" column="13"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="859" column="24"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="860" column="14"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="861" column="18"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="863" column="42"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="866" column="14"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="89" column="26"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="132" column="14"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="149" column="6"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="185" column="10"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="214" column="15"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="263" column="15"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="269" column="15"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="315" column="15"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="326" column="15"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="531" column="9"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="555" column="9"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="566" column="13"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="601" column="11"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="613" column="13"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="633" column="19"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="674" column="8"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="714" column="7"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="745" column="7"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="776" column="7"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" verbose="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="812" column="28"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" verbose="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="850" column="28"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="143" column="25"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="241" column="55"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="610" column="13"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="622" column="12"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="805" column="15"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="806" column="33"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="844" column="15"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="861" column="22"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="924" column="28"/>
+        </error>
+        <error id="misra-c2012-14.2" severity="style" msg="Required A for loop shall be well-formed" verbose="Required A for loop shall be well-formed" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="623" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="88" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="133" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="150" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="189" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="243" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="281" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="287" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="312" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="323" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="552" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="563" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="598" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="650" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="671" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="129" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="136" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="144" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="181" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="187" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="191" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="217" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="238" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="265" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="272" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="317" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="329" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="527" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="533" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="557" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="569" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="678" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="710" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="716" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="741" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="747" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="772" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="778" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="809" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="841" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="847" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="882" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="896" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="911" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="925" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="932" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="939" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="955" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="972" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="128" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="133" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="143" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="154" column="8"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="180" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="186" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="211" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="219" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="237" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="264" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="316" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="359" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="383" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="391" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="416" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="424" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="455" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="475" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="483" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="499" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="507" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="526" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="532" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="556" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="602" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="614" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="623" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="627" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="645" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="651" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="709" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="715" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="740" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="746" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="771" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="777" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="840" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="842" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="881" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="895" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="910" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="924" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="931" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="934" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="938" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="954" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="971" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="996" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="1011" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="1025" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="1039" column="3"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="155" column="0"/>
+        </error>
+        <error id="misra-c2012-16.3" severity="style" msg="Required An unconditional break statement shall terminate every switch-clause" verbose="Required An unconditional break statement shall terminate every switch-clause" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="824" column="3"/>
+        </error>
+        <error id="misra-c2012-16.3" severity="style" msg="Required An unconditional break statement shall terminate every switch-clause" verbose="Required An unconditional break statement shall terminate every switch-clause" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="867" column="5"/>
+        </error>
+        <error id="misra-c2012-16.4" severity="style" msg="Required Every switch statement shall have a default label" verbose="Required Every switch statement shall have a default label" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="814" column="3"/>
+        </error>
+        <error id="misra-c2012-16.4" severity="style" msg="Required Every switch statement shall have a default label" verbose="Required Every switch statement shall have a default label" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="854" column="5"/>
+        </error>
+        <error id="misra-c2012-16.6" severity="style" msg="Required Every switch statement shall have at least two switch-clauses" verbose="Required Every switch statement shall have at least two switch-clauses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="814" column="3"/>
+        </error>
+        <error id="misra-c2012-16.6" severity="style" msg="Required Every switch statement shall have at least two switch-clauses" verbose="Required Every switch statement shall have at least two switch-clauses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="854" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="223" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="725" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="756" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="787" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="812" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="850" column="9"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="820" column="12"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="823" column="12"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="843" column="12"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="860" column="14"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="862" column="16"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="866" column="14"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="164" column="29"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="195" column="26"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.h" line="29" column="0"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="93" column="11"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="97" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="132" column="22"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="149" column="15"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="185" column="18"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="190" column="11"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="214" column="23"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="263" column="23"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="269" column="23"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="271" column="11"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="294" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="295" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="315" column="23"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="326" column="23"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="328" column="11"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="337" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="338" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="531" column="17"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="538" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="555" column="17"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="566" column="21"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="568" column="11"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="577" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="578" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="601" column="19"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="613" column="21"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="626" column="20"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="633" column="27"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="652" column="11"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="654" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="657" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="658" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="674" column="16"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="686" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="714" column="15"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="726" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="745" column="15"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="757" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="776" column="15"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="788" column="7"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="376" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="406" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="431" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="491" column="1"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="389" column="23"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="453" column="27"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="355" column="13"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="416" column="27"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="475" column="27"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="499" column="27"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="354" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="359" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="391" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="424" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="449" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="455" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="483" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="507" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="363" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="384" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="395" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="418" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="425" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="459" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="477" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="484" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="501" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="508" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="367" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="386" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="355" column="21"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="368" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="389" column="20"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="401" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="453" column="24"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="473" column="7"/>
+        </error>
+        <error id="misra-c2012-2.7" severity="style" msg="Advisory There should be no unused parameters in functions" verbose="Advisory There should be no unused parameters in functions" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="989" column="53"/>
+        </error>
+        <error id="misra-c2012-2.7" severity="style" msg="Advisory There should be no unused parameters in functions" verbose="Advisory There should be no unused parameters in functions" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="1004" column="38"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="982" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="989" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="1003" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="1018" column="1"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/os400sys.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\OS400\os400sys.c" line="1032" column="1"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="thdbufdestroy" lineNumber="86"/>
+    <functiondecl functionName="terminate" lineNumber="103"/>
+    <functiondecl functionName="get_buffer" lineNumber="121"/>
+    <functiondecl functionName="buffer_unthreaded" lineNumber="162"/>
+    <functiondecl functionName="buffer_threaded" lineNumber="169"/>
+    <functiondecl functionName="buffer_undef" lineNumber="200"/>
+    <functiondecl functionName="set_thread_string" lineNumber="232"/>
+    <functiondecl functionName="Curl_getnameinfo_a" lineNumber="253"/>
+    <functiondecl functionName="Curl_getaddrinfo_a" lineNumber="300"/>
+    <functiondecl functionName="Curl_ldap_init_a" lineNumber="520"/>
+    <functiondecl functionName="Curl_ldap_simple_bind_s_a" lineNumber="543"/>
+    <functiondecl functionName="Curl_ldap_search_s_a" lineNumber="583"/>
+    <functiondecl functionName="Curl_ldap_get_values_len_a" lineNumber="664"/>
+    <functiondecl functionName="Curl_ldap_err2string_a" lineNumber="695"/>
+    <functiondecl functionName="Curl_ldap_get_dn_a" lineNumber="701"/>
+    <functiondecl functionName="Curl_ldap_first_attribute_a" lineNumber="731"/>
+    <functiondecl functionName="Curl_ldap_next_attribute_a" lineNumber="762"/>
+    <functiondecl functionName="sockaddr2ebcdic" lineNumber="795"/>
+    <functiondecl functionName="sockaddr2ascii" lineNumber="831"/>
+    <functiondecl functionName="Curl_os400_connect" lineNumber="874"/>
+    <functiondecl functionName="Curl_os400_bind" lineNumber="888"/>
+    <functiondecl functionName="Curl_os400_sendto" lineNumber="902"/>
+    <functiondecl functionName="Curl_os400_recvfrom" lineNumber="917"/>
+    <functiondecl functionName="Curl_os400_getpeername" lineNumber="946"/>
+    <functiondecl functionName="Curl_os400_getsockname" lineNumber="963"/>
+    <functiondecl functionName="thdbufdestroy" lineNumber="86"/>
+    <functiondecl functionName="terminate" lineNumber="103"/>
+    <functiondecl functionName="get_buffer" lineNumber="121"/>
+    <functiondecl functionName="buffer_unthreaded" lineNumber="162"/>
+    <functiondecl functionName="buffer_threaded" lineNumber="169"/>
+    <functiondecl functionName="buffer_undef" lineNumber="200"/>
+    <functiondecl functionName="set_thread_string" lineNumber="232"/>
+    <functiondecl functionName="Curl_getnameinfo_a" lineNumber="253"/>
+    <functiondecl functionName="Curl_getaddrinfo_a" lineNumber="300"/>
+    <functiondecl functionName="Curl_gss_convert_in_place" lineNumber="347"/>
+    <functiondecl functionName="Curl_gss_import_name_a" lineNumber="376"/>
+    <functiondecl functionName="Curl_gss_display_status_a" lineNumber="406"/>
+    <functiondecl functionName="Curl_gss_init_sec_context_a" lineNumber="431"/>
+    <functiondecl functionName="Curl_gss_delete_sec_context_a" lineNumber="491"/>
+    <functiondecl functionName="Curl_ldap_init_a" lineNumber="520"/>
+    <functiondecl functionName="Curl_ldap_simple_bind_s_a" lineNumber="543"/>
+    <functiondecl functionName="Curl_ldap_search_s_a" lineNumber="583"/>
+    <functiondecl functionName="Curl_ldap_get_values_len_a" lineNumber="664"/>
+    <functiondecl functionName="Curl_ldap_err2string_a" lineNumber="695"/>
+    <functiondecl functionName="Curl_ldap_get_dn_a" lineNumber="701"/>
+    <functiondecl functionName="Curl_ldap_first_attribute_a" lineNumber="731"/>
+    <functiondecl functionName="Curl_ldap_next_attribute_a" lineNumber="762"/>
+    <functiondecl functionName="sockaddr2ebcdic" lineNumber="795"/>
+    <functiondecl functionName="sockaddr2ascii" lineNumber="831"/>
+    <functiondecl functionName="Curl_os400_connect" lineNumber="874"/>
+    <functiondecl functionName="Curl_os400_bind" lineNumber="888"/>
+    <functiondecl functionName="Curl_os400_sendto" lineNumber="902"/>
+    <functiondecl functionName="Curl_os400_recvfrom" lineNumber="917"/>
+    <functiondecl functionName="Curl_os400_getpeername" lineNumber="946"/>
+    <functiondecl functionName="Curl_os400_getsockname" lineNumber="963"/>
+    <functiondecl functionName="thdbufdestroy" lineNumber="86"/>
+    <functiondecl functionName="terminate" lineNumber="103"/>
+    <functiondecl functionName="get_buffer" lineNumber="121"/>
+    <functiondecl functionName="buffer_unthreaded" lineNumber="162"/>
+    <functiondecl functionName="buffer_threaded" lineNumber="169"/>
+    <functiondecl functionName="buffer_undef" lineNumber="200"/>
+    <functiondecl functionName="set_thread_string" lineNumber="232"/>
+    <functiondecl functionName="Curl_getnameinfo_a" lineNumber="253"/>
+    <functiondecl functionName="Curl_getaddrinfo_a" lineNumber="300"/>
+    <functiondecl functionName="Curl_ldap_init_a" lineNumber="520"/>
+    <functiondecl functionName="Curl_ldap_simple_bind_s_a" lineNumber="543"/>
+    <functiondecl functionName="Curl_ldap_search_s_a" lineNumber="583"/>
+    <functiondecl functionName="Curl_ldap_get_values_len_a" lineNumber="664"/>
+    <functiondecl functionName="Curl_ldap_err2string_a" lineNumber="695"/>
+    <functiondecl functionName="Curl_ldap_get_dn_a" lineNumber="701"/>
+    <functiondecl functionName="Curl_ldap_first_attribute_a" lineNumber="731"/>
+    <functiondecl functionName="Curl_ldap_next_attribute_a" lineNumber="762"/>
+    <functiondecl functionName="sockaddr2ebcdic" lineNumber="795"/>
+    <functiondecl functionName="sockaddr2ascii" lineNumber="831"/>
+    <functiondecl functionName="Curl_os400_connect" lineNumber="874"/>
+    <functiondecl functionName="Curl_os400_bind" lineNumber="888"/>
+    <functiondecl functionName="Curl_os400_sendto" lineNumber="902"/>
+    <functiondecl functionName="Curl_os400_recvfrom" lineNumber="917"/>
+    <functiondecl functionName="Curl_os400_getpeername" lineNumber="946"/>
+    <functiondecl functionName="Curl_os400_getsockname" lineNumber="963"/>
+    <functiondecl functionName="Curl_os400_zlibVersion" lineNumber="982"/>
+    <functiondecl functionName="Curl_os400_inflateInit_" lineNumber="989"/>
+    <functiondecl functionName="Curl_os400_inflateInit2_" lineNumber="1003"/>
+    <functiondecl functionName="Curl_os400_inflate" lineNumber="1018"/>
+    <functiondecl functionName="Curl_os400_inflateEnd" lineNumber="1032"/>
+    <functioncall functionName="AF_UNSPEC"/>
+    <functioncall functionName="Curl_gss_convert_in_place"/>
+    <functioncall functionName="Curl_thread_buffer"/>
+    <functioncall functionName="EAI_MEMORY"/>
+    <functioncall functionName="EINVAL"/>
+    <functioncall functionName="ENOMEM"/>
+    <functioncall functionName="GSS_S_FAILURE"/>
+    <functioncall functionName="LDAP_NO_MEMORY"/>
+    <functioncall functionName="LDAP_SUCCESS"/>
+    <functioncall functionName="LK_LAST"/>
+    <functioncall functionName="LK_LDAP_ERROR"/>
+    <functioncall functionName="LK_ZLIB_MSG"/>
+    <functioncall functionName="LK_ZLIB_VERSION"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PTHREAD_MUTEX_INITIALIZER"/>
+    <functioncall functionName="QadrtConvertA2E"/>
+    <functioncall functionName="QadrtConvertE2A"/>
+    <functioncall functionName="atexit"/>
+    <functioncall functionName="bind"/>
+    <functioncall functionName="buffer_threaded"/>
+    <functioncall functionName="buffer_undef"/>
+    <functioncall functionName="buffer_unthreaded"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="connect"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="get_buffer"/>
+    <functioncall functionName="getaddrinfo"/>
+    <functioncall functionName="getnameinfo"/>
+    <functioncall functionName="getpeername"/>
+    <functioncall functionName="getsockname"/>
+    <functioncall functionName="gss_delete_sec_context"/>
+    <functioncall functionName="gss_display_status"/>
+    <functioncall functionName="gss_import_name"/>
+    <functioncall functionName="gss_init_sec_context"/>
+    <functioncall functionName="gss_release_buffer"/>
+    <functioncall functionName="inflate"/>
+    <functioncall functionName="inflateEnd"/>
+    <functioncall functionName="inflateInit"/>
+    <functioncall functionName="inflateInit2"/>
+    <functioncall functionName="ldap_err2string"/>
+    <functioncall functionName="ldap_first_attribute"/>
+    <functioncall functionName="ldap_get_dn"/>
+    <functioncall functionName="ldap_get_values_len"/>
+    <functioncall functionName="ldap_init"/>
+    <functioncall functionName="ldap_next_attribute"/>
+    <functioncall functionName="ldap_search_s"/>
+    <functioncall functionName="ldap_set_lderrno"/>
+    <functioncall functionName="ldap_simple_bind_s"/>
+    <functioncall functionName="localkey_t"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="offsetof"/>
+    <functioncall functionName="pthread_getspecific"/>
+    <functioncall functionName="pthread_key_create"/>
+    <functioncall functionName="pthread_key_delete"/>
+    <functioncall functionName="pthread_mutex_lock"/>
+    <functioncall functionName="pthread_mutex_unlock"/>
+    <functioncall functionName="pthread_setspecific"/>
+    <functioncall functionName="realloc"/>
+    <functioncall functionName="recvfrom"/>
+    <functioncall functionName="sa_family"/>
+    <functioncall functionName="sendto"/>
+    <functioncall functionName="set_thread_string"/>
+    <functioncall functionName="sockaddr2ascii"/>
+    <functioncall functionName="sockaddr2ebcdic"/>
+    <functioncall functionName="ss_family"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="sun_path"/>
+    <functioncall functionName="terminate"/>
+    <functioncall functionName="thdbufdestroy"/>
+    <functioncall functionName="zlibVersion"/>
+  </FileInfo>
+</analyzerinfo>

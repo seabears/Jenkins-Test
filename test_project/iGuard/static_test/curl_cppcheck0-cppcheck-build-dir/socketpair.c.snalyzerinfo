@@ -1,0 +1,1 @@
+Curl_socketpair call:[Curl_poll,Curl_rand_bytes,accept,bind,close,connect,curlx_nonblock,curlx_now,curlx_timediff,getsockname,htonl,listen,memcmp,memset,recv,send,setsockopt,sizeof,socket,while] noreturn:[while]

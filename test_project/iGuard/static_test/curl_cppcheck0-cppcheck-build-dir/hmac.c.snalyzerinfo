@@ -1,0 +1,4 @@
+Curl_HMAC_init global:[Curl_cmalloc,hmac_ipad,hmac_opad] call:[Curl_cmalloc,hfinal,hinit,hupdate,sizeof] noreturn:[hupdate]
+Curl_HMAC_update call:[hupdate]
+Curl_HMAC_final global:[Curl_cfree] call:[Curl_cfree,hfinal,hupdate]
+Curl_hmacit call:[Curl_HMAC_final,Curl_HMAC_init,Curl_HMAC_update,curlx_uztoui]

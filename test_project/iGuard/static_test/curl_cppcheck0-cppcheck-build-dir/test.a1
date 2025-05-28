@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1506083665036764549">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl/curl.h&quot; not found." verbose="Include file: &quot;curl/curl.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\cmake\test.c" line="24" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\cmake\test.c" line="25" column="0"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/test.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\cmake\test.c" line="29" column="9"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/test.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\cmake\test.c" line="25" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="27"/>
+    <functioncall functionName="curl_version"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

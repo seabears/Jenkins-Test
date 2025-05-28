@@ -1,0 +1,596 @@
+<?xml version="1.0"?>
+<dumps language="c">
+  <platform name="win64" char_bit="8" short_bit="16" int_bit="32" long_bit="32" long_long_bit="64" pointer_bit="64"/>
+  <rawtokens>
+    <file index="0" name="C:/test_workspace/curl-master/docs/examples/https.c"/>
+    <tok fileIndex="0" linenr="1" column="1" str="/***************************************************************************x *                                  _   _ ____  _x *  Project                     ___| | | |  _ \| |x *                             / __| | | | |_) | |x *                            | (__| |_| |  _ &lt;| |___x *                             \___|\___/|_| \_\_____|x *x * Copyright (C) Daniel Stenberg, &lt;daniel@haxx.se&gt;, et al.x *x * This software is licensed as described in the file COPYING, whichx * you should have received as part of this distribution. The termsx * are also available at https://curl.se/docs/copyright.html.x *x * You may opt to use, copy, modify, merge, publish, distribute and/or sellx * copies of the Software, and permit persons to whom the Software isx * furnished to do so, under the terms of the COPYING file.x *x * This software is distributed on an &quot;AS IS&quot; basis, WITHOUT WARRANTY OF ANYx * KIND, either express or implied.x *x * SPDX-License-Identifier: curlx *x ***************************************************************************/"/>
+    <tok fileIndex="0" linenr="24" column="1" str="/* &lt;DESC&gt;x * Simple HTTPS GETx * &lt;/DESC&gt;x */"/>
+    <tok fileIndex="0" linenr="28" column="1" str="#"/>
+    <tok fileIndex="0" linenr="28" column="2" str="include"/>
+    <tok fileIndex="0" linenr="28" column="10" str="&lt;stdio.h&gt;"/>
+    <tok fileIndex="0" linenr="29" column="1" str="#"/>
+    <tok fileIndex="0" linenr="29" column="2" str="include"/>
+    <tok fileIndex="0" linenr="29" column="10" str="&lt;curl/curl.h&gt;"/>
+    <tok fileIndex="0" linenr="31" column="1" str="int"/>
+    <tok fileIndex="0" linenr="31" column="5" str="main"/>
+    <tok fileIndex="0" linenr="31" column="9" str="("/>
+    <tok fileIndex="0" linenr="31" column="10" str="void"/>
+    <tok fileIndex="0" linenr="31" column="14" str=")"/>
+    <tok fileIndex="0" linenr="32" column="1" str="{"/>
+    <tok fileIndex="0" linenr="33" column="3" str="CURL"/>
+    <tok fileIndex="0" linenr="33" column="8" str="*"/>
+    <tok fileIndex="0" linenr="33" column="9" str="curl"/>
+    <tok fileIndex="0" linenr="33" column="13" str=";"/>
+    <tok fileIndex="0" linenr="34" column="3" str="CURLcode"/>
+    <tok fileIndex="0" linenr="34" column="12" str="res"/>
+    <tok fileIndex="0" linenr="34" column="15" str=";"/>
+    <tok fileIndex="0" linenr="36" column="3" str="curl_global_init"/>
+    <tok fileIndex="0" linenr="36" column="19" str="("/>
+    <tok fileIndex="0" linenr="36" column="20" str="CURL_GLOBAL_DEFAULT"/>
+    <tok fileIndex="0" linenr="36" column="39" str=")"/>
+    <tok fileIndex="0" linenr="36" column="40" str=";"/>
+    <tok fileIndex="0" linenr="38" column="3" str="curl"/>
+    <tok fileIndex="0" linenr="38" column="8" str="="/>
+    <tok fileIndex="0" linenr="38" column="10" str="curl_easy_init"/>
+    <tok fileIndex="0" linenr="38" column="24" str="("/>
+    <tok fileIndex="0" linenr="38" column="25" str=")"/>
+    <tok fileIndex="0" linenr="38" column="26" str=";"/>
+    <tok fileIndex="0" linenr="39" column="3" str="if"/>
+    <tok fileIndex="0" linenr="39" column="5" str="("/>
+    <tok fileIndex="0" linenr="39" column="6" str="curl"/>
+    <tok fileIndex="0" linenr="39" column="10" str=")"/>
+    <tok fileIndex="0" linenr="39" column="12" str="{"/>
+    <tok fileIndex="0" linenr="40" column="5" str="curl_easy_setopt"/>
+    <tok fileIndex="0" linenr="40" column="21" str="("/>
+    <tok fileIndex="0" linenr="40" column="22" str="curl"/>
+    <tok fileIndex="0" linenr="40" column="26" str=","/>
+    <tok fileIndex="0" linenr="40" column="28" str="CURLOPT_URL"/>
+    <tok fileIndex="0" linenr="40" column="39" str=","/>
+    <tok fileIndex="0" linenr="40" column="41" str="&quot;https://example.com/&quot;"/>
+    <tok fileIndex="0" linenr="40" column="63" str=")"/>
+    <tok fileIndex="0" linenr="40" column="64" str=";"/>
+    <tok fileIndex="0" linenr="42" column="1" str="#"/>
+    <tok fileIndex="0" linenr="42" column="2" str="ifdef"/>
+    <tok fileIndex="0" linenr="42" column="8" str="SKIP_PEER_VERIFICATION"/>
+    <tok fileIndex="0" linenr="43" column="5" str="/*     * If you want to connect to a site who is not using a certificate that is     * signed by one of the certs in the CA bundle you have, you can skip the     * verification of the server&apos;s certificate. This makes the connection     * A LOT LESS SECURE.     *     * If you have a CA cert for the server stored someplace else than in the     * default bundle, then the CURLOPT_CAPATH option might come handy for     * you.     */"/>
+    <tok fileIndex="0" linenr="53" column="5" str="curl_easy_setopt"/>
+    <tok fileIndex="0" linenr="53" column="21" str="("/>
+    <tok fileIndex="0" linenr="53" column="22" str="curl"/>
+    <tok fileIndex="0" linenr="53" column="26" str=","/>
+    <tok fileIndex="0" linenr="53" column="28" str="CURLOPT_SSL_VERIFYPEER"/>
+    <tok fileIndex="0" linenr="53" column="50" str=","/>
+    <tok fileIndex="0" linenr="53" column="52" str="0L"/>
+    <tok fileIndex="0" linenr="53" column="54" str=")"/>
+    <tok fileIndex="0" linenr="53" column="55" str=";"/>
+    <tok fileIndex="0" linenr="54" column="1" str="#"/>
+    <tok fileIndex="0" linenr="54" column="2" str="endif"/>
+    <tok fileIndex="0" linenr="56" column="1" str="#"/>
+    <tok fileIndex="0" linenr="56" column="2" str="ifdef"/>
+    <tok fileIndex="0" linenr="56" column="8" str="SKIP_HOSTNAME_VERIFICATION"/>
+    <tok fileIndex="0" linenr="57" column="5" str="/*     * If the site you are connecting to uses a different host name that what     * they have mentioned in their server certificate&apos;s commonName (or     * subjectAltName) fields, libcurl refuses to connect. You can skip this     * check, but it makes the connection insecure.     */"/>
+    <tok fileIndex="0" linenr="63" column="5" str="curl_easy_setopt"/>
+    <tok fileIndex="0" linenr="63" column="21" str="("/>
+    <tok fileIndex="0" linenr="63" column="22" str="curl"/>
+    <tok fileIndex="0" linenr="63" column="26" str=","/>
+    <tok fileIndex="0" linenr="63" column="28" str="CURLOPT_SSL_VERIFYHOST"/>
+    <tok fileIndex="0" linenr="63" column="50" str=","/>
+    <tok fileIndex="0" linenr="63" column="52" str="0L"/>
+    <tok fileIndex="0" linenr="63" column="54" str=")"/>
+    <tok fileIndex="0" linenr="63" column="55" str=";"/>
+    <tok fileIndex="0" linenr="64" column="1" str="#"/>
+    <tok fileIndex="0" linenr="64" column="2" str="endif"/>
+    <tok fileIndex="0" linenr="66" column="5" str="/* cache the CA cert bundle in memory for a week */"/>
+    <tok fileIndex="0" linenr="67" column="5" str="curl_easy_setopt"/>
+    <tok fileIndex="0" linenr="67" column="21" str="("/>
+    <tok fileIndex="0" linenr="67" column="22" str="curl"/>
+    <tok fileIndex="0" linenr="67" column="26" str=","/>
+    <tok fileIndex="0" linenr="67" column="28" str="CURLOPT_CA_CACHE_TIMEOUT"/>
+    <tok fileIndex="0" linenr="67" column="52" str=","/>
+    <tok fileIndex="0" linenr="67" column="54" str="604800L"/>
+    <tok fileIndex="0" linenr="67" column="61" str=")"/>
+    <tok fileIndex="0" linenr="67" column="62" str=";"/>
+    <tok fileIndex="0" linenr="69" column="5" str="/* Perform the request, res gets the return code */"/>
+    <tok fileIndex="0" linenr="70" column="5" str="res"/>
+    <tok fileIndex="0" linenr="70" column="9" str="="/>
+    <tok fileIndex="0" linenr="70" column="11" str="curl_easy_perform"/>
+    <tok fileIndex="0" linenr="70" column="28" str="("/>
+    <tok fileIndex="0" linenr="70" column="29" str="curl"/>
+    <tok fileIndex="0" linenr="70" column="33" str=")"/>
+    <tok fileIndex="0" linenr="70" column="34" str=";"/>
+    <tok fileIndex="0" linenr="71" column="5" str="/* Check for errors */"/>
+    <tok fileIndex="0" linenr="72" column="5" str="if"/>
+    <tok fileIndex="0" linenr="72" column="7" str="("/>
+    <tok fileIndex="0" linenr="72" column="8" str="res"/>
+    <tok fileIndex="0" linenr="72" column="12" str="!="/>
+    <tok fileIndex="0" linenr="72" column="15" str="CURLE_OK"/>
+    <tok fileIndex="0" linenr="72" column="23" str=")"/>
+    <tok fileIndex="0" linenr="73" column="7" str="fprintf"/>
+    <tok fileIndex="0" linenr="73" column="14" str="("/>
+    <tok fileIndex="0" linenr="73" column="15" str="stderr"/>
+    <tok fileIndex="0" linenr="73" column="21" str=","/>
+    <tok fileIndex="0" linenr="73" column="23" str="&quot;curl_easy_perform() failed: %s\n&quot;"/>
+    <tok fileIndex="0" linenr="73" column="57" str=","/>
+    <tok fileIndex="0" linenr="74" column="15" str="curl_easy_strerror"/>
+    <tok fileIndex="0" linenr="74" column="33" str="("/>
+    <tok fileIndex="0" linenr="74" column="34" str="res"/>
+    <tok fileIndex="0" linenr="74" column="37" str=")"/>
+    <tok fileIndex="0" linenr="74" column="38" str=")"/>
+    <tok fileIndex="0" linenr="74" column="39" str=";"/>
+    <tok fileIndex="0" linenr="76" column="5" str="/* always cleanup */"/>
+    <tok fileIndex="0" linenr="77" column="5" str="curl_easy_cleanup"/>
+    <tok fileIndex="0" linenr="77" column="22" str="("/>
+    <tok fileIndex="0" linenr="77" column="23" str="curl"/>
+    <tok fileIndex="0" linenr="77" column="27" str=")"/>
+    <tok fileIndex="0" linenr="77" column="28" str=";"/>
+    <tok fileIndex="0" linenr="78" column="3" str="}"/>
+    <tok fileIndex="0" linenr="80" column="3" str="curl_global_cleanup"/>
+    <tok fileIndex="0" linenr="80" column="22" str="("/>
+    <tok fileIndex="0" linenr="80" column="23" str=")"/>
+    <tok fileIndex="0" linenr="80" column="24" str=";"/>
+    <tok fileIndex="0" linenr="82" column="3" str="return"/>
+    <tok fileIndex="0" linenr="82" column="10" str="0"/>
+    <tok fileIndex="0" linenr="82" column="11" str=";"/>
+    <tok fileIndex="0" linenr="83" column="1" str="}"/>
+  </rawtokens>
+  <suppressions>
+  </suppressions>
+<dump cfg="">
+  <standards>
+    <c version="c11"/>
+    <cpp version="c++23"/>
+  </standards>
+  <directivelist>
+    <directive file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="28" str="#include &lt;stdio.h&gt;"/>
+    <directive file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="29" str="#include &lt;curl/curl.h&gt;"/>
+    <directive file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="42" str="#ifdef SKIP_PEER_VERIFICATION"/>
+    <directive file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="54" str="#endif"/>
+    <directive file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="56" str="#ifdef SKIP_HOSTNAME_VERIFICATION"/>
+    <directive file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="64" str="#endif"/>
+  </directivelist>
+  <tokenlist>
+    <token id="15759907c70" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="31" column="1" str="int" scope="1573f5c4060" type="name"/>
+    <token id="15759908450" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="31" column="5" str="main" scope="1573f5c4060" type="name" function="1576a22a860"/>
+    <token id="15759908a50" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="31" column="9" str="(" scope="1573f5c4060" isRemovedVoidParameter="true" link="15759907bb0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="15759907bb0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="31" column="14" str=")" scope="1573f5c4060" link="15759908a50"/>
+    <token id="157599081b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="32" column="1" str="{" scope="1573f5c3b60" link="157598e8e30"/>
+    <token id="157599085d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="33" column="3" str="CURL" scope="1573f5c3b60" type="name" astParent="15759908270"/>
+    <token id="15759908270" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="33" column="8" str="*" scope="1573f5c3b60" type="op" isArithmeticalOp="true" astOperand1="157599085d0" astOperand2="15759907d30"/>
+    <token id="15759907d30" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="33" column="9" str="curl" scope="1573f5c3b60" type="name" varId="1" exprId="1" variable="15766df30a0" astParent="15759908270"/>
+    <token id="15759908570" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="33" column="13" str=";" scope="1573f5c3b60"/>
+    <token id="15759908750" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="34" column="3" str="CURLcode" scope="1573f5c3b60" type="name"/>
+    <token id="15759907d90" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="34" column="12" str="res" scope="1573f5c3b60" type="name" varId="2" exprId="2" variable="15766df2850"/>
+    <token id="157599082d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="34" column="15" str=";" scope="1573f5c3b60"/>
+    <token id="15759908150" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="36" column="3" str="curl_global_init" scope="1573f5c3b60" type="name" astParent="157599087b0"/>
+    <token id="157599087b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="36" column="19" str="(" scope="1573f5c3b60" link="15759908c90" exprId="1073741829" astOperand1="15759908150" astOperand2="15759907a30"/>
+    <token id="15759907a30" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="36" column="20" str="CURL_GLOBAL_DEFAULT" scope="1573f5c3b60" type="name" exprId="1073741827" astParent="157599087b0"/>
+    <token id="15759908c90" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="36" column="39" str=")" scope="1573f5c3b60" link="157599087b0"/>
+    <token id="15759908d50" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="36" column="40" str=";" scope="1573f5c3b60"/>
+    <token id="15759907f70" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="38" column="3" str="curl" scope="1573f5c3b60" type="name" varId="1" exprId="1" variable="15766df30a0" astParent="15759907910"/>
+    <token id="15759907910" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="38" column="8" str="=" scope="1573f5c3b60" type="op" isAssignmentOp="true" exprId="1073741830" astOperand1="15759907f70" astOperand2="15759908690"/>
+    <token id="15759908630" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="38" column="10" str="curl_easy_init" scope="1573f5c3b60" type="name" astParent="15759908690"/>
+    <token id="15759908690" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="38" column="24" str="(" scope="1573f5c3b60" link="15759907df0" exprId="1073741831" astParent="15759907910" astOperand1="15759908630"/>
+    <token id="15759907df0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="38" column="25" str=")" scope="1573f5c3b60" link="15759908690"/>
+    <token id="15759907e50" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="38" column="26" str=";" scope="1573f5c3b60"/>
+    <token id="15759908810" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="39" column="3" str="if" scope="1573f5c3b60" type="name" astParent="15759908870"/>
+    <token id="15759908870" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="39" column="5" str="(" scope="1573f5c3b60" link="15759908ab0" exprId="1073741832" astOperand1="15759908810" astOperand2="15759908990"/>
+    <token id="15759908990" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="39" column="6" str="curl" scope="1573f5c3b60" type="name" varId="1" exprId="1" variable="15766df30a0" astParent="15759908870"/>
+    <token id="15759908ab0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="39" column="10" str=")" scope="1573f5c3b60" link="15759908870"/>
+    <token id="15759908db0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="39" column="12" str="{" scope="1573f5c5820" link="157598e8dd0"/>
+    <token id="15759907f10" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="5" str="curl_easy_setopt" scope="1573f5c5820" type="name" astParent="157599088d0"/>
+    <token id="157599088d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="21" str="(" scope="1573f5c5820" link="15759907eb0" exprId="1073741833" astOperand1="15759907f10" astOperand2="157599089f0"/>
+    <token id="15759907970" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="22" str="curl" scope="1573f5c5820" type="name" varId="1" exprId="1" variable="15766df30a0" values="1576df6cf80" astParent="15759908930"/>
+    <token id="15759908930" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="26" str="," scope="1573f5c5820" astParent="157599089f0" astOperand1="15759907970" astOperand2="15759908b10"/>
+    <token id="15759908b10" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="28" str="CURLOPT_URL" scope="1573f5c5820" type="name" astParent="15759908930"/>
+    <token id="157599089f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="39" str="," scope="1573f5c5820" astParent="157599088d0" astOperand1="15759908930" astOperand2="15759908b70"/>
+    <token id="15759908b70" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="41" str="&quot;https://example.com/&quot;" scope="1573f5c5820" type="string" strlen="20" values="1576df6c220" astParent="157599089f0" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="15759907eb0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="63" str=")" scope="1573f5c5820" link="157599088d0"/>
+    <token id="15759908bd0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="64" str=";" scope="1573f5c5820"/>
+    <token id="15759908c30" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="5" str="curl_easy_setopt" scope="1573f5c5820" type="name" astParent="15759908e10"/>
+    <token id="15759908e10" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="21" str="(" scope="1573f5c5820" link="15759908f90" exprId="1073741834" astOperand1="15759908c30" astOperand2="15759907fd0"/>
+    <token id="15759908e70" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="22" str="curl" scope="1573f5c5820" type="name" varId="1" exprId="1" variable="15766df30a0" astParent="15759907a90"/>
+    <token id="15759907a90" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="26" str="," scope="1573f5c5820" astParent="15759907fd0" astOperand1="15759908e70" astOperand2="15759908ed0"/>
+    <token id="15759908ed0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="28" str="CURLOPT_CA_CACHE_TIMEOUT" scope="1573f5c5820" type="name" astParent="15759907a90"/>
+    <token id="15759907fd0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="52" str="," scope="1573f5c5820" astParent="15759908e10" astOperand1="15759907a90" astOperand2="15759908f30"/>
+    <token id="15759908f30" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="54" str="604800L" scope="1573f5c5820" type="number" isInt="true" values="1576df6c600" astParent="15759907fd0" valueType-type="long" valueType-sign="signed" valueType-reference="None"/>
+    <token id="15759908f90" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="61" str=")" scope="1573f5c5820" link="15759908e10"/>
+    <token id="157599079d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="62" str=";" scope="1573f5c5820"/>
+    <token id="15759907af0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="5" str="res" scope="1573f5c5820" type="name" varId="2" exprId="2" variable="15766df2850" astParent="15759907b50"/>
+    <token id="15759907b50" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="9" str="=" scope="1573f5c5820" type="op" isAssignmentOp="true" exprId="1073741835" astOperand1="15759907af0" astOperand2="15759908090"/>
+    <token id="15759907c10" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="11" str="curl_easy_perform" scope="1573f5c5820" type="name" astParent="15759908090"/>
+    <token id="15759908090" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="28" str="(" scope="1573f5c5820" link="157598e9190" exprId="1073741836" astParent="15759907b50" astOperand1="15759907c10" astOperand2="157599080f0"/>
+    <token id="157599080f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="29" str="curl" scope="1573f5c5820" type="name" varId="1" exprId="1" variable="15766df30a0" astParent="15759908090"/>
+    <token id="157598e9190" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="33" str=")" scope="1573f5c5820" link="15759908090"/>
+    <token id="157598e82f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="34" str=";" scope="1573f5c5820"/>
+    <token id="157598e91f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="5" str="if" scope="1573f5c5820" type="name" astParent="157598e8a70"/>
+    <token id="157598e8a70" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="7" str="(" scope="1573f5c5820" link="157598e8290" exprId="1073741837" astOperand1="157598e91f0" astOperand2="157598e87d0"/>
+    <token id="157598e8a10" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="8" str="res" scope="1573f5c5820" type="name" varId="2" exprId="2" variable="15766df2850" astParent="157598e87d0"/>
+    <token id="157598e87d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="12" str="!=" scope="1573f5c5820" type="op" isComparisonOp="true" exprId="1073741838" values="1576df6cc20" astParent="157598e8a70" astOperand1="157598e8a10" astOperand2="157598e81d0" valueType-type="bool" valueType-reference="None"/>
+    <token id="157598e81d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="15" str="CURLE_OK" scope="1573f5c5820" type="name" exprId="1073741828" astParent="157598e87d0"/>
+    <token id="157598e8290" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="23" str=")" scope="1573f5c5820" link="157598e8a70"/>
+    <token id="157598e8410" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="0" str="{" scope="1573f5c51e0" link="157598e8b90"/>
+    <token id="157598e8d10" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="73" column="7" str="fprintf" scope="1573f5c51e0" type="name" astParent="157598e8cb0"/>
+    <token id="157598e8cb0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="73" column="14" str="(" scope="1573f5c51e0" link="157598e9730" exprId="1073741839" astOperand1="157598e8d10" astOperand2="157598e8b30" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-originalTypeName="int"/>
+    <token id="157598e8f50" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="73" column="15" str="stderr" scope="1573f5c51e0" type="name" astParent="157598e8ad0"/>
+    <token id="157598e8ad0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="73" column="21" str="," scope="1573f5c51e0" astParent="157598e8b30" astOperand1="157598e8f50" astOperand2="157598e8710"/>
+    <token id="157598e8710" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="73" column="23" str="&quot;curl_easy_perform() failed: %s\n&quot;" scope="1573f5c51e0" type="string" strlen="31" values="1576df6c6e0" astParent="157598e8ad0" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="157598e8b30" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="73" column="57" str="," scope="1573f5c51e0" astParent="157598e8cb0" astOperand1="157598e8ad0" astOperand2="157598e9430"/>
+    <token id="157598e9130" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="15" str="curl_easy_strerror" scope="1573f5c51e0" type="name" astParent="157598e9430"/>
+    <token id="157598e9430" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="33" str="(" scope="1573f5c51e0" link="157598e86b0" exprId="1073741840" astParent="157598e8b30" astOperand1="157598e9130" astOperand2="157598e8770"/>
+    <token id="157598e8770" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="34" str="res" scope="1573f5c51e0" type="name" varId="2" exprId="2" variable="15766df2850" astParent="157598e9430"/>
+    <token id="157598e86b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="37" str=")" scope="1573f5c51e0" link="157598e9430"/>
+    <token id="157598e9730" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="38" str=")" scope="1573f5c51e0" link="157598e8cb0"/>
+    <token id="157598e8350" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="39" str=";" scope="1573f5c51e0"/>
+    <token id="157598e8b90" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="0" str="}" scope="1573f5c51e0" link="157598e8410"/>
+    <token id="157598e92b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="77" column="5" str="curl_easy_cleanup" scope="1573f5c5820" type="name" astParent="157598e9250"/>
+    <token id="157598e9250" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="77" column="22" str="(" scope="1573f5c5820" link="157598e8ef0" exprId="1073741841" astOperand1="157598e92b0" astOperand2="157598e8230"/>
+    <token id="157598e8230" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="77" column="23" str="curl" scope="1573f5c5820" type="name" varId="1" exprId="1" variable="15766df30a0" astParent="157598e9250"/>
+    <token id="157598e8ef0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="77" column="27" str=")" scope="1573f5c5820" link="157598e9250"/>
+    <token id="157598e8d70" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="77" column="28" str=";" scope="1573f5c5820"/>
+    <token id="157598e8dd0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="78" column="3" str="}" scope="1573f5c5820" link="15759908db0"/>
+    <token id="157598e94f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="80" column="3" str="curl_global_cleanup" scope="1573f5c3b60" type="name" astParent="157598e98b0"/>
+    <token id="157598e98b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="80" column="22" str="(" scope="1573f5c3b60" link="157598e9310" exprId="1073741842" astOperand1="157598e94f0"/>
+    <token id="157598e9310" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="80" column="23" str=")" scope="1573f5c3b60" link="157598e98b0"/>
+    <token id="157598e8950" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="80" column="24" str=";" scope="1573f5c3b60"/>
+    <token id="157598e88f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="82" column="3" str="return" scope="1573f5c3b60" type="name" astOperand1="157598e9550" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="157598e9550" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="82" column="10" str="0" scope="1573f5c3b60" type="number" isInt="true" values="1576df6c900" astParent="157598e88f0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="157598e83b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="82" column="11" str=";" scope="1573f5c3b60"/>
+    <token id="157598e8e30" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="83" column="1" str="}" scope="1573f5c3b60" link="157599081b0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="1573f5c4060" type="Global">
+      <functionList>
+        <function id="1576a22a860" token="15759908450" tokenDef="15759908450" name="main" type="Function" access="Public"/>
+      </functionList>
+    </scope>
+    <scope id="1573f5c3b60" type="Function" className="main" bodyStart="157599081b0" bodyEnd="157598e8e30" nestedIn="1573f5c4060" function="1576a22a860">
+      <varlist>
+        <var id="15766df30a0"/>
+        <var id="15766df2850"/>
+      </varlist>
+    </scope>
+    <scope id="1573f5c5820" type="If" bodyStart="15759908db0" bodyEnd="157598e8dd0" nestedIn="1573f5c3b60"/>
+    <scope id="1573f5c51e0" type="If" bodyStart="157598e8410" bodyEnd="157598e8b90" nestedIn="1573f5c5820"/>
+  </scopes>
+  <variables>
+    <var id="15766df2850" nameToken="15759907d90" typeStartToken="15759908750" typeEndToken="15759908750" access="Local" scope="1573f5c3b60" constness="0" isArray="false" isClass="true" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="15766df30a0" nameToken="15759907d30" typeStartToken="157599085d0" typeEndToken="15759908270" access="Local" scope="1573f5c3b60" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="true" isReference="false" isStatic="false" isVolatile="false"/>
+  </variables>
+  <valueflow>
+    <values id="1576df6cf80">
+      <value intvalue="0" bound="Point" condition-line="39" impossible="true" path="0"/>
+    </values>
+    <values id="1576df6c220">
+      <value tokvalue="15759908b70" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="1576df6c600">
+      <value intvalue="604800" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="1576df6cc20">
+      <value intvalue="-1" bound="Upper" impossible="true" path="0"/>
+      <value intvalue="2" bound="Lower" impossible="true" path="0"/>
+    </values>
+    <values id="1576df6c6e0">
+      <value tokvalue="157598e8710" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="1576df6c900">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+  </valueflow>
+</dump>
+<dump cfg="SKIP_HOSTNAME_VERIFICATION">
+  <standards>
+    <c version="c11"/>
+    <cpp version="c++23"/>
+  </standards>
+  <directivelist>
+    <directive file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="28" str="#include &lt;stdio.h&gt;"/>
+    <directive file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="29" str="#include &lt;curl/curl.h&gt;"/>
+    <directive file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="42" str="#ifdef SKIP_PEER_VERIFICATION"/>
+    <directive file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="54" str="#endif"/>
+    <directive file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="56" str="#ifdef SKIP_HOSTNAME_VERIFICATION"/>
+    <directive file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="64" str="#endif"/>
+  </directivelist>
+  <macro-usage>
+    <macro name="SKIP_HOSTNAME_VERIFICATION" file="" line="1" column="1" usefile="C:/test_workspace/curl-master/docs/examples/https.c" useline="56" usecolumn="8" is-known-value="false"/>
+  </macro-usage>
+  <tokenlist>
+    <token id="157598e9730" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="31" column="1" str="int" scope="1573f5c3f20" type="name"/>
+    <token id="157598e9430" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="31" column="5" str="main" scope="1573f5c3f20" type="name" function="1576a22acc0"/>
+    <token id="157598e9130" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="31" column="9" str="(" scope="1573f5c3f20" isRemovedVoidParameter="true" link="157598e88f0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="157598e88f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="31" column="14" str=")" scope="1573f5c3f20" link="157598e9130"/>
+    <token id="157598e94f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="32" column="1" str="{" scope="1573f5c32a0" link="157598ee290"/>
+    <token id="157598e8950" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="33" column="3" str="CURL" scope="1573f5c32a0" type="name" astParent="157598e8a10"/>
+    <token id="157598e8a10" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="33" column="8" str="*" scope="1573f5c32a0" type="op" isArithmeticalOp="true" astOperand1="157598e8950" astOperand2="157598e8ad0"/>
+    <token id="157598e8ad0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="33" column="9" str="curl" scope="1573f5c32a0" type="name" varId="1" exprId="1" variable="15766df25b0" astParent="157598e8a10"/>
+    <token id="157598e9250" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="33" column="13" str=";" scope="1573f5c32a0"/>
+    <token id="157598e81d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="34" column="3" str="CURLcode" scope="1573f5c32a0" type="name"/>
+    <token id="157598e9310" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="34" column="12" str="res" scope="1573f5c32a0" type="name" varId="2" exprId="2" variable="15766df35e0"/>
+    <token id="157598e83b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="34" column="15" str=";" scope="1573f5c32a0"/>
+    <token id="157598e98b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="36" column="3" str="curl_global_init" scope="1573f5c32a0" type="name" astParent="157598e8410"/>
+    <token id="157598e8410" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="36" column="19" str="(" scope="1573f5c32a0" link="157598e8f50" exprId="1073741829" astOperand1="157598e98b0" astOperand2="157598e8b30"/>
+    <token id="157598e8b30" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="36" column="20" str="CURL_GLOBAL_DEFAULT" scope="1573f5c32a0" type="name" exprId="1073741827" astParent="157598e8410"/>
+    <token id="157598e8f50" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="36" column="39" str=")" scope="1573f5c32a0" link="157598e8410"/>
+    <token id="157598e8cb0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="36" column="40" str=";" scope="1573f5c32a0"/>
+    <token id="157598e8230" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="38" column="3" str="curl" scope="1573f5c32a0" type="name" varId="1" exprId="1" variable="15766df25b0" astParent="157598e8290"/>
+    <token id="157598e8290" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="38" column="8" str="=" scope="1573f5c32a0" type="op" isAssignmentOp="true" exprId="1073741830" astOperand1="157598e8230" astOperand2="157598e86b0"/>
+    <token id="157598e8d10" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="38" column="10" str="curl_easy_init" scope="1573f5c32a0" type="name" astParent="157598e86b0"/>
+    <token id="157598e86b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="38" column="24" str="(" scope="1573f5c32a0" link="157598e82f0" exprId="1073741831" astParent="157598e8290" astOperand1="157598e8d10"/>
+    <token id="157598e82f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="38" column="25" str=")" scope="1573f5c32a0" link="157598e86b0"/>
+    <token id="157598e92b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="38" column="26" str=";" scope="1573f5c32a0"/>
+    <token id="157598e8710" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="39" column="3" str="if" scope="1573f5c32a0" type="name" astParent="157598e8350"/>
+    <token id="157598e8350" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="39" column="5" str="(" scope="1573f5c32a0" link="157598e8770" exprId="1073741832" astOperand1="157598e8710" astOperand2="157598e8d70"/>
+    <token id="157598e8d70" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="39" column="6" str="curl" scope="1573f5c32a0" type="name" varId="1" exprId="1" variable="15766df25b0" astParent="157598e8350"/>
+    <token id="157598e8770" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="39" column="10" str=")" scope="1573f5c32a0" link="157598e8350"/>
+    <token id="157598e9190" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="39" column="12" str="{" scope="1573f5c4560" link="157598eee30"/>
+    <token id="157598e87d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="5" str="curl_easy_setopt" scope="1573f5c4560" type="name" astParent="157598e8b90"/>
+    <token id="157598e8b90" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="21" str="(" scope="1573f5c4560" link="157598eddb0" exprId="1073741833" astOperand1="157598e87d0" astOperand2="157598e9550"/>
+    <token id="157598e8dd0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="22" str="curl" scope="1573f5c4560" type="name" varId="1" exprId="1" variable="15766df25b0" values="1576df6cac0" astParent="157598e8e30"/>
+    <token id="157598e8e30" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="26" str="," scope="1573f5c4560" astParent="157598e9550" astOperand1="157598e8dd0" astOperand2="157598e8ef0"/>
+    <token id="157598e8ef0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="28" str="CURLOPT_URL" scope="1573f5c4560" type="name" astParent="157598e8e30"/>
+    <token id="157598e9550" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="39" str="," scope="1573f5c4560" astParent="157598e8b90" astOperand1="157598e8e30" astOperand2="157598e91f0"/>
+    <token id="157598e91f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="41" str="&quot;https://example.com/&quot;" scope="1573f5c4560" type="string" strlen="20" values="1576df6c420" astParent="157598e9550" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="157598eddb0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="63" str=")" scope="1573f5c4560" link="157598e8b90"/>
+    <token id="157598ed390" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="64" str=";" scope="1573f5c4560"/>
+    <token id="157598ede10" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="63" column="5" str="curl_easy_setopt" scope="1573f5c4560" type="name" astParent="157598ede70"/>
+    <token id="157598ede70" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="63" column="21" str="(" scope="1573f5c4560" link="157598ed450" exprId="1073741834" astOperand1="157598ede10" astOperand2="157598edf90"/>
+    <token id="157598ecb50" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="63" column="22" str="curl" scope="1573f5c4560" type="name" varId="1" exprId="1" variable="15766df25b0" astParent="157598ed630"/>
+    <token id="157598ed630" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="63" column="26" str="," scope="1573f5c4560" astParent="157598edf90" astOperand1="157598ecb50" astOperand2="157598ed3f0"/>
+    <token id="157598ed3f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="63" column="28" str="CURLOPT_SSL_VERIFYHOST" scope="1573f5c4560" type="name" astParent="157598ed630"/>
+    <token id="157598edf90" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="63" column="50" str="," scope="1573f5c4560" astParent="157598ede70" astOperand1="157598ed630" astOperand2="157598ed990"/>
+    <token id="157598ed990" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="63" column="52" str="0L" scope="1573f5c4560" type="number" isInt="true" values="1576df6c240" astParent="157598edf90" valueType-type="long" valueType-sign="signed" valueType-reference="None"/>
+    <token id="157598ed450" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="63" column="54" str=")" scope="1573f5c4560" link="157598ede70"/>
+    <token id="157598ed810" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="63" column="55" str=";" scope="1573f5c4560"/>
+    <token id="157598eca90" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="5" str="curl_easy_setopt" scope="1573f5c4560" type="name" astParent="157598ecaf0"/>
+    <token id="157598ecaf0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="21" str="(" scope="1573f5c4560" link="157598edc30" exprId="1073741835" astOperand1="157598eca90" astOperand2="157598ed930"/>
+    <token id="157598ee0b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="22" str="curl" scope="1573f5c4560" type="name" varId="1" exprId="1" variable="15766df25b0" astParent="157598ec910"/>
+    <token id="157598ec910" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="26" str="," scope="1573f5c4560" astParent="157598ed930" astOperand1="157598ee0b0" astOperand2="157598ed690"/>
+    <token id="157598ed690" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="28" str="CURLOPT_CA_CACHE_TIMEOUT" scope="1573f5c4560" type="name" astParent="157598ec910"/>
+    <token id="157598ed930" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="52" str="," scope="1573f5c4560" astParent="157598ecaf0" astOperand1="157598ec910" astOperand2="157598edbd0"/>
+    <token id="157598edbd0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="54" str="604800L" scope="1573f5c4560" type="number" isInt="true" values="1576df6c3c0" astParent="157598ed930" valueType-type="long" valueType-sign="signed" valueType-reference="None"/>
+    <token id="157598edc30" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="61" str=")" scope="1573f5c4560" link="157598ecaf0"/>
+    <token id="157598eed10" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="62" str=";" scope="1573f5c4560"/>
+    <token id="157598ee530" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="5" str="res" scope="1573f5c4560" type="name" varId="2" exprId="2" variable="15766df35e0" astParent="157598eee90"/>
+    <token id="157598eee90" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="9" str="=" scope="1573f5c4560" type="op" isAssignmentOp="true" exprId="1073741836" astOperand1="157598ee530" astOperand2="157598ee890"/>
+    <token id="157598ef130" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="11" str="curl_easy_perform" scope="1573f5c4560" type="name" astParent="157598ee890"/>
+    <token id="157598ee890" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="28" str="(" scope="1573f5c4560" link="157598eeef0" exprId="1073741837" astParent="157598eee90" astOperand1="157598ef130" astOperand2="157598ee470"/>
+    <token id="157598ee470" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="29" str="curl" scope="1573f5c4560" type="name" varId="1" exprId="1" variable="15766df25b0" astParent="157598ee890"/>
+    <token id="157598eeef0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="33" str=")" scope="1573f5c4560" link="157598ee890"/>
+    <token id="157598ee2f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="34" str=";" scope="1573f5c4560"/>
+    <token id="157598ee6b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="5" str="if" scope="1573f5c4560" type="name" astParent="157598eead0"/>
+    <token id="157598eead0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="7" str="(" scope="1573f5c4560" link="157598eeb90" exprId="1073741838" astOperand1="157598ee6b0" astOperand2="157598ee3b0"/>
+    <token id="157598ee590" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="8" str="res" scope="1573f5c4560" type="name" varId="2" exprId="2" variable="15766df35e0" astParent="157598ee3b0"/>
+    <token id="157598ee3b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="12" str="!=" scope="1573f5c4560" type="op" isComparisonOp="true" exprId="1073741839" values="1576df6cca0" astParent="157598eead0" astOperand1="157598ee590" astOperand2="157598eed70" valueType-type="bool" valueType-reference="None"/>
+    <token id="157598eed70" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="15" str="CURLE_OK" scope="1573f5c4560" type="name" exprId="1073741828" astParent="157598ee3b0"/>
+    <token id="157598eeb90" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="23" str=")" scope="1573f5c4560" link="157598eead0"/>
+    <token id="157598ef6d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="0" str="{" scope="1573f5c5960" link="157598ef7f0"/>
+    <token id="157598ef070" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="73" column="7" str="fprintf" scope="1573f5c5960" type="name" astParent="157598ee5f0"/>
+    <token id="157598ee5f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="73" column="14" str="(" scope="1573f5c5960" link="157598ee950" exprId="1073741840" astOperand1="157598ef070" astOperand2="157598ef8b0" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-originalTypeName="int"/>
+    <token id="157598ef310" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="73" column="15" str="stderr" scope="1573f5c5960" type="name" astParent="157598ee170"/>
+    <token id="157598ee170" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="73" column="21" str="," scope="1573f5c5960" astParent="157598ef8b0" astOperand1="157598ef310" astOperand2="157598ee770"/>
+    <token id="157598ee770" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="73" column="23" str="&quot;curl_easy_perform() failed: %s\n&quot;" scope="1573f5c5960" type="string" strlen="31" values="1576df6c440" astParent="157598ee170" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="157598ef8b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="73" column="57" str="," scope="1573f5c5960" astParent="157598ee5f0" astOperand1="157598ee170" astOperand2="157598ef3d0"/>
+    <token id="157598ee8f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="15" str="curl_easy_strerror" scope="1573f5c5960" type="name" astParent="157598ef3d0"/>
+    <token id="157598ef3d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="33" str="(" scope="1573f5c5960" link="157598eebf0" exprId="1073741841" astParent="157598ef8b0" astOperand1="157598ee8f0" astOperand2="157598ef190"/>
+    <token id="157598ef190" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="34" str="res" scope="1573f5c5960" type="name" varId="2" exprId="2" variable="15766df35e0" astParent="157598ef3d0"/>
+    <token id="157598eebf0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="37" str=")" scope="1573f5c5960" link="157598ef3d0"/>
+    <token id="157598ee950" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="38" str=")" scope="1573f5c5960" link="157598ee5f0"/>
+    <token id="157598ef4f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="39" str=";" scope="1573f5c5960"/>
+    <token id="157598ef7f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="0" str="}" scope="1573f5c5960" link="157598ef6d0"/>
+    <token id="157598eecb0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="77" column="5" str="curl_easy_cleanup" scope="1573f5c4560" type="name" astParent="157598eedd0"/>
+    <token id="157598eedd0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="77" column="22" str="(" scope="1573f5c4560" link="157598ee1d0" exprId="1073741842" astOperand1="157598eecb0" astOperand2="157598ef430"/>
+    <token id="157598ef430" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="77" column="23" str="curl" scope="1573f5c4560" type="name" varId="1" exprId="1" variable="15766df25b0" astParent="157598eedd0"/>
+    <token id="157598ee1d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="77" column="27" str=")" scope="1573f5c4560" link="157598eedd0"/>
+    <token id="157598ef550" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="77" column="28" str=";" scope="1573f5c4560"/>
+    <token id="157598eee30" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="78" column="3" str="}" scope="1573f5c4560" link="157598e9190"/>
+    <token id="157598ef790" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="80" column="3" str="curl_global_cleanup" scope="1573f5c32a0" type="name" astParent="157598eef50"/>
+    <token id="157598eef50" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="80" column="22" str="(" scope="1573f5c32a0" link="157598eefb0" exprId="1073741843" astOperand1="157598ef790"/>
+    <token id="157598eefb0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="80" column="23" str=")" scope="1573f5c32a0" link="157598eef50"/>
+    <token id="157598ef010" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="80" column="24" str=";" scope="1573f5c32a0"/>
+    <token id="157598ef0d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="82" column="3" str="return" scope="1573f5c32a0" type="name" astOperand1="157598ef1f0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="157598ef1f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="82" column="10" str="0" scope="1573f5c32a0" type="number" isInt="true" values="1576df6c400" astParent="157598ef0d0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="157598ee230" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="82" column="11" str=";" scope="1573f5c32a0"/>
+    <token id="157598ee290" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="83" column="1" str="}" scope="1573f5c32a0" link="157598e94f0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="1573f5c3f20" type="Global">
+      <functionList>
+        <function id="1576a22acc0" token="157598e9430" tokenDef="157598e9430" name="main" type="Function" access="Public"/>
+      </functionList>
+    </scope>
+    <scope id="1573f5c32a0" type="Function" className="main" bodyStart="157598e94f0" bodyEnd="157598ee290" nestedIn="1573f5c3f20" function="1576a22acc0">
+      <varlist>
+        <var id="15766df25b0"/>
+        <var id="15766df35e0"/>
+      </varlist>
+    </scope>
+    <scope id="1573f5c4560" type="If" bodyStart="157598e9190" bodyEnd="157598eee30" nestedIn="1573f5c32a0"/>
+    <scope id="1573f5c5960" type="If" bodyStart="157598ef6d0" bodyEnd="157598ef7f0" nestedIn="1573f5c4560"/>
+  </scopes>
+  <variables>
+    <var id="15766df25b0" nameToken="157598e8ad0" typeStartToken="157598e8950" typeEndToken="157598e8a10" access="Local" scope="1573f5c32a0" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="true" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="15766df35e0" nameToken="157598e9310" typeStartToken="157598e81d0" typeEndToken="157598e81d0" access="Local" scope="1573f5c32a0" constness="0" isArray="false" isClass="true" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+  </variables>
+  <valueflow>
+    <values id="1576df6cac0">
+      <value intvalue="0" bound="Point" condition-line="39" impossible="true" path="0"/>
+    </values>
+    <values id="1576df6c420">
+      <value tokvalue="157598e91f0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="1576df6c240">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="1576df6c3c0">
+      <value intvalue="604800" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="1576df6cca0">
+      <value intvalue="-1" bound="Upper" impossible="true" path="0"/>
+      <value intvalue="2" bound="Lower" impossible="true" path="0"/>
+    </values>
+    <values id="1576df6c440">
+      <value tokvalue="157598ee770" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="1576df6c400">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+  </valueflow>
+</dump>
+<dump cfg="SKIP_PEER_VERIFICATION">
+  <standards>
+    <c version="c11"/>
+    <cpp version="c++23"/>
+  </standards>
+  <directivelist>
+    <directive file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="28" str="#include &lt;stdio.h&gt;"/>
+    <directive file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="29" str="#include &lt;curl/curl.h&gt;"/>
+    <directive file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="42" str="#ifdef SKIP_PEER_VERIFICATION"/>
+    <directive file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="54" str="#endif"/>
+    <directive file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="56" str="#ifdef SKIP_HOSTNAME_VERIFICATION"/>
+    <directive file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="64" str="#endif"/>
+  </directivelist>
+  <macro-usage>
+    <macro name="SKIP_PEER_VERIFICATION" file="" line="1" column="1" usefile="C:/test_workspace/curl-master/docs/examples/https.c" useline="42" usecolumn="8" is-known-value="false"/>
+  </macro-usage>
+  <tokenlist>
+    <token id="157598eedd0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="31" column="1" str="int" scope="1573f5c2620" type="name"/>
+    <token id="157598ef6d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="31" column="5" str="main" scope="1573f5c2620" type="name" function="1576a22b080"/>
+    <token id="157598eef50" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="31" column="9" str="(" scope="1573f5c2620" isRemovedVoidParameter="true" link="157598ef130" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="157598ef130" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="31" column="14" str=")" scope="1573f5c2620" link="157598eef50"/>
+    <token id="157598eefb0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="32" column="1" str="{" scope="1573f5c51e0" link="157598f57f0"/>
+    <token id="157598ef4f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="33" column="3" str="CURL" scope="1573f5c51e0" type="name" astParent="157598ef190"/>
+    <token id="157598ef190" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="33" column="8" str="*" scope="1573f5c51e0" type="op" isArithmeticalOp="true" astOperand1="157598ef4f0" astOperand2="157598ee470"/>
+    <token id="157598ee470" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="33" column="9" str="curl" scope="1573f5c51e0" type="name" varId="1" exprId="1" variable="15766df25b0" astParent="157598ef190"/>
+    <token id="157598ef010" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="33" column="13" str=";" scope="1573f5c51e0"/>
+    <token id="157598ee770" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="34" column="3" str="CURLcode" scope="1573f5c51e0" type="name"/>
+    <token id="157598ee890" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="34" column="12" str="res" scope="1573f5c51e0" type="name" varId="2" exprId="2" variable="15766df15f0"/>
+    <token id="157598ef3d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="34" column="15" str=";" scope="1573f5c51e0"/>
+    <token id="157598ef070" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="36" column="3" str="curl_global_init" scope="1573f5c51e0" type="name" astParent="157598eee30"/>
+    <token id="157598eee30" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="36" column="19" str="(" scope="1573f5c51e0" link="157598ef7f0" exprId="1073741829" astOperand1="157598ef070" astOperand2="157598ef550"/>
+    <token id="157598ef550" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="36" column="20" str="CURL_GLOBAL_DEFAULT" scope="1573f5c51e0" type="name" exprId="1073741827" astParent="157598eee30"/>
+    <token id="157598ef7f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="36" column="39" str=")" scope="1573f5c51e0" link="157598eee30"/>
+    <token id="157598ee170" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="36" column="40" str=";" scope="1573f5c51e0"/>
+    <token id="157598ef790" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="38" column="3" str="curl" scope="1573f5c51e0" type="name" varId="1" exprId="1" variable="15766df25b0" astParent="157598ee1d0"/>
+    <token id="157598ee1d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="38" column="8" str="=" scope="1573f5c51e0" type="op" isAssignmentOp="true" exprId="1073741830" astOperand1="157598ef790" astOperand2="157598ee530"/>
+    <token id="157598eed70" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="38" column="10" str="curl_easy_init" scope="1573f5c51e0" type="name" astParent="157598ee530"/>
+    <token id="157598ee530" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="38" column="24" str="(" scope="1573f5c51e0" link="157598ef8b0" exprId="1073741831" astParent="157598ee1d0" astOperand1="157598eed70"/>
+    <token id="157598ef8b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="38" column="25" str=")" scope="1573f5c51e0" link="157598ee530"/>
+    <token id="157598ee6b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="38" column="26" str=";" scope="1573f5c51e0"/>
+    <token id="157598eeb90" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="39" column="3" str="if" scope="1573f5c51e0" type="name" astParent="157598ee230"/>
+    <token id="157598ee230" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="39" column="5" str="(" scope="1573f5c51e0" link="157598ef1f0" exprId="1073741832" astOperand1="157598eeb90" astOperand2="157598ee290"/>
+    <token id="157598ee290" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="39" column="6" str="curl" scope="1573f5c51e0" type="name" varId="1" exprId="1" variable="15766df25b0" astParent="157598ee230"/>
+    <token id="157598ef1f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="39" column="10" str=")" scope="1573f5c51e0" link="157598ee230"/>
+    <token id="157598ee2f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="39" column="12" str="{" scope="1573f5c3b60" link="157598f4b90"/>
+    <token id="157598ef0d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="5" str="curl_easy_setopt" scope="1573f5c3b60" type="name" astParent="157598ee590"/>
+    <token id="157598ee590" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="21" str="(" scope="1573f5c3b60" link="157598ef430" exprId="1073741833" astOperand1="157598ef0d0" astOperand2="157598ef310"/>
+    <token id="157598ee8f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="22" str="curl" scope="1573f5c3b60" type="name" varId="1" exprId="1" variable="15766df25b0" values="1576df6c980" astParent="157598ee5f0"/>
+    <token id="157598ee5f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="26" str="," scope="1573f5c3b60" astParent="157598ef310" astOperand1="157598ee8f0" astOperand2="157598ee950"/>
+    <token id="157598ee950" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="28" str="CURLOPT_URL" scope="1573f5c3b60" type="name" astParent="157598ee5f0"/>
+    <token id="157598ef310" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="39" str="," scope="1573f5c3b60" astParent="157598ee590" astOperand1="157598ee5f0" astOperand2="157598eead0"/>
+    <token id="157598eead0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="41" str="&quot;https://example.com/&quot;" scope="1573f5c3b60" type="string" strlen="20" values="1576df6c440" astParent="157598ef310" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="157598ef430" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="63" str=")" scope="1573f5c3b60" link="157598ee590"/>
+    <token id="157598eee90" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="40" column="64" str=";" scope="1573f5c3b60"/>
+    <token id="157598eebf0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="53" column="5" str="curl_easy_setopt" scope="1573f5c3b60" type="name" astParent="157598eecb0"/>
+    <token id="157598eecb0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="53" column="21" str="(" scope="1573f5c3b60" link="157598f2910" exprId="1073741834" astOperand1="157598eebf0" astOperand2="157598f2df0"/>
+    <token id="157598eed10" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="53" column="22" str="curl" scope="1573f5c3b60" type="name" varId="1" exprId="1" variable="15766df25b0" astParent="157598eeef0"/>
+    <token id="157598eeef0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="53" column="26" str="," scope="1573f5c3b60" astParent="157598f2df0" astOperand1="157598eed10" astOperand2="157598f3ff0"/>
+    <token id="157598f3ff0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="53" column="28" str="CURLOPT_SSL_VERIFYPEER" scope="1573f5c3b60" type="name" astParent="157598eeef0"/>
+    <token id="157598f2df0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="53" column="50" str="," scope="1573f5c3b60" astParent="157598eecb0" astOperand1="157598eeef0" astOperand2="157598f2cd0"/>
+    <token id="157598f2cd0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="53" column="52" str="0L" scope="1573f5c3b60" type="number" isInt="true" values="1576df6c400" astParent="157598f2df0" valueType-type="long" valueType-sign="signed" valueType-reference="None"/>
+    <token id="157598f2910" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="53" column="54" str=")" scope="1573f5c3b60" link="157598eecb0"/>
+    <token id="157598f2f70" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="53" column="55" str=";" scope="1573f5c3b60"/>
+    <token id="157598f37b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="5" str="curl_easy_setopt" scope="1573f5c3b60" type="name" astParent="157598f3930"/>
+    <token id="157598f3930" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="21" str="(" scope="1573f5c3b60" link="157598f3870" exprId="1073741835" astOperand1="157598f37b0" astOperand2="157598f2e50"/>
+    <token id="157598f29d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="22" str="curl" scope="1573f5c3b60" type="name" varId="1" exprId="1" variable="15766df25b0" astParent="157598f2b50"/>
+    <token id="157598f2b50" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="26" str="," scope="1573f5c3b60" astParent="157598f2e50" astOperand1="157598f29d0" astOperand2="157598f2a30"/>
+    <token id="157598f2a30" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="28" str="CURLOPT_CA_CACHE_TIMEOUT" scope="1573f5c3b60" type="name" astParent="157598f2b50"/>
+    <token id="157598f2e50" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="52" str="," scope="1573f5c3b60" astParent="157598f3930" astOperand1="157598f2b50" astOperand2="157598f3690"/>
+    <token id="157598f3690" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="54" str="604800L" scope="1573f5c3b60" type="number" isInt="true" values="1576df6c420" astParent="157598f2e50" valueType-type="long" valueType-sign="signed" valueType-reference="None"/>
+    <token id="157598f3870" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="61" str=")" scope="1573f5c3b60" link="157598f3930"/>
+    <token id="157598f39f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="67" column="62" str=";" scope="1573f5c3b60"/>
+    <token id="157598f3b70" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="5" str="res" scope="1573f5c3b60" type="name" varId="2" exprId="2" variable="15766df15f0" astParent="157598f3a50"/>
+    <token id="157598f3a50" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="9" str="=" scope="1573f5c3b60" type="op" isAssignmentOp="true" exprId="1073741836" astOperand1="157598f3b70" astOperand2="157598f31b0"/>
+    <token id="157598f3270" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="11" str="curl_easy_perform" scope="1573f5c3b60" type="name" astParent="157598f31b0"/>
+    <token id="157598f31b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="28" str="(" scope="1573f5c3b60" link="157598f3150" exprId="1073741837" astParent="157598f3a50" astOperand1="157598f3270" astOperand2="157598f2f10"/>
+    <token id="157598f2f10" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="29" str="curl" scope="1573f5c3b60" type="name" varId="1" exprId="1" variable="15766df25b0" astParent="157598f31b0"/>
+    <token id="157598f3150" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="33" str=")" scope="1573f5c3b60" link="157598f31b0"/>
+    <token id="157598f32d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="70" column="34" str=";" scope="1573f5c3b60"/>
+    <token id="157598f3570" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="5" str="if" scope="1573f5c3b60" type="name" astParent="157598f3210"/>
+    <token id="157598f3210" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="7" str="(" scope="1573f5c3b60" link="157598f3c30" exprId="1073741838" astOperand1="157598f3570" astOperand2="157598f34b0"/>
+    <token id="157598f3390" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="8" str="res" scope="1573f5c3b60" type="name" varId="2" exprId="2" variable="15766df15f0" astParent="157598f34b0"/>
+    <token id="157598f34b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="12" str="!=" scope="1573f5c3b60" type="op" isComparisonOp="true" exprId="1073741839" values="1576df6caa0" astParent="157598f3210" astOperand1="157598f3390" astOperand2="157598f3bd0" valueType-type="bool" valueType-reference="None"/>
+    <token id="157598f3bd0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="15" str="CURLE_OK" scope="1573f5c3b60" type="name" exprId="1073741828" astParent="157598f34b0"/>
+    <token id="157598f3c30" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="23" str=")" scope="1573f5c3b60" link="157598f3210"/>
+    <token id="157598f46b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="72" column="0" str="{" scope="1573f5c47e0" link="157598f47d0"/>
+    <token id="157598f3e10" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="73" column="7" str="fprintf" scope="1573f5c47e0" type="name" astParent="157598f35d0"/>
+    <token id="157598f35d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="73" column="14" str="(" scope="1573f5c47e0" link="157598f4650" exprId="1073741840" astOperand1="157598f3e10" astOperand2="157598f3450" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-originalTypeName="int"/>
+    <token id="157598f2a90" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="73" column="15" str="stderr" scope="1573f5c47e0" type="name" astParent="157598f2af0"/>
+    <token id="157598f2af0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="73" column="21" str="," scope="1573f5c47e0" astParent="157598f3450" astOperand1="157598f2a90" astOperand2="157598f33f0"/>
+    <token id="157598f33f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="73" column="23" str="&quot;curl_easy_perform() failed: %s\n&quot;" scope="1573f5c47e0" type="string" strlen="31" values="1576df6c460" astParent="157598f2af0" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="157598f3450" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="73" column="57" str="," scope="1573f5c47e0" astParent="157598f35d0" astOperand1="157598f2af0" astOperand2="157598f41d0"/>
+    <token id="157598f3510" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="15" str="curl_easy_strerror" scope="1573f5c47e0" type="name" astParent="157598f41d0"/>
+    <token id="157598f41d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="33" str="(" scope="1573f5c47e0" link="157598f45f0" exprId="1073741841" astParent="157598f3450" astOperand1="157598f3510" astOperand2="157598f4590"/>
+    <token id="157598f4590" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="34" str="res" scope="1573f5c47e0" type="name" varId="2" exprId="2" variable="15766df15f0" astParent="157598f41d0"/>
+    <token id="157598f45f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="37" str=")" scope="1573f5c47e0" link="157598f41d0"/>
+    <token id="157598f4650" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="38" str=")" scope="1573f5c47e0" link="157598f35d0"/>
+    <token id="157598f43b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="39" str=";" scope="1573f5c47e0"/>
+    <token id="157598f47d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="74" column="0" str="}" scope="1573f5c47e0" link="157598f46b0"/>
+    <token id="157598f5610" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="77" column="5" str="curl_easy_cleanup" scope="1573f5c3b60" type="name" astParent="157598f4410"/>
+    <token id="157598f4410" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="77" column="22" str="(" scope="1573f5c3b60" link="157598f5070" exprId="1073741842" astOperand1="157598f5610" astOperand2="157598f4e90"/>
+    <token id="157598f4e90" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="77" column="23" str="curl" scope="1573f5c3b60" type="name" varId="1" exprId="1" variable="15766df25b0" astParent="157598f4410"/>
+    <token id="157598f5070" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="77" column="27" str=")" scope="1573f5c3b60" link="157598f4410"/>
+    <token id="157598f4e30" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="77" column="28" str=";" scope="1573f5c3b60"/>
+    <token id="157598f4b90" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="78" column="3" str="}" scope="1573f5c3b60" link="157598ee2f0"/>
+    <token id="157598f4230" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="80" column="3" str="curl_global_cleanup" scope="1573f5c51e0" type="name" astParent="157598f5790"/>
+    <token id="157598f5790" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="80" column="22" str="(" scope="1573f5c51e0" link="157598f52b0" exprId="1073741843" astOperand1="157598f4230"/>
+    <token id="157598f52b0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="80" column="23" str=")" scope="1573f5c51e0" link="157598f5790"/>
+    <token id="157598f5190" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="80" column="24" str=";" scope="1573f5c51e0"/>
+    <token id="157598f4470" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="82" column="3" str="return" scope="1573f5c51e0" type="name" astOperand1="157598f4530" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="157598f4530" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="82" column="10" str="0" scope="1573f5c51e0" type="number" isInt="true" values="1576df6c6e0" astParent="157598f4470" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="157598f44d0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="82" column="11" str=";" scope="1573f5c51e0"/>
+    <token id="157598f57f0" file="C:/test_workspace/curl-master/docs/examples/https.c" linenr="83" column="1" str="}" scope="1573f5c51e0" link="157598eefb0"/>
+  </tokenlist>
+  <scopes>
+    <scope id="1573f5c2620" type="Global">
+      <functionList>
+        <function id="1576a22b080" token="157598ef6d0" tokenDef="157598ef6d0" name="main" type="Function" access="Public"/>
+      </functionList>
+    </scope>
+    <scope id="1573f5c51e0" type="Function" className="main" bodyStart="157598eefb0" bodyEnd="157598f57f0" nestedIn="1573f5c2620" function="1576a22b080">
+      <varlist>
+        <var id="15766df25b0"/>
+        <var id="15766df15f0"/>
+      </varlist>
+    </scope>
+    <scope id="1573f5c3b60" type="If" bodyStart="157598ee2f0" bodyEnd="157598f4b90" nestedIn="1573f5c51e0"/>
+    <scope id="1573f5c47e0" type="If" bodyStart="157598f46b0" bodyEnd="157598f47d0" nestedIn="1573f5c3b60"/>
+  </scopes>
+  <variables>
+    <var id="15766df15f0" nameToken="157598ee890" typeStartToken="157598ee770" typeEndToken="157598ee770" access="Local" scope="1573f5c51e0" constness="0" isArray="false" isClass="true" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="15766df25b0" nameToken="157598ee470" typeStartToken="157598ef4f0" typeEndToken="157598ef190" access="Local" scope="1573f5c51e0" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="true" isReference="false" isStatic="false" isVolatile="false"/>
+  </variables>
+  <valueflow>
+    <values id="1576df6c980">
+      <value intvalue="0" bound="Point" condition-line="39" impossible="true" path="0"/>
+    </values>
+    <values id="1576df6c440">
+      <value tokvalue="157598eead0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="1576df6c400">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="1576df6c420">
+      <value intvalue="604800" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="1576df6caa0">
+      <value intvalue="-1" bound="Upper" impossible="true" path="0"/>
+      <value intvalue="2" bound="Lower" impossible="true" path="0"/>
+    </values>
+    <values id="1576df6c460">
+      <value tokvalue="157598f33f0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="1576df6c6e0">
+      <value intvalue="0" bound="Point" known="true" path="0"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

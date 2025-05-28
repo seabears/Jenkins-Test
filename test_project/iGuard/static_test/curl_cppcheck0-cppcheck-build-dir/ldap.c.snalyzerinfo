@@ -1,0 +1,6 @@
+ldap_do global:[Curl_cfree] call:[Curl_cfree,Curl_client_write,Curl_conn_is_ssl,Curl_conncontrol,Curl_failf,Curl_infof,Curl_pgrsSetDownloadCounter,Curl_xfer_setup_nop,_ldap_free_urldesc,_ldap_url_parse,ber_free,curlx_base64_encode,ldap_err2string,ldap_first_attribute,ldap_first_entry,ldap_get_dn,ldap_get_values_len,ldap_init,ldap_memfree,ldap_msgfree,ldap_next_attribute,ldap_next_entry,ldap_search_s,ldap_set_option,ldap_simple_bind_s,ldap_unbind_s,ldap_value_free_len,strcmp,strlen,while] noreturn:[Curl_infof,_ldap_free_urldesc,ber_free,ldap_memfree,ldap_simple_bind_s,ldap_unbind_s,ldap_value_free_len,while]
+str2scope call:[curl_strequal]
+num_entries call:[strchr] noreturn:[strchr]
+_ldap_url_parse2 global:[Curl_ccalloc,Curl_cfree,Curl_cstrdup] call:[Curl_ccalloc,Curl_cfree,Curl_cstrdup,Curl_str_single,Curl_str_until,Curl_urldecode,curl_strnequal,num_entries,sizeof,str2scope,strchr,while] noreturn:[while]
+_ldap_url_parse global:[Curl_ccalloc] call:[Curl_ccalloc,_ldap_free_urldesc,_ldap_url_parse2,sizeof]
+_ldap_free_urldesc global:[Curl_cfree] call:[Curl_cfree] noreturn:[Curl_cfree]

@@ -1,0 +1,83 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: air_conditioner infotainment raspberrypi detect_and_boot
+
+
+BO_ 9 DFPlayer_VolumeDown: 8 raspberrypi
+ SG_ volume_down_music_signal : 7|1@0+ (1,0) [0|1] ""  infotainment
+
+BO_ 8 DFPlayer_VolumeUp: 8 raspberrypi
+ SG_ volume_up_music_signal : 7|1@0+ (1,0) [0|1] ""  infotainment
+
+BO_ 7 DFPlayer_ResumeMusic: 8 raspberrypi
+ SG_ resume_music_signal : 7|1@0+ (1,0) [0|1] ""  infotainment
+
+BO_ 23 HvacControl_Message: 8 raspberrypi
+ SG_ hvac_mode_signal : 7|8@0+ (1,0) [0|255] ""  air_conditioner
+ SG_ hvac_fan_speed_signal : 15|8@0+ (1,0) [0|255] ""  air_conditioner
+
+BO_ 2 Sleep_Message: 8 detect_and_boot
+ SG_ sleep_signal : 7|1@0+ (1,0) [0|1] ""  air_conditioner,raspberrypi,infotainment
+
+BO_ 33 TempHumid_Message: 8 air_conditioner
+ SG_ humid_signal : 39|32@0+ (1,0) [0|4294967295] ""  raspberrypi
+ SG_ temperature_signal : 7|32@0+ (1,0) [0|4294967295] ""  raspberrypi
+
+BO_ 32 AirCondition_Message: 8 air_conditioner
+ SG_ internal_air_signal : 15|8@0+ (1,0) [0|255] ""  raspberrypi
+ SG_ hvac_mode_signal : 23|8@0+ (1,0) [0|255] ""  raspberrypi
+ SG_ hvac_fan_speed_signal : 31|8@0+ (1,0) [0|255] ""  raspberrypi
+ SG_ external_air_signal : 7|8@0+ (1,0) [0|255] ""  raspberrypi
+
+BO_ 6 DFPlayer_EndMusic: 8 raspberrypi
+ SG_ end_music_signal : 7|8@0+ (1,0) [0|255] ""  infotainment
+
+BO_ 5 DFPlayer_StartMusic: 8 raspberrypi
+ SG_ start_music_signal : 7|8@0+ (1,0) [0|255] ""  infotainment
+
+BO_ 16 TextLcd_Message: 8 raspberrypi
+ SG_ print_8byte_signal : 7|64@0+ (1,0) [0|1.84467440737096E+19] ""  infotainment
+
+BO_ 1 Wakeup_Message: 8 detect_and_boot
+ SG_ wakeup_signal : 7|1@0+ (1,0) [0|1] ""  raspberrypi,infotainment,air_conditioner
+
+
+
+BA_DEF_  "MultiplexExtEnabled" ENUM  "No","Yes";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "MultiplexExtEnabled" "No";
+BA_DEF_DEF_  "BusType" "CAN";
+

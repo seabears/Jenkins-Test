@@ -1,0 +1,837 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="15009420281364546867">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/system.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/system.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="327" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="463" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;assert.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;assert.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="464" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/stdcheaders.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/stdcheaders.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="473" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;winsock2.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;winsock2.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="80" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;ws2tcpip.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;ws2tcpip.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="81" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;windows.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;windows.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="82" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;winerror.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;winerror.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="83" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;tchar.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;tchar.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="84" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;io.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;io.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="521" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="523" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/stat.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/stat.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="524" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="31" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="32" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="33" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdarg.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdarg.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="35" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;errno.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;errno.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="37" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="41" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/stat.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/stat.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="45" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;io.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;io.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="53" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;fcntl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;fcntl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="57" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\setup-vms.h" line="45" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;pwd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;pwd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\setup-vms.h" line="47" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\setup-vms.h" line="49" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unixlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unixlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\setup-vms.h" line="50" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_config.h&quot; not found." verbose="Include file: &quot;curl_config.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="143" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;exec/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;exec/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="426" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;exec/execbase.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;exec/execbase.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="427" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;proto/exec.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;proto/exec.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="428" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;proto/dos.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;proto/dos.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="429" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="430" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;proto/bsdsocket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;proto/bsdsocket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="435" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/types.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="60" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;TargetConditionals.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;TargetConditionals.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="61" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;lwip/init.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;lwip/init.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="403" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;lwip/sockets.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;lwip/sockets.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="404" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;lwip/netdb.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;lwip/netdb.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="405" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;winapifamily.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;winapifamily.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="115" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;openssl/evp.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;openssl/evp.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\setup-vms.h" line="397" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;_mingw.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;_mingw.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="36" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="509" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\setup-os400.h" line="45" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/socket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/socket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\setup-os400.h" line="52" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;netdb.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;netdb.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\setup-os400.h" line="53" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;gskssl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;gskssl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\setup-os400.h" line="54" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;qsoasync.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;qsoasync.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\setup-os400.h" line="55" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;gssapi.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;gssapi.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\setup-os400.h" line="56" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="49" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="65" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/socket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/socket.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="100" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;netinet/in.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;netinet/in.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\hostsyn.c" line="33" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;netdb.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;netdb.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\hostsyn.c" line="36" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;arpa/inet.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;arpa/inet.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\hostsyn.c" line="39" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\cookie.h" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stddef.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stddef.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\llist.h" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;netinet/in.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;netinet/in.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="142" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="150" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\dynbuf.h" line="27" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stddef.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stddef.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\hash.h" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;netinet/in.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;netinet/in.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_addrinfo.h" line="30" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;netdb.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;netdb.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_addrinfo.h" line="33" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;arpa/inet.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;arpa/inet.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_addrinfo.h" line="36" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;setjmp.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;setjmp.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\hostip.h" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stddef.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stddef.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\hash_offt.h" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\dynhds.h" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\bufq.h" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_sasl.h" line="27" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\vssh\curl_path.h" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\conncache.h" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\cshutdn.h" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\socketpair.h" line="75" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\nonblock.h" line="27" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;gssapi.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;gssapi.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="198" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\share.h" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;floss.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;floss.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="468" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;ConditionalMacros.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;ConditionalMacros.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\config-mac.h" line="37" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;extra/stricmp.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;extra/stricmp.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="409" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;extra/strdup.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;extra/strdup.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="410" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="852" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="279" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="44" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="45" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="46" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="47" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="52" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="61" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="70" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="82" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="100" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="106" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="127" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="138" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="153" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="159" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="165" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="183" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="186" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="217" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="220" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="223" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="229" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="232" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="241" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-plan9.h" line="133" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="40" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="43" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="46" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="49" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="52" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="58" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="67" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="79" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="82" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="88" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="91" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="100" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="112" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="118" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="127" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="130" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="139" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="142" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="145" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="151" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="154" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="166" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="175" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="181" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="184" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="187" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="190" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="193" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="196" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="199" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-win32.h" line="448" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-win32.h" line="451" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="63" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="64" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="65" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="66" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="67" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="68" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="69" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="81" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="82" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="84" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="88" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="89" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="90" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="91" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="96" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="103" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="140" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="142" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="144" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="146" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="148" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="76" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="870" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="1031" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="297" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_sspi.h" line="38" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_sspi.h" line="39" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="132" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="134" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="136" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="138" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="140" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="142" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="144" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="161" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="164" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="168" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="179" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="184" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="186" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-os400.h" line="46" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-vms.h" line="52" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-vms.h" line="53" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-vms.h" line="378" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="27" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="259" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="262" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="162" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="173" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\mime.h" line="172" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\pingpong.h" line="76" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\share.h" line="74" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="451" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="333" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="135" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="223" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="226" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="303" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-plan9.h" line="130" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="187" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="190" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-win32.h" line="506" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="92" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="95" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="376" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="856" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="859" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-vms.h" line="39" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-vms.h" line="54" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="97" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="100" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="103" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="106" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="109" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="112" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="115" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="118" column="0"/>
+        </error>
+        <error id="misra-c2012-21.4" severity="style" msg="Required The standard header file &lt;setjmp.h&gt; shall not be used" verbose="Required The standard header file &lt;setjmp.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\hostip.h" line="34" column="0"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="463" column="0"/>
+        </error>
+        <error id="misra-c2012-21.10" severity="style" msg="Required The Standard Library time and date functions shall not be used" verbose="Required The Standard Library time and date functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="35" column="0"/>
+        </error>
+        <error id="misra-c2012-20.9" severity="style" msg="Required All identifiers used in the controlling expression of #if or #elif preprocessing directives shall be #define\342\200\231d before evaluation" verbose="Required All identifiers used in the controlling expression of #if or #elif preprocessing directives shall be #define\342\200\231d before evaluation" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="116" column="6"/>
+        </error>
+        <error id="misra-c2012-5.5" severity="style" msg="Required Identifiers shall be distinct from macro names" verbose="Required Identifiers shall be distinct from macro names" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="803" column="14"/>
+        </error>
+        <error id="misra-c2012-5.5" severity="style" msg="Required Identifiers shall be distinct from macro names" verbose="Required Identifiers shall be distinct from macro names" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="804" column="14"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\ws.h" line="44" column="15"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="Required The features of &lt;stdarg.h&gt; shall not be used" verbose="Required The features of &lt;stdarg.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\dynbuf.h" line="66" column="60"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="Required The features of &lt;stdarg.h&gt; shall not be used" verbose="Required The features of &lt;stdarg.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\dynbuf.h" line="77" column="62"/>
+        </error>
+        <error id="misra-c2012-17.1" severity="style" msg="Required The features of &lt;stdarg.h&gt; shall not be used" verbose="Required The features of &lt;stdarg.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\pingpong.h" line="128" column="25"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\bufq.h" line="40" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\bufq.h" line="43" column="0"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\request.h" line="107" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\request.h" line="119" column="0"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\sockaddr.h" line="30" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\sockaddr.h" line="41" column="0"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\cf-socket.h" line="50" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\cf-socket.h" line="53" column="0"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="876" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="914" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\asyn.h" line="38" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\asyn.h" line="92" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\dynhds.h" line="180" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\dynhds.h" line="181" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\http.h" line="66" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="137" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="138" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="139" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="142" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="145" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="148" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="150" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="152" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="153" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="154" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="155" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="156" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="157" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="158" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="159" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="160" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="177" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="178" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="179" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="180" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="181" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="182" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="183" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="184" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="185" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="186" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="187" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="188" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="189" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="190" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="206" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="207" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="316" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hostsyn.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\urldata.h" line="381" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Curl_set_dns_servers" lineNumber="59"/>
+    <functiondecl functionName="Curl_set_dns_interface" lineNumber="72"/>
+    <functiondecl functionName="Curl_set_dns_local_ip4" lineNumber="84"/>
+    <functiondecl functionName="Curl_set_dns_local_ip6" lineNumber="96"/>
+    <functioncall functionName="BLOB_LAST"/>
+    <functioncall functionName="CURLE_NOT_BUILT_IN"/>
+    <functioncall functionName="CURLcode"/>
+    <functioncall functionName="EXPIRE_LAST"/>
+    <functioncall functionName="STRING_LAST"/>
+    <functioncall functionName="curl_lock_access"/>
+    <functioncall functionName="curl_lock_data"/>
+    <functioncall functionName="curl_off_t"/>
+    <functioncall functionName="followtype"/>
+  </FileInfo>
+</analyzerinfo>

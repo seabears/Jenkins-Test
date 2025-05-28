@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1675327286225890307">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curlcheck.h&quot; not found." verbose="Include file: &quot;curlcheck.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1301.c" line="24" column="0"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1301.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1301.c" line="26" column="10"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="test" lineNumber="26"/>
+    <functioncall functionName="CURLE_OK"/>
+    <functioncall functionName="curl_strequal"/>
+    <functioncall functionName="curl_strnequal"/>
+    <functioncall functionName="fail_unless"/>
+  </FileInfo>
+</analyzerinfo>

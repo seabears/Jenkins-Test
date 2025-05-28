@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="13603605869530657989">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="38" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;timeval.h&quot; not found." verbose="Include file: &quot;timeval.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;dynbuf.h&quot; not found." verbose="Include file: &quot;dynbuf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\var.h" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curlx.h&quot; not found." verbose="Include file: &quot;curlx.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.c" line="30" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.c" line="32" column="0"/>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cfgable.h:357:6" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_cfgable.c" line="36" col="10" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cfgable.c:53:13" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_cfgable.c" line="57" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cfgable.h:357:6" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_cfgable.c" line="36" col="10" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cfgable.c:53:13" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_cfgable.c" line="57" col="18" value="0"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="79" column="0"/>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cfgable.h:357:6" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_cfgable.c" line="36" col="10" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cfgable.c:53:13" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_cfgable.c" line="57" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cfgable.h:357:6" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_cfgable.c" line="36" col="10" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cfgable.c:53:13" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_cfgable.c" line="57" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cfgable.h:357:6" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_cfgable.c" line="36" col="10" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cfgable.c:53:13" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_cfgable.c" line="57" col="18" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="73" column="26"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="74" column="24"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="75" column="25"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="67" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="68" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="69" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="70" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.c" line="102" column="8"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.c" line="193" column="8"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.c" line="36" column="9"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="38" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="57" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="132" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="107" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.h" line="34" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.h" line="36" column="0"/>
+        </error>
+        <error id="misra-c2012-20.9" severity="style" msg="Required All identifiers used in the controlling expression of #if or #elif preprocessing directives shall be #define\342\200\231d before evaluation" verbose="Required All identifiers used in the controlling expression of #if or #elif preprocessing directives shall be #define\342\200\231d before evaluation" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.h" line="33" column="2"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cfgable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.c" line="197" column="9"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="config_init" lineNumber="34"/>
+    <functiondecl functionName="free_config_fields" lineNumber="53"/>
+    <functiondecl functionName="config_free" lineNumber="188"/>
+    <functiondecl functionName="config_init" lineNumber="34"/>
+    <functiondecl functionName="free_config_fields" lineNumber="53"/>
+    <functiondecl functionName="config_free" lineNumber="188"/>
+    <functiondecl functionName="config_init" lineNumber="34"/>
+    <functiondecl functionName="free_config_fields" lineNumber="53"/>
+    <functiondecl functionName="config_free" lineNumber="188"/>
+    <functiondecl functionName="config_init" lineNumber="34"/>
+    <functiondecl functionName="free_config_fields" lineNumber="53"/>
+    <functiondecl functionName="config_free" lineNumber="188"/>
+    <functiondecl functionName="config_init" lineNumber="34"/>
+    <functiondecl functionName="free_config_fields" lineNumber="53"/>
+    <functiondecl functionName="config_free" lineNumber="188"/>
+    <functioncall functionName="BIT"/>
+    <functioncall functionName="CLOBBER_DEFAULT"/>
+    <functioncall functionName="CURLULFLAG_SEEN"/>
+    <functioncall functionName="CURL_HET_DEFAULT"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="INT_MAX"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="alloc_filename"/>
+    <functioncall functionName="curl_mime_free"/>
+    <functioncall functionName="curl_slist_free_all"/>
+    <functioncall functionName="curlx_dyn_free"/>
+    <functioncall functionName="curlx_dyn_init"/>
+    <functioncall functionName="curlx_safefree"/>
+    <functioncall functionName="fopened"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="free_config_fields"/>
+    <functioncall functionName="is_cd_filename"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="s_isreg"/>
+    <functioncall functionName="tool_mime_free"/>
+  </FileInfo>
+</analyzerinfo>

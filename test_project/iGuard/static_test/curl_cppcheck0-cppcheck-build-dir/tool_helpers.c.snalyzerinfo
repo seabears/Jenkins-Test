@@ -1,0 +1,3 @@
+param2text
+SetHTTPrequest call:[warnf]
+customrequest_helper call:[curl_strequal,notef,warnf] noreturn:[notef,warnf]

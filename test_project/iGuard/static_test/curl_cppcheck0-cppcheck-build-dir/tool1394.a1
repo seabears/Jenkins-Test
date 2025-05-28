@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16470588307586783511">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curlcheck.h&quot; not found." verbose="Include file: &quot;curlcheck.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\tunit\tool1394.c" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;tool_getparam.h&quot; not found." verbose="Include file: &quot;tool_getparam.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\tunit\tool1394.c" line="26" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\tunit\tool1394.c" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\tunit\tool1394.c" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\tunit\tool1394.c" line="30" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\tunit\tool1394.c" line="32" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error: keyword &apos;for&apos; is not allowed in global scope" verbose="syntax error: keyword &apos;for&apos; is not allowed in global scope" file0="C:/test_workspace/curl-master/tests/tunit/tool1394.c">
+            <location file="C:\test_workspace\curl-master\tests\tunit\tool1394.c" line="83" column="3"/>
+        </error>
+</analyzerinfo>

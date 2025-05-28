@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="649433897310718695">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;test.h&quot; not found." verbose="Include file: &quot;test.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;urldata.h&quot; not found." verbose="Include file: &quot;urldata.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;connect.h&quot; not found." verbose="Include file: &quot;connect.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;share.h&quot; not found." verbose="Include file: &quot;share.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="30" column="0"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="101" column="1"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="91" column="30"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant MAX_IPADR_LEN, please review configuration" verbose="Unknown constant MAX_IPADR_LEN, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="153" column="22"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="145" column="53"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="101" column="1"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="137" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="128" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="133" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="138" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="142" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="213" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="219" column="1"/>
+        </error>
+        <error id="misra-c2012-15.4" severity="style" msg="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" verbose="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="112" column="51"/>
+        </error>
+        <error id="misra-c2012-15.4" severity="style" msg="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" verbose="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="151" column="37"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="122" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="127" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="132" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="137" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="141" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="155" column="7"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="101" column="1"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="160" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="167" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="175" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="183" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="191" column="16"/>
+        </error>
+        <error id="misra-c2012-18.8" severity="style" msg="Required Variable-length array types shall not be used" verbose="Required Variable-length array types shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="153" column="12"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="45" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="27" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="36" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="67" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="77" column="0"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="146" column="9"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="unit_stop" lineNumber="32"/>
+    <functiondecl functionName="unit_setup" lineNumber="37"/>
+    <functiondecl functionName="test" lineNumber="101"/>
+    <functioncall functionName="CURLE_OK"/>
+    <functioncall functionName="CURLE_OUT_OF_MEMORY"/>
+    <functioncall functionName="CURLOPT_RESOLVE"/>
+    <functioncall functionName="CURL_ARRAYSIZE"/>
+    <functioncall functionName="CURL_GLOBAL_ALL"/>
+    <functioncall functionName="CURLcode"/>
+    <functioncall functionName="Curl_addr2string"/>
+    <functioncall functionName="Curl_hash_pick"/>
+    <functioncall functionName="Curl_loadhostpairs"/>
+    <functioncall functionName="MAX_IPADR_LEN"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="aprintf"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_global_cleanup"/>
+    <functioncall functionName="curl_multi_add_handle"/>
+    <functioncall functionName="curl_multi_cleanup"/>
+    <functioncall functionName="curl_multi_init"/>
+    <functioncall functionName="curl_slist_append"/>
+    <functioncall functionName="curl_slist_free_all"/>
+    <functioncall functionName="curl_strequal"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="global_init"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unit_setup"/>
+    <functioncall functionName="unit_stop"/>
+    <functioncall functionName="unit_test_abort"/>
+    <functioncall functionName="unitfail"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,2 @@
+tool_init_stderr global:[tool_stderr]
+tool_set_stderr_file global:[tool_stderr] call:[DEBUGASSERT,fclose,fopen,freopen,strcmp,warnf]

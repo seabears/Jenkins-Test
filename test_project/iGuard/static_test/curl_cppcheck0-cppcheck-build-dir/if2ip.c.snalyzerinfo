@@ -1,0 +1,2 @@
+Curl_ipv6_scope
+Curl_if2ip call:[close,curlx_inet_ntop,ioctl,memcpy,memset,sizeof,socket,strlen]

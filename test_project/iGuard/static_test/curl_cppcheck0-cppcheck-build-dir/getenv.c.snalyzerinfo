@@ -1,0 +1,2 @@
+GetEnv global:[Curl_cstrdup] call:[Curl_cstrdup,getenv,return]
+curl_getenv call:[GetEnv] noreturn:[GetEnv]

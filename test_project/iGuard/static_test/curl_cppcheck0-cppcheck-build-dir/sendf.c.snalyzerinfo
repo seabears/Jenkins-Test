@@ -1,0 +1,73 @@
+Curl_client_write global:[Curl_trc_feat_write] call:[Curl_cwriter_write,Curl_trc_write,do_init_writer_stack,while] noreturn:[Curl_trc_write,while]
+cl_reset_writer global:[Curl_cfree] call:[Curl_cfree,do_close]
+cl_reset_reader global:[Curl_cfree] call:[Curl_cfree,do_close]
+Curl_client_cleanup call:[cl_reset_reader,cl_reset_writer]
+Curl_client_reset global:[Curl_trc_feat_read] call:[Curl_trc_read,cl_reset_reader,cl_reset_writer,while] noreturn:[Curl_trc_read,cl_reset_reader,while]
+Curl_client_start global:[Curl_trc_feat_read] call:[Curl_failf,Curl_trc_read,cl_reset_reader,rewind,while] noreturn:[Curl_trc_read,cl_reset_reader]
+Curl_creader_will_rewind
+Curl_creader_set_rewind
+Curl_cwriter_write call:[do_write] noreturn:[do_write]
+Curl_cwriter_def_init
+Curl_cwriter_def_write call:[Curl_cwriter_write] noreturn:[Curl_cwriter_write]
+Curl_cwriter_def_close
+get_max_body_write_len call:[return]
+cw_download_write global:[Curl_trc_feat_write] call:[Curl_conncontrol,Curl_cwriter_write,Curl_failf,Curl_infof,Curl_pgrsSetDownloadCounter,Curl_pgrsTime,Curl_trc_write,get_max_body_write_len,while] noreturn:[Curl_conncontrol,Curl_infof,Curl_trc_write]
+cw_raw_write call:[Curl_cwriter_write,Curl_debug] noreturn:[Curl_cwriter_write,Curl_debug]
+Curl_cwriter_create global:[Curl_ccalloc,Curl_cfree] call:[Curl_ccalloc,Curl_cfree,do_init,while] noreturn:[Curl_cfree]
+Curl_cwriter_free global:[Curl_cfree] call:[Curl_cfree,do_close] noreturn:[Curl_cfree]
+Curl_cwriter_count
+do_init_writer_stack global:[Curl_cwt_out,Curl_cwt_pause,cw_download,cw_raw] call:[Curl_cwriter_add,Curl_cwriter_create,Curl_cwriter_free,while] noreturn:[Curl_cwriter_free]
+Curl_cwriter_add call:[do_init_writer_stack]
+Curl_cwriter_get_by_name call:[strcmp]
+Curl_cwriter_get_by_type
+Curl_cwriter_is_content_decoding
+Curl_cwriter_is_paused call:[Curl_cw_out_is_paused] noreturn:[Curl_cw_out_is_paused]
+Curl_cwriter_unpause call:[Curl_cw_out_unpause] noreturn:[Curl_cw_out_unpause]
+Curl_creader_read call:[do_read] noreturn:[do_read]
+Curl_creader_def_init
+Curl_creader_def_close
+Curl_creader_def_read call:[do_read] noreturn:[do_read]
+Curl_creader_def_needs_rewind
+Curl_creader_def_total_length call:[total_length]
+Curl_creader_def_resume_from
+Curl_creader_def_rewind
+Curl_creader_def_unpause
+Curl_creader_def_is_paused
+Curl_creader_def_done
+cr_in_init
+cr_in_read global:[Curl_trc_feat_read] call:[Curl_failf,Curl_set_in_callback,Curl_trc_read,read_cb,while] noreturn:[Curl_trc_read]
+cr_in_needs_rewind
+cr_in_total_length
+cr_in_resume_from call:[Curl_failf,Curl_set_in_callback,curlx_sotouz,read_cb,seek_func,sizeof,while] noreturn:[Curl_set_in_callback,while]
+cr_in_rewind global:[Curl_trc_feat_read] call:[Curl_failf,Curl_set_in_callback,Curl_trc_read,fseek,while] noreturn:[Curl_trc_read]
+cr_in_unpause
+cr_in_is_paused
+Curl_creader_create global:[Curl_ccalloc,Curl_cfree] call:[Curl_ccalloc,Curl_cfree,do_init,while] noreturn:[Curl_cfree]
+Curl_creader_free global:[Curl_cfree] call:[Curl_cfree,do_close] noreturn:[Curl_cfree]
+cr_lc_init call:[Curl_bufq_init2]
+cr_lc_close call:[Curl_bufq_free] noreturn:[Curl_bufq_free]
+cr_lc_read global:[Curl_trc_feat_read] call:[Curl_bufq_cread,Curl_bufq_cwrite,Curl_bufq_is_empty,Curl_creader_read,Curl_trc_read,memchr,sizeof,while] noreturn:[Curl_bufq_cwrite,Curl_trc_read]
+cr_lc_total_length
+cr_lc_add global:[cr_lc] call:[Curl_creader_add,Curl_creader_create,Curl_creader_free] noreturn:[Curl_creader_add,Curl_creader_free]
+do_init_reader_stack call:[cr_lc_add,total_length,while]
+Curl_creader_set_fread global:[Curl_trc_feat_read,cr_in] call:[Curl_creader_create,Curl_trc_read,cl_reset_reader,do_init_reader_stack,while] noreturn:[Curl_trc_read]
+Curl_creader_add call:[Curl_creader_set_fread]
+Curl_creader_set call:[Curl_creader_free,cl_reset_reader,do_init_reader_stack,while] noreturn:[Curl_creader_free]
+Curl_client_read global:[Curl_trc_feat_read] call:[Curl_creader_read,Curl_creader_set_fread,Curl_trc_read,while] noreturn:[Curl_trc_read,while]
+Curl_creader_needs_rewind global:[Curl_trc_feat_read] call:[Curl_trc_read,needs_rewind,while] noreturn:[Curl_trc_read]
+cr_null_read
+cr_null_total_length
+Curl_creader_set_null global:[cr_null] call:[Curl_creader_create,cl_reset_reader,do_init_reader_stack] noreturn:[do_init_reader_stack]
+cr_buf_read global:[Curl_trc_feat_read] call:[Curl_trc_read,memcpy,while] noreturn:[Curl_trc_read]
+cr_buf_needs_rewind
+cr_buf_rewind
+cr_buf_total_length call:[return]
+cr_buf_resume_from call:[while]
+Curl_creader_set_buf global:[Curl_trc_feat_read,cr_buf] call:[Curl_creader_create,Curl_trc_read,cl_reset_reader,do_init_reader_stack,while] noreturn:[Curl_trc_read]
+Curl_creader_total_length call:[total_length]
+Curl_creader_client_length call:[total_length]
+Curl_creader_resume_from call:[resume_from]
+Curl_creader_unpause call:[unpause]
+Curl_creader_is_paused call:[is_paused]
+Curl_creader_done call:[done]
+Curl_creader_get_by_type

@@ -1,0 +1,15 @@
+Curl_setstropt global:[Curl_cfree,Curl_cstrdup] call:[Curl_cfree,Curl_cstrdup,strlen,while]
+Curl_setblobopt global:[Curl_cfree,Curl_cmalloc] call:[Curl_cfree,Curl_cmalloc,memcpy,sizeof,while] noreturn:[memcpy]
+setstropt_userpwd global:[Curl_cfree] call:[Curl_cfree,Curl_parse_login_details,strlen,while]
+setstropt_interface global:[Curl_cfree] call:[Curl_cfree,Curl_parse_interface,while]
+protocol2num call:[Curl_getn_scheme_handler,curl_strequal,strchr,strlen,while]
+httpauth
+setopt_long global:[Curl_cfree] call:[Curl_altsvc_ctrl,Curl_altsvc_init,Curl_cfree,Curl_hsts_cleanup,Curl_hsts_init,Curl_ssl_conn_config_update,curlx_sltous,httpauth,while] noreturn:[Curl_hsts_cleanup]
+setopt_slist
+setopt_pointers global:[Curl_cfree] call:[Curl_cfree,Curl_cookie_cleanup,Curl_hsts_cleanup,Curl_mime_cleanpart,Curl_mime_set_subparts,Curl_share_lock,Curl_share_unlock,va_arg,while] noreturn:[Curl_share_unlock]
+setopt_cptr global:[Curl_cfree] call:[Curl_all_content_encodings,Curl_altsvc_init,Curl_altsvc_load,Curl_cfree,Curl_cookie_add,Curl_cookie_cleanup,Curl_cookie_clearall,Curl_cookie_clearsess,Curl_cookie_init,Curl_cookie_loadfiles,Curl_flush_cookies,Curl_hsts_cleanup,Curl_hsts_init,Curl_memdup0,Curl_setstropt,Curl_share_lock,Curl_share_unlock,Curl_urldecode,curl_slist_append,curl_slist_free_all,curl_strequal,curl_strnequal,protocol2num,setstropt_interface,setstropt_userpwd,sizeof,strlen,while] noreturn:[Curl_altsvc_load,Curl_cfree,Curl_cookie_add,Curl_cookie_cleanup,Curl_flush_cookies,Curl_hsts_cleanup,Curl_setstropt,Curl_share_unlock,Curl_urldecode,protocol2num]
+setopt_func call:[va_arg]
+setopt_offt global:[Curl_cfree] call:[Curl_cfree,while]
+setopt_blob call:[Curl_setblobopt]
+Curl_vsetopt call:[setopt_blob,setopt_cptr,setopt_func,setopt_long,setopt_offt,setopt_pointers,setopt_slist,va_arg] noreturn:[setopt_blob,setopt_cptr,setopt_func,setopt_long,setopt_offt]
+curl_easy_setopt call:[Curl_vsetopt,va_end,va_start]

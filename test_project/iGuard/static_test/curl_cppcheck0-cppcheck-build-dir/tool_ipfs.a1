@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="14625322312874232942">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="38" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;timeval.h&quot; not found." verbose="Include file: &quot;timeval.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curlx.h&quot; not found." verbose="Include file: &quot;curlx.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;dynbuf.h&quot; not found." verbose="Include file: &quot;dynbuf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;dynbuf.h&quot; not found." verbose="Include file: &quot;dynbuf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\var.h" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="34" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="71" col="29" call-argexpr="&amp;gateway" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="86" col="41" call-argexpr="&amp;ipfs_path" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="116" col="28" call-argexpr="&amp;gateway" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="237" col="24" call-argexpr="&amp;gwpath" call-argvaluetype="7" call-argvalue="1"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" my-argnr="1" my-argname="input" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="39" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.h:31:10" my-argnr="3" my-argname="url" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="250" col="19" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.h:31:10" my-argnr="4" my-argname="config" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="166" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" my-argnr="1" my-argname="input" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="39" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.h:31:10" my-argnr="4" my-argname="config" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="166" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="71" col="29" call-argexpr="&amp;gateway" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="86" col="41" call-argexpr="&amp;ipfs_path" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="116" col="28" call-argexpr="&amp;gateway" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="237" col="24" call-argexpr="&amp;gwpath" call-argvaluetype="7" call-argvalue="1"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" my-argnr="1" my-argname="input" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="39" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.h:31:10" my-argnr="3" my-argname="url" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="250" col="19" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.h:31:10" my-argnr="4" my-argname="config" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="166" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" my-argnr="1" my-argname="input" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="39" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.h:31:10" my-argnr="4" my-argname="config" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="166" col="6" value="0"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="79" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="71" col="29" call-argexpr="&amp;gateway" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="86" col="41" call-argexpr="&amp;ipfs_path" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="116" col="28" call-argexpr="&amp;gateway" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="237" col="24" call-argexpr="&amp;gwpath" call-argvaluetype="7" call-argvalue="1"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" my-argnr="1" my-argname="input" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="39" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.h:31:10" my-argnr="3" my-argname="url" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="250" col="19" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.h:31:10" my-argnr="4" my-argname="config" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="166" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" my-argnr="1" my-argname="input" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="39" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.h:31:10" my-argnr="4" my-argname="config" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="166" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="71" col="29" call-argexpr="&amp;gateway" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="86" col="41" call-argexpr="&amp;ipfs_path" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="116" col="28" call-argexpr="&amp;gateway" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="237" col="24" call-argexpr="&amp;gwpath" call-argvaluetype="7" call-argvalue="1"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" my-argnr="1" my-argname="input" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="39" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.h:31:10" my-argnr="3" my-argname="url" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="250" col="19" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.h:31:10" my-argnr="4" my-argname="config" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="166" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" my-argnr="1" my-argname="input" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="39" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.h:31:10" my-argnr="4" my-argname="config" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="166" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="71" col="29" call-argexpr="&amp;gateway" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="86" col="41" call-argexpr="&amp;ipfs_path" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="116" col="28" call-argexpr="&amp;gateway" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" call-funcname="ensure_trailing_slash" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="237" col="24" call-argexpr="&amp;gwpath" call-argvaluetype="7" call-argvalue="1"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" my-argnr="1" my-argname="input" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="39" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.h:31:10" my-argnr="3" my-argname="url" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="250" col="19" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.h:31:10" my-argnr="4" my-argname="config" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="166" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.c:37:17" my-argnr="1" my-argname="input" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="39" col="7" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_ipfs.h:31:10" my-argnr="4" my-argname="config" file="C:/test_workspace/curl-master/src/tool_ipfs.c" line="166" col="6" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="73" column="26"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="74" column="24"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="75" column="25"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="67" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="68" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="69" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="70" column="7"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="41" column="22"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="43" column="32"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="103" column="48"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="103" column="43"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="103" column="14"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="45" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="52" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="70" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="71" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="97" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="105" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="112" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="115" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="126" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="166" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="195" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="209" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="214" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="245" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="252" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="72" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="87" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="92" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="106" column="9"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="119" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="156" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="161" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="170" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="178" column="9"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="184" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="192" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="197" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="205" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="211" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="216" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="230" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="242" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="246" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="253" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="259" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="47" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="53" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="73" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="123" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="52" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="71" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="81" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="86" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="91" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="105" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="112" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="115" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="118" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="126" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="160" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="227" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="233" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="258" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="109" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="127" column="11"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="38" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="57" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="132" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="107" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.h" line="34" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.h" line="36" column="0"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="264" column="7"/>
+        </error>
+        <error id="misra-c2012-21.8" severity="style" msg="Required The Standard Library functions abort, exit, getenv and system of &lt;stdlib.h&gt; shall not be used" verbose="Required The Standard Library functions abort, exit, getenv and system of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="80" column="24"/>
+        </error>
+        <error id="misra-c2012-21.19" severity="style" msg="Mandatory The pointers returned by the Standard Library functions localeconv,getenv, setlocale or, strerror shall only be used as if they have pointer to const-qualified type" verbose="Mandatory The pointers returned by the Standard Library functions localeconv,getenv, setlocale or, strerror shall only be used as if they have pointer to const-qualified type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_ipfs.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_ipfs.c" line="80" column="18"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="ensure_trailing_slash" lineNumber="37"/>
+    <functiondecl functionName="ipfs_gateway" lineNumber="62"/>
+    <functiondecl functionName="ipfs_url_rewrite" lineNumber="137"/>
+    <functiondecl functionName="ensure_trailing_slash" lineNumber="37"/>
+    <functiondecl functionName="ipfs_gateway" lineNumber="62"/>
+    <functiondecl functionName="ipfs_url_rewrite" lineNumber="137"/>
+    <functiondecl functionName="ensure_trailing_slash" lineNumber="37"/>
+    <functiondecl functionName="ipfs_gateway" lineNumber="62"/>
+    <functiondecl functionName="ipfs_url_rewrite" lineNumber="137"/>
+    <functiondecl functionName="ensure_trailing_slash" lineNumber="37"/>
+    <functiondecl functionName="ipfs_gateway" lineNumber="62"/>
+    <functiondecl functionName="ipfs_url_rewrite" lineNumber="137"/>
+    <functiondecl functionName="ensure_trailing_slash" lineNumber="37"/>
+    <functiondecl functionName="ipfs_gateway" lineNumber="62"/>
+    <functiondecl functionName="ipfs_url_rewrite" lineNumber="137"/>
+    <functioncall functionName="BIT"/>
+    <functioncall functionName="CURLE_BAD_FUNCTION_ARGUMENT"/>
+    <functioncall functionName="CURLE_FAILED_INIT"/>
+    <functioncall functionName="CURLE_FILE_COULDNT_READ_FILE"/>
+    <functioncall functionName="CURLE_OK"/>
+    <functioncall functionName="CURLE_OUT_OF_MEMORY"/>
+    <functioncall functionName="CURLE_URL_MALFORMAT"/>
+    <functioncall functionName="CURLUPART_HOST"/>
+    <functioncall functionName="CURLUPART_PATH"/>
+    <functioncall functionName="CURLUPART_PORT"/>
+    <functioncall functionName="CURLUPART_QUERY"/>
+    <functioncall functionName="CURLUPART_SCHEME"/>
+    <functioncall functionName="CURLUPART_URL"/>
+    <functioncall functionName="CURLU_GUESS_SCHEME"/>
+    <functioncall functionName="CURLU_URLDECODE"/>
+    <functioncall functionName="CURLU_URLENCODE"/>
+    <functioncall functionName="CURL_PRINTF"/>
+    <functioncall functionName="FOPEN_READTEXT"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="alloc_filename"/>
+    <functioncall functionName="aprintf"/>
+    <functioncall functionName="clean"/>
+    <functioncall functionName="curl_free"/>
+    <functioncall functionName="curl_getenv"/>
+    <functioncall functionName="curl_url"/>
+    <functioncall functionName="curl_url_cleanup"/>
+    <functioncall functionName="curl_url_get"/>
+    <functioncall functionName="curl_url_set"/>
+    <functioncall functionName="curlx_dyn_addn"/>
+    <functioncall functionName="curlx_dyn_init"/>
+    <functioncall functionName="curlx_dyn_len"/>
+    <functioncall functionName="curlx_dyn_ptr"/>
+    <functioncall functionName="curlx_safefree"/>
+    <functioncall functionName="ensure_trailing_slash"/>
+    <functioncall functionName="fail"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fopened"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="getc"/>
+    <functioncall functionName="getenv"/>
+    <functioncall functionName="helpf"/>
+    <functioncall functionName="ipfs_gateway"/>
+    <functioncall functionName="is_cd_filename"/>
+    <functioncall functionName="s_isreg"/>
+    <functioncall functionName="strdup"/>
+    <functioncall functionName="strlen"/>
+  </FileInfo>
+</analyzerinfo>

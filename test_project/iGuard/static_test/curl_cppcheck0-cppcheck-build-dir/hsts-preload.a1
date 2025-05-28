@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="64316425602110815">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="30" column="0"/>
+        </error>
+        <error id="constParameterCallback" severity="style" msg="Parameter &apos;i&apos; can be declared as pointer to const. However it seems that &apos;hstswrite&apos; is a callback function, if &apos;i&apos; is declared with const you might also need to cast function pointer(s)." verbose="Parameter &apos;i&apos; can be declared as pointer to const. However it seems that &apos;hstswrite&apos; is a callback function, if &apos;i&apos; is declared with const you might also need to cast function pointer(s)." cwe="398" file0="C:/test_workspace/curl-master/docs/examples/hsts-preload.c">
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="71" column="49" info="Parameter &apos;i&apos; can be declared as pointer to const"/>
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="98" column="55" info="You might need to cast the function pointer here"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="constParameterCallback" severity="style" msg="Parameter &apos;e&apos; can be declared as pointer to const. However it seems that &apos;hstswrite&apos; is a callback function, if &apos;e&apos; is declared with const you might also need to cast function pointer(s)." verbose="Parameter &apos;e&apos; can be declared as pointer to const. However it seems that &apos;hstswrite&apos; is a callback function, if &apos;e&apos; is declared with const you might also need to cast function pointer(s)." cwe="398" file0="C:/test_workspace/curl-master/docs/examples/hsts-preload.c">
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="70" column="65" info="Parameter &apos;e&apos; can be declared as pointer to const"/>
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="98" column="55" info="You might need to cast the function pointer here"/>
+            <symbol>e</symbol>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/hsts-preload.c:70:20" my-argnr="2" my-argname="e" file="C:/test_workspace/curl-master/docs/examples/hsts-preload.c" line="76" col="10" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/hsts-preload.c:70:20" my-argnr="3" my-argname="i" file="C:/test_workspace/curl-master/docs/examples/hsts-preload.c" line="75" col="43" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/hsts-preload.c:70:20" my-argnr="2" my-argname="e" file="C:/test_workspace/curl-master/docs/examples/hsts-preload.c" line="76" col="10" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hsts-preload.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="37" column="27"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hsts-preload.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="54" column="21"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hsts-preload.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="57" column="10"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hsts-preload.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="86" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hsts-preload.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="66" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hsts-preload.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="65" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hsts-preload.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="110" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hsts-preload.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="60" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hsts-preload.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="62" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hsts-preload.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="63" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hsts-preload.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="75" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hsts-preload.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="111" column="14"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hsts-preload.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\hsts-preload.c" line="28" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="hstsread" lineNumber="49"/>
+    <functiondecl functionName="hstswrite" lineNumber="70"/>
+    <functiondecl functionName="main" lineNumber="80"/>
+    <functioncall functionName="CURLHSTS_ENABLE"/>
+    <functioncall functionName="CURLOPT_HSTSREADDATA"/>
+    <functioncall functionName="CURLOPT_HSTSREADFUNCTION"/>
+    <functioncall functionName="CURLOPT_HSTSWRITEDATA"/>
+    <functioncall functionName="CURLOPT_HSTSWRITEFUNCTION"/>
+    <functioncall functionName="CURLOPT_HSTS_CTRL"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_VERBOSE"/>
+    <functioncall functionName="CURLSTS_DONE"/>
+    <functioncall functionName="CURLSTS_OK"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_perform"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_easy_strerror"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="hstsread"/>
+    <functioncall functionName="hstswrite"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="strlen"/>
+  </FileInfo>
+</analyzerinfo>

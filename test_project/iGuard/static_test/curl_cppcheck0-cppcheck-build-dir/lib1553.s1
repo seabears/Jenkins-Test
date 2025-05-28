@@ -1,0 +1,2 @@
+xferinfo call:[fprintf]
+test global:[libtest_debug_config,tv_test_start] call:[curl_easy_cleanup,curl_easy_init,curl_easy_setopt,curl_easy_strerror,curl_global_cleanup,curl_global_init,curl_mime_addpart,curl_mime_data,curl_mime_free,curl_mime_init,curl_mime_name,curl_multi_add_handle,curl_multi_cleanup,curl_multi_init,curl_multi_perform,curl_multi_remove_handle,curl_multi_strerror,curl_multi_wait,fprintf,printf,tutil_tvdiff,tutil_tvnow,while] noreturn:[tutil_tvnow,while]

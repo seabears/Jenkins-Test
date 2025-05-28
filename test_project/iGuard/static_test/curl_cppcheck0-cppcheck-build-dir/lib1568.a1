@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="7751260613195694028">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="36" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_printf.h&quot; not found." verbose="Include file: &quot;curl_printf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="45" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1568.c" line="27" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/select.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/select.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="40" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="42" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1568.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="522" column="0"/>
+        </error>
+        <error id="misra-c2012-22.8" severity="style" msg="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" verbose="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1568.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1568.c" line="43" column="45"/>
+        </error>
+        <error id="misra-c2012-22.9" severity="style" msg="Required The value of errno shall be tested against zero after calling an errnosetting- function" verbose="Required The value of errno shall be tested against zero after calling an errnosetting- function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1568.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1568.c" line="43" column="70"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="CURLAUTH_DIGEST"/>
+    <functioncall functionName="CURLOPT_HEADER"/>
+    <functioncall functionName="CURLOPT_HTTPAUTH"/>
+    <functioncall functionName="CURLOPT_MAXREDIRS"/>
+    <functioncall functionName="CURLOPT_PORT"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_USERAGENT"/>
+    <functioncall functionName="CURLOPT_USERPWD"/>
+    <functioncall functionName="CURLOPT_VERBOSE"/>
+    <functioncall functionName="CURL_GLOBAL_ALL"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_perform"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_global_cleanup"/>
+    <functioncall functionName="curl_global_init"/>
+    <functioncall functionName="strtol"/>
+  </FileInfo>
+</analyzerinfo>

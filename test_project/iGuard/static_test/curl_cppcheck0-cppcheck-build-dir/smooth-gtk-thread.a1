@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="5647424872135895172">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="38" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;gtk/gtk.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;gtk/gtk.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="39" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;glib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;glib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="40" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="41" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;pthread.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;pthread.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="42" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="44" column="0"/>
+        </error>
+        <error id="constParameterCallback" severity="style" msg="Parameter &apos;ptr&apos; can be declared as pointer to const. However it seems that &apos;write_file&apos; is a callback function, if &apos;ptr&apos; is declared with const you might also need to cast function pointer(s)." verbose="Parameter &apos;ptr&apos; can be declared as pointer to const. However it seems that &apos;write_file&apos; is a callback function, if &apos;ptr&apos; is declared with const you might also need to cast function pointer(s)." cwe="398" file0="C:/test_workspace/curl-master/docs/examples/smooth-gtk-thread.c">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="63" column="25" info="Parameter &apos;ptr&apos; can be declared as pointer to const"/>
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="82" column="51" info="You might need to cast the function pointer here"/>
+            <symbol>ptr</symbol>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/smooth-gtk-thread.c:63:8" my-argnr="1" my-argname="ptr" file="C:/test_workspace/curl-master/docs/examples/smooth-gtk-thread.c" line="65" col="17" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/smooth-gtk-thread.c:63:8" my-argnr="4" my-argname="stream" file="C:/test_workspace/curl-master/docs/examples/smooth-gtk-thread.c" line="65" col="35" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/smooth-gtk-thread.c:63:8" my-argnr="1" my-argname="ptr" file="C:/test_workspace/curl-master/docs/examples/smooth-gtk-thread.c" line="65" col="17" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/smooth-gtk-thread.c:63:8" my-argnr="4" my-argname="stream" file="C:/test_workspace/curl-master/docs/examples/smooth-gtk-thread.c" line="65" col="35" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-2.7" severity="style" msg="Advisory There should be no unused parameters in functions" verbose="Advisory There should be no unused parameters in functions" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="90" column="26"/>
+        </error>
+        <error id="misra-c2012-2.7" severity="style" msg="Advisory There should be no unused parameters in functions" verbose="Advisory There should be no unused parameters in functions" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="161" column="38"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="63" column="8"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="90" column="7"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="110" column="10"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="122" column="7"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="48" column="17"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="51" column="20"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="50" column="6"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="49" column="5"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="210" column="66"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="128" column="23"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="140" column="23"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="169" column="24"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="74" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="99" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="133" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="135" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="210" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="75" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="85" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="134" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="136" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="142" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="205" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="215" column="9"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/smooth-gtk-thread.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\smooth-gtk-thread.c" line="38" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="write_file" lineNumber="63"/>
+    <functiondecl functionName="run_one" lineNumber="68"/>
+    <functiondecl functionName="pull_one_url" lineNumber="90"/>
+    <functiondecl functionName="pulse_bar" lineNumber="110"/>
+    <functiondecl functionName="create_thread" lineNumber="122"/>
+    <functiondecl functionName="cb_delete" lineNumber="161"/>
+    <functiondecl functionName="main" lineNumber="167"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_WRITEDATA"/>
+    <functioncall functionName="CURLOPT_WRITEFUNCTION"/>
+    <functioncall functionName="CURL_GLOBAL_ALL"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="GINT_TO_POINTER"/>
+    <functioncall functionName="GPOINTER_TO_INT"/>
+    <functioncall functionName="GTK_CONTAINER"/>
+    <functioncall functionName="GTK_FRAME"/>
+    <functioncall functionName="GTK_PROGRESS_BAR"/>
+    <functioncall functionName="GTK_SHADOW_IN"/>
+    <functioncall functionName="GTK_SHADOW_OUT"/>
+    <functioncall functionName="GTK_WINDOW_TOPLEVEL"/>
+    <functioncall functionName="G_CALLBACK"/>
+    <functioncall functionName="G_OBJECT"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PTHREAD_MUTEX_INITIALIZER"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="cb_delete"/>
+    <functioncall functionName="create_thread"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_perform"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_global_init"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="fwrite"/>
+    <functioncall functionName="g_free"/>
+    <functioncall functionName="g_object_get_data"/>
+    <functioncall functionName="g_object_set_data"/>
+    <functioncall functionName="g_signal_connect"/>
+    <functioncall functionName="g_source_remove"/>
+    <functioncall functionName="g_strdup_printf"/>
+    <functioncall functionName="g_thread_create"/>
+    <functioncall functionName="g_thread_init"/>
+    <functioncall functionName="g_timeout_add"/>
+    <functioncall functionName="g_warning"/>
+    <functioncall functionName="gdk_threads_enter"/>
+    <functioncall functionName="gdk_threads_init"/>
+    <functioncall functionName="gdk_threads_leave"/>
+    <functioncall functionName="gtk_container_add"/>
+    <functioncall functionName="gtk_container_set_border_width"/>
+    <functioncall functionName="gtk_frame_new"/>
+    <functioncall functionName="gtk_frame_set_shadow_type"/>
+    <functioncall functionName="gtk_init"/>
+    <functioncall functionName="gtk_main"/>
+    <functioncall functionName="gtk_main_quit"/>
+    <functioncall functionName="gtk_progress_bar_new"/>
+    <functioncall functionName="gtk_progress_bar_pulse"/>
+    <functioncall functionName="gtk_widget_destroy"/>
+    <functioncall functionName="gtk_widget_show_all"/>
+    <functioncall functionName="gtk_window_new"/>
+    <functioncall functionName="http"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="pthread_create"/>
+    <functioncall functionName="pthread_join"/>
+    <functioncall functionName="pthread_mutex_lock"/>
+    <functioncall functionName="pthread_mutex_unlock"/>
+    <functioncall functionName="pull_one_url"/>
+    <functioncall functionName="pulse_bar"/>
+    <functioncall functionName="run_one"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="write_file"/>
+  </FileInfo>
+</analyzerinfo>

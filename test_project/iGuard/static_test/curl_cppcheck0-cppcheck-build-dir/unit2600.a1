@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2739069617100721422">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;test.h&quot; not found." verbose="Include file: &quot;test.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;urldata.h&quot; not found." verbose="Include file: &quot;urldata.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="43" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;connect.h&quot; not found." verbose="Include file: &quot;connect.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="44" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;cfilters.h&quot; not found." verbose="Include file: &quot;cfilters.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="45" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;multiif.h&quot; not found." verbose="Include file: &quot;multiif.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="46" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;select.h&quot; not found." verbose="Include file: &quot;select.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="47" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_trc.h&quot; not found." verbose="Include file: &quot;curl_trc.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="48" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="49" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:241:13" call-funcname="check_result" call-argnr="2" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="337" col="15" call-argexpr="&amp;tr" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:119:13" my-argnr="1" my-argname="cf" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="121" col="29" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:132:17" my-argnr="1" my-argname="cf" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="136" col="29" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:132:17" my-argnr="3" my-argname="done" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="140" col="4" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:183:17" my-argnr="1" my-argname="pcf" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="233" col="4" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:183:17" my-argnr="4" my-argname="ai" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="201" col="20" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:241:13" my-argnr="1" my-argname="tc" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="248" col="48" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:241:13" my-argnr="2" my-argname="tr" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="247" col="31" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:119:13" my-argnr="1" my-argname="cf" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="121" col="29" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:132:17" my-argnr="1" my-argname="cf" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="136" col="29" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:183:17" my-argnr="4" my-argname="ai" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="201" col="20" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:241:13" my-argnr="1" my-argname="tc" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="248" col="48" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:241:13" call-funcname="check_result" call-argnr="2" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="337" col="15" call-argexpr="&amp;tr" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:119:13" my-argnr="1" my-argname="cf" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="121" col="29" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:132:17" my-argnr="1" my-argname="cf" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="136" col="29" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:132:17" my-argnr="3" my-argname="done" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="140" col="4" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:183:17" my-argnr="1" my-argname="pcf" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="233" col="4" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:183:17" my-argnr="4" my-argname="ai" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="201" col="20" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:241:13" my-argnr="1" my-argname="tc" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="248" col="48" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:241:13" my-argnr="2" my-argname="tr" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="247" col="31" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:119:13" my-argnr="1" my-argname="cf" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="121" col="29" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:132:17" my-argnr="1" my-argname="cf" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="136" col="29" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:183:17" my-argnr="4" my-argname="ai" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="201" col="20" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:241:13" my-argnr="1" my-argname="tc" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="248" col="48" value="0"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;arpa/inet.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;arpa/inet.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="36" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;netdb.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;netdb.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="33" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;netinet/in6.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;netinet/in6.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="30" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;netinet/in.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;netinet/in.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="27" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:241:13" call-funcname="check_result" call-argnr="2" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="337" col="15" call-argexpr="&amp;tr" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:119:13" my-argnr="1" my-argname="cf" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="121" col="29" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:132:17" my-argnr="1" my-argname="cf" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="136" col="29" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:132:17" my-argnr="3" my-argname="done" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="140" col="4" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:183:17" my-argnr="1" my-argname="pcf" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="233" col="4" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:183:17" my-argnr="4" my-argname="ai" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="201" col="20" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:241:13" my-argnr="1" my-argname="tc" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="248" col="48" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:241:13" my-argnr="2" my-argname="tr" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="247" col="31" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:119:13" my-argnr="1" my-argname="cf" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="121" col="29" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:132:17" my-argnr="1" my-argname="cf" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="136" col="29" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:183:17" my-argnr="4" my-argname="ai" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="201" col="20" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit2600.c:241:13" my-argnr="1" my-argname="tc" file="C:/test_workspace/curl-master/tests/unit/unit2600.c" line="248" col="48" value="0"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;in.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;in.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="39" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;inet.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;inet.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="40" column="0"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="392" column="1"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="164" column="27"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="358" column="25"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="196" column="7"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="251" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="147" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="227" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="234" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="392" column="1"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="199" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="228" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="400" column="1"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="61" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="145" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="221" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="227" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="248" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="256" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="261" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="266" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="273" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="278" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="292" column="7"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="299" column="7"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="314" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="323" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="392" column="1"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="45" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="27" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="36" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="67" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="77" column="0"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="128" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="196" column="15"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="235" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit2600.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit2600.c" line="236" column="9"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="unit_setup" lineNumber="53"/>
+    <functiondecl functionName="unit_stop" lineNumber="68"/>
+    <functiondecl functionName="cf_test_destroy" lineNumber="119"/>
+    <functiondecl functionName="cf_test_connect" lineNumber="132"/>
+    <functiondecl functionName="cf_test_adjust_pollset" lineNumber="155"/>
+    <functiondecl functionName="cf_test_create" lineNumber="183"/>
+    <functiondecl functionName="check_result" lineNumber="241"/>
+    <functiondecl functionName="test_connect" lineNumber="304"/>
+    <functiondecl functionName="test" lineNumber="392"/>
+    <functiondecl functionName="unit_setup" lineNumber="53"/>
+    <functiondecl functionName="unit_stop" lineNumber="68"/>
+    <functiondecl functionName="cf_test_destroy" lineNumber="119"/>
+    <functiondecl functionName="cf_test_connect" lineNumber="132"/>
+    <functiondecl functionName="cf_test_adjust_pollset" lineNumber="155"/>
+    <functiondecl functionName="cf_test_create" lineNumber="183"/>
+    <functiondecl functionName="check_result" lineNumber="241"/>
+    <functiondecl functionName="test_connect" lineNumber="304"/>
+    <functiondecl functionName="test" lineNumber="392"/>
+    <functiondecl functionName="unit_setup" lineNumber="53"/>
+    <functiondecl functionName="unit_stop" lineNumber="68"/>
+    <functiondecl functionName="cf_test_destroy" lineNumber="119"/>
+    <functiondecl functionName="cf_test_connect" lineNumber="132"/>
+    <functiondecl functionName="cf_test_adjust_pollset" lineNumber="155"/>
+    <functiondecl functionName="cf_test_create" lineNumber="183"/>
+    <functiondecl functionName="check_result" lineNumber="241"/>
+    <functiondecl functionName="test_connect" lineNumber="304"/>
+    <functiondecl functionName="test" lineNumber="392"/>
+    <functioncall functionName="CF_TYPE_IP_CONNECT"/>
+    <functioncall functionName="CURLE_COULDNT_CONNECT"/>
+    <functioncall functionName="CURLE_OK"/>
+    <functioncall functionName="CURLE_OUT_OF_MEMORY"/>
+    <functioncall functionName="CURLOPT_CONNECTTIMEOUT_MS"/>
+    <functioncall functionName="CURLOPT_HAPPY_EYEBALLS_TIMEOUT_MS"/>
+    <functioncall functionName="CURLOPT_IPRESOLVE"/>
+    <functioncall functionName="CURLOPT_RESOLVE"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_VERBOSE"/>
+    <functioncall functionName="CURL_ARRAYSIZE"/>
+    <functioncall functionName="CURL_GLOBAL_ALL"/>
+    <functioncall functionName="CURL_IPRESOLVE_V4"/>
+    <functioncall functionName="CURL_IPRESOLVE_V6"/>
+    <functioncall functionName="CURL_IPRESOLVE_WHATEVER"/>
+    <functioncall functionName="CURL_LOG_LVL_NONE"/>
+    <functioncall functionName="CURLcode"/>
+    <functioncall functionName="Curl_cf_create"/>
+    <functioncall functionName="Curl_cf_def_close"/>
+    <functioncall functionName="Curl_cf_def_cntrl"/>
+    <functioncall functionName="Curl_cf_def_conn_is_alive"/>
+    <functioncall functionName="Curl_cf_def_conn_keep_alive"/>
+    <functioncall functionName="Curl_cf_def_data_pending"/>
+    <functioncall functionName="Curl_cf_def_get_host"/>
+    <functioncall functionName="Curl_cf_def_query"/>
+    <functioncall functionName="Curl_cf_def_recv"/>
+    <functioncall functionName="Curl_cf_def_send"/>
+    <functioncall functionName="Curl_cf_def_shutdown"/>
+    <functioncall functionName="Curl_debug_set_transport_provider"/>
+    <functioncall functionName="Curl_expire"/>
+    <functioncall functionName="Curl_now"/>
+    <functioncall functionName="Curl_pollset_set"/>
+    <functioncall functionName="Curl_timediff"/>
+    <functioncall functionName="Curl_wait_ms"/>
+    <functioncall functionName="EXPIRE_RUN_NOW"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="TRNSPRT_TCP"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="cf_test_adjust_pollset"/>
+    <functioncall functionName="cf_test_connect"/>
+    <functioncall functionName="cf_test_create"/>
+    <functioncall functionName="cf_test_destroy"/>
+    <functioncall functionName="check_result"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_perform"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_global_cleanup"/>
+    <functioncall functionName="curl_global_trace"/>
+    <functioncall functionName="curl_msprintf"/>
+    <functioncall functionName="curl_slist_append"/>
+    <functioncall functionName="curl_slist_free_all"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="global_init"/>
+    <functioncall functionName="infof"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="out"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="test_connect"/>
+    <functioncall functionName="unit_setup"/>
+    <functioncall functionName="unit_stop"/>
+    <functioncall functionName="unit_test_abort"/>
+    <functioncall functionName="unitfail"/>
+  </FileInfo>
+</analyzerinfo>

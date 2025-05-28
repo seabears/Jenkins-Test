@@ -1,0 +1,1 @@
+main call:[curl_global_cleanup,curl_global_init,curl_version_info,printf] noreturn:[printf]

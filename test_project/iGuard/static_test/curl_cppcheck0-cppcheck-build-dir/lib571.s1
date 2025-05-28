@@ -1,0 +1,3 @@
+rtp_write global:[RTP_DATA,rtp_packet_count] call:[curlx_uztosi,fprintf,memcmp,printf] noreturn:[printf]
+suburl call:[curl_maprintf] noreturn:[curl_maprintf]
+test global:[libtest_arg2,rtp_packet_count] call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_free,curl_global_cleanup,curl_global_init,fclose,fopen,fprintf,suburl] noreturn:[curl_easy_perform,fclose]

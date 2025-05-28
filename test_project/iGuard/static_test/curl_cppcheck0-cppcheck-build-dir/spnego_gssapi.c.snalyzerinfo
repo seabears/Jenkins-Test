@@ -1,0 +1,4 @@
+Curl_auth_is_spnego_supported
+Curl_auth_decode_spnego_message global:[Curl_cfree,Curl_spnego_mech_oid] call:[Curl_auth_build_spn,Curl_auth_cleanup_spnego,Curl_cfree,Curl_gss_init_sec_context,Curl_gss_log_error,Curl_infof,GSS_ERROR,curlx_base64_decode,curlx_dyn_len,curlx_dyn_ptr,gss_import_name,gss_release_buffer,memset,sizeof,strlen,while] noreturn:[Curl_cfree,Curl_infof,gss_release_buffer]
+Curl_auth_create_spnego_message call:[curlx_base64_encode,gss_release_buffer]
+Curl_auth_cleanup_spnego call:[gss_delete_sec_context,gss_release_buffer,gss_release_name]

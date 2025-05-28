@@ -1,0 +1,7 @@
+<map id="CANSPI_Receive" name="CANSPI_Receive">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,133,57"/>
+<area shape="rect" id="Node000002" href="$stm32___i_v_i_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#ac2bba89220bbae96f606fcf4daf5f02a" title=" " alt="" coords="196,5,358,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,34,180,28,180,33,133,39"/>
+<area shape="rect" id="Node000003" href="$stm32___i_v_i_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#ad15d9c368f38e7c95707437a6d465835" title=" " alt="" coords="181,56,373,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="133,49,166,53,165,58,133,54"/>
+</map>

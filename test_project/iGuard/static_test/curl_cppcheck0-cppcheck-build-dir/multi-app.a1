@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="5483932489171373195">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-app.c" line="30" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-app.c" line="31" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-app.c" line="34" column="0"/>
+        </error>
+        <error id="misra-c2012-10.3" severity="style" msg="Required The value of an expression shall not be assigned to an object with a narrower essential type or of a different essential type category" verbose="Required The value of an expression shall not be assigned to an object with a narrower essential type or of a different essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-app.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-app.c" line="90" column="19"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-app.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-app.c" line="84" column="14"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-app.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-app.c" line="72" column="8"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-app.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-app.c" line="75" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-app.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-app.c" line="79" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-app.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-app.c" line="91" column="11"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-app.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-app.c" line="56" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-app.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-app.c" line="69" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-app.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-app.c" line="75" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-app.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-app.c" line="79" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-app.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-app.c" line="91" column="9"/>
+        </error>
+        <error id="misra-c2012-16.4" severity="style" msg="Required Every switch statement shall have a default label" verbose="Required Every switch statement shall have a default label" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-app.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-app.c" line="95" column="7"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-app.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-app.c" line="97" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-app.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-app.c" line="100" column="15"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-app.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-app.c" line="30" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="44"/>
+    <functioncall functionName="CURLOPT_UPLOAD"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_multi_add_handle"/>
+    <functioncall functionName="curl_multi_cleanup"/>
+    <functioncall functionName="curl_multi_info_read"/>
+    <functioncall functionName="curl_multi_init"/>
+    <functioncall functionName="curl_multi_perform"/>
+    <functioncall functionName="curl_multi_poll"/>
+    <functioncall functionName="curl_multi_remove_handle"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="10907516697230063688">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="36" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_printf.h&quot; not found." verbose="Include file: &quot;curl_printf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="45" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="34" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib1533.c:44:13" call-funcname="reset_data" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib1533.c" line="150" col="13" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib1533.c:44:13" call-funcname="reset_data" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib1533.c" line="169" col="13" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib1533.c:44:13" call-funcname="reset_data" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib1533.c" line="180" col="13" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib1533.c:44:13" call-funcname="reset_data" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib1533.c" line="189" col="13" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib1533.c:101:17" call-funcname="perform_and_check_connections" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib1533.c" line="191" col="41" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1533.c:44:13" my-argnr="1" my-argname="data" file="C:/test_workspace/curl-master/tests/libtest/lib1533.c" line="46" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib1533.c:44:13" call-funcname="reset_data" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib1533.c" line="150" col="13" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib1533.c:44:13" call-funcname="reset_data" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib1533.c" line="169" col="13" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib1533.c:44:13" call-funcname="reset_data" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib1533.c" line="180" col="13" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib1533.c:44:13" call-funcname="reset_data" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib1533.c" line="189" col="13" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib1533.c:101:17" call-funcname="perform_and_check_connections" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib1533.c" line="191" col="41" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1533.c:44:13" my-argnr="1" my-argname="data" file="C:/test_workspace/curl-master/tests/libtest/lib1533.c" line="46" col="3" value="0"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/select.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/select.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="40" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="42" column="0"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="56" column="26"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="82" column="26"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="152" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="153" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="154" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="156" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="157" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="158" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="159" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="160" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="178" column="3"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="59" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="91" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="152" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="153" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="154" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="156" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="157" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="158" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="159" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="160" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="166" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="175" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="178" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="186" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="195" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="70" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="74" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="111" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="117" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="124" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="140" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="147" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="67" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="110" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="116" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="120" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="139" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1533.c" line="145" column="12"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1533.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="522" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="reset_data" lineNumber="44"/>
+    <functiondecl functionName="read_callback" lineNumber="53"/>
+    <functiondecl functionName="write_callback" lineNumber="79"/>
+    <functiondecl functionName="perform_and_check_connections" lineNumber="101"/>
+    <functiondecl functionName="reset_data" lineNumber="44"/>
+    <functiondecl functionName="read_callback" lineNumber="53"/>
+    <functiondecl functionName="write_callback" lineNumber="79"/>
+    <functiondecl functionName="perform_and_check_connections" lineNumber="101"/>
+    <functioncall functionName="CURLE_RESERVED119"/>
+    <functioncall functionName="CURLE_RESERVED120"/>
+    <functioncall functionName="CURLE_RESERVED126"/>
+    <functioncall functionName="CURLINFO_NUM_CONNECTS"/>
+    <functioncall functionName="CURLOPT_KEEP_SENDING_ON_ERROR"/>
+    <functioncall functionName="CURLOPT_POST"/>
+    <functioncall functionName="CURLOPT_POSTFIELDSIZE_LARGE"/>
+    <functioncall functionName="CURLOPT_READDATA"/>
+    <functioncall functionName="CURLOPT_READFUNCTION"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_VERBOSE"/>
+    <functioncall functionName="CURLOPT_WRITEDATA"/>
+    <functioncall functionName="CURLOPT_WRITEFUNCTION"/>
+    <functioncall functionName="CURLPAUSE_CONT"/>
+    <functioncall functionName="CURL_GLOBAL_ALL"/>
+    <functioncall functionName="CURL_READFUNC_PAUSE"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_getinfo"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_pause"/>
+    <functioncall functionName="curl_easy_perform"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_global_cleanup"/>
+    <functioncall functionName="curl_global_init"/>
+    <functioncall functionName="curl_off_t"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="perform_and_check_connections"/>
+    <functioncall functionName="read_callback"/>
+    <functioncall functionName="reset_data"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="test_cleanup"/>
+    <functioncall functionName="write_callback"/>
+  </FileInfo>
+</analyzerinfo>

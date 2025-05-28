@@ -1,0 +1,3 @@
+dump call:[fflush,fprintf,fputc,fputs] noreturn:[fflush,fprintf,fputc,fputs]
+my_trace call:[dump,fprintf]
+main call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_easy_strerror,fprintf] noreturn:[curl_easy_cleanup,fprintf]

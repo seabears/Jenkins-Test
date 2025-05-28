@@ -1,0 +1,1 @@
+test call:[curl_easy_option_by_id,curl_easy_option_by_name,curl_easy_option_next,curl_global_cleanup,curl_global_init,printf] noreturn:[printf]

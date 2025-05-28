@@ -1,0 +1,11 @@
+<map id="send_wakeup_message" name="send_wakeup_message">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,167,83"/>
+<area shape="rect" id="Node000002" href="$stm32___i_v_i_2can___l0_2_core_2_src_2_c_a_n_s_p_i_8c.html#a4d36fbaa82ac4f3d945c7d0d894b3294" title=" " alt="" coords="215,56,345,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,67,199,67,199,72,167,72"/>
+<area shape="rect" id="Node000003" href="$stm32___i_v_i_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#a85cfeaacfe5f8cdc8d793747abba26ce" title=" " alt="" coords="393,5,580,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="337,53,414,34,415,39,338,58"/>
+<area shape="rect" id="Node000004" href="$stm32___i_v_i_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#a07e01388c4b19b7dd6a6b7588de2bf40" title=" " alt="" coords="409,56,564,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="345,67,394,67,394,72,345,72"/>
+<area shape="rect" id="Node000005" href="$stm32___i_v_i_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#aeb8ce761748fdcc5506439ea62ad1b4b" title=" " alt="" coords="397,107,576,133"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="338,81,415,100,414,105,337,86"/>
+</map>

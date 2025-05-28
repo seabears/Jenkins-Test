@@ -1,0 +1,5 @@
+sha256_compress global:[K] call:[while]
+my_sha256_init
+my_sha256_update call:[memcpy,sha256_compress,sizeof]
+my_sha256_final call:[sha256_compress,sizeof,while] noreturn:[while]
+Curl_sha256it call:[curlx_uztoui,my_sha256_final,my_sha256_init,my_sha256_update] noreturn:[my_sha256_final]

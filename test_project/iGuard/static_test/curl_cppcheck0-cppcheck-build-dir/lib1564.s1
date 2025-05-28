@@ -1,0 +1,1 @@
+test global:[tv_test_start] call:[curl_easy_strerror,curl_global_cleanup,curl_global_init,curl_multi_cleanup,curl_multi_init,curl_multi_poll,curl_multi_strerror,curl_multi_wakeup,fprintf,tutil_tvdiff,tutil_tvnow,while] noreturn:[tutil_tvnow,while]

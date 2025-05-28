@@ -1,0 +1,4 @@
+read_callback
+test_once global:[testdata] call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_easy_strerror,curl_global_cleanup,curl_mime_addpart,curl_mime_data,curl_mime_data_cb,curl_mime_filename,curl_mime_free,curl_mime_init,curl_mime_name,fprintf,printf,strlen] noreturn:[curl_mime_data,curl_mime_data_cb,curl_mime_filename,printf]
+cyclic_add call:[curl_easy_cleanup,curl_easy_init,curl_mime_addpart,curl_mime_free,curl_mime_init,curl_mime_subparts] noreturn:[curl_mime_subparts]
+test call:[curl_global_cleanup,curl_global_init,cyclic_add,fprintf,test_once] noreturn:[cyclic_add,test_once]

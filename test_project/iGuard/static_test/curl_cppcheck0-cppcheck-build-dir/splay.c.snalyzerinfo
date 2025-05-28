@@ -1,0 +1,6 @@
+Curl_splay call:[curlx_timediff_us]
+Curl_splayinsert call:[Curl_splay,curlx_timediff_us,while]
+Curl_splaygetbest call:[Curl_splay,curlx_timediff_us,while]
+Curl_splayremove call:[Curl_splay,curlx_timediff_us,while]
+Curl_splayset call:[while]
+Curl_splayget call:[while]

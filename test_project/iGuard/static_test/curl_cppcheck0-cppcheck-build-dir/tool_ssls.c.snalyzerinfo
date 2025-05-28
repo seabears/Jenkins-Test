@@ -1,0 +1,4 @@
+tool_ssls_easy call:[curl_easy_init,curl_easy_setopt,tool_setopt,tool_setopt_long,while] noreturn:[tool_setopt,tool_setopt_long,while]
+tool_ssls_load call:[ISBLANK,curl_easy_cleanup,curl_easy_ssls_import,curl_free,curlx_base64_decode,curlx_dyn_free,curlx_dyn_init,curlx_dyn_ptr,fclose,fopen,memchr,my_get_line,notef,strlen,tool_ssls_easy,warnf] noreturn:[curl_easy_cleanup,fclose]
+tool_ssls_exp call:[curl_free,curlx_base64_encode,fputc,fputs,fwrite,warnf] noreturn:[fputs,warnf]
+tool_ssls_save call:[curl_easy_cleanup,curl_easy_ssls_export,fclose,fopen,tool_ssls_easy,warnf] noreturn:[curl_easy_cleanup,fclose]

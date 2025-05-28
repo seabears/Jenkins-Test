@@ -1,0 +1,5 @@
+unit_setup
+unit_stop
+check_eq call:[fprintf,strcmp,while] noreturn:[while]
+parse_success call:[Curl_dynhds_count,Curl_h1_req_parse_free,Curl_h1_req_parse_init,Curl_h1_req_parse_read,check_eq,fprintf,strlen,while] noreturn:[Curl_h1_req_parse_free,while]
+test global:[TEST1a,TEST1b,TEST2,TEST3a,TEST4a,TEST5a,TEST6a] call:[fprintf,parse_success,return,unit_setup,unit_stop,while] noreturn:[unit_stop,while]

@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="14537838790828434994">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;test.h&quot; not found." verbose="Include file: &quot;test.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;doh.h&quot; not found." verbose="Include file: &quot;doh.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="26" column="0"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="41" column="1"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="119" column="9"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="123" column="9"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="126" column="7"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="128" column="7"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="171" column="3"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="174" column="58"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="171" column="3"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="41" column="1"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="182" column="1"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="41" column="1"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="115" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="119" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="123" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="126" column="7"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="128" column="7"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="133" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="134" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="155" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="156" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="157" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="162" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="163" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="164" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="169" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="170" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="171" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="175" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="179" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="180" column="3"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="45" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="27" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="36" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="67" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="77" column="0"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="186" column="1"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="186" column="1"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="188" column="1"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1655.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1655.c" line="186" column="1"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="unit_setup" lineNumber="28"/>
+    <functiondecl functionName="unit_stop" lineNumber="34"/>
+    <functiondecl functionName="test" lineNumber="41"/>
+    <functiondecl functionName="unit_setup" lineNumber="28"/>
+    <functiondecl functionName="unit_stop" lineNumber="34"/>
+    <functiondecl functionName="test" lineNumber="186"/>
+    <functioncall functionName="CURLE_OK"/>
+    <functioncall functionName="CURL_ARRAYSIZE"/>
+    <functioncall functionName="CURLcode"/>
+    <functioncall functionName="DNS_TYPE_A"/>
+    <functioncall functionName="DOH_DNS_BAD_LABEL"/>
+    <functioncall functionName="DOH_DNS_NAME_TOO_LONG"/>
+    <functioncall functionName="DOH_OK"/>
+    <functioncall functionName="doh_req_encode"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="unit_setup"/>
+    <functioncall functionName="unit_stop"/>
+    <functioncall functionName="unit_test_abort"/>
+    <functioncall functionName="unitfail"/>
+  </FileInfo>
+</analyzerinfo>

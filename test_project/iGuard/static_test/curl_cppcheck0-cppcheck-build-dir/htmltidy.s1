@@ -1,0 +1,3 @@
+write_cb call:[tidyBufAppend]
+dumpNode call:[dumpNode,printf,tidyAttrFirst,tidyAttrName,tidyAttrNext,tidyAttrValue,tidyBufFree,tidyBufInit,tidyGetChild,tidyGetNext,tidyNodeGetName,tidyNodeGetText] noreturn:[dumpNode,printf,tidyBufFree]
+main call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,dumpNode,fprintf,printf,tidyBufFree,tidyBufInit,tidyCleanAndRepair,tidyCreate,tidyGetRoot,tidyOptSetBool,tidyOptSetInt,tidyParseBuffer,tidyRelease,tidyRunDiagnostics,tidySetErrorBuffer] noreturn:[fprintf,printf]

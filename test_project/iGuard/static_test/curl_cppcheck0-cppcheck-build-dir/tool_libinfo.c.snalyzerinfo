@@ -1,0 +1,2 @@
+get_libcurl_info global:[built_in_protos,curlinfo,feature_count,feature_libssh2,feature_names,fnames,maybe_feature,possibly_built_in,proto_count] call:[curl_strequal,curl_version_info,strncmp]
+proto_token global:[built_in_protos] call:[curl_strequal]

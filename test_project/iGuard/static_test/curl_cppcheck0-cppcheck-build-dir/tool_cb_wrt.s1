@@ -1,0 +1,2 @@
+tool_create_output_file call:[DEBUGASSERT,close,errorf,fdopen,fopen,malloc,memcpy,msnprintf,open,strerror,strlen,warnf,while] noreturn:[close,fopen,open,while]
+tool_write_cb call:[curl_easy_pause,fflush,fwrite,memchr,tool_create_output_file,tool_write_headers,warnf,while] noreturn:[curl_easy_pause,fflush,fwrite]

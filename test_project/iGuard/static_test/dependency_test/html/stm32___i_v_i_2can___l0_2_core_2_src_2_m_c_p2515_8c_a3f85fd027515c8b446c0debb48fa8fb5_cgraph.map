@@ -1,0 +1,7 @@
+<map id="MCP2515_SetConfigMode" name="MCP2515_SetConfigMode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,182,57"/>
+<area shape="rect" id="Node000002" href="$stm32__boot_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#a4c7c196db5bc3a7e4d6b910f63c79b30" title=" " alt="" coords="230,5,374,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,31,214,27,215,32,182,36"/>
+<area shape="rect" id="Node000003" href="$stm32__boot_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#a8f9573cc99c7fb6b61eb7bc2e62abc18" title=" " alt="" coords="230,56,374,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,52,215,56,215,61,182,57"/>
+</map>

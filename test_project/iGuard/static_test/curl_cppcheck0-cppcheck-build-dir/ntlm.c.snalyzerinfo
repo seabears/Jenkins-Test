@@ -1,0 +1,7 @@
+ntlm_decode_type2_target global:[Curl_cfree] call:[Curl_bufref_len,Curl_bufref_ptr,Curl_cfree,Curl_infof,Curl_memdup,Curl_read16_le,Curl_read32_le,while] noreturn:[Curl_infof]
+Curl_auth_is_ntlm_supported
+Curl_auth_decode_ntlm_type2_message call:[Curl_bufref_len,Curl_bufref_ptr,Curl_infof,Curl_read32_le,memcmp,memcpy,ntlm_decode_type2_target,sizeof,while] noreturn:[Curl_infof]
+unicodecpy
+Curl_auth_create_ntlm_type1_message call:[Curl_auth_cleanup_ntlm,Curl_bufref_set,curl_maprintf,while]
+Curl_auth_create_ntlm_type3_message global:[Curl_cfree] call:[Curl_auth_cleanup_ntlm,Curl_bufref_memdup,Curl_cfree,Curl_failf,Curl_ntlm_core_lm_resp,Curl_ntlm_core_mk_lm_hash,Curl_ntlm_core_mk_lmv2_resp,Curl_ntlm_core_mk_nt_hash,Curl_ntlm_core_mk_ntlmv2_hash,Curl_ntlm_core_mk_ntlmv2_resp,Curl_rand_bytes,curl_msnprintf,memcpy,memset,sizeof,strchr,strlen,unicodecpy,while] noreturn:[memcpy,strchr,unicodecpy]
+Curl_auth_cleanup_ntlm global:[Curl_cfree] call:[Curl_cfree,while]

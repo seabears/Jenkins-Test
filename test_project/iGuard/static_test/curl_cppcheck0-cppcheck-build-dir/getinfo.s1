@@ -1,0 +1,1 @@
+main call:[curl_easy_cleanup,curl_easy_getinfo,curl_easy_init,curl_easy_perform,curl_easy_setopt,printf] noreturn:[curl_easy_cleanup,printf]

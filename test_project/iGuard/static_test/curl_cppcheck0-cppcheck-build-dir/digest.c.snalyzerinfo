@@ -1,0 +1,13 @@
+Curl_auth_digest_get_pair
+auth_digest_md5_to_ascii call:[curl_msnprintf] noreturn:[curl_msnprintf]
+auth_digest_sha256_to_ascii call:[curl_msnprintf] noreturn:[curl_msnprintf]
+auth_digest_string_quoted global:[Curl_cmalloc] call:[Curl_cmalloc]
+auth_digest_get_key_value call:[strlen,strstr]
+auth_digest_get_qop_values call:[Curl_str_casecompare,Curl_str_single,Curl_str_until]
+auth_decode_digest_md5_message call:[Curl_bufref_len,Curl_bufref_ptr,auth_digest_get_key_value]
+Curl_auth_is_digest_supported
+Curl_auth_create_digest_md5_message global:[Curl_DIGEST_MD5,Curl_cfree] call:[Curl_MD5_final,Curl_MD5_init,Curl_MD5_update,Curl_auth_build_spn,Curl_bufref_set,Curl_cfree,Curl_rand_hex,auth_decode_digest_md5_message,auth_digest_get_qop_values,curl_maprintf,curl_msnprintf,curlx_uztoui,sizeof,strcmp,strlen] noreturn:[curl_msnprintf]
+Curl_auth_decode_digest_http_message global:[Curl_cfree,Curl_cstrdup] call:[Curl_auth_digest_cleanup,Curl_auth_digest_get_pair,Curl_cfree,Curl_cstrdup,Curl_str_casecompare,Curl_str_single,Curl_str_until,curl_strequal]
+auth_create_digest_http_message global:[Curl_cfree,Curl_cmalloc] call:[Curl_cfree,Curl_cmalloc,Curl_rand_bytes,auth_digest_string_quoted,convert_to_ascii,curl_maprintf,curl_strequal,curlx_base64_encode,hash,memset,sizeof,strlen] noreturn:[auth_digest_string_quoted,convert_to_ascii,curl_maprintf]
+Curl_auth_create_digest_http_message call:[auth_create_digest_http_message] noreturn:[auth_create_digest_http_message]
+Curl_auth_digest_cleanup global:[Curl_cfree] call:[Curl_cfree,while]

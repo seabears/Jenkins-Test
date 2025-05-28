@@ -1,0 +1,3 @@
+is_chain_in_order call:[fprintf,printf,sizeof,strcmp,strncmp]
+wrfu
+test call:[curl_easy_cleanup,curl_easy_getinfo,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_global_cleanup,curl_global_init,fprintf,is_chain_in_order]

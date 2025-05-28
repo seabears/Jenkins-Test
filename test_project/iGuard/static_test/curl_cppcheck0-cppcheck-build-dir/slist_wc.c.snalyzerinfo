@@ -1,0 +1,2 @@
+slist_wc_append call:[curl_slist_append,curl_slist_free_all,malloc,sizeof]
+slist_wc_free_all call:[curl_slist_free_all,free] noreturn:[free]

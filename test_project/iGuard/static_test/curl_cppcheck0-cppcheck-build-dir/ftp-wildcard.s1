@@ -1,0 +1,4 @@
+main call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_global_cleanup,curl_global_init,return] noreturn:[curl_easy_setopt]
+file_is_coming call:[fopen,printf]
+file_is_downloaded call:[fclose,printf]
+write_it call:[fwrite] noreturn:[fwrite]

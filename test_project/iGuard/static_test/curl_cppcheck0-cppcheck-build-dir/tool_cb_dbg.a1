@@ -1,0 +1,369 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4384067767859124235">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="38" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;timeval.h&quot; not found." verbose="Include file: &quot;timeval.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curlx.h&quot; not found." verbose="Include file: &quot;curlx.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;dynbuf.h&quot; not found." verbose="Include file: &quot;dynbuf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\var.h" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="33" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="155" col="29" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="155" col="29" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="163" col="25" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="163" col="25" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="172" col="23" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="172" col="23" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="189" col="27" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="189" col="27" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" call-funcname="dump" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="232" col="7" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" call-funcname="dump" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="232" col="7" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="1" my-argname="timebuf" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="50" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="2" my-argname="idsbuf" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="59" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="3" my-argname="text" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="251" col="11" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="4" my-argname="stream" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="4" my-argname="stream" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="155" col="29" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="155" col="29" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="163" col="25" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="163" col="25" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="172" col="23" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="172" col="23" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="189" col="27" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="189" col="27" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" call-funcname="dump" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="232" col="7" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" call-funcname="dump" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="232" col="7" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="1" my-argname="timebuf" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="50" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="2" my-argname="idsbuf" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="59" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="3" my-argname="text" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="251" col="11" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="4" my-argname="stream" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="4" my-argname="stream" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="11" value="0"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="79" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="155" col="29" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="155" col="29" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="163" col="25" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="163" col="25" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="172" col="23" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="172" col="23" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="189" col="27" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="189" col="27" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" call-funcname="dump" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="232" col="7" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" call-funcname="dump" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="232" col="7" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="1" my-argname="timebuf" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="50" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="2" my-argname="idsbuf" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="59" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="3" my-argname="text" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="251" col="11" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="4" my-argname="stream" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="4" my-argname="stream" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="155" col="29" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="155" col="29" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="163" col="25" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="163" col="25" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="172" col="23" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="172" col="23" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="189" col="27" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="189" col="27" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" call-funcname="dump" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="232" col="7" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" call-funcname="dump" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="232" col="7" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="1" my-argname="timebuf" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="50" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="2" my-argname="idsbuf" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="59" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="3" my-argname="text" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="251" col="11" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="4" my-argname="stream" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="4" my-argname="stream" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="155" col="29" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="155" col="29" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="163" col="25" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="163" col="25" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="172" col="23" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="172" col="23" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="189" col="27" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="189" col="27" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" call-funcname="dump" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="232" col="7" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" call-funcname="dump" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="232" col="7" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="1" my-argname="timebuf" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="50" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="2" my-argname="idsbuf" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="59" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="3" my-argname="text" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="251" col="11" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="4" my-argname="stream" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="4" my-argname="stream" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="155" col="29" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="155" col="29" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="163" col="25" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="163" col="25" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="172" col="23" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="172" col="23" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="189" col="27" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:58:13" call-funcname="log_line_start" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="189" col="27" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" call-funcname="dump" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="232" col="7" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/><function-call call-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" call-funcname="dump" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="232" col="7" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="1" my-argname="timebuf" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="50" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="2" my-argname="idsbuf" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="59" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="3" my-argname="text" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="251" col="11" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="4" my-argname="stream" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_dbg.c:35:13" my-argnr="4" my-argname="stream" file="C:/test_workspace/curl-master/src/tool_cb_dbg.c" line="250" col="11" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="73" column="26"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="74" column="24"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="75" column="25"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="67" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="68" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="69" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="70" column="7"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="149" column="15"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="152" column="29"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="157" column="44"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="158" column="20"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="164" column="40"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="166" column="34"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="174" column="34"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="269" column="17"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="270" column="21"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="271" column="17"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="275" column="42"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="276" column="26"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="279" column="17"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="280" column="21"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="281" column="17"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="84" column="37"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="109" column="61"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="110" column="63"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="152" column="22"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="260" column="18"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="266" column="38"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="269" column="21"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="279" column="21"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="96" column="21"/>
+        </error>
+        <error id="misra-c2012-14.2" severity="style" msg="Required A for loop shall be well-formed" verbose="Required A for loop shall be well-formed" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="271" column="9"/>
+        </error>
+        <error id="misra-c2012-14.2" severity="style" msg="Required A for loop shall be well-formed" verbose="Required A for loop shall be well-formed" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="281" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="135" column="5"/>
+        </error>
+        <error id="misra-c2012-15.4" severity="style" msg="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" verbose="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="266" column="52"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="140" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="202" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="210" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="68" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="70" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="105" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="119" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="124" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="126" column="10"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="135" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="162" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="171" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="188" column="11"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="246" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="259" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="260" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="262" column="9"/>
+        </error>
+        <error id="misra-c2012-16.3" severity="style" msg="Required An unconditional break statement shall terminate every switch-clause" verbose="Required An unconditional break statement shall terminate every switch-clause" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="209" column="3"/>
+        </error>
+        <error id="misra-c2012-16.5" severity="style" msg="Required A default label shall appear as either the first or the last switch label of a switch statement" verbose="Required A default label shall appear as either the first or the last switch label of a switch statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="209" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="69" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="71" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="190" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="207" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="250" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="255" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="261" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="263" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="275" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="285" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="287" column="9"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="157" column="31"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_dbg.c" line="164" column="27"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="38" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="57" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="132" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="107" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.h" line="34" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_dbg.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.h" line="36" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="hms_for_sec" lineNumber="43"/>
+    <functiondecl functionName="log_line_start" lineNumber="58"/>
+    <functiondecl functionName="tool_debug_cb" lineNumber="80"/>
+    <functiondecl functionName="dump" lineNumber="237"/>
+    <functiondecl functionName="hms_for_sec" lineNumber="43"/>
+    <functiondecl functionName="log_line_start" lineNumber="58"/>
+    <functiondecl functionName="tool_debug_cb" lineNumber="80"/>
+    <functiondecl functionName="dump" lineNumber="237"/>
+    <functiondecl functionName="hms_for_sec" lineNumber="43"/>
+    <functiondecl functionName="log_line_start" lineNumber="58"/>
+    <functiondecl functionName="tool_debug_cb" lineNumber="80"/>
+    <functiondecl functionName="dump" lineNumber="237"/>
+    <functiondecl functionName="hms_for_sec" lineNumber="43"/>
+    <functiondecl functionName="log_line_start" lineNumber="58"/>
+    <functiondecl functionName="tool_debug_cb" lineNumber="80"/>
+    <functiondecl functionName="dump" lineNumber="237"/>
+    <functiondecl functionName="hms_for_sec" lineNumber="43"/>
+    <functiondecl functionName="log_line_start" lineNumber="58"/>
+    <functiondecl functionName="tool_debug_cb" lineNumber="80"/>
+    <functiondecl functionName="dump" lineNumber="237"/>
+    <functiondecl functionName="hms_for_sec" lineNumber="43"/>
+    <functiondecl functionName="log_line_start" lineNumber="58"/>
+    <functiondecl functionName="tool_debug_cb" lineNumber="80"/>
+    <functiondecl functionName="dump" lineNumber="237"/>
+    <functioncall functionName="BIT"/>
+    <functioncall functionName="CURLINFO_CONN_ID"/>
+    <functioncall functionName="CURLINFO_XFER_ID"/>
+    <functioncall functionName="CURL_PRINTF"/>
+    <functioncall functionName="FALLTHROUGH"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="FOPEN_WRITETEXT"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="alloc_filename"/>
+    <functioncall functionName="curl_easy_getinfo"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="fflush"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fopened"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="fputc"/>
+    <functioncall functionName="fputs"/>
+    <functioncall functionName="fwrite"/>
+    <functioncall functionName="hms_for_sec"/>
+    <functioncall functionName="is_cd_filename"/>
+    <functioncall functionName="localtime"/>
+    <functioncall functionName="log_line_start"/>
+    <functioncall functionName="msnprintf"/>
+    <functioncall functionName="s_isreg"/>
+    <functioncall functionName="stdout"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="tvrealnow"/>
+    <functioncall functionName="warnf"/>
+  </FileInfo>
+</analyzerinfo>

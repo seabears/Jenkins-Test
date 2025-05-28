@@ -1,0 +1,7 @@
+<map id="MCP2515_SetNormalMode" name="MCP2515_SetNormalMode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,186,57"/>
+<area shape="rect" id="Node000002" href="$stm32__boot_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#a4c7c196db5bc3a7e4d6b910f63c79b30" title=" " alt="" coords="234,5,378,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,30,218,27,219,32,186,36"/>
+<area shape="rect" id="Node000003" href="$stm32__boot_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#a8f9573cc99c7fb6b61eb7bc2e62abc18" title=" " alt="" coords="234,56,378,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,52,219,56,219,62,186,58"/>
+</map>

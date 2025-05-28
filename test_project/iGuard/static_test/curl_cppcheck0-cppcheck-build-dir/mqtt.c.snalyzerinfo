@@ -1,0 +1,23 @@
+mqtt_setup_conn global:[Curl_ccalloc] call:[Curl_ccalloc,curlx_dyn_init,sizeof,while]
+mqtt_send call:[Curl_debug,Curl_xfer_send,curlx_dyn_addn,curlx_dyn_len,curlx_dyn_reset,curlx_dyn_tail,while] noreturn:[curlx_dyn_addn,curlx_dyn_reset,curlx_dyn_tail]
+mqtt_getsock call:[return] noreturn:[return]
+mqtt_encode_len
+add_passwd call:[memcpy]
+add_user call:[memcpy]
+add_client_id call:[memcpy]
+init_connpack call:[memcpy]
+mqtt_connect global:[Curl_ccalloc,Curl_cfree] call:[Curl_ccalloc,Curl_cfree,Curl_failf,Curl_infof,Curl_rand_alnum,add_client_id,add_passwd,add_user,init_connpack,mqtt_encode_len,mqtt_send,strlen,while] noreturn:[Curl_cfree,Curl_infof,mqtt_send]
+mqtt_disconnect call:[curlx_dyn_free,mqtt_send]
+mqtt_recv_atleast call:[Curl_xfer_recv,curlx_dyn_addn,curlx_dyn_len,return,while] noreturn:[curlx_dyn_len]
+mqtt_recv_consume call:[curlx_dyn_len,curlx_dyn_reset,curlx_dyn_tail] noreturn:[curlx_dyn_reset,curlx_dyn_tail]
+mqtt_verify_connack call:[Curl_debug,Curl_failf,curlx_dyn_ptr,curlx_dyn_reset,mqtt_recv_atleast,mqtt_recv_consume,while]
+mqtt_get_topic call:[Curl_failf,Curl_urldecode,strlen] noreturn:[Curl_failf]
+mqtt_subscribe global:[Curl_cfree,Curl_cmalloc] call:[Curl_cfree,Curl_cmalloc,memcpy,mqtt_encode_len,mqtt_get_topic,mqtt_send]
+mqtt_verify_suback call:[Curl_debug,curlx_dyn_ptr,curlx_dyn_reset,mqtt_recv_atleast,mqtt_recv_consume,while]
+mqtt_publish global:[Curl_cfree,Curl_cmalloc] call:[Curl_cfree,Curl_cmalloc,memcpy,mqtt_encode_len,mqtt_get_topic,mqtt_send,strlen,while] noreturn:[strlen]
+mqtt_decode_len
+mqstate
+mqtt_read_publish call:[Curl_client_write,Curl_failf,Curl_infof,Curl_pgrsSetDownloadSize,Curl_xfer_recv,mqstate,mqtt_verify_suback,sizeof,while] noreturn:[Curl_infof,mqstate,sizeof,while]
+mqtt_do call:[Curl_failf,mqstate,mqtt_connect]
+mqtt_done call:[curlx_dyn_free]
+mqtt_doing call:[Curl_debug,Curl_failf,Curl_infof,Curl_xfer_recv,curlx_dyn_len,curlx_dyn_ptr,mqstate,mqtt_decode_len,mqtt_disconnect,mqtt_publish,mqtt_read_publish,mqtt_send,mqtt_subscribe,mqtt_verify_connack,while] noreturn:[Curl_infof,mqstate]

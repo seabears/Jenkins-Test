@@ -1,0 +1,3 @@
+Curl_input_negotiate call:[Curl_auth_decode_spnego_message,Curl_http_auth_cleanup_negotiate,Curl_infof,Curl_str_passblanks,curlx_dyn_free,curlx_dyn_init,strlen,while] noreturn:[Curl_http_auth_cleanup_negotiate,Curl_infof]
+Curl_output_negotiate global:[Curl_cfree] call:[Curl_auth_create_spnego_message,Curl_cfree,Curl_http_auth_cleanup_negotiate,Curl_infof,Curl_input_negotiate,curl_maprintf,while] noreturn:[Curl_http_auth_cleanup_negotiate,Curl_infof]
+Curl_http_auth_cleanup_negotiate call:[Curl_auth_cleanup_spnego] noreturn:[Curl_auth_cleanup_spnego]

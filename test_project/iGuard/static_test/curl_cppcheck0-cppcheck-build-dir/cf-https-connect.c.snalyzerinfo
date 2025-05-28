@@ -1,0 +1,26 @@
+cf_hc_baller_reset call:[Curl_conn_cf_close,Curl_conn_cf_discard_chain]
+cf_hc_baller_is_active
+cf_hc_baller_has_started
+cf_hc_baller_reply_ms call:[query] noreturn:[query]
+cf_hc_baller_data_pending call:[has_data_pending] noreturn:[has_data_pending]
+cf_hc_baller_needs_flush call:[Curl_conn_cf_needs_flush] noreturn:[Curl_conn_cf_needs_flush]
+cf_hc_baller_cntrl call:[Curl_conn_cf_cntrl] noreturn:[Curl_conn_cf_cntrl]
+cf_hc_baller_assign
+cf_hc_baller_init call:[Curl_cf_setup_insert_after,curlx_now] noreturn:[Curl_cf_setup_insert_after]
+cf_hc_baller_connect call:[Curl_conn_cf_connect]
+cf_hc_reset call:[cf_hc_baller_reset] noreturn:[cf_hc_baller_reset]
+baller_connected call:[Curl_trc_cf_infof,cf_hc_baller_reply_ms,cf_hc_baller_reset,curlx_now,curlx_timediff,while] noreturn:[Curl_trc_cf_infof,cf_hc_baller_reset,while]
+time_to_start_next call:[Curl_expire,Curl_trc_cf_infof,cf_hc_baller_has_started,cf_hc_baller_reply_ms,curlx_timediff,while] noreturn:[Curl_expire,Curl_trc_cf_infof]
+cf_hc_connect call:[Curl_expire,Curl_trc_cf_infof,baller_connected,cf_hc_baller_connect,cf_hc_baller_init,cf_hc_baller_is_active,curlx_now,time_to_start_next,while] noreturn:[Curl_trc_cf_infof,cf_hc_baller_init,while]
+cf_hc_shutdown call:[Curl_trc_cf_infof,cf_hc_baller_is_active,do_shutdown,while] noreturn:[Curl_trc_cf_infof]
+cf_hc_adjust_pollset call:[Curl_conn_cf_adjust_pollset,Curl_trc_cf_infof,cf_hc_baller_is_active,while] noreturn:[Curl_conn_cf_adjust_pollset,Curl_trc_cf_infof,while]
+cf_hc_data_pending call:[cf_hc_baller_data_pending,has_data_pending] noreturn:[has_data_pending]
+cf_get_max_baller_time call:[curlx_timediff_us,memset,query,sizeof]
+cf_hc_query call:[cf_get_max_baller_time,cf_hc_baller_needs_flush,query]
+cf_hc_cntrl call:[cf_hc_baller_cntrl]
+cf_hc_close call:[Curl_conn_cf_discard_chain,Curl_trc_cf_infof,cf_hc_reset,do_close,while] noreturn:[Curl_conn_cf_discard_chain,Curl_trc_cf_infof]
+cf_hc_destroy global:[Curl_cfree] call:[Curl_cfree,Curl_trc_cf_infof,cf_hc_reset,while] noreturn:[Curl_trc_cf_infof,while]
+cf_hc_create global:[Curl_ccalloc,Curl_cfree,Curl_cft_http_connect] call:[Curl_ccalloc,Curl_cf_create,Curl_cfree,Curl_failf,cf_hc_baller_assign,cf_hc_reset,sizeof,while] noreturn:[cf_hc_baller_assign]
+cf_http_connect_add call:[Curl_conn_cf_add,cf_hc_create,while]
+cf_https_alpns_contain
+Curl_cf_https_setup global:[Curl_cft_http_connect] call:[Curl_conn_may_http3,Curl_trc_cf_infof,cf_http_connect_add,cf_https_alpns_contain,memset,sizeof,while] noreturn:[Curl_trc_cf_infof,cf_http_connect_add]

@@ -1,0 +1,3 @@
+unit_setup
+unit_stop
+test call:[CURL_ARRAYSIZE,dedotdotify,fprintf,free,return,strcmp,strlen,unit_setup,unit_stop,while] noreturn:[fprintf,free,unit_stop,while]

@@ -1,0 +1,16 @@
+entry_new global:[Curl_ccalloc] call:[Curl_ccalloc,Curl_strntolower,memcpy,sizeof,while] noreturn:[Curl_strntolower]
+entry_append global:[Curl_ccalloc] call:[Curl_ccalloc,memcpy,sizeof,while]
+entry_free global:[Curl_cfree] call:[Curl_cfree] noreturn:[Curl_cfree]
+Curl_dynhds_init call:[while]
+Curl_dynhds_free global:[Curl_cfree] call:[Curl_cfree,entry_free,while] noreturn:[entry_free]
+Curl_dynhds_reset call:[entry_free,while]
+Curl_dynhds_count
+Curl_dynhds_set_opts
+Curl_dynhds_getn call:[return,while]
+Curl_dynhds_get call:[curl_strnequal]
+Curl_dynhds_cget call:[Curl_dynhds_get,strlen] noreturn:[Curl_dynhds_get]
+Curl_dynhds_add global:[Curl_ccalloc,Curl_cfree] call:[Curl_ccalloc,Curl_cfree,entry_free,entry_new,memcpy,sizeof,while] noreturn:[entry_free,while]
+Curl_dynhds_cadd call:[Curl_dynhds_add,strlen] noreturn:[Curl_dynhds_add]
+Curl_dynhds_h1_add_line call:[Curl_dynhds_add,entry_append,entry_free,memchr] noreturn:[Curl_dynhds_add,memchr]
+Curl_dynhds_h1_cadd_line call:[Curl_dynhds_h1_add_line,strlen] noreturn:[Curl_dynhds_h1_add_line]
+Curl_dynhds_h1_dprint call:[curlx_dyn_addf]

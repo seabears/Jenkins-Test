@@ -1,0 +1,1 @@
+test call:[curl_strequal,curl_strnequal,fail_unless]

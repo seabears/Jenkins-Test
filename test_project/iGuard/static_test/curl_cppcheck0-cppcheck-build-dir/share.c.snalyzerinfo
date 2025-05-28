@@ -1,0 +1,5 @@
+curl_share_init global:[Curl_ccalloc,Curl_cfree] call:[Curl_ccalloc,Curl_cfree,Curl_dnscache_init,curl_easy_init,sizeof]
+curl_share_setopt call:[Curl_cookie_cleanup,Curl_cookie_init,Curl_cpool_init,Curl_hsts_cleanup,Curl_hsts_init,va_arg,va_end,va_start] noreturn:[Curl_cpool_init,Curl_hsts_cleanup]
+curl_share_cleanup global:[Curl_cfree] call:[Curl_cfree,Curl_close,Curl_cookie_cleanup,Curl_cpool_destroy,Curl_dnscache_destroy,Curl_hsts_cleanup,lockfunc,unlockfunc] noreturn:[Curl_cpool_destroy,lockfunc,unlockfunc]
+Curl_share_lock call:[lockfunc] noreturn:[lockfunc]
+Curl_share_unlock call:[unlockfunc] noreturn:[unlockfunc]

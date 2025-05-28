@@ -1,0 +1,5 @@
+curl_easy_strerror
+curl_multi_strerror
+curl_share_strerror
+curl_url_strerror
+Curl_strerror call:[curl_msnprintf,strerror,strrchr,while] noreturn:[curl_msnprintf]

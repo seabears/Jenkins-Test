@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="3842997808237559099">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpget.c" line="24" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpget.c" line="26" column="0"/>
+        </error>
+        <error id="constParameterCallback" severity="style" msg="Parameter &apos;buffer&apos; can be declared as pointer to const. However it seems that &apos;my_fwrite&apos; is a callback function, if &apos;buffer&apos; is declared with const you might also need to cast function pointer(s)." verbose="Parameter &apos;buffer&apos; can be declared as pointer to const. However it seems that &apos;my_fwrite&apos; is a callback function, if &apos;buffer&apos; is declared with const you might also need to cast function pointer(s)." cwe="398" file0="C:/test_workspace/curl-master/docs/examples/ftpget.c">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpget.c" line="38" column="31" info="Parameter &apos;buffer&apos; can be declared as pointer to const"/>
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpget.c" line="70" column="51" info="You might need to cast the function pointer here"/>
+            <symbol>buffer</symbol>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpget.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpget.c" line="40" column="25"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpget.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpget.c" line="63" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpget.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpget.c" line="88" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpget.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpget.c" line="45" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpget.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpget.c" line="44" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpget.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpget.c" line="88" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpget.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpget.c" line="84" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpget.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpget.c" line="89" column="11"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpget.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpget.c" line="24" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="my_fwrite" lineNumber="38"/>
+    <functiondecl functionName="main" lineNumber="51"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_VERBOSE"/>
+    <functioncall functionName="CURLOPT_WRITEDATA"/>
+    <functioncall functionName="CURLOPT_WRITEFUNCTION"/>
+    <functioncall functionName="CURL_GLOBAL_DEFAULT"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_perform"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_global_cleanup"/>
+    <functioncall functionName="curl_global_init"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="fwrite"/>
+    <functioncall functionName="my_fwrite"/>
+    <functioncall functionName="stderr"/>
+  </FileInfo>
+</analyzerinfo>

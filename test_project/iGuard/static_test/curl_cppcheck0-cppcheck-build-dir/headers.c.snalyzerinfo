@@ -1,0 +1,10 @@
+copy_header_external
+curl_easy_header call:[Curl_llist_count,Curl_llist_head,Curl_node_elem,Curl_node_next,copy_header_external,curl_strequal]
+curl_easy_nextheader call:[Curl_llist_head,Curl_node_elem,Curl_node_next,copy_header_external,curl_strequal,while] noreturn:[Curl_llist_head,Curl_node_next,while]
+namevalue call:[while]
+unfold_value call:[Curl_llist_append,Curl_node_remove,Curl_saferealloc,memcpy,sizeof,strlen,while]
+Curl_headers_push global:[Curl_ccalloc,Curl_cfree] call:[Curl_ccalloc,Curl_cfree,Curl_llist_append,memcpy,namevalue,sizeof,strchr,unfold_value] noreturn:[Curl_cfree,unfold_value]
+headers_reset call:[Curl_llist_init]
+hds_cw_collect_write global:[Curl_trc_feat_write] call:[Curl_cwriter_write,Curl_headers_push,Curl_trc_write,while] noreturn:[Curl_cwriter_write,Curl_trc_write]
+Curl_headers_init global:[hds_cw_collect] call:[Curl_cwriter_add,Curl_cwriter_create,Curl_cwriter_free,Curl_cwriter_get_by_name]
+Curl_headers_cleanup global:[Curl_cfree] call:[Curl_cfree,Curl_llist_head,Curl_node_elem,Curl_node_next,headers_reset] noreturn:[Curl_cfree]

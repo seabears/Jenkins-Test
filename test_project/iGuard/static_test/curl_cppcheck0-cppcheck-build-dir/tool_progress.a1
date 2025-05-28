@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8607895624567461163">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="38" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;timeval.h&quot; not found." verbose="Include file: &quot;timeval.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;dynbuf.h&quot; not found." verbose="Include file: &quot;dynbuf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\var.h" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curlx.h&quot; not found." verbose="Include file: &quot;curlx.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="29" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="270" col="15" call-argexpr="time_left" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="271" col="15" call-argexpr="time_total" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="274" col="15" call-argexpr="time_left" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_progress.c" line="274" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="275" col="15" call-argexpr="time_total" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_progress.c" line="275" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="277" col="13" call-argexpr="time_spent" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:34:14" call-funcname="max5data" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="302" col="21" call-argexpr="speed" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\test_workspace\curl-master\src\tool_progress.c" line="267" col="19" info="Assuming that condition &apos;speed&apos; is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:34:6" my-argnr="1" my-argname="global" file="C:/test_workspace/curl-master/src/tool_progress.c" line="164" col="6" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:37:6" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_progress.c" line="312" col="20" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:34:6" my-argnr="1" my-argname="global" file="C:/test_workspace/curl-master/src/tool_progress.c" line="164" col="6" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:37:6" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_progress.c" line="312" col="20" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="270" col="15" call-argexpr="time_left" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="271" col="15" call-argexpr="time_total" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="274" col="15" call-argexpr="time_left" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_progress.c" line="274" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="275" col="15" call-argexpr="time_total" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_progress.c" line="275" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="277" col="13" call-argexpr="time_spent" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:34:14" call-funcname="max5data" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="302" col="21" call-argexpr="speed" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\test_workspace\curl-master\src\tool_progress.c" line="267" col="19" info="Assuming that condition &apos;speed&apos; is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:34:6" my-argnr="1" my-argname="global" file="C:/test_workspace/curl-master/src/tool_progress.c" line="164" col="6" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:37:6" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_progress.c" line="312" col="20" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:34:6" my-argnr="1" my-argname="global" file="C:/test_workspace/curl-master/src/tool_progress.c" line="164" col="6" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:37:6" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_progress.c" line="312" col="20" value="0"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="79" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="270" col="15" call-argexpr="time_left" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="271" col="15" call-argexpr="time_total" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="274" col="15" call-argexpr="time_left" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_progress.c" line="274" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="275" col="15" call-argexpr="time_total" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_progress.c" line="275" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="277" col="13" call-argexpr="time_spent" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:34:14" call-funcname="max5data" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="302" col="21" call-argexpr="speed" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\test_workspace\curl-master\src\tool_progress.c" line="267" col="19" info="Assuming that condition &apos;speed&apos; is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:34:6" my-argnr="1" my-argname="global" file="C:/test_workspace/curl-master/src/tool_progress.c" line="164" col="6" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:37:6" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_progress.c" line="312" col="20" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:34:6" my-argnr="1" my-argname="global" file="C:/test_workspace/curl-master/src/tool_progress.c" line="164" col="6" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:37:6" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_progress.c" line="312" col="20" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="270" col="15" call-argexpr="time_left" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="271" col="15" call-argexpr="time_total" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="274" col="15" call-argexpr="time_left" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_progress.c" line="274" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="275" col="15" call-argexpr="time_total" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_progress.c" line="275" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="277" col="13" call-argexpr="time_spent" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:34:14" call-funcname="max5data" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="302" col="21" call-argexpr="speed" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\test_workspace\curl-master\src\tool_progress.c" line="267" col="19" info="Assuming that condition &apos;speed&apos; is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:34:6" my-argnr="1" my-argname="global" file="C:/test_workspace/curl-master/src/tool_progress.c" line="164" col="6" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:37:6" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_progress.c" line="312" col="20" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:34:6" my-argnr="1" my-argname="global" file="C:/test_workspace/curl-master/src/tool_progress.c" line="164" col="6" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:37:6" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_progress.c" line="312" col="20" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="270" col="15" call-argexpr="time_left" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="271" col="15" call-argexpr="time_total" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="274" col="15" call-argexpr="time_left" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_progress.c" line="274" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="275" col="15" call-argexpr="time_total" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_progress.c" line="275" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="277" col="13" call-argexpr="time_spent" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:34:14" call-funcname="max5data" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="302" col="21" call-argexpr="speed" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\test_workspace\curl-master\src\tool_progress.c" line="267" col="19" info="Assuming that condition &apos;speed&apos; is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:34:6" my-argnr="1" my-argname="global" file="C:/test_workspace/curl-master/src/tool_progress.c" line="164" col="6" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:37:6" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_progress.c" line="312" col="20" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:34:6" my-argnr="1" my-argname="global" file="C:/test_workspace/curl-master/src/tool_progress.c" line="164" col="6" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:37:6" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_progress.c" line="312" col="20" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="270" col="15" call-argexpr="time_left" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="271" col="15" call-argexpr="time_total" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="274" col="15" call-argexpr="time_left" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_progress.c" line="274" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="275" col="15" call-argexpr="time_total" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_progress.c" line="275" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:107:13" call-funcname="time2str" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="277" col="13" call-argexpr="time_spent" call-argvaluetype="7" call-argvalue="10"/><function-call call-id="C:/test_workspace/curl-master/src/tool_progress.c:34:14" call-funcname="max5data" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_progress.c" line="302" col="21" call-argexpr="speed" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\test_workspace\curl-master\src\tool_progress.c" line="267" col="19" info="Assuming that condition &apos;speed&apos; is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:34:6" my-argnr="1" my-argname="global" file="C:/test_workspace/curl-master/src/tool_progress.c" line="164" col="6" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:37:6" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_progress.c" line="312" col="20" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:34:6" my-argnr="1" my-argname="global" file="C:/test_workspace/curl-master/src/tool_progress.c" line="164" col="6" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_progress.h:37:6" my-argnr="1" my-argname="per" file="C:/test_workspace/curl-master/src/tool_progress.c" line="312" col="20" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-7.4" severity="style" msg="Required A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235" verbose="Required A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="182" column="22"/>
+        </error>
+        <error id="misra-c2012-7.4" severity="style" msg="Required A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235" verbose="Required A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="183" column="22"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="73" column="26"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="74" column="24"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="75" column="25"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="67" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="68" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="69" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="70" column="7"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="147" column="21"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="149" column="26"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="148" column="13"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="87" column="28"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="221" column="49"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="227" column="49"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="263" column="25"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="95" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="112" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="165" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="304" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="42" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="45" column="8"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="48" column="8"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="54" column="8"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="58" column="8"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="64" column="8"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="68" column="8"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="72" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="94" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="126" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="129" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="164" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="201" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="208" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="215" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="218" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="224" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="259" column="7"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="207" column="7"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="214" column="7"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="111" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="172" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_progress.c" line="279" column="12"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="38" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="57" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="132" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="107" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.h" line="34" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_progress.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.h" line="36" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="max5data" lineNumber="34"/>
+    <functiondecl functionName="xferinfo_cb" lineNumber="81"/>
+    <functiondecl functionName="time2str" lineNumber="107"/>
+    <functiondecl functionName="progress_meter" lineNumber="155"/>
+    <functiondecl functionName="progress_finalize" lineNumber="309"/>
+    <functiondecl functionName="max5data" lineNumber="34"/>
+    <functiondecl functionName="xferinfo_cb" lineNumber="81"/>
+    <functiondecl functionName="time2str" lineNumber="107"/>
+    <functiondecl functionName="progress_meter" lineNumber="155"/>
+    <functiondecl functionName="progress_finalize" lineNumber="309"/>
+    <functiondecl functionName="max5data" lineNumber="34"/>
+    <functiondecl functionName="xferinfo_cb" lineNumber="81"/>
+    <functiondecl functionName="time2str" lineNumber="107"/>
+    <functiondecl functionName="progress_meter" lineNumber="155"/>
+    <functiondecl functionName="progress_finalize" lineNumber="309"/>
+    <functiondecl functionName="max5data" lineNumber="34"/>
+    <functiondecl functionName="xferinfo_cb" lineNumber="81"/>
+    <functiondecl functionName="time2str" lineNumber="107"/>
+    <functiondecl functionName="progress_meter" lineNumber="155"/>
+    <functiondecl functionName="progress_finalize" lineNumber="309"/>
+    <functiondecl functionName="max5data" lineNumber="34"/>
+    <functiondecl functionName="xferinfo_cb" lineNumber="81"/>
+    <functiondecl functionName="time2str" lineNumber="107"/>
+    <functiondecl functionName="progress_meter" lineNumber="155"/>
+    <functiondecl functionName="progress_finalize" lineNumber="309"/>
+    <functiondecl functionName="max5data" lineNumber="34"/>
+    <functiondecl functionName="xferinfo_cb" lineNumber="81"/>
+    <functiondecl functionName="time2str" lineNumber="107"/>
+    <functiondecl functionName="progress_meter" lineNumber="155"/>
+    <functiondecl functionName="progress_finalize" lineNumber="309"/>
+    <functioncall functionName="BIT"/>
+    <functioncall functionName="CURLPAUSE_CONT"/>
+    <functioncall functionName="CURL_OFF_T_C"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="alloc_filename"/>
+    <functioncall functionName="curl_easy_pause"/>
+    <functioncall functionName="curl_off_t"/>
+    <functioncall functionName="curlx_now"/>
+    <functioncall functionName="curlx_timediff"/>
+    <functioncall functionName="fopened"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="fputs"/>
+    <functioncall functionName="is_cd_filename"/>
+    <functioncall functionName="max5data"/>
+    <functioncall functionName="msnprintf"/>
+    <functioncall functionName="s_isreg"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="time2str"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,3 @@
+unit_setup
+unit_stop
+test global:[filecontents] call:[Curl_dyn_free,Curl_dyn_init,Curl_dyn_len,Curl_dyn_ptr,Curl_get_line,fclose,fopen,fprintf,fwrite,return,strcmp,strlen,unit_setup,unit_stop,while] noreturn:[fprintf,unit_stop,while]

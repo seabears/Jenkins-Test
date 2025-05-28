@@ -1,0 +1,1 @@
+main call:[curl_easy_cleanup,curl_easy_init,curl_easy_setopt,curl_mime_addpart,curl_mime_data,curl_mime_filedata,curl_mime_free,curl_mime_init,curl_mime_name,curl_multi_add_handle,curl_multi_cleanup,curl_multi_init,curl_multi_perform,curl_multi_poll,curl_slist_append,curl_slist_free_all,while] noreturn:[curl_multi_poll,curl_slist_free_all]

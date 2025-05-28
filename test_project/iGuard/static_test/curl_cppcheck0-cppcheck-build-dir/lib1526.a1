@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="5765061002568973843">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="36" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_printf.h&quot; not found." verbose="Include file: &quot;curl_printf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="45" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="32" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/select.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/select.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="40" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="42" column="0"/>
+        </error>
+        <error id="misra-c2012-7.4" severity="style" msg="Required A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235" verbose="Required A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="34" column="26"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="52" column="32"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="77" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="78" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="79" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="80" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="81" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="82" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="83" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="84" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="85" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="86" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="87" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="88" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="89" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="90" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="69" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="73" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="77" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="78" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="79" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="80" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="81" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="82" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="83" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="84" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="85" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="86" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="87" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="88" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="89" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="90" column="3"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="40" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="56" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="63" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="43" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="55" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1526.c" line="61" column="12"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1526.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="522" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="read_callback" lineNumber="36"/>
+    <functiondecl functionName="read_callback" lineNumber="36"/>
+    <functioncall functionName="CURLE_FAILED_INIT"/>
+    <functioncall functionName="CURLE_RESERVED126"/>
+    <functioncall functionName="CURLHEADER_SEPARATE"/>
+    <functioncall functionName="CURLOPT_HEADER"/>
+    <functioncall functionName="CURLOPT_HEADEROPT"/>
+    <functioncall functionName="CURLOPT_HTTPHEADER"/>
+    <functioncall functionName="CURLOPT_HTTPPROXYTUNNEL"/>
+    <functioncall functionName="CURLOPT_INFILESIZE"/>
+    <functioncall functionName="CURLOPT_POST"/>
+    <functioncall functionName="CURLOPT_PROXY"/>
+    <functioncall functionName="CURLOPT_PROXYHEADER"/>
+    <functioncall functionName="CURLOPT_PROXYTYPE"/>
+    <functioncall functionName="CURLOPT_READFUNCTION"/>
+    <functioncall functionName="CURLOPT_UPLOAD"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_VERBOSE"/>
+    <functioncall functionName="CURLOPT_WRITEFUNCTION"/>
+    <functioncall functionName="CURLPROXY_HTTP"/>
+    <functioncall functionName="CURL_GLOBAL_ALL"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_perform"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_global_cleanup"/>
+    <functioncall functionName="curl_global_init"/>
+    <functioncall functionName="curl_slist_append"/>
+    <functioncall functionName="curl_slist_free_all"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="fwrite"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="read_callback"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="test_cleanup"/>
+  </FileInfo>
+</analyzerinfo>

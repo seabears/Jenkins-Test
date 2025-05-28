@@ -1,0 +1,3 @@
+inet_ntop4 call:[curl_msnprintf,sizeof,strcpy,strlen,while]
+inet_ntop6 call:[curl_msnprintf,inet_ntop4,memset,sizeof,strcpy,strlen] noreturn:[curl_msnprintf]
+curlx_inet_ntop call:[inet_ntop4,inet_ntop6]

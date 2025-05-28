@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="3648598943216510177">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="36" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_printf.h&quot; not found." verbose="Include file: &quot;curl_printf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="45" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="28" column="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib670.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="173" column="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/select.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/select.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="40" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="42" column="0"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="33" column="19"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="47" column="19"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="44" column="27"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="47" column="19"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="59" column="32"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="192" column="23"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="198" column="16"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="130" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="133" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="136" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="155" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="195" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="214" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="130" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="133" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="136" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="147" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="155" column="5"/>
+        </error>
+        <error id="misra-c2012-15.4" severity="style" msg="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" verbose="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="183" column="16"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="48" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="53" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="56" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="60" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="62" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="122" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="47" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="87" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="154" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="192" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="204" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="214" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="217" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="228" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="231" column="7"/>
+        </error>
+        <error id="misra-c2012-16.4" severity="style" msg="Required Every switch statement shall have a default label" verbose="Required Every switch statement shall have a default label" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="50" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="64" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="121" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="144" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="199" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="223" column="14"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="522" column="0"/>
+        </error>
+        <error id="misra-c2012-21.8" severity="style" msg="Required The Standard Library functions abort, exit, getenv and system of &lt;stdlib.h&gt; shall not be used" verbose="Required The Standard Library functions abort, exit, getenv and system of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="65" column="7"/>
+        </error>
+        <error id="misra-c2012-21.10" severity="style" msg="Required The Standard Library time and date functions shall not be used" verbose="Required The Standard Library time and date functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib670.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="26" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="read_callback" lineNumber="42"/>
+    <functiondecl functionName="read_callback" lineNumber="42"/>
+    <functioncall functionName="CURLE_OPERATION_TIMEDOUT"/>
+    <functioncall functionName="CURLE_RESERVED119"/>
+    <functioncall functionName="CURLE_RESERVED126"/>
+    <functioncall functionName="CURLOPT_HEADER"/>
+    <functioncall functionName="CURLOPT_MIMEPOST"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_VERBOSE"/>
+    <functioncall functionName="CURLPAUSE_CONT"/>
+    <functioncall functionName="CURL_GLOBAL_ALL"/>
+    <functioncall functionName="CURL_READFUNC_PAUSE"/>
+    <functioncall functionName="FD_ZERO"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="Sleep"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_pause"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_global_cleanup"/>
+    <functioncall functionName="curl_global_init"/>
+    <functioncall functionName="curl_mime_addpart"/>
+    <functioncall functionName="curl_mime_data_cb"/>
+    <functioncall functionName="curl_mime_free"/>
+    <functioncall functionName="curl_mime_init"/>
+    <functioncall functionName="curl_mime_name"/>
+    <functioncall functionName="curl_multi_add_handle"/>
+    <functioncall functionName="curl_multi_cleanup"/>
+    <functioncall functionName="curl_multi_fdset"/>
+    <functioncall functionName="curl_multi_info_read"/>
+    <functioncall functionName="curl_multi_init"/>
+    <functioncall functionName="curl_multi_perform"/>
+    <functioncall functionName="curl_multi_remove_handle"/>
+    <functioncall functionName="curl_off_t"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="read_callback"/>
+    <functioncall functionName="select"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="test_cleanup"/>
+    <functioncall functionName="time"/>
+  </FileInfo>
+</analyzerinfo>

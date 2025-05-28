@@ -1,0 +1,11 @@
+checkday global:[Curl_wkday,weekday] call:[curl_strnequal,strlen]
+checkmonth global:[Curl_month] call:[curl_strnequal]
+checktz global:[tz] call:[curl_strnequal,sizeof,strlen]
+skip
+time2epoch call:[return]
+oneortwodigit
+match_time call:[oneortwodigit]
+parsedate call:[Curl_str_number,checkday,checkmonth,checktz,match_time,skip,time2epoch]
+curl_getdate call:[parsedate]
+Curl_getdate_capped call:[parsedate]
+Curl_gmtime call:[gmtime]

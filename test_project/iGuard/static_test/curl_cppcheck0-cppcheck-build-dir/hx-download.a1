@@ -1,0 +1,534 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11555432183662346506">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="31" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="32" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="33" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="37" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;setup(t-&gt;easy,url,t,http_version,host,share,use_earlydata,fresh_connect)&apos; is always false" verbose="Condition &apos;setup(t-&gt;easy,url,t,http_version,host,share,use_earlydata,fresh_connect)&apos; is always false" cwe="570" file0="C:/test_workspace/curl-master/tests/http/clients/hx-download.c">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="443" column="13" info="Condition &apos;setup(t-&gt;easy,url,t,http_version,host,share,use_earlydata,fresh_connect)&apos; is always false"/>
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="443" column="13" info="Calling function &apos;setup&apos; returns 0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;setup(t-&gt;easy,url,t,http_version,host,share,use_earlydata,fresh_connect)&apos; is always false" verbose="Condition &apos;setup(t-&gt;easy,url,t,http_version,host,share,use_earlydata,fresh_connect)&apos; is always false" cwe="570" file0="C:/test_workspace/curl-master/tests/http/clients/hx-download.c">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="525" column="21" info="Condition &apos;setup(t-&gt;easy,url,t,http_version,host,share,use_earlydata,fresh_connect)&apos; is always false"/>
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="525" column="21" info="Calling function &apos;setup&apos; returns 0"/>
+        </error>
+        <error id="constParameterCallback" severity="style" msg="Parameter &apos;data&apos; can be declared as pointer to const. However it seems that &apos;debug_cb&apos; is a callback function, if &apos;data&apos; is declared with const you might also need to cast function pointer(s)." verbose="Parameter &apos;data&apos; can be declared as pointer to const. However it seems that &apos;debug_cb&apos; is a callback function, if &apos;data&apos; is declared with const you might also need to cast function pointer(s)." cwe="398" file0="C:/test_workspace/curl-master/tests/http/clients/hx-download.c">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="73" column="27" info="Parameter &apos;data&apos; can be declared as pointer to const"/>
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="263" column="50" info="You might need to cast the function pointer here"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;easy&apos; can be declared as pointer to const" verbose="Parameter &apos;easy&apos; can be declared as pointer to const" cwe="398" file0="C:/test_workspace/curl-master/tests/http/clients/hx-download.c">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="169" column="53" info="Parameter &apos;easy&apos; can be declared as pointer to const"/>
+            <symbol>easy</symbol>
+        </error>
+        <error id="constParameterCallback" severity="style" msg="Parameter &apos;buf&apos; can be declared as pointer to const. However it seems that &apos;my_write_cb&apos; is a callback function, if &apos;buf&apos; is declared with const you might also need to cast function pointer(s)." verbose="Parameter &apos;buf&apos; can be declared as pointer to const. However it seems that &apos;my_write_cb&apos; is a callback function, if &apos;buf&apos; is declared with const you might also need to cast function pointer(s)." cwe="398" file0="C:/test_workspace/curl-master/tests/http/clients/hx-download.c">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="179" column="33" info="Parameter &apos;buf&apos; can be declared as pointer to const"/>
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="246" column="48" info="You might need to cast the function pointer here"/>
+            <symbol>buf</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;t&apos; can be declared as pointer to const" verbose="Variable &apos;t&apos; can be declared as pointer to const" cwe="398" file0="C:/test_workspace/curl-master/tests/http/clients/hx-download.c">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="223" column="20" info="Variable &apos;t&apos; can be declared as pointer to const"/>
+            <symbol>t</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/http/clients/hx-download.c:51:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/tests/http/clients/hx-download.c" line="106" col="27" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/tests/http/clients/hx-download.c:51:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/tests/http/clients/hx-download.c" line="114" col="23" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/tests/http/clients/hx-download.c:51:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/tests/http/clients/hx-download.c" line="123" col="21" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/tests/http/clients/hx-download.c:51:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/tests/http/clients/hx-download.c" line="134" col="23" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/tests/http/clients/hx-download.c:273:13" call-funcname="usage" call-argnr="1" file="C:/test_workspace/curl-master/tests/http/clients/hx-download.c" line="326" col="12" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/http/clients/hx-download.c:51:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/tests/http/clients/hx-download.c" line="106" col="27" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/tests/http/clients/hx-download.c:51:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/tests/http/clients/hx-download.c" line="114" col="23" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/tests/http/clients/hx-download.c:51:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/tests/http/clients/hx-download.c" line="123" col="21" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/tests/http/clients/hx-download.c:51:13" call-funcname="log_line_start" call-argnr="2" file="C:/test_workspace/curl-master/tests/http/clients/hx-download.c" line="134" col="23" call-argexpr="idsbuf" call-argvaluetype="7" call-argvalue="60"/><function-call call-id="C:/test_workspace/curl-master/tests/http/clients/hx-download.c:273:13" call-funcname="usage" call-argnr="1" file="C:/test_workspace/curl-master/tests/http/clients/hx-download.c" line="326" col="12" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="49" column="12"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="100" column="13"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="103" column="27"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="108" column="42"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="109" column="18"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="115" column="38"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="117" column="32"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="125" column="32"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="189" column="52"/>
+        </error>
+        <error id="misra-c2012-10.6" severity="style" msg="Required The value of a composite expression shall not be assigned to an object with wider essential type" verbose="Required The value of a composite expression shall not be assigned to an object with wider essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="117" column="10"/>
+        </error>
+        <error id="misra-c2012-10.6" severity="style" msg="Required The value of a composite expression shall not be assigned to an object with wider essential type" verbose="Required The value of a composite expression shall not be assigned to an object with wider essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="125" column="10"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="182" column="22"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="223" column="22"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="415" column="13"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="85" column="61"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="86" column="63"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="103" column="20"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="196" column="18"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="210" column="21"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="227" column="22"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="80" column="21"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="307" column="11"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="312" column="23"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="323" column="13"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="251" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="253" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="255" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="257" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="261" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="275" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="399" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="459" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="464" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="475" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="480" column="13"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="493" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="542" column="12"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="544" column="10"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="550" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="554" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="558" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="328" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="376" column="9"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="383" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="395" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="406" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="419" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="447" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="529" column="15"/>
+        </error>
+        <error id="misra-c2012-15.4" severity="style" msg="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" verbose="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="323" column="69"/>
+        </error>
+        <error id="misra-c2012-15.4" severity="style" msg="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" verbose="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="455" column="6"/>
+        </error>
+        <error id="misra-c2012-15.4" severity="style" msg="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" verbose="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="520" column="45"/>
+        </error>
+        <error id="misra-c2012-15.4" severity="style" msg="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" verbose="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="519" column="46"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="174" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="193" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="201" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="207" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="213" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="230" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="60" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="62" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="95" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="113" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="122" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="133" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="173" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="192" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="251" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="253" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="255" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="257" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="275" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="367" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="369" column="12"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="371" column="12"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="399" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="464" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="539" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="558" column="5"/>
+        </error>
+        <error id="misra-c2012-16.3" severity="style" msg="Required An unconditional break statement shall terminate every switch-clause" verbose="Required An unconditional break statement shall terminate every switch-clause" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="329" column="5"/>
+        </error>
+        <error id="misra-c2012-16.3" severity="style" msg="Required An unconditional break statement shall terminate every switch-clause" verbose="Required An unconditional break statement shall terminate every switch-clause" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="384" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="61" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="63" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="135" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="186" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="199" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="206" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="211" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="228" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="276" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="277" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="285" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="404" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="417" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="445" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="452" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="478" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="483" column="20"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="488" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="501" column="20"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="513" column="20"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="527" column="22"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="534" column="20"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="551" column="13"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="386" column="8"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="387" column="8"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="108" column="29"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="115" column="25"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="387" column="8"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="360" column="11"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="415" column="21"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="561" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="566" column="7"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="31" column="0"/>
+        </error>
+        <error id="misra-c2012-22.8" severity="style" msg="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" verbose="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="339" column="36"/>
+        </error>
+        <error id="misra-c2012-22.8" severity="style" msg="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" verbose="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="342" column="38"/>
+        </error>
+        <error id="misra-c2012-22.8" severity="style" msg="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" verbose="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="348" column="36"/>
+        </error>
+        <error id="misra-c2012-22.8" severity="style" msg="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" verbose="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="351" column="35"/>
+        </error>
+        <error id="misra-c2012-22.8" severity="style" msg="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" verbose="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="354" column="38"/>
+        </error>
+        <error id="misra-c2012-22.8" severity="style" msg="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" verbose="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="357" column="36"/>
+        </error>
+        <error id="misra-c2012-22.8" severity="style" msg="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" verbose="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="364" column="39"/>
+        </error>
+        <error id="misra-c2012-22.9" severity="style" msg="Required The value of errno shall be tested against zero after calling an errnosetting- function" verbose="Required The value of errno shall be tested against zero after calling an errnosetting- function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="339" column="54"/>
+        </error>
+        <error id="misra-c2012-22.9" severity="style" msg="Required The value of errno shall be tested against zero after calling an errnosetting- function" verbose="Required The value of errno shall be tested against zero after calling an errnosetting- function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="342" column="56"/>
+        </error>
+        <error id="misra-c2012-22.9" severity="style" msg="Required The value of errno shall be tested against zero after calling an errnosetting- function" verbose="Required The value of errno shall be tested against zero after calling an errnosetting- function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="348" column="54"/>
+        </error>
+        <error id="misra-c2012-22.9" severity="style" msg="Required The value of errno shall be tested against zero after calling an errnosetting- function" verbose="Required The value of errno shall be tested against zero after calling an errnosetting- function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="351" column="53"/>
+        </error>
+        <error id="misra-c2012-22.9" severity="style" msg="Required The value of errno shall be tested against zero after calling an errnosetting- function" verbose="Required The value of errno shall be tested against zero after calling an errnosetting- function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="354" column="56"/>
+        </error>
+        <error id="misra-c2012-22.9" severity="style" msg="Required The value of errno shall be tested against zero after calling an errnosetting- function" verbose="Required The value of errno shall be tested against zero after calling an errnosetting- function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="357" column="54"/>
+        </error>
+        <error id="misra-c2012-22.9" severity="style" msg="Required The value of errno shall be tested against zero after calling an errnosetting- function" verbose="Required The value of errno shall be tested against zero after calling an errnosetting- function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hx-download.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\http\clients\hx-download.c" line="364" column="57"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="log_line_start" lineNumber="51"/>
+    <functiondecl functionName="debug_cb" lineNumber="72"/>
+    <functiondecl functionName="get_transfer_for_easy" lineNumber="169"/>
+    <functiondecl functionName="my_write_cb" lineNumber="179"/>
+    <functiondecl functionName="my_progress_cb" lineNumber="219"/>
+    <functiondecl functionName="setup" lineNumber="235"/>
+    <functiondecl functionName="usage" lineNumber="273"/>
+    <functiondecl functionName="main" lineNumber="300"/>
+    <functiondecl functionName="log_line_start" lineNumber="51"/>
+    <functiondecl functionName="debug_cb" lineNumber="72"/>
+    <functiondecl functionName="get_transfer_for_easy" lineNumber="169"/>
+    <functiondecl functionName="my_write_cb" lineNumber="179"/>
+    <functiondecl functionName="my_progress_cb" lineNumber="219"/>
+    <functiondecl functionName="setup" lineNumber="235"/>
+    <functiondecl functionName="usage" lineNumber="273"/>
+    <functiondecl functionName="main" lineNumber="300"/>
+    <functioncall functionName="CURLINFO_CONN_ID"/>
+    <functioncall functionName="CURLINFO_EARLYDATA_SENT_T"/>
+    <functioncall functionName="CURLINFO_XFER_ID"/>
+    <functioncall functionName="CURLMOPT_MAX_HOST_CONNECTIONS"/>
+    <functioncall functionName="CURLMOPT_MAX_TOTAL_CONNECTIONS"/>
+    <functioncall functionName="CURLMOPT_PIPELINING"/>
+    <functioncall functionName="CURLOPT_ACCEPT_ENCODING"/>
+    <functioncall functionName="CURLOPT_BUFFERSIZE"/>
+    <functioncall functionName="CURLOPT_DEBUGFUNCTION"/>
+    <functioncall functionName="CURLOPT_FORBID_REUSE"/>
+    <functioncall functionName="CURLOPT_FRESH_CONNECT"/>
+    <functioncall functionName="CURLOPT_HTTP_VERSION"/>
+    <functioncall functionName="CURLOPT_NOPROGRESS"/>
+    <functioncall functionName="CURLOPT_PIPEWAIT"/>
+    <functioncall functionName="CURLOPT_RESOLVE"/>
+    <functioncall functionName="CURLOPT_SHARE"/>
+    <functioncall functionName="CURLOPT_SSL_OPTIONS"/>
+    <functioncall functionName="CURLOPT_SSL_VERIFYHOST"/>
+    <functioncall functionName="CURLOPT_SSL_VERIFYPEER"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_VERBOSE"/>
+    <functioncall functionName="CURLOPT_WRITEDATA"/>
+    <functioncall functionName="CURLOPT_WRITEFUNCTION"/>
+    <functioncall functionName="CURLOPT_XFERINFODATA"/>
+    <functioncall functionName="CURLOPT_XFERINFOFUNCTION"/>
+    <functioncall functionName="CURLPAUSE_CONT"/>
+    <functioncall functionName="CURLSHOPT_SHARE"/>
+    <functioncall functionName="CURLSSLOPT_EARLYDATA"/>
+    <functioncall functionName="CURL_GLOBAL_DEFAULT"/>
+    <functioncall functionName="CURL_HTTP_VERSION_1_1"/>
+    <functioncall functionName="CURL_HTTP_VERSION_2_0"/>
+    <functioncall functionName="CURL_HTTP_VERSION_3ONLY"/>
+    <functioncall functionName="CURL_LOCK_DATA_COOKIE"/>
+    <functioncall functionName="CURL_LOCK_DATA_DNS"/>
+    <functioncall functionName="CURL_LOCK_DATA_HSTS"/>
+    <functioncall functionName="CURL_LOCK_DATA_PSL"/>
+    <functioncall functionName="CURL_LOCK_DATA_SSL_SESSION"/>
+    <functioncall functionName="CURL_WRITEFUNC_ERROR"/>
+    <functioncall functionName="CURL_WRITEFUNC_PAUSE"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="_strdup"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="cleanup"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_getinfo"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_pause"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_global_init"/>
+    <functioncall functionName="curl_global_trace"/>
+    <functioncall functionName="curl_msnprintf"/>
+    <functioncall functionName="curl_multi_add_handle"/>
+    <functioncall functionName="curl_multi_cleanup"/>
+    <functioncall functionName="curl_multi_info_read"/>
+    <functioncall functionName="curl_multi_init"/>
+    <functioncall functionName="curl_multi_perform"/>
+    <functioncall functionName="curl_multi_poll"/>
+    <functioncall functionName="curl_multi_remove_handle"/>
+    <functioncall functionName="curl_multi_setopt"/>
+    <functioncall functionName="curl_off_t"/>
+    <functioncall functionName="curl_share_cleanup"/>
+    <functioncall functionName="curl_share_init"/>
+    <functioncall functionName="curl_share_setopt"/>
+    <functioncall functionName="curl_slist_append"/>
+    <functioncall functionName="curl_slist_free_all"/>
+    <functioncall functionName="debug_cb"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="fputs"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="fwrite"/>
+    <functioncall functionName="get_transfer_for_easy"/>
+    <functioncall functionName="getopt"/>
+    <functioncall functionName="log_line_start"/>
+    <functioncall functionName="my_progress_cb"/>
+    <functioncall functionName="my_write_cb"/>
+    <functioncall functionName="optarg"/>
+    <functioncall functionName="setup"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strdup"/>
+    <functioncall functionName="strtol"/>
+    <functioncall functionName="usage"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,14 @@
+hash_offt_hash call:[return]
+Curl_hash_offt_init call:[while]
+hash_offt_mk_entry global:[Curl_cmalloc] call:[Curl_cmalloc,sizeof]
+hash_offt_entry_clear call:[dtor,while] noreturn:[dtor]
+hash_offt_entry_destroy global:[Curl_cfree] call:[Curl_cfree,hash_offt_entry_clear] noreturn:[Curl_cfree]
+hash_offt_entry_unlink
+hash_offtr_elem_link
+Curl_hash_offt_set global:[Curl_ccalloc] call:[Curl_ccalloc,hash_offt_entry_clear,hash_offt_hash,hash_offt_mk_entry,hash_offtr_elem_link,sizeof,while]
+Curl_hash_offt_remove call:[hash_offt_entry_destroy,hash_offt_entry_unlink,hash_offt_hash,while]
+Curl_hash_offt_get call:[hash_offt_hash,while]
+Curl_hash_offt_clear call:[hash_offt_entry_destroy,hash_offt_entry_unlink,while] noreturn:[hash_offt_entry_destroy]
+Curl_hash_offt_destroy global:[Curl_cfree] call:[Curl_cfree,Curl_hash_offt_clear,while] noreturn:[while]
+Curl_hash_offt_count call:[while]
+Curl_hash_offt_visit call:[cb,while]

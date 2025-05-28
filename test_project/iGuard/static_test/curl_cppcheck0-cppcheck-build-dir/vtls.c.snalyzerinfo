@@ -1,0 +1,13 @@
+blobdup global:[Curl_cmalloc] call:[Curl_cmalloc,memcpy,sizeof,while]
+blobcmp call:[memcmp] noreturn:[memcmp]
+Curl_ssl_easy_config_init
+match_ssl_primary_config call:[Curl_safecmp,blobcmp,curl_strequal]
+Curl_ssl_conn_config_match call:[match_ssl_primary_config] noreturn:[match_ssl_primary_config]
+clone_ssl_primary_config global:[Curl_cstrdup] call:[Curl_cstrdup,blobdup,while]
+free_primary_ssl_config global:[Curl_cfree] call:[Curl_cfree,while] noreturn:[while]
+Curl_ssl_easy_config_complete
+Curl_ssl_conn_config_init call:[clone_ssl_primary_config]
+Curl_ssl_conn_config_cleanup call:[free_primary_ssl_config] noreturn:[free_primary_ssl_config]
+Curl_ssl_conn_config_update
+Curl_ssl_backend
+Curl_init_sslset_nolock

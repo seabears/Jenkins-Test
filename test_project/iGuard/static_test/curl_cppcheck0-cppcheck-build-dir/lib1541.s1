@@ -1,0 +1,7 @@
+geterr call:[curl_easy_strerror,printf,return]
+report_time call:[printf] noreturn:[printf]
+check_time call:[curl_easy_getinfo,geterr,report_time] noreturn:[geterr,report_time]
+check_time0 call:[curl_easy_getinfo,geterr,report_time] noreturn:[geterr,report_time]
+header_callback call:[check_time,check_time0,fwrite] noreturn:[check_time0]
+write_callback call:[fwrite]
+test global:[tv_test_start] call:[check_time,check_time0,curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_easy_strerror,curl_global_cleanup,curl_global_init,fprintf,memset,sizeof,tutil_tvnow,while] noreturn:[tutil_tvnow]

@@ -1,0 +1,2 @@
+Curl_speedinit call:[memset,sizeof] noreturn:[memset]
+Curl_speedcheck call:[Curl_expire,Curl_failf,curlx_timediff] noreturn:[Curl_expire]

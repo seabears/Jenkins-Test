@@ -1,0 +1,3 @@
+Curl_cidr4_match call:[curlx_inet_pton,htonl]
+Curl_cidr6_match call:[curlx_inet_pton,memcmp]
+Curl_check_noproxy call:[Curl_cidr4_match,Curl_cidr6_match,Curl_str_passblanks,atoi,curl_strnequal,curlx_inet_pton,memcpy,sizeof,strchr,strcmp,strlen] noreturn:[Curl_cidr4_match,Curl_cidr6_match,curl_strnequal]

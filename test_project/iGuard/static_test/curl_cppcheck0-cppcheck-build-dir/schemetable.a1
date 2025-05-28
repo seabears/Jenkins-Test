@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16214228618748483804">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="24" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="25" column="0"/>
+        </error>
+        <error id="wrongPrintfScanfArgNum" severity="warning" msg="printf format string requires 0 parameters but 1 is given." verbose="printf format string requires 0 parameters but 1 is given." cwe="685" file0="C:/test_workspace/curl-master/scripts/schemetable.c">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="136" column="7"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;so&apos; is assigned a value that is never used." verbose="Variable &apos;so&apos; is assigned a value that is never used." cwe="563" file0="C:/test_workspace/curl-master/scripts/schemetable.c">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="82" column="18"/>
+            <symbol>so</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/scripts/schemetable.c:80:14" call-funcname="calc" call-argnr="2" file="C:/test_workspace/curl-master/scripts/schemetable.c" line="155" col="30" call-argexpr="add" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\test_workspace\curl-master\scripts\schemetable.c" line="153" col="15" info="Assignment &apos;add=0&apos;, assigned value is 0"/>
+</function-call><function-call call-id="C:/test_workspace/curl-master/scripts/schemetable.c:80:14" call-funcname="calc" call-argnr="3" file="C:/test_workspace/curl-master/scripts/schemetable.c" line="155" col="30" call-argexpr="shift" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\test_workspace\curl-master\scripts\schemetable.c" line="152" col="15" info="Assignment &apos;shift=0&apos;, assigned value is 0"/>
+</function-call>  </FileInfo>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="80" column="14"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="92" column="14"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="93" column="14"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="102" column="20"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="120" column="16"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="182" column="26"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="84" column="8"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="169" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="194" column="11"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="99" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="101" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="169" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="103" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="113" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="121" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="122" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="123" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="124" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="125" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="133" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="136" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="140" column="9"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="87" column="6"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/schemetable.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\scripts\schemetable.c" line="24" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="calc" lineNumber="80"/>
+    <functiondecl functionName="showtable" lineNumber="95"/>
+    <functiondecl functionName="main" lineNumber="143"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="calc"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="showtable"/>
+  </FileInfo>
+</analyzerinfo>

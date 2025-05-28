@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="847867328509181145">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="30" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="31" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="32" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/mprintf.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/mprintf.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="35" column="0"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="53" column="8"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="74" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="49" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="83" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="104" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="119" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="127" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="134" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="44" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="47" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="54" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="59" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="82" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="86" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="88" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="91" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="93" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="102" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="117" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="122" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="126" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="133" column="12"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="29" column="0"/>
+        </error>
+        <error id="misra-c2012-21.10" severity="style" msg="Required The Standard Library time and date functions shall not be used" verbose="Required The Standard Library time and date functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/cookie_interface.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\cookie_interface.c" line="32" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="print_cookies" lineNumber="37"/>
+    <functiondecl functionName="main" lineNumber="67"/>
+    <functioncall functionName="CURLINFO_COOKIELIST"/>
+    <functioncall functionName="CURLOPT_COOKIEFILE"/>
+    <functioncall functionName="CURLOPT_COOKIELIST"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_VERBOSE"/>
+    <functioncall functionName="CURL_GLOBAL_ALL"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_getinfo"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_perform"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_easy_strerror"/>
+    <functioncall functionName="curl_global_cleanup"/>
+    <functioncall functionName="curl_global_init"/>
+    <functioncall functionName="curl_msnprintf"/>
+    <functioncall functionName="curl_slist_free_all"/>
+    <functioncall functionName="difftime"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="print_cookies"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="time"/>
+  </FileInfo>
+</analyzerinfo>

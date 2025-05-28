@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16215107311711245972">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="30" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="31" column="0"/>
+        </error>
+        <error id="constParameterCallback" severity="style" msg="Parameter &apos;ptr&apos; can be declared as pointer to const. However it seems that &apos;getcontentlengthfunc&apos; is a callback function, if &apos;ptr&apos; is declared with const you might also need to cast function pointer(s)." verbose="Parameter &apos;ptr&apos; can be declared as pointer to const. However it seems that &apos;getcontentlengthfunc&apos; is a callback function, if &apos;ptr&apos; is declared with const you might also need to cast function pointer(s)." cwe="398" file0="C:/test_workspace/curl-master/docs/examples/ftpuploadresume.c">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="34" column="42" info="Parameter &apos;ptr&apos; can be declared as pointer to const"/>
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="93" column="56" info="You might need to cast the function pointer here"/>
+            <symbol>ptr</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/docs/examples/ftpuploadresume.c:70:12" call-funcname="upload" call-argnr="4" file="C:/test_workspace/curl-master/docs/examples/ftpuploadresume.c" line="160" col="9" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/ftpuploadresume.c:70:12" my-argnr="3" my-argname="localpath" file="C:/test_workspace/curl-master/docs/examples/ftpuploadresume.c" line="78" col="13" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/ftpuploadresume.c:70:12" my-argnr="3" my-argname="localpath" file="C:/test_workspace/curl-master/docs/examples/ftpuploadresume.c" line="78" col="13" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="42" column="7"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="58" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="41" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="61" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="90" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="113" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="62" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="83" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="146" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="149" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="41" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="61" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="90" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="126" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="145" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="132" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="143" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="148" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="160" column="9"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpuploadresume.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpuploadresume.c" line="30" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="getcontentlengthfunc" lineNumber="34"/>
+    <functiondecl functionName="discardfunc" lineNumber="48"/>
+    <functiondecl functionName="readfunc" lineNumber="56"/>
+    <functiondecl functionName="upload" lineNumber="70"/>
+    <functiondecl functionName="main" lineNumber="153"/>
+    <functioncall functionName="CURLE_GOT_NOTHING"/>
+    <functioncall functionName="CURLOPT_ACCEPTTIMEOUT_MS"/>
+    <functioncall functionName="CURLOPT_APPEND"/>
+    <functioncall functionName="CURLOPT_FTPPORT"/>
+    <functioncall functionName="CURLOPT_FTP_CREATE_MISSING_DIRS"/>
+    <functioncall functionName="CURLOPT_HEADER"/>
+    <functioncall functionName="CURLOPT_HEADERDATA"/>
+    <functioncall functionName="CURLOPT_HEADERFUNCTION"/>
+    <functioncall functionName="CURLOPT_NOBODY"/>
+    <functioncall functionName="CURLOPT_READDATA"/>
+    <functioncall functionName="CURLOPT_READFUNCTION"/>
+    <functioncall functionName="CURLOPT_SERVER_RESPONSE_TIMEOUT"/>
+    <functioncall functionName="CURLOPT_UPLOAD"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_VERBOSE"/>
+    <functioncall functionName="CURLOPT_WRITEFUNCTION"/>
+    <functioncall functionName="CURL_GLOBAL_ALL"/>
+    <functioncall functionName="CURL_READFUNC_ABORT"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_perform"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_easy_strerror"/>
+    <functioncall functionName="curl_global_cleanup"/>
+    <functioncall functionName="curl_global_init"/>
+    <functioncall functionName="discardfunc"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="ferror"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="fread"/>
+    <functioncall functionName="fseek"/>
+    <functioncall functionName="getcontentlengthfunc"/>
+    <functioncall functionName="perror"/>
+    <functioncall functionName="readfunc"/>
+    <functioncall functionName="sscanf"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="upload"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,3 @@
+{"summary": "MisraExternalIdentifiers", "data": [{"name": "main", "file": "C:/test_workspace/curl-master/docs/examples/getredirect.c", "line": 31, "column": 5, "decl": false}]}
+{"summary": "MisraInternalIdentifiers", "data": []}
+{"summary": "MisraLocalIdentifiers", "data": [{"name": "res", "file": "C:/test_workspace/curl-master/docs/examples/getredirect.c", "line": 34, "column": 12}, {"name": "location", "file": "C:/test_workspace/curl-master/docs/examples/getredirect.c", "line": 35, "column": 9}, {"name": "response_code", "file": "C:/test_workspace/curl-master/docs/examples/getredirect.c", "line": 36, "column": 8}, {"name": "curl", "file": "C:/test_workspace/curl-master/docs/examples/getredirect.c", "line": 33, "column": 9}]}

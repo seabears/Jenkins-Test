@@ -1,0 +1,3 @@
+unit_setup
+unit_stop
+test global:[cs_test_string,test_cs_list,test_str_list] call:[CURL_ARRAYSIZE,Curl_cipher_suite_get_str,Curl_cipher_suite_lookup_id,Curl_cipher_suite_walk_str,fprintf,memcmp,memcpy,return,sizeof,strcmp,strcpy,strlen,strncmp,unit_setup,unit_stop,while] noreturn:[memcpy,unit_stop,while]

@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="17083520131415532423">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="30" column="0"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;res&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;res&apos; is reassigned a value before the old one has been used." cwe="563" file0="C:/test_workspace/curl-master/docs/examples/post-callback.c">
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="145" column="9" info="res is overwritten"/>
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="138" column="11" info="res is assigned"/>
+            <symbol>res</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;res&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;res&apos; is reassigned a value before the old one has been used." cwe="563" file0="C:/test_workspace/curl-master/docs/examples/post-callback.c">
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="145" column="9" info="res is overwritten"/>
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="115" column="11" info="res is assigned"/>
+            <symbol>res</symbol>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/post-callback.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="33" column="19"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/post-callback.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="48" column="26"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/post-callback.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="51" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/post-callback.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="87" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/post-callback.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="60" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/post-callback.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="82" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/post-callback.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="54" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/post-callback.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="147" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/post-callback.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="56" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/post-callback.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="80" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/post-callback.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="148" column="14"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/post-callback.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="58" column="17"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/post-callback.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\post-callback.c" line="28" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="read_callback" lineNumber="46"/>
+    <functiondecl functionName="main" lineNumber="66"/>
+    <functiondecl functionName="read_callback" lineNumber="46"/>
+    <functiondecl functionName="main" lineNumber="66"/>
+    <functiondecl functionName="read_callback" lineNumber="46"/>
+    <functiondecl functionName="main" lineNumber="66"/>
+    <functioncall functionName="CURLOPT_HTTPHEADER"/>
+    <functioncall functionName="CURLOPT_POST"/>
+    <functioncall functionName="CURLOPT_POSTFIELDSIZE"/>
+    <functioncall functionName="CURLOPT_READDATA"/>
+    <functioncall functionName="CURLOPT_READFUNCTION"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_VERBOSE"/>
+    <functioncall functionName="CURL_GLOBAL_DEFAULT"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_perform"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_easy_strerror"/>
+    <functioncall functionName="curl_global_cleanup"/>
+    <functioncall functionName="curl_global_init"/>
+    <functioncall functionName="curl_slist_append"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="read_callback"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strlen"/>
+  </FileInfo>
+</analyzerinfo>

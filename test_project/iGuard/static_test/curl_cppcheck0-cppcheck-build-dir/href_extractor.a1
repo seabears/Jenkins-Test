@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="7776712161474100074">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\href_extractor.c" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\href_extractor.c" line="35" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;htmlstreamparser.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;htmlstreamparser.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\href_extractor.c" line="36" column="0"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/href_extractor.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\href_extractor.c" line="74" column="51"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/href_extractor.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\href_extractor.c" line="44" column="34"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/href_extractor.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\href_extractor.c" line="42" column="33"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/href_extractor.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\href_extractor.c" line="57" column="14"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/href_extractor.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\href_extractor.c" line="45" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/href_extractor.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\href_extractor.c" line="46" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/href_extractor.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\href_extractor.c" line="47" column="11"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/href_extractor.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\href_extractor.c" line="63" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/href_extractor.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\href_extractor.c" line="45" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/href_extractor.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\href_extractor.c" line="46" column="7"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/href_extractor.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\href_extractor.c" line="49" column="17"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/href_extractor.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\href_extractor.c" line="62" column="11"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/href_extractor.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\href_extractor.c" line="34" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="write_callback" lineNumber="39"/>
+    <functiondecl functionName="main" lineNumber="55"/>
+    <functioncall functionName="CURLOPT_FOLLOWLOCATION"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_WRITEDATA"/>
+    <functioncall functionName="CURLOPT_WRITEFUNCTION"/>
+    <functioncall functionName="EXIT_FAILURE"/>
+    <functioncall functionName="EXIT_SUCCESS"/>
+    <functioncall functionName="HTML_VALUE_ENDED"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_perform"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="html_parser_char_parse"/>
+    <functioncall functionName="html_parser_cleanup"/>
+    <functioncall functionName="html_parser_cmp_attr"/>
+    <functioncall functionName="html_parser_cmp_tag"/>
+    <functioncall functionName="html_parser_init"/>
+    <functioncall functionName="html_parser_is_in"/>
+    <functioncall functionName="html_parser_set_attr_buffer"/>
+    <functioncall functionName="html_parser_set_attr_to_lower"/>
+    <functioncall functionName="html_parser_set_tag_buffer"/>
+    <functioncall functionName="html_parser_set_tag_to_lower"/>
+    <functioncall functionName="html_parser_set_val_buffer"/>
+    <functioncall functionName="html_parser_val"/>
+    <functioncall functionName="html_parser_val_length"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="write_callback"/>
+  </FileInfo>
+</analyzerinfo>

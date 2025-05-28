@@ -1,0 +1,3 @@
+hstsread global:[preload_hosts] call:[fprintf,strcpy,strlen] noreturn:[fprintf]
+hstswrite call:[printf]
+main call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_easy_strerror,fprintf] noreturn:[curl_easy_cleanup,fprintf]

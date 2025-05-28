@@ -1,0 +1,6 @@
+sighandler global:[pending_interrupt]
+grow_buffer call:[memcpy,printf,realloc]
+make_handle call:[curl_easy_init,curl_easy_setopt,malloc,sizeof]
+follow_links global:[follow_relative_links,max_link_per_page] call:[curl_multi_add_handle,htmlReadMemory,make_handle,rand,strlen,strncmp,xmlBuildURI,xmlFree,xmlNodeListGetString,xmlXPathEvalExpression,xmlXPathFreeContext,xmlXPathFreeObject,xmlXPathNewContext,xmlXPathNodeSetIsEmpty] noreturn:[xmlFree]
+is_html call:[strlen,strstr] noreturn:[strstr]
+main global:[max_con,max_requests,max_total,pending_interrupt,start_page] call:[curl_easy_cleanup,curl_easy_getinfo,curl_global_cleanup,curl_global_init,curl_multi_add_handle,curl_multi_cleanup,curl_multi_info_read,curl_multi_init,curl_multi_perform,curl_multi_remove_handle,curl_multi_setopt,curl_multi_wait,follow_links,free,is_html,make_handle,printf,signal] noreturn:[printf]

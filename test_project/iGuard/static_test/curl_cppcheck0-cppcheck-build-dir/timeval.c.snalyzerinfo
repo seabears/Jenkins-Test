@@ -1,0 +1,4 @@
+curlx_now call:[gettimeofday]
+curlx_timediff call:[CURL_OFF_T_C,return] noreturn:[CURL_OFF_T_C,return]
+curlx_timediff_ceil call:[CURL_OFF_T_C,return] noreturn:[CURL_OFF_T_C,return]
+curlx_timediff_us call:[CURL_OFF_T_C,return] noreturn:[CURL_OFF_T_C,return]

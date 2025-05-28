@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8075634691723203997">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;test.h&quot; not found." verbose="Include file: &quot;test.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="24" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;urldata.h&quot; not found." verbose="Include file: &quot;urldata.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1399.c" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;progress.h&quot; not found." verbose="Include file: &quot;progress.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1399.c" line="27" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/unit/unit1399.c:46:13" call-funcname="fake_t_startsingle_time" call-argnr="1" file="C:/test_workspace/curl-master/tests/unit/unit1399.c" line="95" col="26" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/unit/unit1399.c:65:13" call-funcname="expect_timer_seconds" call-argnr="1" file="C:/test_workspace/curl-master/tests/unit/unit1399.c" line="103" col="23" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/unit/unit1399.c:46:13" call-funcname="fake_t_startsingle_time" call-argnr="1" file="C:/test_workspace/curl-master/tests/unit/unit1399.c" line="107" col="26" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/unit/unit1399.c:65:13" call-funcname="expect_timer_seconds" call-argnr="1" file="C:/test_workspace/curl-master/tests/unit/unit1399.c" line="118" col="23" call-argexpr="&amp;data" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit1399.c:65:13" my-argnr="1" my-argname="data" file="C:/test_workspace/curl-master/tests/unit/unit1399.c" line="69" col="3" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/unit/unit1399.c:65:13" my-argnr="1" my-argname="data" file="C:/test_workspace/curl-master/tests/unit/unit1399.c" line="69" col="3" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1399.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1399.c" line="83" column="1"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1399.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1399.c" line="29" column="12"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1399.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1399.c" line="119" column="1"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1399.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1399.c" line="59" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1399.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1399.c" line="69" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1399.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1399.c" line="70" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1399.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1399.c" line="71" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1399.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1399.c" line="72" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1399.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1399.c" line="74" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1399.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1399.c" line="83" column="1"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1399.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="45" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1399.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="27" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1399.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="36" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1399.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="67" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1399.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\unit\curlcheck.h" line="77" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="unit_setup" lineNumber="31"/>
+    <functiondecl functionName="unit_stop" lineNumber="36"/>
+    <functiondecl functionName="fake_t_startsingle_time" lineNumber="46"/>
+    <functiondecl functionName="usec_matches_seconds" lineNumber="55"/>
+    <functiondecl functionName="expect_timer_seconds" lineNumber="65"/>
+    <functiondecl functionName="test" lineNumber="83"/>
+    <functioncall functionName="CURLE_OK"/>
+    <functioncall functionName="CURLcode"/>
+    <functioncall functionName="Curl_now"/>
+    <functioncall functionName="Curl_pgrsTime"/>
+    <functioncall functionName="TIMER_APPCONNECT"/>
+    <functioncall functionName="TIMER_CONNECT"/>
+    <functioncall functionName="TIMER_NAMELOOKUP"/>
+    <functioncall functionName="TIMER_PRETRANSFER"/>
+    <functioncall functionName="TIMER_STARTSINGLE"/>
+    <functioncall functionName="TIMER_STARTTRANSFER"/>
+    <functioncall functionName="expect_timer_seconds"/>
+    <functioncall functionName="fake_t_startsingle_time"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="msnprintf"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="unit_setup"/>
+    <functioncall functionName="unit_stop"/>
+    <functioncall functionName="unit_test_abort"/>
+    <functioncall functionName="unitfail"/>
+    <functioncall functionName="usec_matches_seconds"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,4 @@
+Curl_auth_is_gssapi_supported
+Curl_auth_create_gssapi_user_message global:[Curl_cfree,Curl_krb5_mech_oid] call:[Curl_auth_build_spn,Curl_bufref_len,Curl_bufref_memdup,Curl_bufref_ptr,Curl_bufref_set,Curl_cfree,Curl_gss_init_sec_context,Curl_gss_log_error,Curl_infof,GSS_ERROR,gss_import_name,gss_release_buffer,strlen,while] noreturn:[Curl_bufref_len,Curl_bufref_set,Curl_cfree,Curl_infof,gss_release_buffer]
+Curl_auth_create_gssapi_security_message global:[Curl_cfree,Curl_cmalloc] call:[Curl_bufref_len,Curl_bufref_memdup,Curl_bufref_ptr,Curl_cfree,Curl_cmalloc,Curl_gss_log_error,Curl_infof,GSS_ERROR,gss_release_buffer,gss_unwrap,gss_wrap,memcpy,strlen,while] noreturn:[Curl_infof,memcpy,strlen]
+Curl_auth_cleanup_gssapi call:[gss_delete_sec_context,gss_release_name]

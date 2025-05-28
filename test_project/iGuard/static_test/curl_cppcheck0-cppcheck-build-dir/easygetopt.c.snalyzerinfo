@@ -1,0 +1,4 @@
+lookup global:[Curl_easyopts] call:[curl_strequal,while] noreturn:[while]
+curl_easy_option_by_name call:[lookup] noreturn:[lookup]
+curl_easy_option_by_id call:[lookup] noreturn:[lookup]
+curl_easy_option_next global:[Curl_easyopts]

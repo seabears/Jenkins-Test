@@ -1,0 +1,2 @@
+WriteMemoryCallback call:[memcpy,printf,realloc]
+main call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_easy_strerror,curl_global_cleanup,curl_global_init,fprintf,free,malloc,printf,strlen] noreturn:[curl_easy_cleanup,fprintf,printf]

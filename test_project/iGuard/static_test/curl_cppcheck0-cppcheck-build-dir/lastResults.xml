@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.12.0"/>
+    <errors>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If macOS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If macOS is a macro then please configure it." file0="C:/test_workspace/curl-master/CMake/CurlTests.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\CMake\CurlTests.c" line="336"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_ERROR_SIZE, please review configuration" verbose="Unknown constant CURL_ERROR_SIZE, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/evhiperfifo.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\docs\examples\evhiperfifo.c" line="99"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_ERROR_SIZE, please review configuration" verbose="Unknown constant CURL_ERROR_SIZE, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ephiperfifo.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\docs\examples\ephiperfifo.c" line="99"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_ERROR_SIZE, please review configuration" verbose="Unknown constant CURL_ERROR_SIZE, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ghiper.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\docs\examples\ghiper.c" line="84"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_ERROR_SIZE, please review configuration" verbose="Unknown constant CURL_ERROR_SIZE, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/hiperfifo.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\docs\examples\hiperfifo.c" line="99"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_ERROR_SIZE, please review configuration" verbose="Unknown constant CURL_ERROR_SIZE, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/htmltidy.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\docs\examples\htmltidy.c" line="81"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." file0="C:/test_workspace/curl-master/docs/examples/multi-formadd.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-formadd.c" line="58"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." file0="C:/test_workspace/curl-master/docs/examples/postit2-formadd.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\docs\examples\postit2-formadd.c" line="68"/>
+        </error>
+        <error id="preprocessorErrorDirective" severity="error" msg="failed to expand &amp;#039;Curl_dyn_addn&amp;#039;, Wrong number of parameters for macro &amp;#039;Curl_dyn_addn&amp;#039;." verbose="failed to expand &amp;#039;Curl_dyn_addn&amp;#039;, Wrong number of parameters for macro &amp;#039;Curl_dyn_addn&amp;#039;." sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\lib\cf-haproxy.c" line="82"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal Error. MathLib::toULongNumber: out_of_range: 0x22312194FC2BF72C1" verbose="Internal Error. MathLib::toULongNumber: out_of_range: 0x22312194FC2BF72C1" file0="C:/test_workspace/curl-master/lib/curl_sha512_256.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\lib\curl_sha512_256.c" line="0"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_ERROR_SIZE, please review configuration" verbose="Unknown constant CURL_ERROR_SIZE, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/curl_trc.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\lib\curl_trc.c" line="188"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURLINFO_END, please review configuration" verbose="Unknown constant CURLINFO_END, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/curl_trc.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\lib\curl_trc.c" line="67"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURLINFO_END, please review configuration" verbose="Unknown constant CURLINFO_END, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/curl_trc.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\lib\curl_trc.c" line="137"/>
+        </error>
+        <error id="preprocessorErrorDirective" severity="error" msg="failed to expand &amp;#039;Curl_dyn_addn&amp;#039;, Wrong number of parameters for macro &amp;#039;Curl_dyn_addn&amp;#039;." verbose="failed to expand &amp;#039;Curl_dyn_addn&amp;#039;, Wrong number of parameters for macro &amp;#039;Curl_dyn_addn&amp;#039;." sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\lib\doh.c" line="601"/>
+        </error>
+        <error id="preprocessorErrorDirective" severity="error" msg="failed to expand &amp;#039;Curl_dyn_addn&amp;#039;, Wrong number of parameters for macro &amp;#039;Curl_dyn_addn&amp;#039;." verbose="failed to expand &amp;#039;Curl_dyn_addn&amp;#039;, Wrong number of parameters for macro &amp;#039;Curl_dyn_addn&amp;#039;." sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\lib\http.c" line="2314"/>
+        </error>
+        <error id="preprocessorErrorDirective" severity="error" msg="failed to expand &amp;#039;Curl_dyn_addn&amp;#039;, Wrong number of parameters for macro &amp;#039;Curl_dyn_addn&amp;#039;." verbose="failed to expand &amp;#039;Curl_dyn_addn&amp;#039;, Wrong number of parameters for macro &amp;#039;Curl_dyn_addn&amp;#039;." sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\lib\http1.c" line="338"/>
+        </error>
+        <error id="preprocessorErrorDirective" severity="error" msg="failed to expand &amp;#039;Curl_dyn_addn&amp;#039;, Wrong number of parameters for macro &amp;#039;Curl_dyn_addn&amp;#039;." verbose="failed to expand &amp;#039;Curl_dyn_addn&amp;#039;, Wrong number of parameters for macro &amp;#039;Curl_dyn_addn&amp;#039;." sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\lib\http_chunks.c" line="260"/>
+        </error>
+        <error id="objectIndex" severity="error" msg="The address of local variable &amp;#039;path&amp;#039; is accessed at non-zero index." verbose="The address of local variable &amp;#039;path&amp;#039; is accessed at non-zero index." cwe="758" file0="C:/test_workspace/curl-master/lib/imap.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\lib\imap.c" line="2002" info=""/>
+            <location file="C:\test_workspace\curl-master\lib\imap.c" line="1996" info="Assuming condition is false"/>
+            <location file="C:\test_workspace\curl-master\lib\imap.c" line="1992" info="Address of variable taken here."/>
+        </error>
+        <error id="preprocessorErrorDirective" severity="error" msg="failed to expand &amp;#039;Curl_dyn_addn&amp;#039;, Wrong number of parameters for macro &amp;#039;Curl_dyn_addn&amp;#039;." verbose="failed to expand &amp;#039;Curl_dyn_addn&amp;#039;, Wrong number of parameters for macro &amp;#039;Curl_dyn_addn&amp;#039;." sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\lib\mime.c" line="323"/>
+        </error>
+        <error id="preprocessorErrorDirective" severity="error" msg="failed to expand &amp;#039;Curl_dyn_addn&amp;#039;, Wrong number of parameters for macro &amp;#039;Curl_dyn_addn&amp;#039;." verbose="failed to expand &amp;#039;Curl_dyn_addn&amp;#039;, Wrong number of parameters for macro &amp;#039;Curl_dyn_addn&amp;#039;." sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\lib\rtsp.c" line="561"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant QUICHE_MAX_CONN_ID_LEN, please review configuration" verbose="Unknown constant QUICHE_MAX_CONN_ID_LEN, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/curl_quiche.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\lib\vquic\curl_quiche.c" line="96"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant _MAX_PATH, please review configuration" verbose="Unknown constant _MAX_PATH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/vtls_scache.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\lib\vtls\vtls_scache.c" line="392"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant MAX_PATH, please review configuration" verbose="Unknown constant MAX_PATH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="294"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant MAX_PATH, please review configuration" verbose="Unknown constant MAX_PATH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="443"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant MAX_PATH, please review configuration" verbose="Unknown constant MAX_PATH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_doswin.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\src\tool_doswin.c" line="589"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error: keyword &amp;#039;while&amp;#039; is not allowed in global scope" verbose="syntax error: keyword &amp;#039;while&amp;#039; is not allowed in global scope" file0="C:/test_workspace/curl-master/src/tool_filetime.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\src\tool_filetime.c" line="91"/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variables: &amp;amp;key.desc, &amp;amp;key.letter, &amp;amp;key.cmd" verbose="Uninitialized variables: &amp;amp;key.desc, &amp;amp;key.letter, &amp;amp;key.cmd" cwe="457" file0="C:/test_workspace/curl-master/src/tool_getparam.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\src\tool_getparam.c" line="1042"/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: &amp;amp;find.value" verbose="Uninitialized variable: &amp;amp;find.value" cwe="457" file0="C:/test_workspace/curl-master/src/tool_getparam.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\src\tool_getparam.c" line="2081"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown array size, please review configuration" verbose="Unknown array size, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_libinfo.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\src\tool_libinfo.c" line="130"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_MT_LOGFNAME_BUFSIZE, please review configuration" verbose="Unknown constant CURL_MT_LOGFNAME_BUFSIZE, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_main.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\src\tool_main.c" line="123"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_ERROR_SIZE, please review configuration" verbose="Unknown constant CURL_ERROR_SIZE, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_operate.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\src\tool_operate.c" line="419"/>
+        </error>
+        <error id="resourceLeak" severity="error" msg="Resource leak: fp" verbose="Resource leak: fp" cwe="775" file0="C:/test_workspace/curl-master/src/tool_stderr.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\src\tool_stderr.c" line="71"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib1308.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1308.c" line="96"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib1512.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1512.c" line="75"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib1513.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1513.c" line="63"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_ERROR_SIZE, please review configuration" verbose="Unknown constant CURL_ERROR_SIZE, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1523.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1523.c" line="62"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib1535.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1535.c" line="44"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib1545.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1545.c" line="40"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib1555.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1555.c" line="68"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib1558.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1558.c" line="48"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_ERROR_SIZE, please review configuration" verbose="Unknown constant CURL_ERROR_SIZE, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1906.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1906.c" line="35"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_ERROR_SIZE, please review configuration" verbose="Unknown constant CURL_ERROR_SIZE, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1907.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1907.c" line="35"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib1911.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1911.c" line="64"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib1912.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1912.c" line="42"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_LOCK_DATA_LAST, please review configuration" verbose="Unknown constant CURL_LOCK_DATA_LAST, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib3207.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib3207.c" line="148"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib516.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib516.c" line="47"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib547.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib547.c" line="103"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib552.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib552.c" line="202"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib554.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib554.c" line="178"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib555.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib555.c" line="99"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib566.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib566.c" line="56"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib578.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib578.c" line="81"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib579.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib579.c" line="157"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib599.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib599.c" line="67"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib651.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib651.c" line="76"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib650.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib650.c" line="195"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If CURL_IGNORE_DEPRECATION is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/lib670.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib670.c" line="173"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." file0="C:/test_workspace/curl-master/tests/libtest/libntlmconnect.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\libtest\libntlmconnect.c" line="54"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error: keyword &amp;#039;for&amp;#039; is not allowed in global scope" verbose="syntax error: keyword &amp;#039;for&amp;#039; is not allowed in global scope" file0="C:/test_workspace/curl-master/tests/tunit/tool1394.c" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\tunit\tool1394.c" line="83"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant MD5_DIGEST_LEN, please review configuration" verbose="Unknown constant MD5_DIGEST_LEN, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1601.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1601.c" line="45"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant MAX_IPADR_LEN, please review configuration" verbose="Unknown constant MAX_IPADR_LEN, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1607.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1607.c" line="151"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant MAX_IPADR_LEN, please review configuration" verbose="Unknown constant MAX_IPADR_LEN, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1609.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1609.c" line="153"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_SHA256_DIGEST_LENGTH, please review configuration" verbose="Unknown constant CURL_SHA256_DIGEST_LENGTH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1610.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1610.c" line="47"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant MD4_DIGEST_LENGTH, please review configuration" verbose="Unknown constant MD4_DIGEST_LENGTH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1611.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1611.c" line="43"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant HMAC_MD5_LENGTH, please review configuration" verbose="Unknown constant HMAC_MD5_LENGTH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1612.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1612.c" line="47"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_SHA512_256_DIGEST_LENGTH, please review configuration" verbose="Unknown constant CURL_SHA512_256_DIGEST_LENGTH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1615.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1615.c" line="70"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_SHA512_256_DIGEST_LENGTH, please review configuration" verbose="Unknown constant CURL_SHA512_256_DIGEST_LENGTH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1615.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1615.c" line="56"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_SHA512_256_DIGEST_LENGTH, please review configuration" verbose="Unknown constant CURL_SHA512_256_DIGEST_LENGTH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1615.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1615.c" line="62"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_SHA512_256_DIGEST_LENGTH, please review configuration" verbose="Unknown constant CURL_SHA512_256_DIGEST_LENGTH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1615.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1615.c" line="44"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_SHA512_256_DIGEST_LENGTH, please review configuration" verbose="Unknown constant CURL_SHA512_256_DIGEST_LENGTH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1615.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1615.c" line="83"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_SHA512_256_DIGEST_LENGTH, please review configuration" verbose="Unknown constant CURL_SHA512_256_DIGEST_LENGTH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1615.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1615.c" line="50"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_SHA512_256_DIGEST_LENGTH, please review configuration" verbose="Unknown constant CURL_SHA512_256_DIGEST_LENGTH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1615.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1615.c" line="89"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_SHA512_256_DIGEST_LENGTH, please review configuration" verbose="Unknown constant CURL_SHA512_256_DIGEST_LENGTH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1615.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1615.c" line="112"/>
+        </error>
+        <error id="misra-config" severity="error" msg="Unknown constant CURL_SHA512_256_DIGEST_LENGTH, please review configuration" verbose="Unknown constant CURL_SHA512_256_DIGEST_LENGTH, please review configuration" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/unit1615.a1.23900.dump" sinceDate="yyyy-MM-dd">
+            <location file="C:\test_workspace\curl-master\tests\unit\unit1615.c" line="118"/>
+        </error>
+    </errors>
+</results>

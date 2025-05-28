@@ -1,0 +1,1 @@
+tool_socket_open_mptcp_cb call:[socket] noreturn:[socket]

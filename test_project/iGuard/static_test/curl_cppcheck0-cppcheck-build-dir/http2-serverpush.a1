@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1894776384841079222">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="30" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="33" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/mprintf.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/mprintf.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="34" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;ptr&apos; can be declared as pointer to const" verbose="Parameter &apos;ptr&apos; can be declared as pointer to const" cwe="398" file0="C:/test_workspace/curl-master/docs/examples/http2-serverpush.c">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="41" column="44" info="Parameter &apos;ptr&apos; can be declared as pointer to const"/>
+            <symbol>ptr</symbol>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/http2-serverpush.c:41:6" my-argnr="1" my-argname="text" file="C:/test_workspace/curl-master/docs/examples/http2-serverpush.c" line="54" col="11" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="71" column="26"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="72" column="20"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="73" column="17"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="77" column="27"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="79" column="26"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="80" column="20"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="81" column="17"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="169" column="20"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="63" column="18"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="69" column="38"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="71" column="30"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="79" column="30"/>
+        </error>
+        <error id="misra-c2012-14.2" severity="style" msg="Required A for loop shall be well-formed" verbose="Required A for loop shall be well-formed" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="73" column="9"/>
+        </error>
+        <error id="misra-c2012-14.2" severity="style" msg="Required A for loop shall be well-formed" verbose="Required A for loop shall be well-formed" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="81" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="49" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="198" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="227" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="243" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="247" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="265" column="12"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="267" column="10"/>
+        </error>
+        <error id="misra-c2012-15.4" severity="style" msg="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" verbose="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="69" column="52"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="100" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="120" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="134" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="183" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="229" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="49" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="62" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="63" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="65" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="132" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="218" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="243" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="247" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="53" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="58" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="64" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="66" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="76" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="85" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="99" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="182" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="189" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="194" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="199" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="228" column="12"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/http2-serverpush.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\http2-serverpush.c" line="28" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="dump" lineNumber="41"/>
+    <functiondecl functionName="my_trace" lineNumber="90"/>
+    <functiondecl functionName="setup" lineNumber="129"/>
+    <functiondecl functionName="server_push_callback" lineNumber="161"/>
+    <functiondecl functionName="main" lineNumber="210"/>
+    <functioncall functionName="CURLMOPT_PIPELINING"/>
+    <functioncall functionName="CURLMOPT_PUSHDATA"/>
+    <functioncall functionName="CURLMOPT_PUSHFUNCTION"/>
+    <functioncall functionName="CURLOPT_DEBUGFUNCTION"/>
+    <functioncall functionName="CURLOPT_HTTP_VERSION"/>
+    <functioncall functionName="CURLOPT_PIPEWAIT"/>
+    <functioncall functionName="CURLOPT_SSL_VERIFYHOST"/>
+    <functioncall functionName="CURLOPT_SSL_VERIFYPEER"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_VERBOSE"/>
+    <functioncall functionName="CURLOPT_WRITEDATA"/>
+    <functioncall functionName="CURL_HTTP_VERSION_2_0"/>
+    <functioncall functionName="CURL_PUSH_DENY"/>
+    <functioncall functionName="CURL_PUSH_OK"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_msnprintf"/>
+    <functioncall functionName="curl_multi_add_handle"/>
+    <functioncall functionName="curl_multi_cleanup"/>
+    <functioncall functionName="curl_multi_info_read"/>
+    <functioncall functionName="curl_multi_init"/>
+    <functioncall functionName="curl_multi_perform"/>
+    <functioncall functionName="curl_multi_poll"/>
+    <functioncall functionName="curl_multi_remove_handle"/>
+    <functioncall functionName="curl_multi_setopt"/>
+    <functioncall functionName="curl_pushheader_byname"/>
+    <functioncall functionName="curl_pushheader_bynum"/>
+    <functioncall functionName="dump"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="fputc"/>
+    <functioncall functionName="fputs"/>
+    <functioncall functionName="my_trace"/>
+    <functioncall functionName="server_push_callback"/>
+    <functioncall functionName="setup"/>
+    <functioncall functionName="stderr"/>
+  </FileInfo>
+</analyzerinfo>

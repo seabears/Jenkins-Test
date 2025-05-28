@@ -1,0 +1,555 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="10963379587162534752">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="36" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_printf.h&quot; not found." verbose="Include file: &quot;curl_printf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="45" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;fcntl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;fcntl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="33" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testutil.h" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;warnless.h&quot; not found." verbose="Include file: &quot;warnless.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="36" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="37" column="0"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." verbose="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." cwe="686" file0="C:/test_workspace/curl-master/tests/libtest/lib530.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="123" column="3"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." verbose="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." cwe="686" file0="C:/test_workspace/curl-master/tests/libtest/lib530.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="156" column="3"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;timeout&apos; can be declared as pointer to const" verbose="Parameter &apos;timeout&apos; can be declared as pointer to const" cwe="398" file0="C:/test_workspace/curl-master/tests/libtest/lib530.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="200" column="50" info="Parameter &apos;timeout&apos; can be declared as pointer to const"/>
+            <symbol>timeout</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:54:13" call-funcname="removeFd" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="82" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:54:13" call-funcname="removeFd" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="139" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:235:12" call-funcname="socket_action" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="306" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:174:12" call-funcname="checkForCompletion" call-argnr="2" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="311" col="28" call-argexpr="&amp;success" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:200:12" call-funcname="getMicroSecondTimeout" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="323" col="44" call-argexpr="&amp;timeout" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/test.h:76:12" call-funcname="select_wrapper" call-argnr="4" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="333" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/test.h:76:12" call-funcname="select_wrapper" call-argnr="5" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="333" col="5" call-argexpr="&amp;tv" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:200:12" call-funcname="getMicroSecondTimeout" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="345" col="61" call-argexpr="&amp;timeout" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:235:12" call-funcname="socket_action" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="347" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="2" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="381" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="381" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="385" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="389" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="2" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="393" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="2" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="397" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:54:13" call-funcname="removeFd" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="82" col="3" my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:75:12" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:235:12" call-funcname="socket_action" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="258" col="16" my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:250:12" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:235:12" call-funcname="socket_action" call-argnr="4" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="258" col="16" my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:250:12" my-argnr="5"/>
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="381" col="8" my-id="C:/test_workspace/curl-master/tests/libtest/test.h:82:17" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:54:13" my-argnr="1" my-argname="sockets" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="61" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:75:12" my-argnr="3" my-argname="what" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="81" col="58" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:174:12" my-argnr="2" my-argname="success" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="177" col="4" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:200:12" my-argnr="1" my-argname="timeout" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="205" col="23" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:216:13" my-argnr="1" my-argname="sockets" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="220" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:250:12" my-argnr="2" my-argname="sockets" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="256" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:54:13" my-argnr="1" my-argname="sockets" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="61" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:200:12" my-argnr="1" my-argname="timeout" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="205" col="23" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:216:13" my-argnr="1" my-argname="sockets" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="220" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:250:12" my-argnr="2" my-argname="sockets" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="256" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:54:13" call-funcname="removeFd" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="82" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:54:13" call-funcname="removeFd" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="139" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:235:12" call-funcname="socket_action" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="306" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:174:12" call-funcname="checkForCompletion" call-argnr="2" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="311" col="28" call-argexpr="&amp;success" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:200:12" call-funcname="getMicroSecondTimeout" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="323" col="44" call-argexpr="&amp;timeout" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/test.h:76:12" call-funcname="select_wrapper" call-argnr="4" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="333" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/test.h:76:12" call-funcname="select_wrapper" call-argnr="5" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="333" col="5" call-argexpr="&amp;tv" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:200:12" call-funcname="getMicroSecondTimeout" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="345" col="61" call-argexpr="&amp;timeout" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:235:12" call-funcname="socket_action" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="347" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="2" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="381" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="381" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="385" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="389" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="2" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="393" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="2" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="397" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:54:13" call-funcname="removeFd" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="82" col="3" my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:75:12" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:235:12" call-funcname="socket_action" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="258" col="16" my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:250:12" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:235:12" call-funcname="socket_action" call-argnr="4" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="258" col="16" my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:250:12" my-argnr="5"/>
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="381" col="8" my-id="C:/test_workspace/curl-master/tests/libtest/test.h:519:17" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:54:13" my-argnr="1" my-argname="sockets" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="61" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:75:12" my-argnr="3" my-argname="what" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="81" col="58" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:174:12" my-argnr="2" my-argname="success" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="177" col="4" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:200:12" my-argnr="1" my-argname="timeout" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="205" col="23" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:216:13" my-argnr="1" my-argname="sockets" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="220" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:250:12" my-argnr="2" my-argname="sockets" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="256" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:54:13" my-argnr="1" my-argname="sockets" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="61" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:200:12" my-argnr="1" my-argname="timeout" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="205" col="23" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:216:13" my-argnr="1" my-argname="sockets" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="220" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:250:12" my-argnr="2" my-argname="sockets" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="256" col="18" value="0"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/select.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/select.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="40" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="42" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:54:13" call-funcname="removeFd" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="82" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:54:13" call-funcname="removeFd" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="139" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:235:12" call-funcname="socket_action" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="306" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:174:12" call-funcname="checkForCompletion" call-argnr="2" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="311" col="28" call-argexpr="&amp;success" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:200:12" call-funcname="getMicroSecondTimeout" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="323" col="44" call-argexpr="&amp;timeout" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/test.h:76:12" call-funcname="select_wrapper" call-argnr="4" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="333" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/test.h:76:12" call-funcname="select_wrapper" call-argnr="5" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="333" col="5" call-argexpr="&amp;tv" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:200:12" call-funcname="getMicroSecondTimeout" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="345" col="61" call-argexpr="&amp;timeout" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:235:12" call-funcname="socket_action" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="347" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="2" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="381" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="381" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="385" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="3" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="389" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="2" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="393" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="2" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="397" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:54:13" call-funcname="removeFd" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="82" col="3" my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:75:12" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:235:12" call-funcname="socket_action" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="258" col="16" my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:250:12" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:235:12" call-funcname="socket_action" call-argnr="4" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="258" col="16" my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:250:12" my-argnr="5"/>
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:266:17" call-funcname="testone" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="381" col="8" my-id="C:/test_workspace/curl-master/tests/libtest/test.h:82:17" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:54:13" my-argnr="1" my-argname="sockets" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="61" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:75:12" my-argnr="3" my-argname="what" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="81" col="58" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:174:12" my-argnr="2" my-argname="success" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="177" col="4" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:200:12" my-argnr="1" my-argname="timeout" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="205" col="23" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:216:13" my-argnr="1" my-argname="sockets" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="220" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:250:12" my-argnr="2" my-argname="sockets" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="256" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:54:13" my-argnr="1" my-argname="sockets" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="61" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:200:12" my-argnr="1" my-argname="timeout" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="205" col="23" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:216:13" my-argnr="1" my-argname="sockets" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="220" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib530.c:250:12" my-argnr="2" my-argname="sockets" file="C:/test_workspace/curl-master/tests/libtest/lib530.c" line="256" col="18" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="65" column="37"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="93" column="74"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="118" column="36"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="153" column="27"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="63" column="12"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="92" column="30"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="129" column="29"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="133" column="30"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="205" column="63"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="229" column="15"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="48" column="22"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="312" column="19"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="284" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="288" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="291" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="294" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="296" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="298" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="299" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="301" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="302" column="3"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="304" column="3"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="58" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="130" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="134" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="257" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="259" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="288" column="3"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="291" column="3"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="294" column="3"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="296" column="3"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="298" column="3"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="299" column="3"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="301" column="3"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="302" column="3"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="304" column="3"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="306" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="333" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="336" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="340" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="347" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="353" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="382" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="288" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="291" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="294" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="296" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="298" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="299" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="301" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="302" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="304" column="3"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="308" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="333" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="338" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="342" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="349" column="9"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="353" column="5"/>
+        </error>
+        <error id="misra-c2012-15.4" severity="style" msg="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" verbose="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="311" column="43"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="89" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="97" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="126" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="131" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="135" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="159" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="286" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="58" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="63" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="88" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="95" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="129" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="130" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="133" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="134" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="181" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="185" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="187" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="207" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="259" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="285" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="382" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="386" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="390" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="394" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="398" column="3"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="100" column="3"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="330" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="59" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="64" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="81" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="123" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="125" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="156" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="158" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="191" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="241" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="281" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="284" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="288" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="291" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="294" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="296" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="298" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="299" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="301" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="302" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="304" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="333" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="353" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="357" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="364" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="383" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="387" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="391" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="395" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="399" column="12"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="522" column="0"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="87" column="30"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="93" column="33"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="371" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib530.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib530.c" line="372" column="7"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="removeFd" lineNumber="54"/>
+    <functiondecl functionName="addFd" lineNumber="75"/>
+    <functiondecl functionName="curlSocketCallback" lineNumber="115"/>
+    <functiondecl functionName="curlTimerCallback" lineNumber="151"/>
+    <functiondecl functionName="checkForCompletion" lineNumber="174"/>
+    <functiondecl functionName="getMicroSecondTimeout" lineNumber="200"/>
+    <functiondecl functionName="updateFdSet" lineNumber="216"/>
+    <functiondecl functionName="socket_action" lineNumber="235"/>
+    <functiondecl functionName="checkFdSet" lineNumber="250"/>
+    <functiondecl functionName="testone" lineNumber="266"/>
+    <functiondecl functionName="removeFd" lineNumber="54"/>
+    <functiondecl functionName="addFd" lineNumber="75"/>
+    <functiondecl functionName="curlSocketCallback" lineNumber="115"/>
+    <functiondecl functionName="curlTimerCallback" lineNumber="151"/>
+    <functiondecl functionName="checkForCompletion" lineNumber="174"/>
+    <functiondecl functionName="getMicroSecondTimeout" lineNumber="200"/>
+    <functiondecl functionName="updateFdSet" lineNumber="216"/>
+    <functiondecl functionName="socket_action" lineNumber="235"/>
+    <functiondecl functionName="checkFdSet" lineNumber="250"/>
+    <functiondecl functionName="testone" lineNumber="266"/>
+    <functiondecl functionName="removeFd" lineNumber="54"/>
+    <functiondecl functionName="addFd" lineNumber="75"/>
+    <functiondecl functionName="curlSocketCallback" lineNumber="115"/>
+    <functiondecl functionName="curlTimerCallback" lineNumber="151"/>
+    <functiondecl functionName="checkForCompletion" lineNumber="174"/>
+    <functiondecl functionName="getMicroSecondTimeout" lineNumber="200"/>
+    <functiondecl functionName="updateFdSet" lineNumber="216"/>
+    <functiondecl functionName="socket_action" lineNumber="235"/>
+    <functiondecl functionName="checkFdSet" lineNumber="250"/>
+    <functiondecl functionName="testone" lineNumber="266"/>
+    <functioncall functionName="CURLE_OK"/>
+    <functioncall functionName="CURLE_RESERVED115"/>
+    <functioncall functionName="CURLE_RESERVED121"/>
+    <functioncall functionName="CURLE_RESERVED123"/>
+    <functioncall functionName="CURLE_RESERVED124"/>
+    <functioncall functionName="CURLE_RESERVED125"/>
+    <functioncall functionName="CURLE_RESERVED126"/>
+    <functioncall functionName="CURLMOPT_SOCKETDATA"/>
+    <functioncall functionName="CURLMOPT_SOCKETFUNCTION"/>
+    <functioncall functionName="CURLMOPT_TIMERDATA"/>
+    <functioncall functionName="CURLMOPT_TIMERFUNCTION"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_VERBOSE"/>
+    <functioncall functionName="CURL_CSELECT_IN"/>
+    <functioncall functionName="CURL_CSELECT_OUT"/>
+    <functioncall functionName="CURL_GLOBAL_ALL"/>
+    <functioncall functionName="CURL_SOCKET_TIMEOUT"/>
+    <functioncall functionName="FD_ISSET"/>
+    <functioncall functionName="FD_SET"/>
+    <functioncall functionName="FD_ZERO"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="SOCKERRNO"/>
+    <functioncall functionName="addFd"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="checkFdSet"/>
+    <functioncall functionName="checkForCompletion"/>
+    <functioncall functionName="curlSocketCallback"/>
+    <functioncall functionName="curlTimerCallback"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_easy_strerror"/>
+    <functioncall functionName="curl_global_cleanup"/>
+    <functioncall functionName="curl_global_init"/>
+    <functioncall functionName="curl_multi_add_handle"/>
+    <functioncall functionName="curl_multi_cleanup"/>
+    <functioncall functionName="curl_multi_info_read"/>
+    <functioncall functionName="curl_multi_init"/>
+    <functioncall functionName="curl_multi_remove_handle"/>
+    <functioncall functionName="curl_multi_setopt"/>
+    <functioncall functionName="curl_multi_socket_action"/>
+    <functioncall functionName="curl_multi_strerror"/>
+    <functioncall functionName="curl_socket_t"/>
+    <functioncall functionName="curlx_sztosi"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="getMicroSecondTimeout"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memmove"/>
+    <functioncall functionName="realloc"/>
+    <functioncall functionName="removeFd"/>
+    <functioncall functionName="select_wrapper"/>
+    <functioncall functionName="socket_action"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strerror"/>
+    <functioncall functionName="test_cleanup"/>
+    <functioncall functionName="testone"/>
+    <functioncall functionName="tutil_tvdiff"/>
+    <functioncall functionName="tutil_tvnow"/>
+    <functioncall functionName="updateFdSet"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,4 @@
+unit_setup
+unit_stop
+getflagstr call:[malloc,msnprintf] noreturn:[msnprintf]
+getcurlcodestr call:[malloc,msnprintf] noreturn:[msnprintf]

@@ -1,0 +1,4 @@
+unit_setup
+unit_stop
+ret2name
+test global:[tests] call:[CURL_ARRAYSIZE,Curl_fnmatch,fprintf,printf,ret2name,return,unit_setup,unit_stop,while] noreturn:[unit_stop,while]

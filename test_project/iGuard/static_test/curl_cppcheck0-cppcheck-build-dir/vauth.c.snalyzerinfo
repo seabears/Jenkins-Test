@@ -1,0 +1,3 @@
+Curl_auth_build_spn call:[curl_maprintf] noreturn:[curl_maprintf]
+Curl_auth_user_contains_domain call:[strlen,strpbrk]
+Curl_auth_allowed_to_host call:[curl_strequal]

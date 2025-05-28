@@ -1,0 +1,3 @@
+unit_setup
+unit_stop
+test call:[CURL_UNCONST,Curl_get_pathname,calloc,curl_free,fprintf,free,memset,printf,return,strcmp,unit_setup,unit_stop,while] noreturn:[curl_free,free,unit_stop,while]

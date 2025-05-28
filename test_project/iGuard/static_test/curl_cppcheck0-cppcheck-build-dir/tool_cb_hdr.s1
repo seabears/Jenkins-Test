@@ -1,0 +1,4 @@
+tool_write_headers call:[curl_slist_free_all,fwrite,strlen]
+tool_header_cb global:[proto_file,proto_http,proto_https,proto_rtsp] call:[ISALPHA,ISBLANK,ISSPACE,aprintf,checkprefix,curl_easy_getinfo,curl_slist_append,curl_slist_free_all,curl_strnequal,errorf,fflush,fprintf,fputc,free,fseek,fwrite,memchr,memcmp,parse_filename,proto_token,tool_create_output_file,tool_write_headers,write_linked_location] noreturn:[fflush,fwrite,memchr,write_linked_location]
+parse_filename call:[curlx_safefree,malloc,memcpy,memmove,strchr,strlen,strrchr] noreturn:[memmove]
+write_linked_location call:[curl_easy_getinfo,curl_free,curl_url,curl_url_cleanup,curl_url_get,curl_url_set,curlx_str_number,fprintf,free,fwrite,getenv,malloc,memcpy,strcmp] noreturn:[free]

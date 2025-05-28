@@ -1,0 +1,22 @@
+time2str call:[CURL_OFF_T_C,curl_msnprintf,strcpy] noreturn:[curl_msnprintf]
+max5data call:[CURL_OFF_T_C,curl_msnprintf] noreturn:[curl_msnprintf]
+Curl_pgrsDone call:[Curl_pgrsUpdate,curl_mfprintf] noreturn:[curl_mfprintf]
+Curl_pgrsResetTransferSizes call:[Curl_pgrsSetDownloadSize,Curl_pgrsSetUploadSize] noreturn:[Curl_pgrsSetUploadSize]
+Curl_pgrsTimeWas call:[curlx_timediff_us]
+Curl_pgrsTime call:[Curl_pgrsTimeWas,curlx_now]
+Curl_pgrsStartNow call:[Curl_ratelimit,curlx_now] noreturn:[Curl_ratelimit]
+Curl_pgrsLimitWaitTime call:[CURL_OFF_T_C,curlx_timediff_ceil] noreturn:[CURL_OFF_T_C]
+Curl_pgrsSetDownloadCounter
+Curl_ratelimit call:[curlx_timediff]
+Curl_pgrsSetUploadCounter
+Curl_pgrsSetDownloadSize
+Curl_pgrsSetUploadSize
+Curl_pgrsEarlyData
+trspeed call:[CURL_OFF_T_C,return] noreturn:[CURL_OFF_T_C]
+progress_calc call:[CURL_OFF_T_C,curlx_timediff,curlx_timediff_us,trspeed]
+pgrs_est_percent call:[CURL_OFF_T_C,return]
+pgrs_estimates call:[CURL_OFF_T_C,pgrs_est_percent] noreturn:[pgrs_est_percent]
+progress_meter call:[curl_mfprintf,fflush,max5data,pgrs_est_percent,pgrs_estimates,time2str] noreturn:[curl_mfprintf,fflush]
+pgrsupdate call:[Curl_failf,Curl_set_in_callback,fprogress,fxferinfo,progress_meter] noreturn:[Curl_failf,progress_meter]
+Curl_pgrsUpdate call:[curlx_now,pgrsupdate,progress_calc] noreturn:[pgrsupdate]
+Curl_pgrsUpdate_nometer call:[curlx_now,progress_calc] noreturn:[progress_calc]

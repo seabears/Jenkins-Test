@@ -1,0 +1,4 @@
+mydtor call:[free] noreturn:[free]
+unit_setup global:[hash_static] call:[Curl_hash_init]
+unit_stop global:[hash_static] call:[Curl_hash_destroy] noreturn:[Curl_hash_destroy]
+test global:[hash_static] call:[Curl_hash_add,Curl_hash_clean,fprintf,free,malloc,return,sizeof,unit_setup,unit_stop,while] noreturn:[free,unit_stop,while]

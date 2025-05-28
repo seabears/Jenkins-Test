@@ -1,0 +1,3 @@
+header_callback call:[curl_easy_getinfo,fprintf,fwrite]
+write_callback call:[fwrite]
+test global:[tv_test_start] call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_easy_strerror,curl_global_cleanup,curl_global_init,fprintf,memset,sizeof,tutil_tvnow,while] noreturn:[tutil_tvnow]

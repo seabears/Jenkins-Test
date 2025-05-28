@@ -1,0 +1,865 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="10715727428730445599">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\server_setup.h" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="25" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;signal.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;signal.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="61" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curlx.h&quot; not found." verbose="Include file: &quot;curlx.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="76" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;inet_pton.h&quot; not found." verbose="Include file: &quot;inet_pton.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="77" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;timeval.h&quot; not found." verbose="Include file: &quot;timeval.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\util.h" line="72" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\server\util.h" line="95" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;warnless.h&quot; not found." verbose="Include file: &quot;warnless.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="80" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;tool_binmode.h&quot; not found." verbose="Include file: &quot;tool_binmode.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="82" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="85" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;rc!=8&apos; is always true" verbose="Condition &apos;rc!=8&apos; is always true" cwe="571" file0="C:/test_workspace/curl-master/tests/server/socksd.c">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="284" column="9" info="Condition &apos;rc!=8&apos; is always true"/>
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="283" column="8" info="Assignment &apos;rc=(send)(fd,(char*)response,8,0)&apos;, assigned value is 0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;rc!=2&apos; is always true" verbose="Condition &apos;rc!=2&apos; is always true" cwe="571" file0="C:/test_workspace/curl-master/tests/server/socksd.c">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="355" column="9" info="Condition &apos;rc!=2&apos; is always true"/>
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="354" column="8" info="Assignment &apos;rc=(send)(fd,(char*)response,2,0)&apos;, assigned value is 0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;rc!=2&apos; is always true" verbose="Condition &apos;rc!=2&apos; is always true" cwe="571" file0="C:/test_workspace/curl-master/tests/server/socksd.c">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="412" column="11" info="Condition &apos;rc!=2&apos; is always true"/>
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="411" column="10" info="Assignment &apos;rc=(send)(fd,(char*)response,2,0)&apos;, assigned value is 0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;rc!=(len+6)&apos; is always true" verbose="Condition &apos;rc!=(len+6)&apos; is always true" cwe="571" file0="C:/test_workspace/curl-master/tests/server/socksd.c">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="559" column="9" info="Condition &apos;rc!=(len+6)&apos; is always true"/>
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="558" column="8" info="Assignment &apos;rc=(send)(fd,(char*)response,(SEND_TYPE_ARG3)(len+6),0)&apos;, assigned value is 0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;value&apos; can be declared as pointer to const" verbose="Parameter &apos;value&apos; can be declared as pointer to const" cwe="398" file0="C:/test_workspace/curl-master/tests/server/socksd.c">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="135" column="38" info="Parameter &apos;value&apos; can be declared as pointer to const"/>
+            <symbol>value</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;portp&apos; can be declared as pointer to const" verbose="Variable &apos;portp&apos; can be declared as pointer to const" cwe="398" file0="C:/test_workspace/curl-master/tests/server/socksd.c">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="512" column="20" info="Variable &apos;portp&apos; can be declared as pointer to const"/>
+            <symbol>portp</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;argv&apos; can be declared as const array" verbose="Parameter &apos;argv&apos; can be declared as const array" cwe="398" file0="C:/test_workspace/curl-master/tests/server/socksd.c">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="921" column="26" info="Parameter &apos;argv&apos; can be declared as const array"/>
+            <symbol>argv</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="153" col="37" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="157" col="42" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="161" col="42" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/socksd.c:135:23" call-funcname="shortval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="169" col="35" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="186" col="44" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="190" col="40" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="289" col="9" call-argexpr="response" call-argvaluetype="7" call-argvalue="272"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="323" col="9" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" call-funcname="socks4" call-argnr="2" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="326" col="18" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="360" col="9" call-argexpr="response" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="370" col="9" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="417" col="11" call-argexpr="response" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="429" col="11" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="564" col="9" call-argexpr="response" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/socksd.c:760:22" call-funcname="socksd_sockdaemon" call-argnr="2" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="1069" col="29" call-argexpr="&amp;server_port" call-argvaluetype="7" call-argvalue="2"/>  </FileInfo>
+  <FileInfo check="Bounds checking">
+    <array-index>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" my-argnr="2" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="256" col="6" value="1"/>
+    </array-index>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:135:23" my-argnr="1" my-argname="value" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="137" col="31" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" my-argnr="2" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="256" col="6" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:584:12" my-argnr="1" my-argname="cp" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="589" col="15" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:135:23" my-argnr="1" my-argname="value" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="137" col="31" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" my-argnr="2" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="256" col="6" value="0"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;arpa/inet.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;arpa/inet.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="70" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="153" col="37" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="157" col="42" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="161" col="42" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/socksd.c:135:23" call-funcname="shortval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="169" col="35" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="186" col="44" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="190" col="40" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="289" col="9" call-argexpr="response" call-argvaluetype="7" call-argvalue="272"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="323" col="9" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" call-funcname="socks4" call-argnr="2" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="326" col="18" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="360" col="9" call-argexpr="response" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="370" col="9" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="417" col="11" call-argexpr="response" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="429" col="11" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="564" col="9" call-argexpr="response" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/socksd.c:760:22" call-funcname="socksd_sockdaemon" call-argnr="2" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="1069" col="29" call-argexpr="&amp;server_port" call-argvaluetype="7" call-argvalue="2"/>  </FileInfo>
+  <FileInfo check="Bounds checking">
+    <array-index>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" my-argnr="2" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="256" col="6" value="1"/>
+    </array-index>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:135:23" my-argnr="1" my-argname="value" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="137" col="31" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" my-argnr="2" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="256" col="6" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:584:12" my-argnr="1" my-argname="cp" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="589" col="15" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:135:23" my-argnr="1" my-argname="value" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="137" col="31" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" my-argnr="2" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="256" col="6" value="0"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;netdb.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;netdb.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="73" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;netinet/in6.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;netinet/in6.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="67" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;netinet/in.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;netinet/in.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="64" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/un.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/un.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\server\server_sockaddr.h" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/un.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/un.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\server\util.h" line="99" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="153" col="37" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="157" col="42" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="161" col="42" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/socksd.c:135:23" call-funcname="shortval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="169" col="35" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="186" col="44" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="190" col="40" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="289" col="9" call-argexpr="response" call-argvaluetype="7" call-argvalue="272"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="323" col="9" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" call-funcname="socks4" call-argnr="2" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="326" col="18" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="360" col="9" call-argexpr="response" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="370" col="9" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="417" col="11" call-argexpr="response" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="429" col="11" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="564" col="9" call-argexpr="response" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/socksd.c:760:22" call-funcname="socksd_sockdaemon" call-argnr="2" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="1069" col="29" call-argexpr="&amp;server_port" call-argvaluetype="7" call-argvalue="2"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:101:5" call-funcname="bind_unix_socket" call-argnr="2" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="837" col="10" my-id="C:/test_workspace/curl-master/tests/server/socksd.c:760:22" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Bounds checking">
+    <array-index>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" my-argnr="2" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="256" col="6" value="1"/>
+    </array-index>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:135:23" my-argnr="1" my-argname="value" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="137" col="31" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" my-argnr="2" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="256" col="6" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:584:12" my-argnr="1" my-argname="cp" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="589" col="15" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:135:23" my-argnr="1" my-argname="value" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="137" col="31" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" my-argnr="2" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="256" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="153" col="37" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="157" col="42" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="161" col="42" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/socksd.c:135:23" call-funcname="shortval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="169" col="35" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="186" col="44" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="190" col="40" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="289" col="9" call-argexpr="response" call-argvaluetype="7" call-argvalue="272"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="323" col="9" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" call-funcname="socks4" call-argnr="2" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="326" col="18" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="360" col="9" call-argexpr="response" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="370" col="9" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="417" col="11" call-argexpr="response" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="429" col="11" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="564" col="9" call-argexpr="response" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/socksd.c:760:22" call-funcname="socksd_sockdaemon" call-argnr="2" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="1069" col="29" call-argexpr="&amp;server_port" call-argvaluetype="7" call-argvalue="2"/>  </FileInfo>
+  <FileInfo check="Bounds checking">
+    <array-index>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" my-argnr="2" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="256" col="6" value="1"/>
+    </array-index>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:135:23" my-argnr="1" my-argname="value" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="137" col="31" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" my-argnr="2" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="256" col="6" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:584:12" my-argnr="1" my-argname="cp" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="589" col="15" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:135:23" my-argnr="1" my-argname="value" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="137" col="31" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" my-argnr="2" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="256" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="153" col="37" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="157" col="42" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="161" col="42" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/socksd.c:135:23" call-funcname="shortval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="169" col="35" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="186" col="44" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:41:15" call-funcname="byteval" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="190" col="40" call-argexpr="value" call-argvaluetype="7" call-argvalue="260"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="289" col="9" call-argexpr="response" call-argvaluetype="7" call-argvalue="272"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="323" col="9" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" call-funcname="socks4" call-argnr="2" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="326" col="18" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="360" col="9" call-argexpr="response" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="370" col="9" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="417" col="11" call-argexpr="response" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="429" col="11" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/util.h:40:6" call-funcname="loghex" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="564" col="9" call-argexpr="response" call-argvaluetype="7" call-argvalue="528"/><function-call call-id="C:/test_workspace/curl-master/tests/server/socksd.c:760:22" call-funcname="socksd_sockdaemon" call-argnr="2" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="1069" col="29" call-argexpr="&amp;server_port" call-argvaluetype="7" call-argvalue="2"/>  </FileInfo>
+  <FileInfo check="Bounds checking">
+    <array-index>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" my-argnr="2" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="256" col="6" value="1"/>
+    </array-index>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:135:23" my-argnr="1" my-argname="value" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="137" col="31" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" my-argnr="2" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="256" col="6" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:584:12" my-argnr="1" my-argname="cp" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="589" col="15" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:135:23" my-argnr="1" my-argname="value" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="137" col="31" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/socksd.c:247:22" my-argnr="2" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/socksd.c" line="256" col="6" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="138" column="14"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="256" column="24"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="291" column="9"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="325" column="29"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="345" column="9"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="346" column="66"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="372" column="30"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="387" column="31"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="392" column="15"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="396" column="31"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="397" column="15"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="404" column="36"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="476" column="14"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="477" column="57"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="497" column="37"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="512" column="51"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="555" column="35"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="556" column="33"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="558" column="58"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="559" column="9"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="597" column="22"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="610" column="22"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="303" column="30"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="304" column="32"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="392" column="11"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="397" column="11"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="955" column="17"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="960" column="18"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="965" column="20"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="970" column="21"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="975" column="21"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="980" column="23"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="985" column="20"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="701" column="35"/>
+        </error>
+        <error id="misra-c2012-13.5" severity="style" msg="Required The right hand operand of a logical &amp;&amp; or || operator shall not contain persistent side effects" verbose="Required The right hand operand of a logical &amp;&amp; or || operator shall not contain persistent side effects" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="701" column="24"/>
+        </error>
+        <error id="misra-c2012-13.5" severity="style" msg="Required The right hand operand of a logical &amp;&amp; or || operator shall not contain persistent side effects" verbose="Required The right hand operand of a logical &amp;&amp; or || operator shall not contain persistent side effects" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="807" column="14"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="145" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="148" column="10"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="237" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="446" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="485" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="589" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="602" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="633" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="697" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="745" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="755" column="10"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="784" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="788" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="790" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="798" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="809" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="841" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1093" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1119" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1121" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1126" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1064" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1071" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1090" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1096" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="228" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="241" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="258" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="262" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="286" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="293" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="319" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="326" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="330" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="335" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="341" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="347" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="357" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="366" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="385" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="389" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="394" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="399" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="414" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="419" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="425" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="433" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="438" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="443" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="448" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="474" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="478" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="561" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="567" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="596" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="600" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="609" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="613" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="635" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="699" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="706" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="796" column="11"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="801" column="11"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="852" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="876" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="897" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="904" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="914" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="950" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1043" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="227" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="264" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="267" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="291" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="295" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="325" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="418" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="515" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="518" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="566" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="569" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="595" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="599" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="608" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="612" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="678" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="689" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="730" column="11"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="844" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="865" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="954" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="959" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="964" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="969" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="974" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="979" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="984" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1048" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1082" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1106" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1109" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1119" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1121" column="3"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="192" column="9"/>
+        </error>
+        <error id="misra-c2012-16.4" severity="style" msg="Required Every switch statement shall have a default label" verbose="Required Every switch statement shall have a default label" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="488" column="7"/>
+        </error>
+        <error id="misra-c2012-16.4" severity="style" msg="Required Every switch statement shall have a default label" verbose="Required Every switch statement shall have a default label" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="818" column="3"/>
+        </error>
+        <error id="misra-c2012-16.6" severity="style" msg="Required Every switch statement shall have at least two switch-clauses" verbose="Required Every switch statement shall have at least two switch-clauses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="818" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="130" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="131" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="132" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="165" column="17"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="173" column="17"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="177" column="17"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="195" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="229" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="282" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="487" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="491" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="497" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="502" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="504" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="507" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="552" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="555" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="632" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="820" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="870" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="943" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1029" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1133" column="10"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="283" column="6"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\server_sockaddr.h" line="32" column="9"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="225" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="766" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="863" column="5"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\util.h" line="72" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\util.h" line="95" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\util.h" line="99" column="0"/>
+        </error>
+        <error id="misra-c2012-21.5" severity="style" msg="Required The standard header file &lt;signal.h&gt; shall not be used" verbose="Required The standard header file &lt;signal.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="61" column="0"/>
+        </error>
+        <error id="misra-c2012-21.7" severity="style" msg="Required The Standard Library functions atof, atoi, atol and atoll functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The Standard Library functions atof, atoi, atol and atoll functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="975" column="43"/>
+        </error>
+        <error id="misra-c2012-21.14" severity="style" msg="Required The Standard Library function memcmp shall not be used to compare null terminated strings" verbose="Required The Standard Library function memcmp shall not be used to compare null terminated strings" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="403" column="47"/>
+        </error>
+        <error id="misra-c2012-21.14" severity="style" msg="Required The Standard Library function memcmp shall not be used to compare null terminated strings" verbose="Required The Standard Library function memcmp shall not be used to compare null terminated strings" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="404" column="58"/>
+        </error>
+        <error id="misra-c2012-21.16" severity="style" msg="Required The pointer arguments to the Standard Library function memcmp shall point to either a pointer type, an essentially signed type, an essentially unsigned type, an essentially Boolean type or an essentially enum type" verbose="Required The pointer arguments to the Standard Library function memcmp shall point to either a pointer type, an essentially signed type, an essentially unsigned type, an essentially Boolean type or an essentially enum type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="403" column="8"/>
+        </error>
+        <error id="misra-c2012-21.16" severity="style" msg="Required The pointer arguments to the Standard Library function memcmp shall point to either a pointer type, an essentially signed type, an essentially unsigned type, an essentially Boolean type or an essentially enum type" verbose="Required The pointer arguments to the Standard Library function memcmp shall point to either a pointer type, an essentially signed type, an essentially unsigned type, an essentially Boolean type or an essentially enum type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="404" column="8"/>
+        </error>
+        <error id="misra-c2012-22.8" severity="style" msg="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" verbose="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="137" column="30"/>
+        </error>
+        <error id="misra-c2012-22.8" severity="style" msg="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" verbose="Required The value of errno shall be set to zero prior to a call to an errno-settingfunction" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1023" column="38"/>
+        </error>
+        <error id="misra-c2012-22.9" severity="style" msg="Required The value of errno shall be tested against zero after calling an errnosetting- function" verbose="Required The value of errno shall be tested against zero after calling an errnosetting- function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="137" column="47"/>
+        </error>
+        <error id="misra-c2012-22.9" severity="style" msg="Required The value of errno shall be tested against zero after calling an errnosetting- function" verbose="Required The value of errno shall be tested against zero after calling an errnosetting- function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1023" column="62"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="642" column="5"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1113" column="20"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1011" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1008" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="828" column="13"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1048" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/socksd.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\socksd.c" line="1049" column="5"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="socksd_resetdefaults" lineNumber="119"/>
+    <functiondecl functionName="shortval" lineNumber="135"/>
+    <functiondecl functionName="socksd_getconfig" lineNumber="141"/>
+    <functiondecl functionName="socksconnect" lineNumber="221"/>
+    <functiondecl functionName="socks4" lineNumber="247"/>
+    <functiondecl functionName="sockit" lineNumber="301"/>
+    <functiondecl functionName="tunnel" lineNumber="584"/>
+    <functiondecl functionName="socksd_incoming" lineNumber="624"/>
+    <functiondecl functionName="socksd_sockdaemon" lineNumber="760"/>
+    <functiondecl functionName="main" lineNumber="921"/>
+    <functiondecl functionName="socksd_resetdefaults" lineNumber="119"/>
+    <functiondecl functionName="shortval" lineNumber="135"/>
+    <functiondecl functionName="socksd_getconfig" lineNumber="141"/>
+    <functiondecl functionName="socksconnect" lineNumber="221"/>
+    <functiondecl functionName="socks4" lineNumber="247"/>
+    <functiondecl functionName="sockit" lineNumber="301"/>
+    <functiondecl functionName="tunnel" lineNumber="584"/>
+    <functiondecl functionName="socksd_incoming" lineNumber="624"/>
+    <functiondecl functionName="socksd_sockdaemon" lineNumber="760"/>
+    <functiondecl functionName="main" lineNumber="921"/>
+    <functiondecl functionName="socksd_resetdefaults" lineNumber="119"/>
+    <functiondecl functionName="shortval" lineNumber="135"/>
+    <functiondecl functionName="socksd_getconfig" lineNumber="141"/>
+    <functiondecl functionName="socksconnect" lineNumber="221"/>
+    <functiondecl functionName="socks4" lineNumber="247"/>
+    <functiondecl functionName="sockit" lineNumber="301"/>
+    <functiondecl functionName="tunnel" lineNumber="584"/>
+    <functiondecl functionName="socksd_incoming" lineNumber="624"/>
+    <functiondecl functionName="socksd_sockdaemon" lineNumber="760"/>
+    <functiondecl functionName="main" lineNumber="921"/>
+    <functiondecl functionName="socksd_resetdefaults" lineNumber="119"/>
+    <functiondecl functionName="shortval" lineNumber="135"/>
+    <functiondecl functionName="socksd_getconfig" lineNumber="141"/>
+    <functiondecl functionName="socksconnect" lineNumber="221"/>
+    <functiondecl functionName="socks4" lineNumber="247"/>
+    <functiondecl functionName="sockit" lineNumber="301"/>
+    <functiondecl functionName="tunnel" lineNumber="584"/>
+    <functiondecl functionName="socksd_incoming" lineNumber="624"/>
+    <functiondecl functionName="socksd_sockdaemon" lineNumber="760"/>
+    <functiondecl functionName="main" lineNumber="921"/>
+    <functiondecl functionName="socksd_resetdefaults" lineNumber="119"/>
+    <functiondecl functionName="shortval" lineNumber="135"/>
+    <functiondecl functionName="socksd_getconfig" lineNumber="141"/>
+    <functiondecl functionName="socksconnect" lineNumber="221"/>
+    <functiondecl functionName="socks4" lineNumber="247"/>
+    <functiondecl functionName="sockit" lineNumber="301"/>
+    <functiondecl functionName="tunnel" lineNumber="584"/>
+    <functiondecl functionName="socksd_incoming" lineNumber="624"/>
+    <functiondecl functionName="socksd_sockdaemon" lineNumber="760"/>
+    <functiondecl functionName="main" lineNumber="921"/>
+    <functioncall functionName="AF_INET"/>
+    <functioncall functionName="AF_INET6"/>
+    <functioncall functionName="AF_UNIX"/>
+    <functioncall functionName="CURL_PRINTF"/>
+    <functioncall functionName="CURL_SET_BINMODE"/>
+    <functioncall functionName="CURL_SOCKET_BAD"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="FD_ISSET"/>
+    <functioncall functionName="FD_SET"/>
+    <functioncall functionName="FD_ZERO"/>
+    <functioncall functionName="FOPEN_READTEXT"/>
+    <functioncall functionName="INADDR_ANY"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="SEND_TYPE_ARG3"/>
+    <functioncall functionName="SOCKERRNO"/>
+    <functioncall functionName="SOCK_STREAM"/>
+    <functioncall functionName="SOL_SOCKET"/>
+    <functioncall functionName="SO_REUSEADDR"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="accept"/>
+    <functioncall functionName="atoi"/>
+    <functioncall functionName="bind"/>
+    <functioncall functionName="bind_unix_socket"/>
+    <functioncall functionName="byteval"/>
+    <functioncall functionName="connect"/>
+    <functioncall functionName="curlx_inet_pton"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fgets"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="getppid"/>
+    <functioncall functionName="getsockname"/>
+    <functioncall functionName="htons"/>
+    <functioncall functionName="in6addr_any"/>
+    <functioncall functionName="install_signal_handlers"/>
+    <functioncall functionName="listen"/>
+    <functioncall functionName="loghex"/>
+    <functioncall functionName="logmsg"/>
+    <functioncall functionName="memcmp"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="ntohs"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="puts"/>
+    <functioncall functionName="raise"/>
+    <functioncall functionName="recv"/>
+    <functioncall functionName="restore_signal_handlers"/>
+    <functioncall functionName="sclose"/>
+    <functioncall functionName="select"/>
+    <functioncall functionName="send"/>
+    <functioncall functionName="setsockopt"/>
+    <functioncall functionName="shortval"/>
+    <functioncall functionName="socket"/>
+    <functioncall functionName="sockit"/>
+    <functioncall functionName="socks4"/>
+    <functioncall functionName="socks5_cleanup"/>
+    <functioncall functionName="socksconnect"/>
+    <functioncall functionName="socksd_getconfig"/>
+    <functioncall functionName="socksd_incoming"/>
+    <functioncall functionName="socksd_resetdefaults"/>
+    <functioncall functionName="socksd_sockdaemon"/>
+    <functioncall functionName="sscanf"/>
+    <functioncall functionName="sstrerror"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="stdin"/>
+    <functioncall functionName="stdout"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="strerror"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="strtoul"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="tunnel"/>
+    <functioncall functionName="unlink"/>
+    <functioncall functionName="util_ultous"/>
+    <functioncall functionName="wait_ms"/>
+    <functioncall functionName="win32_init"/>
+    <functioncall functionName="write_pidfile"/>
+    <functioncall functionName="write_portfile"/>
+  </FileInfo>
+</analyzerinfo>

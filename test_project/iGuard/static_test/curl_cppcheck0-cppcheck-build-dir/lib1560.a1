@@ -1,0 +1,900 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="14891844931339436750">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="36" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_printf.h&quot; not found." verbose="Include file: &quot;curl_printf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="45" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testutil.h" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;warnless.h&quot; not found." verbose="Include file: &quot;warnless.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="39" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="40" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;get_nothing()&apos; is always false" verbose="Condition &apos;get_nothing()&apos; is always false" cwe="570" file0="C:/test_workspace/curl-master/tests/libtest/lib1560.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1991" column="17" info="Condition &apos;get_nothing()&apos; is always false"/>
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1991" column="17" info="Calling function &apos;get_nothing&apos; returns 0"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." verbose="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." cwe="686" file0="C:/test_workspace/curl-master/tests/libtest/lib1560.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1761" column="7"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." verbose="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." cwe="686" file0="C:/test_workspace/curl-master/tests/libtest/lib1560.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1765" column="7"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." verbose="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." cwe="686" file0="C:/test_workspace/curl-master/tests/libtest/lib1560.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1769" column="7"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." verbose="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." cwe="686" file0="C:/test_workspace/curl-master/tests/libtest/lib1560.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1773" column="7"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." verbose="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." cwe="686" file0="C:/test_workspace/curl-master/tests/libtest/lib1560.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1777" column="7"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." verbose="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." cwe="686" file0="C:/test_workspace/curl-master/tests/libtest/lib1560.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1781" column="7"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." verbose="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." cwe="686" file0="C:/test_workspace/curl-master/tests/libtest/lib1560.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1787" column="7"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." verbose="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." cwe="686" file0="C:/test_workspace/curl-master/tests/libtest/lib1560.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1791" column="7"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." verbose="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." cwe="686" file0="C:/test_workspace/curl-master/tests/libtest/lib1560.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1795" column="7"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%u in format string (no. 2) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." verbose="%u in format string (no. 2) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." cwe="686" file0="C:/test_workspace/curl-master/tests/libtest/lib1560.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1795" column="7"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." verbose="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." cwe="686" file0="C:/test_workspace/curl-master/tests/libtest/lib1560.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1828" column="9"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." verbose="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." cwe="686" file0="C:/test_workspace/curl-master/tests/libtest/lib1560.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1832" column="9"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." verbose="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." cwe="686" file0="C:/test_workspace/curl-master/tests/libtest/lib1560.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1838" column="9"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." verbose="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." cwe="686" file0="C:/test_workspace/curl-master/tests/libtest/lib1560.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1893" column="7"/>
+        </error>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." verbose="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." cwe="686" file0="C:/test_workspace/curl-master/tests/libtest/lib1560.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1901" column="9"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;i&apos; can be reduced." verbose="The scope of the variable &apos;i&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="C:/test_workspace/curl-master/tests/libtest/lib1560.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1820" column="7"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;part&apos; can be declared as pointer to const" verbose="Parameter &apos;part&apos; can be declared as pointer to const" cwe="398" file0="C:/test_workspace/curl-master/tests/libtest/lib1560.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1123" column="32" info="Parameter &apos;part&apos; can be declared as pointer to const"/>
+            <symbol>part</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:1123:18" call-funcname="part2id" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="1170" col="33" call-argexpr="part" call-argvaluetype="7" call-argvalue="80"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:48:12" my-argnr="3" my-argname="wanted" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="85" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:830:12" my-argnr="2" my-argname="url" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="832" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:830:12" my-argnr="3" my-argname="out" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="832" col="13" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:1123:18" my-argnr="1" my-argname="part" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="1125" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:48:12" my-argnr="3" my-argname="wanted" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="85" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:830:12" my-argnr="2" my-argname="url" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="832" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:830:12" my-argnr="3" my-argname="out" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="832" col="13" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:1123:18" my-argnr="1" my-argname="part" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="1125" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:1123:18" call-funcname="part2id" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="1170" col="33" call-argexpr="part" call-argvaluetype="7" call-argvalue="80"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:48:12" my-argnr="3" my-argname="wanted" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="85" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:830:12" my-argnr="2" my-argname="url" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="832" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:830:12" my-argnr="3" my-argname="out" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="832" col="13" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:1123:18" my-argnr="1" my-argname="part" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="1125" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:48:12" my-argnr="3" my-argname="wanted" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="85" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:830:12" my-argnr="2" my-argname="url" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="832" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:830:12" my-argnr="3" my-argname="out" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="832" col="13" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:1123:18" my-argnr="1" my-argname="part" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="1125" col="21" value="0"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/select.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/select.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="40" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="42" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:1123:18" call-funcname="part2id" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="1170" col="33" call-argexpr="part" call-argvaluetype="7" call-argvalue="80"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:48:12" my-argnr="3" my-argname="wanted" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="85" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:830:12" my-argnr="2" my-argname="url" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="832" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:830:12" my-argnr="3" my-argname="out" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="832" col="13" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:1123:18" my-argnr="1" my-argname="part" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="1125" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:48:12" my-argnr="3" my-argname="wanted" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="85" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:830:12" my-argnr="2" my-argname="url" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="832" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:830:12" my-argnr="3" my-argname="out" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="832" col="13" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:1123:18" my-argnr="1" my-argname="part" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="1125" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:1123:18" call-funcname="part2id" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="1170" col="33" call-argexpr="part" call-argvaluetype="7" call-argvalue="80"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:48:12" my-argnr="3" my-argname="wanted" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="85" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:830:12" my-argnr="2" my-argname="url" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="832" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:830:12" my-argnr="3" my-argname="out" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="832" col="13" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:1123:18" my-argnr="1" my-argname="part" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="1125" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:48:12" my-argnr="3" my-argname="wanted" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="85" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:830:12" my-argnr="2" my-argname="url" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="832" col="18" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:830:12" my-argnr="3" my-argname="out" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="832" col="13" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/lib1560.c:1123:18" my-argnr="1" my-argname="part" file="C:/test_workspace/curl-master/tests/libtest/lib1560.c" line="1125" col="21" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-3.1" severity="style" msg="Required The character sequences /* and // shall not be used within a comment" verbose="Required The character sequences /* and // shall not be used within a comment" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="982" column="4"/>
+        </error>
+        <error id="misra-c2012-4.1" severity="style" msg="Required Octal and hexadecimal escape sequences shall be terminated" verbose="Required Octal and hexadecimal escape sequences shall be terminated" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="650" column="4"/>
+        </error>
+        <error id="misra-c2012-4.1" severity="style" msg="Required Octal and hexadecimal escape sequences shall be terminated" verbose="Required Octal and hexadecimal escape sequences shall be terminated" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1050" column="4"/>
+        </error>
+        <error id="misra-c2012-4.1" severity="style" msg="Required Octal and hexadecimal escape sequences shall be terminated" verbose="Required Octal and hexadecimal escape sequences shall be terminated" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1271" column="4"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1195" column="31"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="847" column="32"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="877" column="29"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="531" column="33"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="153" column="30"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1565" column="31"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1803" column="34"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1852" column="13"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1851" column="13"/>
+        </error>
+        <error id="misra-c2012-10.3" severity="style" msg="Required The value of an expression shall not be assigned to an object with a narrower essential type or of a different essential type category" verbose="Required The value of an expression shall not be assigned to an object with a narrower essential type or of a different essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="81" column="10"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1876" column="44"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1877" column="27"/>
+        </error>
+        <error id="misra-c2012-10.8" severity="style" msg="Required The value of a composite expression shall not be cast to a different essential type category or a wider essential type" verbose="Required The value of a composite expression shall not be cast to a different essential type category or a wider essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1160" column="18"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1835" column="40"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1820" column="8"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1931" column="21"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="85" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="832" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1157" column="8"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1159" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1184" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1363" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1372" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1378" column="13"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1411" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1427" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1455" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1474" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1479" column="16"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1512" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1519" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1554" column="12"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1557" column="12"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1597" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1603" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1610" column="12"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1616" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1622" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1755" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1821" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1941" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1946" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1950" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1953" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1979" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1982" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1985" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1988" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1991" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1994" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1997" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="2000" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="2003" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="2006" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="2009" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1936" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1942" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1947" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1951" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1956" column="7"/>
+        </error>
+        <error id="misra-c2012-15.4" severity="style" msg="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" verbose="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1938" column="27"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="87" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="838" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1126" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1128" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1130" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1132" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1134" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1136" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1138" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1140" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1142" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1144" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1146" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1185" column="11"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1874" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1980" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1983" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1986" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1989" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1992" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1995" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1998" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="2001" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="2004" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="2007" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="2010" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="77" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1125" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1127" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1129" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1131" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1133" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1135" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1137" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1139" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1141" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1143" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1145" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1175" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1178" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1180" column="14"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1182" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1184" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1356" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1411" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1414" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1427" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1455" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1458" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1557" column="10"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1597" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1599" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1603" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1760" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1764" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1768" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1772" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1776" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1780" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1782" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1786" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1790" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1794" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1827" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1831" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1841" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1873" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1935" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1941" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1946" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1950" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1979" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1982" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1985" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1988" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1991" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1994" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1997" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="2000" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="2003" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="2006" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="2009" column="3"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1389" column="5"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1437" column="5"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1481" column="9"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1489" column="5"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1559" column="0"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="68" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="86" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="833" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1165" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1166" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1167" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1176" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1364" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1373" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1386" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1422" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1434" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1466" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1475" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1486" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1513" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1526" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1550" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1606" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1617" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1643" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1650" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1660" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1667" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1677" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1684" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1695" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1702" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1712" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1722" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1732" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1739" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1761" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1765" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1769" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1773" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1777" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1781" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1787" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1791" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1795" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1828" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1832" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1838" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1876" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1893" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1901" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1954" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="2012" column="9"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="81" column="10"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1160" column="29"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\lib1560.c" line="1187" column="13"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/lib1560.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="522" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="checkparts" lineNumber="48"/>
+    <functiondecl functionName="checkurl" lineNumber="830"/>
+    <functiondecl functionName="part2id" lineNumber="1123"/>
+    <functiondecl functionName="updateurl" lineNumber="1151"/>
+    <functiondecl functionName="set_url" lineNumber="1348"/>
+    <functiondecl functionName="setget_parts" lineNumber="1399"/>
+    <functiondecl functionName="set_parts" lineNumber="1443"/>
+    <functiondecl functionName="get_url" lineNumber="1495"/>
+    <functiondecl functionName="get_parts" lineNumber="1535"/>
+    <functiondecl functionName="append" lineNumber="1583"/>
+    <functiondecl functionName="scopeid" lineNumber="1633"/>
+    <functiondecl functionName="get_nothing" lineNumber="1752"/>
+    <functiondecl functionName="clear_url" lineNumber="1817"/>
+    <functiondecl functionName="huge" lineNumber="1857"/>
+    <functiondecl functionName="urldup" lineNumber="1911"/>
+    <functiondecl functionName="checkparts" lineNumber="48"/>
+    <functiondecl functionName="checkurl" lineNumber="830"/>
+    <functiondecl functionName="part2id" lineNumber="1123"/>
+    <functiondecl functionName="updateurl" lineNumber="1151"/>
+    <functiondecl functionName="set_url" lineNumber="1348"/>
+    <functiondecl functionName="setget_parts" lineNumber="1399"/>
+    <functiondecl functionName="set_parts" lineNumber="1443"/>
+    <functiondecl functionName="get_url" lineNumber="1495"/>
+    <functiondecl functionName="get_parts" lineNumber="1535"/>
+    <functiondecl functionName="append" lineNumber="1583"/>
+    <functiondecl functionName="scopeid" lineNumber="1633"/>
+    <functiondecl functionName="get_nothing" lineNumber="1752"/>
+    <functiondecl functionName="clear_url" lineNumber="1817"/>
+    <functiondecl functionName="huge" lineNumber="1857"/>
+    <functiondecl functionName="urldup" lineNumber="1911"/>
+    <functiondecl functionName="checkparts" lineNumber="48"/>
+    <functiondecl functionName="checkurl" lineNumber="830"/>
+    <functiondecl functionName="part2id" lineNumber="1123"/>
+    <functiondecl functionName="updateurl" lineNumber="1151"/>
+    <functiondecl functionName="set_url" lineNumber="1348"/>
+    <functiondecl functionName="setget_parts" lineNumber="1399"/>
+    <functiondecl functionName="set_parts" lineNumber="1443"/>
+    <functiondecl functionName="get_url" lineNumber="1495"/>
+    <functiondecl functionName="get_parts" lineNumber="1535"/>
+    <functiondecl functionName="append" lineNumber="1583"/>
+    <functiondecl functionName="scopeid" lineNumber="1633"/>
+    <functiondecl functionName="get_nothing" lineNumber="1752"/>
+    <functiondecl functionName="clear_url" lineNumber="1817"/>
+    <functiondecl functionName="huge" lineNumber="1857"/>
+    <functiondecl functionName="urldup" lineNumber="1911"/>
+    <functiondecl functionName="checkparts" lineNumber="48"/>
+    <functiondecl functionName="checkurl" lineNumber="830"/>
+    <functiondecl functionName="part2id" lineNumber="1123"/>
+    <functiondecl functionName="updateurl" lineNumber="1151"/>
+    <functiondecl functionName="set_url" lineNumber="1348"/>
+    <functiondecl functionName="setget_parts" lineNumber="1399"/>
+    <functiondecl functionName="set_parts" lineNumber="1443"/>
+    <functiondecl functionName="get_url" lineNumber="1495"/>
+    <functiondecl functionName="get_parts" lineNumber="1535"/>
+    <functiondecl functionName="append" lineNumber="1583"/>
+    <functiondecl functionName="scopeid" lineNumber="1633"/>
+    <functiondecl functionName="get_nothing" lineNumber="1752"/>
+    <functiondecl functionName="clear_url" lineNumber="1817"/>
+    <functiondecl functionName="huge" lineNumber="1857"/>
+    <functiondecl functionName="urldup" lineNumber="1911"/>
+    <functioncall functionName="CURLE_OK"/>
+    <functioncall functionName="CURLUE_BAD_FILE_URL"/>
+    <functioncall functionName="CURLUE_BAD_HOSTNAME"/>
+    <functioncall functionName="CURLUE_BAD_IPV6"/>
+    <functioncall functionName="CURLUE_BAD_PORT_NUMBER"/>
+    <functioncall functionName="CURLUE_BAD_SCHEME"/>
+    <functioncall functionName="CURLUE_BAD_SLASHES"/>
+    <functioncall functionName="CURLUE_MALFORMED_INPUT"/>
+    <functioncall functionName="CURLUE_NO_FRAGMENT"/>
+    <functioncall functionName="CURLUE_NO_HOST"/>
+    <functioncall functionName="CURLUE_NO_OPTIONS"/>
+    <functioncall functionName="CURLUE_NO_PASSWORD"/>
+    <functioncall functionName="CURLUE_NO_PORT"/>
+    <functioncall functionName="CURLUE_NO_QUERY"/>
+    <functioncall functionName="CURLUE_NO_SCHEME"/>
+    <functioncall functionName="CURLUE_NO_USER"/>
+    <functioncall functionName="CURLUE_NO_ZONEID"/>
+    <functioncall functionName="CURLUE_OK"/>
+    <functioncall functionName="CURLUE_UNSUPPORTED_SCHEME"/>
+    <functioncall functionName="CURLUE_USER_NOT_ALLOWED"/>
+    <functioncall functionName="CURLUPART_FRAGMENT"/>
+    <functioncall functionName="CURLUPART_HOST"/>
+    <functioncall functionName="CURLUPART_OPTIONS"/>
+    <functioncall functionName="CURLUPART_PASSWORD"/>
+    <functioncall functionName="CURLUPART_PATH"/>
+    <functioncall functionName="CURLUPART_PORT"/>
+    <functioncall functionName="CURLUPART_QUERY"/>
+    <functioncall functionName="CURLUPART_SCHEME"/>
+    <functioncall functionName="CURLUPART_URL"/>
+    <functioncall functionName="CURLUPART_USER"/>
+    <functioncall functionName="CURLUPART_ZONEID"/>
+    <functioncall functionName="CURLUPart"/>
+    <functioncall functionName="CURLU_ALLOW_SPACE"/>
+    <functioncall functionName="CURLU_APPENDQUERY"/>
+    <functioncall functionName="CURLU_DEFAULT_PORT"/>
+    <functioncall functionName="CURLU_DEFAULT_SCHEME"/>
+    <functioncall functionName="CURLU_DISALLOW_USER"/>
+    <functioncall functionName="CURLU_GET_EMPTY"/>
+    <functioncall functionName="CURLU_GUESS_SCHEME"/>
+    <functioncall functionName="CURLU_NON_SUPPORT_SCHEME"/>
+    <functioncall functionName="CURLU_NO_AUTHORITY"/>
+    <functioncall functionName="CURLU_NO_DEFAULT_PORT"/>
+    <functioncall functionName="CURLU_NO_GUESS_SCHEME"/>
+    <functioncall functionName="CURLU_PATH_AS_IS"/>
+    <functioncall functionName="CURLU_PUNY2IDN"/>
+    <functioncall functionName="CURLU_PUNYCODE"/>
+    <functioncall functionName="CURLU_URLDECODE"/>
+    <functioncall functionName="CURLU_URLENCODE"/>
+    <functioncall functionName="CURLcode"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="checkparts"/>
+    <functioncall functionName="checkurl"/>
+    <functioncall functionName="clear_url"/>
+    <functioncall functionName="curl_free"/>
+    <functioncall functionName="curl_url"/>
+    <functioncall functionName="curl_url_cleanup"/>
+    <functioncall functionName="curl_url_dup"/>
+    <functioncall functionName="curl_url_get"/>
+    <functioncall functionName="curl_url_set"/>
+    <functioncall functionName="curl_url_strerror"/>
+    <functioncall functionName="err"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="get_nothing"/>
+    <functioncall functionName="get_parts"/>
+    <functioncall functionName="get_url"/>
+    <functioncall functionName="huge"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="msnprintf"/>
+    <functioncall functionName="part2id"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="scopeid"/>
+    <functioncall functionName="set_parts"/>
+    <functioncall functionName="set_url"/>
+    <functioncall functionName="setget_parts"/>
+    <functioncall functionName="sscanf"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strchr"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="updateurl"/>
+    <functioncall functionName="urldup"/>
+  </FileInfo>
+</analyzerinfo>

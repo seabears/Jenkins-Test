@@ -1,0 +1,1221 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="10255154621638475315">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="38" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;timeval.h&quot; not found." verbose="Include file: &quot;timeval.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;strcase.h&quot; not found." verbose="Include file: &quot;strcase.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curlx.h&quot; not found." verbose="Include file: &quot;curlx.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="27" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;dynbuf.h&quot; not found." verbose="Include file: &quot;dynbuf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\var.h" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curlver.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curlver.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_version.h" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;dynbuf.h&quot; not found." verbose="Include file: &quot;dynbuf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="37" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="39" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;nread&apos; can be reduced." verbose="The scope of the variable &apos;nread&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="C:/test_workspace/curl-master/src/tool_paramhlp.c">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="143" column="12"/>
+            <symbol>nread</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:126:12" call-funcname="myfseek" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="150" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="4" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_libinfo.h:69:13" call-funcname="proto_token" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="362" col="35" call-argexpr="proto" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="514" col="53" info="Calling function &apos;protoset_index&apos;, 2nd argument &apos;NULL&apos; value is 0"/>
+</function-call><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="391" col="32" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_libinfo.h:69:13" call-funcname="proto_token" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="485" col="22" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="32"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="514" col="42" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_getpass.h:35:7" call-funcname="getpass_r" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="601" col="14" call-argexpr="prompt" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="C:/test_workspace/curl-master/src/tool_getpass.h:35:7" call-funcname="getpass_r" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="601" col="14" call-argexpr="passwd" call-argvaluetype="7" call-argvalue="2048"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="3"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="254" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:43:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="254" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:43:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="259" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:45:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="259" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:45:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="281" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="281" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" call-funcname="str2unum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="302" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:46:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" call-funcname="str2unum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="302" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:46:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="374" col="16" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:371:13" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="388" col="16" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:385:13" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:29:16" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="44" col="25" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:563:17" my-argnr="4" my-argname="userpwd" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="571" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:59:16" my-argnr="1" my-argname="list" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="618" col="51" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="2" my-argname="checkfor" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="687" col="27" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:57:10" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="703" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:29:16" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="44" col="25" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:563:17" my-argnr="4" my-argname="userpwd" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="571" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="1" my-argname="head" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="691" col="9" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="2" my-argname="checkfor" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="687" col="27" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:57:10" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="703" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:126:12" call-funcname="myfseek" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="150" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="4" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_libinfo.h:69:13" call-funcname="proto_token" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="362" col="35" call-argexpr="proto" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="514" col="53" info="Calling function &apos;protoset_index&apos;, 2nd argument &apos;NULL&apos; value is 0"/>
+</function-call><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="391" col="32" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_libinfo.h:69:13" call-funcname="proto_token" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="485" col="22" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="32"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="514" col="42" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_getpass.h:35:7" call-funcname="getpass_r" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="601" col="14" call-argexpr="prompt" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="C:/test_workspace/curl-master/src/tool_getpass.h:35:7" call-funcname="getpass_r" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="601" col="14" call-argexpr="passwd" call-argvaluetype="7" call-argvalue="2048"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="3"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="254" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:43:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="254" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:43:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="259" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:45:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="259" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:45:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="281" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="281" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" call-funcname="str2unum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="302" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:46:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" call-funcname="str2unum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="302" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:46:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="374" col="16" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:371:13" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="388" col="16" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:385:13" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:29:16" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="44" col="25" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:563:17" my-argnr="4" my-argname="userpwd" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="571" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:59:16" my-argnr="1" my-argname="list" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="618" col="51" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="2" my-argname="checkfor" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="687" col="27" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:57:10" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="703" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:29:16" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="44" col="25" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:563:17" my-argnr="4" my-argname="userpwd" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="571" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="1" my-argname="head" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="691" col="9" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="2" my-argname="checkfor" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="687" col="27" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:57:10" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="703" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:126:12" call-funcname="myfseek" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="150" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="4" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_libinfo.h:69:13" call-funcname="proto_token" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="362" col="35" call-argexpr="proto" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="514" col="53" info="Calling function &apos;protoset_index&apos;, 2nd argument &apos;NULL&apos; value is 0"/>
+</function-call><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="391" col="32" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_libinfo.h:69:13" call-funcname="proto_token" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="485" col="22" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="32"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="514" col="42" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_getpass.h:35:7" call-funcname="getpass_r" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="601" col="14" call-argexpr="prompt" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="C:/test_workspace/curl-master/src/tool_getpass.h:35:7" call-funcname="getpass_r" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="601" col="14" call-argexpr="passwd" call-argvaluetype="7" call-argvalue="2048"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="3"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="254" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:43:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="254" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:43:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="259" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:45:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="259" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:45:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="281" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="281" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" call-funcname="str2unum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="302" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:46:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" call-funcname="str2unum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="302" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:46:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="374" col="16" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:371:13" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="388" col="16" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:385:13" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:29:16" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="44" col="25" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:563:17" my-argnr="4" my-argname="userpwd" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="571" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:59:16" my-argnr="1" my-argname="list" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="618" col="51" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="2" my-argname="checkfor" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="687" col="27" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:57:10" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="703" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:29:16" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="44" col="25" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:563:17" my-argnr="4" my-argname="userpwd" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="571" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="1" my-argname="head" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="691" col="9" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="2" my-argname="checkfor" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="687" col="27" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:57:10" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="703" col="16" value="0"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="79" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:126:12" call-funcname="myfseek" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="150" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="4" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_libinfo.h:69:13" call-funcname="proto_token" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="362" col="35" call-argexpr="proto" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="514" col="53" info="Calling function &apos;protoset_index&apos;, 2nd argument &apos;NULL&apos; value is 0"/>
+</function-call><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="391" col="32" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_libinfo.h:69:13" call-funcname="proto_token" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="485" col="22" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="32"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="514" col="42" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_getpass.h:35:7" call-funcname="getpass_r" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="601" col="14" call-argexpr="prompt" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="C:/test_workspace/curl-master/src/tool_getpass.h:35:7" call-funcname="getpass_r" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="601" col="14" call-argexpr="passwd" call-argvaluetype="7" call-argvalue="2048"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="3"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="254" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:43:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="254" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:43:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="259" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:45:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="259" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:45:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="281" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="281" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" call-funcname="str2unum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="302" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:46:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" call-funcname="str2unum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="302" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:46:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="374" col="16" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:371:13" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="388" col="16" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:385:13" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:29:16" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="44" col="25" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:563:17" my-argnr="4" my-argname="userpwd" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="571" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:59:16" my-argnr="1" my-argname="list" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="618" col="51" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="2" my-argname="checkfor" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="687" col="27" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:57:10" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="703" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:29:16" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="44" col="25" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:563:17" my-argnr="4" my-argname="userpwd" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="571" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="1" my-argname="head" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="691" col="9" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="2" my-argname="checkfor" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="687" col="27" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:57:10" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="703" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:126:12" call-funcname="myfseek" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="150" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="4" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_libinfo.h:69:13" call-funcname="proto_token" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="362" col="35" call-argexpr="proto" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="514" col="53" info="Calling function &apos;protoset_index&apos;, 2nd argument &apos;NULL&apos; value is 0"/>
+</function-call><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="391" col="32" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_libinfo.h:69:13" call-funcname="proto_token" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="485" col="22" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="32"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="514" col="42" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_getpass.h:35:7" call-funcname="getpass_r" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="601" col="14" call-argexpr="prompt" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="C:/test_workspace/curl-master/src/tool_getpass.h:35:7" call-funcname="getpass_r" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="601" col="14" call-argexpr="passwd" call-argvaluetype="7" call-argvalue="2048"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="3"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="254" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:43:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="254" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:43:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="259" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:45:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="259" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:45:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="281" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="281" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" call-funcname="str2unum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="302" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:46:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" call-funcname="str2unum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="302" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:46:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="374" col="16" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:371:13" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="388" col="16" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:385:13" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:29:16" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="44" col="25" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:563:17" my-argnr="4" my-argname="userpwd" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="571" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:59:16" my-argnr="1" my-argname="list" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="618" col="51" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="2" my-argname="checkfor" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="687" col="27" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:57:10" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="703" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:29:16" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="44" col="25" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:563:17" my-argnr="4" my-argname="userpwd" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="571" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="1" my-argname="head" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="691" col="9" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="2" my-argname="checkfor" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="687" col="27" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:57:10" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="703" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:126:12" call-funcname="myfseek" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="150" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="4" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_libinfo.h:69:13" call-funcname="proto_token" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="362" col="35" call-argexpr="proto" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="514" col="53" info="Calling function &apos;protoset_index&apos;, 2nd argument &apos;NULL&apos; value is 0"/>
+</function-call><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="391" col="32" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_libinfo.h:69:13" call-funcname="proto_token" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="485" col="22" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="32"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="514" col="42" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_getpass.h:35:7" call-funcname="getpass_r" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="601" col="14" call-argexpr="prompt" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="C:/test_workspace/curl-master/src/tool_getpass.h:35:7" call-funcname="getpass_r" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="601" col="14" call-argexpr="passwd" call-argvaluetype="7" call-argvalue="2048"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="3"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="254" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:43:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="254" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:43:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="259" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:45:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="259" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:45:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="281" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="281" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" call-funcname="str2unum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="302" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:46:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" call-funcname="str2unum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="302" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:46:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="374" col="16" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:371:13" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="388" col="16" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:385:13" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:29:16" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="44" col="25" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:563:17" my-argnr="4" my-argname="userpwd" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="571" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:59:16" my-argnr="1" my-argname="list" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="618" col="51" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="2" my-argname="checkfor" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="687" col="27" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:57:10" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="703" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:29:16" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="44" col="25" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:563:17" my-argnr="4" my-argname="userpwd" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="571" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="1" my-argname="head" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="691" col="9" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="2" my-argname="checkfor" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="687" col="27" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:57:10" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="703" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:126:12" call-funcname="myfseek" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="150" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="4" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_libinfo.h:69:13" call-funcname="proto_token" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="362" col="35" call-argexpr="proto" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="514" col="53" info="Calling function &apos;protoset_index&apos;, 2nd argument &apos;NULL&apos; value is 0"/>
+</function-call><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="391" col="32" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_libinfo.h:69:13" call-funcname="proto_token" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="485" col="22" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="32"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="514" col="42" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_getpass.h:35:7" call-funcname="getpass_r" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="601" col="14" call-argexpr="prompt" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="C:/test_workspace/curl-master/src/tool_getpass.h:35:7" call-funcname="getpass_r" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="601" col="14" call-argexpr="passwd" call-argvaluetype="7" call-argvalue="2048"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="3"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="254" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:43:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="254" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:43:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="259" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:45:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="259" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:45:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="281" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="281" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" call-funcname="str2unum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="302" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:46:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" call-funcname="str2unum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="302" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:46:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="374" col="16" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:371:13" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="388" col="16" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:385:13" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:29:16" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="44" col="25" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:563:17" my-argnr="4" my-argname="userpwd" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="571" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:59:16" my-argnr="1" my-argname="list" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="618" col="51" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="2" my-argname="checkfor" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="687" col="27" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:57:10" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="703" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:29:16" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="44" col="25" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:563:17" my-argnr="4" my-argname="userpwd" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="571" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="1" my-argname="head" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="691" col="9" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="2" my-argname="checkfor" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="687" col="27" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:57:10" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="703" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:126:12" call-funcname="myfseek" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="150" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="4" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_libinfo.h:69:13" call-funcname="proto_token" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="362" col="35" call-argexpr="proto" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="514" col="53" info="Calling function &apos;protoset_index&apos;, 2nd argument &apos;NULL&apos; value is 0"/>
+</function-call><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="391" col="32" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_libinfo.h:69:13" call-funcname="proto_token" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="485" col="22" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="32"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="514" col="42" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_getpass.h:35:7" call-funcname="getpass_r" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="601" col="14" call-argexpr="prompt" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="C:/test_workspace/curl-master/src/tool_getpass.h:35:7" call-funcname="getpass_r" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="601" col="14" call-argexpr="passwd" call-argvaluetype="7" call-argvalue="2048"/><function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:40:16" call-funcname="file2memory_range" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="214" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:39:16" my-argnr="3"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="254" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:43:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="254" col="10" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:43:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="259" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:45:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="259" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:45:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="281" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:225:23" call-funcname="getnum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="281" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" call-funcname="str2unum" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="302" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:46:16" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:44:16" call-funcname="str2unum" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="302" col="27" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:46:16" my-argnr="2"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="374" col="16" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:371:13" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:358:15" call-funcname="protoset_index" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="388" col="16" my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:385:13" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:29:16" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="44" col="25" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:563:17" my-argnr="4" my-argname="userpwd" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="571" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:59:16" my-argnr="1" my-argname="list" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="618" col="51" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="2" my-argname="checkfor" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="687" col="27" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:57:10" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="703" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:29:16" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="44" col="25" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:563:17" my-argnr="4" my-argname="userpwd" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="571" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="1" my-argname="head" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="691" col="9" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.c:684:13" my-argnr="2" my-argname="checkfor" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="687" col="27" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_paramhlp.h:57:10" my-argnr="1" my-argname="config" file="C:/test_workspace/curl-master/src/tool_paramhlp.c" line="703" col="16" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-7.4" severity="style" msg="Required A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235" verbose="Required A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="582" column="25"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="73" column="26"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="74" column="24"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="75" column="25"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="67" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="68" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="69" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="70" column="7"/>
+        </error>
+        <error id="misra-c2012-10.3" severity="style" msg="Required The value of an expression shall not be assigned to an object with a narrower essential type or of a different essential type category" verbose="Required The value of an expression shall not be assigned to an object with a narrower essential type or of a different essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="114" column="15"/>
+        </error>
+        <error id="misra-c2012-10.3" severity="style" msg="Required The value of an expression shall not be assigned to an object with a narrower essential type or of a different essential type category" verbose="Required The value of an expression shall not be assigned to an object with a narrower essential type or of a different essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="116" column="15"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="345" column="30"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="379" column="18"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="391" column="49"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="422" column="34"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="448" column="26"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="468" column="14"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="476" column="46"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="598" column="35"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="689" column="31"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="43" column="23"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" verbose="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="475" column="16"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" verbose="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="514" column="9"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" verbose="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="520" column="8"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="341" column="57"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="348" column="29"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="580" column="12"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="82" column="29"/>
+        </error>
+        <error id="misra-c2012-13.3" severity="style" msg="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" verbose="Advisory A full expression containing an increment (++) or decrement (--) operator should have no other potential side effects other than that caused by the increment or decrement operator" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="58" column="15"/>
+        </error>
+        <error id="misra-c2012-14.2" severity="style" msg="Required A for loop shall be well-formed" verbose="Required A for loop shall be well-formed" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="82" column="3"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="45" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="49" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="84" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="96" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="101" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="107" column="12"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="109" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="113" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="142" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="148" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="150" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="166" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="174" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="175" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="189" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="193" column="13"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="228" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="235" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="239" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="337" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="373" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="387" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="390" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="431" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="435" column="8"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="440" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="487" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="507" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="541" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="587" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="602" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="605" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="619" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="629" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="631" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="633" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="644" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="646" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="657" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="659" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="661" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="713" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="720" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="725" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="727" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="85" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="104" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="110" column="11"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="134" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="151" column="11"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="170" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="194" column="13"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="236" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="240" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="246" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="261" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="263" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="265" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="283" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="285" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="304" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="306" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="332" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="338" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="424" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="539" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="542" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="558" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="572" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="606" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="622" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="630" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="632" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="634" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="645" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="647" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="658" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="660" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="662" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="694" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="714" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="721" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="728" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="766" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="770" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="49" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="51" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="84" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="109" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="133" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="150" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="154" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="190" column="11"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="193" column="11"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="197" column="11"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="233" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="235" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="239" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="244" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="260" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="262" column="8"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="264" column="8"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="282" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="284" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="303" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="305" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="330" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="337" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="364" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="365" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="423" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="431" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="447" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="487" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="502" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="507" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="509" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="518" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="538" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="541" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="556" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="571" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="587" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="591" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="595" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="602" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="605" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="619" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="621" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="629" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="631" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="633" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="644" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="646" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="657" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="659" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="661" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="692" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="709" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="711" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="713" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="720" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="727" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="765" column="3"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="265" column="0"/>
+        </error>
+        <error id="misra-c2012-16.3" severity="style" msg="Required An unconditional break statement shall terminate every switch-clause" verbose="Required An unconditional break statement shall terminate every switch-clause" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="495" column="9"/>
+        </error>
+        <error id="misra-c2012-16.4" severity="style" msg="Required Every switch statement shall have a default label" verbose="Required Every switch statement shall have a default label" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="469" column="7"/>
+        </error>
+        <error id="misra-c2012-16.4" severity="style" msg="Required Every switch statement shall have a default label" verbose="Required Every switch statement shall have a default label" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="488" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="475" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="601" column="14"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="82" column="27"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="234" column="12"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="428" column="18"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="442" column="12"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="451" column="16"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="463" column="10"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="508" column="11"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="691" column="20"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="85" column="18"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="114" column="15"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="116" column="15"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="340" column="16"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="367" column="12"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="445" column="19"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="508" column="18"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="38" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="57" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="132" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="107" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.h" line="34" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.h" line="36" column="0"/>
+        </error>
+        <error id="misra-c2012-20.9" severity="style" msg="Required All identifiers used in the controlling expression of #if or #elif preprocessing directives shall be #define\342\200\231d before evaluation" verbose="Required All identifiers used in the controlling expression of #if or #elif preprocessing directives shall be #define\342\200\231d before evaluation" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.h" line="33" column="2"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="43" column="31"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="422" column="20"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="520" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="522" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="609" column="9"/>
+        </error>
+        <error id="misra-c2012-21.9" severity="style" msg="Required The Standard Library functions bsearch and qsort of &lt;stdlib.h&gt; shall not be used" verbose="Required The Standard Library functions bsearch and qsort of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_paramhlp.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_paramhlp.c" line="514" column="3"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="new_getout" lineNumber="41"/>
+    <functiondecl functionName="memcrlf" lineNumber="75"/>
+    <functiondecl functionName="file2string" lineNumber="92"/>
+    <functiondecl functionName="myfseek" lineNumber="126"/>
+    <functiondecl functionName="file2memory_range" lineNumber="139"/>
+    <functiondecl functionName="file2memory" lineNumber="212"/>
+    <functiondecl functionName="getnum" lineNumber="225"/>
+    <functiondecl functionName="str2num" lineNumber="252"/>
+    <functiondecl functionName="oct2nummax" lineNumber="257"/>
+    <functiondecl functionName="str2unum" lineNumber="279"/>
+    <functiondecl functionName="str2unummax" lineNumber="300"/>
+    <functiondecl functionName="secs2ms" lineNumber="324"/>
+    <functiondecl functionName="protoset_index" lineNumber="358"/>
+    <functiondecl functionName="protoset_set" lineNumber="371"/>
+    <functiondecl functionName="protoset_clear" lineNumber="385"/>
+    <functiondecl functionName="proto2num" lineNumber="412"/>
+    <functiondecl functionName="check_protocol" lineNumber="536"/>
+    <functiondecl functionName="str2offset" lineNumber="554"/>
+    <functiondecl functionName="checkpasswd" lineNumber="563"/>
+    <functiondecl functionName="add2list" lineNumber="616"/>
+    <functiondecl functionName="ftpfilemethod" lineNumber="627"/>
+    <functiondecl functionName="ftpcccmethod" lineNumber="642"/>
+    <functiondecl functionName="delegation" lineNumber="655"/>
+    <functiondecl functionName="my_useragent" lineNumber="673"/>
+    <functiondecl functionName="inlist" lineNumber="684"/>
+    <functiondecl functionName="get_args" lineNumber="700"/>
+    <functiondecl functionName="str2tls_max" lineNumber="752"/>
+    <functiondecl functionName="new_getout" lineNumber="41"/>
+    <functiondecl functionName="memcrlf" lineNumber="75"/>
+    <functiondecl functionName="file2string" lineNumber="92"/>
+    <functiondecl functionName="myfseek" lineNumber="126"/>
+    <functiondecl functionName="file2memory_range" lineNumber="139"/>
+    <functiondecl functionName="file2memory" lineNumber="212"/>
+    <functiondecl functionName="getnum" lineNumber="225"/>
+    <functiondecl functionName="str2num" lineNumber="252"/>
+    <functiondecl functionName="oct2nummax" lineNumber="257"/>
+    <functiondecl functionName="str2unum" lineNumber="279"/>
+    <functiondecl functionName="str2unummax" lineNumber="300"/>
+    <functiondecl functionName="secs2ms" lineNumber="324"/>
+    <functiondecl functionName="protoset_index" lineNumber="358"/>
+    <functiondecl functionName="protoset_set" lineNumber="371"/>
+    <functiondecl functionName="protoset_clear" lineNumber="385"/>
+    <functiondecl functionName="proto2num" lineNumber="412"/>
+    <functiondecl functionName="check_protocol" lineNumber="536"/>
+    <functiondecl functionName="str2offset" lineNumber="554"/>
+    <functiondecl functionName="checkpasswd" lineNumber="563"/>
+    <functiondecl functionName="add2list" lineNumber="616"/>
+    <functiondecl functionName="ftpfilemethod" lineNumber="627"/>
+    <functiondecl functionName="ftpcccmethod" lineNumber="642"/>
+    <functiondecl functionName="delegation" lineNumber="655"/>
+    <functiondecl functionName="my_useragent" lineNumber="673"/>
+    <functiondecl functionName="inlist" lineNumber="684"/>
+    <functiondecl functionName="get_args" lineNumber="700"/>
+    <functiondecl functionName="str2tls_max" lineNumber="752"/>
+    <functiondecl functionName="new_getout" lineNumber="41"/>
+    <functiondecl functionName="memcrlf" lineNumber="75"/>
+    <functiondecl functionName="file2string" lineNumber="92"/>
+    <functiondecl functionName="myfseek" lineNumber="126"/>
+    <functiondecl functionName="file2memory_range" lineNumber="139"/>
+    <functiondecl functionName="file2memory" lineNumber="212"/>
+    <functiondecl functionName="getnum" lineNumber="225"/>
+    <functiondecl functionName="str2num" lineNumber="252"/>
+    <functiondecl functionName="oct2nummax" lineNumber="257"/>
+    <functiondecl functionName="str2unum" lineNumber="279"/>
+    <functiondecl functionName="str2unummax" lineNumber="300"/>
+    <functiondecl functionName="secs2ms" lineNumber="324"/>
+    <functiondecl functionName="protoset_index" lineNumber="358"/>
+    <functiondecl functionName="protoset_set" lineNumber="371"/>
+    <functiondecl functionName="protoset_clear" lineNumber="385"/>
+    <functiondecl functionName="proto2num" lineNumber="412"/>
+    <functiondecl functionName="check_protocol" lineNumber="536"/>
+    <functiondecl functionName="str2offset" lineNumber="554"/>
+    <functiondecl functionName="checkpasswd" lineNumber="563"/>
+    <functiondecl functionName="add2list" lineNumber="616"/>
+    <functiondecl functionName="ftpfilemethod" lineNumber="627"/>
+    <functiondecl functionName="ftpcccmethod" lineNumber="642"/>
+    <functiondecl functionName="delegation" lineNumber="655"/>
+    <functiondecl functionName="my_useragent" lineNumber="673"/>
+    <functiondecl functionName="inlist" lineNumber="684"/>
+    <functiondecl functionName="get_args" lineNumber="700"/>
+    <functiondecl functionName="str2tls_max" lineNumber="752"/>
+    <functiondecl functionName="new_getout" lineNumber="41"/>
+    <functiondecl functionName="memcrlf" lineNumber="75"/>
+    <functiondecl functionName="file2string" lineNumber="92"/>
+    <functiondecl functionName="myfseek" lineNumber="126"/>
+    <functiondecl functionName="file2memory_range" lineNumber="139"/>
+    <functiondecl functionName="file2memory" lineNumber="212"/>
+    <functiondecl functionName="getnum" lineNumber="225"/>
+    <functiondecl functionName="str2num" lineNumber="252"/>
+    <functiondecl functionName="oct2nummax" lineNumber="257"/>
+    <functiondecl functionName="str2unum" lineNumber="279"/>
+    <functiondecl functionName="str2unummax" lineNumber="300"/>
+    <functiondecl functionName="secs2ms" lineNumber="324"/>
+    <functiondecl functionName="protoset_index" lineNumber="358"/>
+    <functiondecl functionName="protoset_set" lineNumber="371"/>
+    <functiondecl functionName="protoset_clear" lineNumber="385"/>
+    <functiondecl functionName="proto2num" lineNumber="412"/>
+    <functiondecl functionName="check_protocol" lineNumber="536"/>
+    <functiondecl functionName="str2offset" lineNumber="554"/>
+    <functiondecl functionName="checkpasswd" lineNumber="563"/>
+    <functiondecl functionName="add2list" lineNumber="616"/>
+    <functiondecl functionName="ftpfilemethod" lineNumber="627"/>
+    <functiondecl functionName="ftpcccmethod" lineNumber="642"/>
+    <functiondecl functionName="delegation" lineNumber="655"/>
+    <functiondecl functionName="my_useragent" lineNumber="673"/>
+    <functiondecl functionName="inlist" lineNumber="684"/>
+    <functiondecl functionName="get_args" lineNumber="700"/>
+    <functiondecl functionName="str2tls_max" lineNumber="752"/>
+    <functiondecl functionName="new_getout" lineNumber="41"/>
+    <functiondecl functionName="memcrlf" lineNumber="75"/>
+    <functiondecl functionName="file2string" lineNumber="92"/>
+    <functiondecl functionName="myfseek" lineNumber="126"/>
+    <functiondecl functionName="file2memory_range" lineNumber="139"/>
+    <functiondecl functionName="file2memory" lineNumber="212"/>
+    <functiondecl functionName="getnum" lineNumber="225"/>
+    <functiondecl functionName="str2num" lineNumber="252"/>
+    <functiondecl functionName="oct2nummax" lineNumber="257"/>
+    <functiondecl functionName="str2unum" lineNumber="279"/>
+    <functiondecl functionName="str2unummax" lineNumber="300"/>
+    <functiondecl functionName="secs2ms" lineNumber="324"/>
+    <functiondecl functionName="protoset_index" lineNumber="358"/>
+    <functiondecl functionName="protoset_set" lineNumber="371"/>
+    <functiondecl functionName="protoset_clear" lineNumber="385"/>
+    <functiondecl functionName="proto2num" lineNumber="412"/>
+    <functiondecl functionName="check_protocol" lineNumber="536"/>
+    <functiondecl functionName="str2offset" lineNumber="554"/>
+    <functiondecl functionName="checkpasswd" lineNumber="563"/>
+    <functiondecl functionName="add2list" lineNumber="616"/>
+    <functiondecl functionName="ftpfilemethod" lineNumber="627"/>
+    <functiondecl functionName="ftpcccmethod" lineNumber="642"/>
+    <functiondecl functionName="delegation" lineNumber="655"/>
+    <functiondecl functionName="my_useragent" lineNumber="673"/>
+    <functiondecl functionName="inlist" lineNumber="684"/>
+    <functiondecl functionName="get_args" lineNumber="700"/>
+    <functiondecl functionName="str2tls_max" lineNumber="752"/>
+    <functiondecl functionName="new_getout" lineNumber="41"/>
+    <functiondecl functionName="memcrlf" lineNumber="75"/>
+    <functiondecl functionName="file2string" lineNumber="92"/>
+    <functiondecl functionName="myfseek" lineNumber="126"/>
+    <functiondecl functionName="file2memory_range" lineNumber="139"/>
+    <functiondecl functionName="file2memory" lineNumber="212"/>
+    <functiondecl functionName="getnum" lineNumber="225"/>
+    <functiondecl functionName="str2num" lineNumber="252"/>
+    <functiondecl functionName="oct2nummax" lineNumber="257"/>
+    <functiondecl functionName="str2unum" lineNumber="279"/>
+    <functiondecl functionName="str2unummax" lineNumber="300"/>
+    <functiondecl functionName="secs2ms" lineNumber="324"/>
+    <functiondecl functionName="protoset_index" lineNumber="358"/>
+    <functiondecl functionName="protoset_set" lineNumber="371"/>
+    <functiondecl functionName="protoset_clear" lineNumber="385"/>
+    <functiondecl functionName="proto2num" lineNumber="412"/>
+    <functiondecl functionName="check_protocol" lineNumber="536"/>
+    <functiondecl functionName="str2offset" lineNumber="554"/>
+    <functiondecl functionName="checkpasswd" lineNumber="563"/>
+    <functiondecl functionName="add2list" lineNumber="616"/>
+    <functiondecl functionName="ftpfilemethod" lineNumber="627"/>
+    <functiondecl functionName="ftpcccmethod" lineNumber="642"/>
+    <functiondecl functionName="delegation" lineNumber="655"/>
+    <functiondecl functionName="my_useragent" lineNumber="673"/>
+    <functiondecl functionName="inlist" lineNumber="684"/>
+    <functiondecl functionName="get_args" lineNumber="700"/>
+    <functiondecl functionName="str2tls_max" lineNumber="752"/>
+    <functiondecl functionName="new_getout" lineNumber="41"/>
+    <functiondecl functionName="memcrlf" lineNumber="75"/>
+    <functiondecl functionName="file2string" lineNumber="92"/>
+    <functiondecl functionName="myfseek" lineNumber="126"/>
+    <functiondecl functionName="file2memory_range" lineNumber="139"/>
+    <functiondecl functionName="file2memory" lineNumber="212"/>
+    <functiondecl functionName="getnum" lineNumber="225"/>
+    <functiondecl functionName="str2num" lineNumber="252"/>
+    <functiondecl functionName="oct2nummax" lineNumber="257"/>
+    <functiondecl functionName="str2unum" lineNumber="279"/>
+    <functiondecl functionName="str2unummax" lineNumber="300"/>
+    <functiondecl functionName="secs2ms" lineNumber="324"/>
+    <functiondecl functionName="protoset_index" lineNumber="358"/>
+    <functiondecl functionName="protoset_set" lineNumber="371"/>
+    <functiondecl functionName="protoset_clear" lineNumber="385"/>
+    <functiondecl functionName="proto2num" lineNumber="412"/>
+    <functiondecl functionName="check_protocol" lineNumber="536"/>
+    <functiondecl functionName="str2offset" lineNumber="554"/>
+    <functiondecl functionName="checkpasswd" lineNumber="563"/>
+    <functiondecl functionName="add2list" lineNumber="616"/>
+    <functiondecl functionName="ftpfilemethod" lineNumber="627"/>
+    <functiondecl functionName="ftpcccmethod" lineNumber="642"/>
+    <functiondecl functionName="delegation" lineNumber="655"/>
+    <functiondecl functionName="my_useragent" lineNumber="673"/>
+    <functiondecl functionName="inlist" lineNumber="684"/>
+    <functiondecl functionName="get_args" lineNumber="700"/>
+    <functiondecl functionName="str2tls_max" lineNumber="752"/>
+    <functiondecl functionName="new_getout" lineNumber="41"/>
+    <functiondecl functionName="memcrlf" lineNumber="75"/>
+    <functiondecl functionName="file2string" lineNumber="92"/>
+    <functiondecl functionName="myfseek" lineNumber="126"/>
+    <functiondecl functionName="file2memory_range" lineNumber="139"/>
+    <functiondecl functionName="file2memory" lineNumber="212"/>
+    <functiondecl functionName="getnum" lineNumber="225"/>
+    <functiondecl functionName="str2num" lineNumber="252"/>
+    <functiondecl functionName="oct2nummax" lineNumber="257"/>
+    <functiondecl functionName="str2unum" lineNumber="279"/>
+    <functiondecl functionName="str2unummax" lineNumber="300"/>
+    <functiondecl functionName="secs2ms" lineNumber="324"/>
+    <functiondecl functionName="protoset_index" lineNumber="358"/>
+    <functiondecl functionName="protoset_set" lineNumber="371"/>
+    <functiondecl functionName="protoset_clear" lineNumber="385"/>
+    <functiondecl functionName="proto2num" lineNumber="412"/>
+    <functiondecl functionName="check_protocol" lineNumber="536"/>
+    <functiondecl functionName="str2offset" lineNumber="554"/>
+    <functiondecl functionName="checkpasswd" lineNumber="563"/>
+    <functiondecl functionName="add2list" lineNumber="616"/>
+    <functiondecl functionName="ftpfilemethod" lineNumber="627"/>
+    <functiondecl functionName="ftpcccmethod" lineNumber="642"/>
+    <functiondecl functionName="delegation" lineNumber="655"/>
+    <functiondecl functionName="my_useragent" lineNumber="673"/>
+    <functiondecl functionName="inlist" lineNumber="684"/>
+    <functiondecl functionName="get_args" lineNumber="700"/>
+    <functiondecl functionName="str2tls_max" lineNumber="752"/>
+    <functioncall functionName="BIT"/>
+    <functioncall functionName="CURLE_OK"/>
+    <functioncall functionName="CURLE_OUT_OF_MEMORY"/>
+    <functioncall functionName="CURLFTPMETHOD_MULTICWD"/>
+    <functioncall functionName="CURLFTPMETHOD_NOCWD"/>
+    <functioncall functionName="CURLFTPMETHOD_SINGLECWD"/>
+    <functioncall functionName="CURLFTPSSL_CCC_ACTIVE"/>
+    <functioncall functionName="CURLFTPSSL_CCC_PASSIVE"/>
+    <functioncall functionName="CURLGSSAPI_DELEGATION_FLAG"/>
+    <functioncall functionName="CURLGSSAPI_DELEGATION_NONE"/>
+    <functioncall functionName="CURLGSSAPI_DELEGATION_POLICY_FLAG"/>
+    <functioncall functionName="CURL_ARRAYSIZE"/>
+    <functioncall functionName="CURL_OFF_T_MAX"/>
+    <functioncall functionName="CURL_PRINTF"/>
+    <functioncall functionName="CURL_SSLVERSION_MAX_DEFAULT"/>
+    <functioncall functionName="CURL_SSLVERSION_MAX_TLSv1_0"/>
+    <functioncall functionName="CURL_SSLVERSION_MAX_TLSv1_1"/>
+    <functioncall functionName="CURL_SSLVERSION_MAX_TLSv1_2"/>
+    <functioncall functionName="CURL_SSLVERSION_MAX_TLSv1_3"/>
+    <functioncall functionName="DEBUGASSERT"/>
+    <functioncall functionName="FALLTHROUGH"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="INT_MAX"/>
+    <functioncall functionName="LONG_MAX"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PARAM_BAD_NUMERIC"/>
+    <functioncall functionName="PARAM_BAD_USE"/>
+    <functioncall functionName="PARAM_LIBCURL_UNSUPPORTED_PROTOCOL"/>
+    <functioncall functionName="PARAM_NEGATIVE_NUMERIC"/>
+    <functioncall functionName="PARAM_NO_MEM"/>
+    <functioncall functionName="PARAM_NUMBER_TOO_LARGE"/>
+    <functioncall functionName="PARAM_OK"/>
+    <functioncall functionName="PARAM_READ_ERROR"/>
+    <functioncall functionName="PARAM_REQUIRES_PARAMETER"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="__int64"/>
+    <functioncall functionName="_fseeki64"/>
+    <functioncall functionName="add2list"/>
+    <functioncall functionName="alloc_filename"/>
+    <functioncall functionName="allow"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="checkpasswd"/>
+    <functioncall functionName="curl_off_t"/>
+    <functioncall functionName="curl_slist_append"/>
+    <functioncall functionName="curl_strequal"/>
+    <functioncall functionName="curl_strnequal"/>
+    <functioncall functionName="curlx_dyn_addf"/>
+    <functioncall functionName="curlx_dyn_addn"/>
+    <functioncall functionName="curlx_dyn_free"/>
+    <functioncall functionName="curlx_dyn_init"/>
+    <functioncall functionName="curlx_dyn_len"/>
+    <functioncall functionName="curlx_dyn_ptr"/>
+    <functioncall functionName="curlx_dyn_setlen"/>
+    <functioncall functionName="curlx_str_number"/>
+    <functioncall functionName="curlx_str_octal"/>
+    <functioncall functionName="curlx_str_single"/>
+    <functioncall functionName="deny"/>
+    <functioncall functionName="errorf"/>
+    <functioncall functionName="feof"/>
+    <functioncall functionName="ferror"/>
+    <functioncall functionName="file2memory_range"/>
+    <functioncall functionName="fopened"/>
+    <functioncall functionName="fread"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="fseek"/>
+    <functioncall functionName="fseeko"/>
+    <functioncall functionName="getnum"/>
+    <functioncall functionName="getpass_r"/>
+    <functioncall functionName="inlist"/>
+    <functioncall functionName="is_cd_filename"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memcrlf"/>
+    <functioncall functionName="msnprintf"/>
+    <functioncall functionName="my_useragent"/>
+    <functioncall functionName="myfseek"/>
+    <functioncall functionName="off_t"/>
+    <functioncall functionName="proto_token"/>
+    <functioncall functionName="protoset_clear"/>
+    <functioncall functionName="protoset_index"/>
+    <functioncall functionName="protoset_set"/>
+    <functioncall functionName="qsort"/>
+    <functioncall functionName="s_isreg"/>
+    <functioncall functionName="set"/>
+    <functioncall functionName="str2unum"/>
+    <functioncall functionName="strchr"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strdup"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="struplocompare4sort"/>
+    <functioncall functionName="warnf"/>
+  </FileInfo>
+</analyzerinfo>

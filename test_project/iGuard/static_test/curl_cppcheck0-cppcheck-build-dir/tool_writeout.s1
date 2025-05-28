@@ -1,0 +1,8 @@
+writeTime call:[DEBUGASSERT,curl_easy_getinfo,fprintf] noreturn:[DEBUGASSERT,fprintf]
+urlpart call:[curl_easy_getinfo,curl_url,curl_url_cleanup,curl_url_get,curl_url_set] noreturn:[curl_url_cleanup]
+certinfo call:[curl_easy_getinfo]
+writeString global:[http_version] call:[CURL_UNCONST,DEBUGASSERT,certinfo,curl_easy_getinfo,curl_easy_strerror,curl_free,curl_strnequal,curlx_dyn_add,curlx_dyn_addn,curlx_dyn_free,curlx_dyn_init,curlx_dyn_len,curlx_dyn_ptr,fprintf,fputs,jsonWriteString,urlpart] noreturn:[fprintf,fputs,jsonWriteString]
+writeLong call:[DEBUGASSERT,certinfo,curl_easy_getinfo,fprintf] noreturn:[fprintf]
+writeOffset call:[DEBUGASSERT,curl_easy_getinfo,fprintf] noreturn:[DEBUGASSERT,fprintf]
+matchvar call:[strcmp] noreturn:[strcmp]
+ourWriteOut global:[tool_stderr,variables] call:[CURL_ARRAYSIZE,bsearch,curl_easy_header,curlx_dyn_addn,curlx_dyn_free,curlx_dyn_init,curlx_dyn_ptr,curlx_dyn_reset,fclose,fopen,fprintf,fputc,fputs,headerJSON,memcpy,ourWriteOutJSON,sizeof,strchr,strncmp,writefunc] noreturn:[bsearch,curlx_dyn_free,fclose,fprintf,fputs]

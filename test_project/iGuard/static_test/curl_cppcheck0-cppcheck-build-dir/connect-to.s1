@@ -1,0 +1,1 @@
+main call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_slist_append,curl_slist_free_all,return] noreturn:[curl_easy_cleanup]

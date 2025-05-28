@@ -1,0 +1,6 @@
+parsekeyword call:[sizeof,strcmp]
+charclass
+setcharorrange call:[charclass]
+setcharset call:[memset,parsekeyword,setcharorrange,sizeof] noreturn:[setcharorrange]
+loop call:[loop,setcharset,sizeof]
+Curl_fnmatch call:[loop] noreturn:[loop]

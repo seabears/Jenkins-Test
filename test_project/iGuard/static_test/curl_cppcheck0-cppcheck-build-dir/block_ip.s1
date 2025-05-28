@@ -1,0 +1,6 @@
+ip_list_append call:[atoi,calloc,free,inet_pton,sizeof,strchr,strdup]
+ip_list_free_all call:[free]
+free_connection_filter call:[free,ip_list_free_all] noreturn:[free]
+ip_match
+opensocket call:[fprintf,inet_ntop,ip_match,sizeof,socket] noreturn:[fprintf,socket]
+main call:[calloc,curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_easy_strerror,curl_global_cleanup,curl_global_init,fprintf,free,free_connection_filter,ip_list_append,sizeof] noreturn:[fprintf]

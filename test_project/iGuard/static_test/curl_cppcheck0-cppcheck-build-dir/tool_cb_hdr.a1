@@ -1,0 +1,718 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="10125439717147208476">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="38" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;timeval.h&quot; not found." verbose="Include file: &quot;timeval.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;strcase.h&quot; not found." verbose="Include file: &quot;strcase.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curlx.h&quot; not found." verbose="Include file: &quot;curlx.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="31" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;dynbuf.h&quot; not found." verbose="Include file: &quot;dynbuf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\var.h" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="41" column="0"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;stop&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;stop&apos;. The initialized value is overwritten before it is read." cwe="563" file0="C:/test_workspace/curl-master/src/tool_cb_hdr.c">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="339" column="10" info="stop is overwritten"/>
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="327" column="14" info="stop is initialized"/>
+            <symbol>stop</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;value&apos; can be declared as pointer to const" verbose="Variable &apos;value&apos; can be declared as pointer to const" cwe="398" file0="C:/test_workspace/curl-master/src/tool_cb_hdr.c">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="273" column="11" info="Variable &apos;value&apos; can be declared as pointer to const"/>
+            <symbol>value</symbol>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_hdr.h:53:5" my-argnr="1" my-argname="hdrcbdata" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="67" col="26" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_hdr.h:53:5" my-argnr="1" my-argname="hdrcbdata" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="67" col="26" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_setup.h:105:5" call-funcname="tool_ftruncate64" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="162" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_doswin.h:41:14" call-funcname="sanitize_file_name" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="387" col="41" call-argexpr="&amp;sanitized" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_doswin.h:41:14" call-funcname="sanitize_file_name" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="387" col="41" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_hdr.h:53:5" my-argnr="1" my-argname="hdrcbdata" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="67" col="26" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_hdr.h:53:5" my-argnr="1" my-argname="hdrcbdata" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="67" col="26" value="0"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_hdr.h:53:5" my-argnr="1" my-argname="hdrcbdata" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="67" col="26" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_hdr.h:53:5" my-argnr="1" my-argname="hdrcbdata" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="67" col="26" value="0"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="79" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="28" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_setup.h:105:5" call-funcname="tool_ftruncate64" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="162" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_doswin.h:41:14" call-funcname="sanitize_file_name" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="387" col="41" call-argexpr="&amp;sanitized" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_doswin.h:41:14" call-funcname="sanitize_file_name" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="387" col="41" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_hdr.h:53:5" my-argnr="1" my-argname="hdrcbdata" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="67" col="26" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_hdr.h:53:5" my-argnr="1" my-argname="hdrcbdata" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="67" col="26" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/src/tool_setup.h:105:5" call-funcname="tool_ftruncate64" call-argnr="2" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="162" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/src/tool_doswin.h:41:14" call-funcname="sanitize_file_name" call-argnr="1" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="387" col="41" call-argexpr="&amp;sanitized" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/src/tool_doswin.h:41:14" call-funcname="sanitize_file_name" call-argnr="3" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="387" col="41" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_hdr.h:53:5" my-argnr="1" my-argname="hdrcbdata" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="67" col="26" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_hdr.h:53:5" my-argnr="1" my-argname="hdrcbdata" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="67" col="26" value="0"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_hdr.h:53:5" my-argnr="1" my-argname="hdrcbdata" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="67" col="26" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_hdr.h:53:5" my-argnr="1" my-argname="hdrcbdata" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="67" col="26" value="0"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_hdr.h:53:5" my-argnr="1" my-argname="hdrcbdata" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="67" col="26" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/src/tool_cb_hdr.h:53:5" my-argnr="1" my-argname="hdrcbdata" file="C:/test_workspace/curl-master/src/tool_cb_hdr.c" line="67" col="26" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-4.1" severity="style" msg="Required Octal and hexadecimal escape sequences shall be terminated" verbose="Required Octal and hexadecimal escape sequences shall be terminated" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="46" column="14"/>
+        </error>
+        <error id="misra-c2012-4.1" severity="style" msg="Required Octal and hexadecimal escape sequences shall be terminated" verbose="Required Octal and hexadecimal escape sequences shall be terminated" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="47" column="17"/>
+        </error>
+        <error id="misra-c2012-4.1" severity="style" msg="Required Octal and hexadecimal escape sequences shall be terminated" verbose="Required Octal and hexadecimal escape sequences shall be terminated" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="49" column="14"/>
+        </error>
+        <error id="misra-c2012-4.1" severity="style" msg="Required Octal and hexadecimal escape sequences shall be terminated" verbose="Required Octal and hexadecimal escape sequences shall be terminated" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="53" column="17"/>
+        </error>
+        <error id="misra-c2012-4.1" severity="style" msg="Required Octal and hexadecimal escape sequences shall be terminated" verbose="Required Octal and hexadecimal escape sequences shall be terminated" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="55" column="14"/>
+        </error>
+        <error id="misra-c2012-4.1" severity="style" msg="Required Octal and hexadecimal escape sequences shall be terminated" verbose="Required Octal and hexadecimal escape sequences shall be terminated" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="56" column="16"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="73" column="26"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="74" column="24"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="75" column="25"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="67" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="68" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="69" column="7"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="70" column="7"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="187" column="14"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="305" column="66"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="309" column="40"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="330" column="21"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="382" column="32"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="436" column="26"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="445" column="25"/>
+        </error>
+        <error id="misra-c2012-10.8" severity="style" msg="Required The value of a composite expression shall not be cast to a different essential type category or a wider essential type" verbose="Required The value of a composite expression shall not be cast to a different essential type category or a wider essential type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="212" column="22"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="90" column="28"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="273" column="17"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="297" column="13"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="330" column="8"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="445" column="11"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="134" column="28"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="138" column="22"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="198" column="16"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="280" column="28"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="284" column="27"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="285" column="27"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="337" column="17"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="429" column="30"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="436" column="38"/>
+        </error>
+        <error id="misra-c2012-12.3" severity="style" msg="Advisory The comma operator should not be used" verbose="Advisory The comma operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="413" column="23"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="69" column="8"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="125" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="153" column="14"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="166" column="13"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="201" column="13"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="214" column="13"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="215" column="15"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="221" column="15"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="238" column="15"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="245" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="254" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="272" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="274" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="298" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="304" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="347" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="352" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="364" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="374" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="378" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="419" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="452" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="454" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="458" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="461" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="464" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="485" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="73" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="425" column="7"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="442" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="447" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="453" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="455" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="459" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="462" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="465" column="5"/>
+        </error>
+        <error id="misra-c2012-15.1" severity="style" msg="Advisory The goto statement should not be used" verbose="Advisory The goto statement should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="475" column="5"/>
+        </error>
+        <error id="misra-c2012-15.4" severity="style" msg="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" verbose="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="192" column="17"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="101" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="123" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="128" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="167" column="13"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="218" column="15"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="226" column="17"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="237" column="15"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="239" column="15"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="244" column="11"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="246" column="11"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="260" column="13"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="266" column="11"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="268" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="290" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="332" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="356" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="368" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="72" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="100" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="112" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="122" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="138" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="151" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="153" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="196" column="11"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="198" column="11"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="203" column="13"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="205" column="13"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="207" column="13"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="225" column="15"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="228" column="13"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="236" column="13"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="238" column="13"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="243" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="245" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="275" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="280" column="10"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="289" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="292" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="308" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="312" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="331" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="342" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="347" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="374" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="378" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="381" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="389" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="421" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="436" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="441" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="446" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="452" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="454" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="458" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="461" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="464" column="3"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="270" column="5"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="281" column="0"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="171" column="17"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="173" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="300" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="309" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="314" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="333" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="382" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="448" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="471" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="482" column="9"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="97" column="33"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="149" column="29"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="157" column="36"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="188" column="29"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="198" column="22"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="210" column="13"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="212" column="33"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="299" column="30"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="353" column="11"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="365" column="11"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="38" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_urlglob.h" line="57" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_sdecls.h" line="132" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="107" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.h" line="34" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cfgable.h" line="36" column="0"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="217" column="19"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="224" column="19"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="257" column="15"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="330" column="16"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="445" column="19"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="489" column="9"/>
+        </error>
+        <error id="misra-c2012-21.8" severity="style" msg="Required The Standard Library functions abort, exit, getenv and system of &lt;stdlib.h&gt; shall not be used" verbose="Required The Standard Library functions abort, exit, getenv and system of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="417" column="28"/>
+        </error>
+        <error id="misra-c2012-21.14" severity="style" msg="Required The Standard Library function memcmp shall not be used to compare null terminated strings" verbose="Required The Standard Library function memcmp shall not be used to compare null terminated strings" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="201" column="24"/>
+        </error>
+        <error id="misra-c2012-21.16" severity="style" msg="Required The pointer arguments to the Standard Library function memcmp shall point to either a pointer type, an essentially signed type, an essentially unsigned type, an essentially Boolean type or an essentially enum type" verbose="Required The pointer arguments to the Standard Library function memcmp shall point to either a pointer type, an essentially signed type, an essentially unsigned type, an essentially Boolean type or an essentially enum type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="201" column="14"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="302" column="38"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="112" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="162" column="13"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="389" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="163" column="13"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="390" column="7"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="113" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="302" column="13"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="104" column="19"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_cb_hdr.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_cb_hdr.c" line="106" column="5"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="tool_write_headers" lineNumber="65"/>
+    <functiondecl functionName="tool_header_cb" lineNumber="88"/>
+    <functiondecl functionName="parse_filename" lineNumber="322"/>
+    <functiondecl functionName="write_linked_location" lineNumber="409"/>
+    <functiondecl functionName="tool_write_headers" lineNumber="65"/>
+    <functiondecl functionName="tool_header_cb" lineNumber="88"/>
+    <functiondecl functionName="parse_filename" lineNumber="322"/>
+    <functiondecl functionName="tool_write_headers" lineNumber="65"/>
+    <functiondecl functionName="tool_header_cb" lineNumber="88"/>
+    <functiondecl functionName="parse_filename" lineNumber="322"/>
+    <functiondecl functionName="write_linked_location" lineNumber="409"/>
+    <functiondecl functionName="tool_write_headers" lineNumber="65"/>
+    <functiondecl functionName="tool_header_cb" lineNumber="88"/>
+    <functiondecl functionName="parse_filename" lineNumber="322"/>
+    <functiondecl functionName="tool_write_headers" lineNumber="65"/>
+    <functiondecl functionName="tool_header_cb" lineNumber="88"/>
+    <functiondecl functionName="parse_filename" lineNumber="322"/>
+    <functiondecl functionName="tool_write_headers" lineNumber="65"/>
+    <functiondecl functionName="tool_header_cb" lineNumber="88"/>
+    <functiondecl functionName="parse_filename" lineNumber="322"/>
+    <functiondecl functionName="write_linked_location" lineNumber="409"/>
+    <functiondecl functionName="tool_write_headers" lineNumber="65"/>
+    <functiondecl functionName="tool_header_cb" lineNumber="88"/>
+    <functiondecl functionName="parse_filename" lineNumber="322"/>
+    <functiondecl functionName="write_linked_location" lineNumber="409"/>
+    <functioncall functionName="BIT"/>
+    <functioncall functionName="CURLINFO_EFFECTIVE_URL"/>
+    <functioncall functionName="CURLINFO_RESPONSE_CODE"/>
+    <functioncall functionName="CURLINFO_SCHEME"/>
+    <functioncall functionName="CURLUPART_SCHEME"/>
+    <functioncall functionName="CURLUPART_URL"/>
+    <functioncall functionName="CURLU_NO_DEFAULT_PORT"/>
+    <functioncall functionName="CURL_MAX_HTTP_HEADER"/>
+    <functioncall functionName="CURL_OFF_T_MAX"/>
+    <functioncall functionName="CURL_PRINTF"/>
+    <functioncall functionName="CURL_WRITEFUNC_ERROR"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="ISALPHA"/>
+    <functioncall functionName="ISBLANK"/>
+    <functioncall functionName="ISSPACE"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="alloc_filename"/>
+    <functioncall functionName="aprintf"/>
+    <functioncall functionName="checkprefix"/>
+    <functioncall functionName="curl_easy_getinfo"/>
+    <functioncall functionName="curl_free"/>
+    <functioncall functionName="curl_slist_append"/>
+    <functioncall functionName="curl_slist_free_all"/>
+    <functioncall functionName="curl_strnequal"/>
+    <functioncall functionName="curl_url"/>
+    <functioncall functionName="curl_url_cleanup"/>
+    <functioncall functionName="curl_url_get"/>
+    <functioncall functionName="curl_url_set"/>
+    <functioncall functionName="curlx_safefree"/>
+    <functioncall functionName="curlx_str_number"/>
+    <functioncall functionName="errorf"/>
+    <functioncall functionName="fail"/>
+    <functioncall functionName="fflush"/>
+    <functioncall functionName="fileno"/>
+    <functioncall functionName="fopened"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="fputc"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="fseek"/>
+    <functioncall functionName="fwrite"/>
+    <functioncall functionName="getenv"/>
+    <functioncall functionName="is_cd_filename"/>
+    <functioncall functionName="locdone"/>
+    <functioncall functionName="locout"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memchr"/>
+    <functioncall functionName="memcmp"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memmove"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="parse_filename"/>
+    <functioncall functionName="proto_token"/>
+    <functioncall functionName="s_isreg"/>
+    <functioncall functionName="sanitize_file_name"/>
+    <functioncall functionName="strchr"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="strrchr"/>
+    <functioncall functionName="tool_create_output_file"/>
+    <functioncall functionName="tool_ftruncate64"/>
+    <functioncall functionName="tool_write_headers"/>
+    <functioncall functionName="warnf"/>
+    <functioncall functionName="write_linked_location"/>
+  </FileInfo>
+</analyzerinfo>

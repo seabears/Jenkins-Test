@@ -1,0 +1,11 @@
+<map id="CANSPI_Sleep" name="CANSPI_Sleep">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,118,57"/>
+<area shape="rect" id="Node000002" href="$stm32___i_v_i_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#ab5d80f4bbd31f9a04b116f9314afe6ef" title=" " alt="" coords="181,5,322,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,34,165,28,165,33,118,39"/>
+<area shape="rect" id="Node000003" href="$stm32___i_v_i_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#a7faf1a25ebe4cbcf78c6a775567c1668" title=" " alt="" coords="166,56,337,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="118,49,150,53,150,58,118,54"/>
+<area shape="rect" id="Node000004" href="$stm32__boot_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#a4c7c196db5bc3a7e4d6b910f63c79b30" title=" " alt="" coords="385,31,529,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="337,56,369,52,370,57,338,61"/>
+<area shape="rect" id="Node000005" href="$stm32__boot_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#a8f9573cc99c7fb6b61eb7bc2e62abc18" title=" " alt="" coords="386,81,529,108"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="338,77,371,81,370,87,337,83"/>
+</map>

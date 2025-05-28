@@ -1,0 +1,929 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="14542266135840809077">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\server_setup.h" line="29" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;strdup.h&quot; not found." verbose="Include file: &quot;strdup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.h" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curlx.h&quot; not found." verbose="Include file: &quot;curlx.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="32" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_base64.h&quot; not found." verbose="Include file: &quot;curl_base64.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="35" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_memory.h&quot; not found." verbose="Include file: &quot;curl_memory.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="36" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="40" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;src_buf&apos; can be declared as pointer to const" verbose="Parameter &apos;src_buf&apos; can be declared as pointer to const" cwe="398" file0="C:/test_workspace/curl-master/tests/server/getpart.c">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="193" column="31" info="Parameter &apos;src_buf&apos; can be declared as pointer to const"/>
+            <symbol>src_buf</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="26" call-argexpr="&amp;buffer" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="2" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="26" call-argexpr="&amp;bufsize" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="3" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="26" call-argexpr="&amp;datalen" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:190:12" call-funcname="appenddata" call-argnr="3" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="338" col="27" call-argexpr="&amp;outalloc" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:190:12" call-funcname="appenddata" call-argnr="3" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="476" col="25" call-argexpr="&amp;outalloc" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="4" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="18" my-id="C:/test_workspace/curl-master/tests/server/getpart.h:35:5" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:87:15" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="91" col="10" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="131" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:231:12" my-argnr="2" my-argname="len" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="238" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.h:35:5" my-argnr="1" my-argname="outbuf" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="323" col="4" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.h:35:5" my-argnr="2" my-argname="outlen" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="322" col="4" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:87:15" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="91" col="10" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="131" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:231:12" my-argnr="2" my-argname="len" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="238" col="8" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="26" call-argexpr="&amp;buffer" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="2" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="26" call-argexpr="&amp;bufsize" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="3" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="26" call-argexpr="&amp;datalen" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:190:12" call-funcname="appenddata" call-argnr="3" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="338" col="27" call-argexpr="&amp;outalloc" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:190:12" call-funcname="appenddata" call-argnr="3" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="476" col="25" call-argexpr="&amp;outalloc" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="4" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="18" my-id="C:/test_workspace/curl-master/tests/server/getpart.h:35:5" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:87:15" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="91" col="10" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="131" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:231:12" my-argnr="2" my-argname="len" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="238" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.h:35:5" my-argnr="1" my-argname="outbuf" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="323" col="4" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.h:35:5" my-argnr="2" my-argname="outlen" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="322" col="4" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:87:15" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="91" col="10" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="131" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:231:12" my-argnr="2" my-argname="len" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="238" col="8" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="26" call-argexpr="&amp;buffer" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="2" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="26" call-argexpr="&amp;bufsize" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="3" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="26" call-argexpr="&amp;datalen" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:190:12" call-funcname="appenddata" call-argnr="3" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="338" col="27" call-argexpr="&amp;outalloc" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:190:12" call-funcname="appenddata" call-argnr="3" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="476" col="25" call-argexpr="&amp;outalloc" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="4" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="18" my-id="C:/test_workspace/curl-master/tests/server/getpart.h:35:5" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:87:15" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="91" col="10" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="131" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:231:12" my-argnr="2" my-argname="len" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="238" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.h:35:5" my-argnr="1" my-argname="outbuf" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="323" col="4" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.h:35:5" my-argnr="2" my-argname="outlen" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="322" col="4" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:87:15" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="91" col="10" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="131" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:231:12" my-argnr="2" my-argname="len" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="238" col="8" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="26" call-argexpr="&amp;buffer" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="2" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="26" call-argexpr="&amp;bufsize" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="3" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="26" call-argexpr="&amp;datalen" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:190:12" call-funcname="appenddata" call-argnr="3" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="338" col="27" call-argexpr="&amp;outalloc" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:190:12" call-funcname="appenddata" call-argnr="3" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="476" col="25" call-argexpr="&amp;outalloc" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="4" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="18" my-id="C:/test_workspace/curl-master/tests/server/getpart.h:35:5" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:87:15" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="91" col="10" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="131" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:231:12" my-argnr="2" my-argname="len" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="238" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.h:35:5" my-argnr="1" my-argname="outbuf" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="323" col="4" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.h:35:5" my-argnr="2" my-argname="outlen" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="322" col="4" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:87:15" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="91" col="10" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="131" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:231:12" my-argnr="2" my-argname="len" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="238" col="8" value="0"/>
+  </FileInfo>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl/curl.h&quot; not found." verbose="Include file: &quot;curl/curl.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="29" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;warnless.h&quot; not found." verbose="Include file: &quot;warnless.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="30" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/system.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/system.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="327" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="463" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;assert.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;assert.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="464" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/stdcheaders.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/stdcheaders.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="473" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="1" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="26" call-argexpr="&amp;buffer" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="2" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="26" call-argexpr="&amp;bufsize" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="3" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="26" call-argexpr="&amp;datalen" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:190:12" call-funcname="appenddata" call-argnr="3" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="338" col="27" call-argexpr="&amp;outalloc" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:190:12" call-funcname="appenddata" call-argnr="3" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="476" col="25" call-argexpr="&amp;outalloc" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" call-funcname="readline" call-argnr="4" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="330" col="18" my-id="C:/test_workspace/curl-master/tests/server/getpart.h:35:5" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:87:15" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="91" col="10" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="131" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:231:12" my-argnr="2" my-argname="len" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="238" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.h:35:5" my-argnr="1" my-argname="outbuf" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="323" col="4" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.h:35:5" my-argnr="2" my-argname="outlen" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="322" col="4" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:87:15" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="91" col="10" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:125:12" my-argnr="1" my-argname="buffer" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="131" col="8" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/server/getpart.c:231:12" my-argnr="2" my-argname="len" file="C:/test_workspace/curl-master/tests/server/getpart.c" line="238" col="8" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="66" column="22"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="68" column="23"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="69" column="22"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="70" column="22"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="67" column="20"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="143" column="22"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="147" column="28"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="202" column="35"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="205" column="24"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="208" column="24"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="214" column="33"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="132" column="13"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="153" column="12"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="215" column="18"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="323" column="11"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="91" column="25"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="150" column="16"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="328" column="24"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="330" column="16"/>
+        </error>
+        <error id="misra-c2012-13.5" severity="style" msg="Required The right hand operand of a logical &amp;&amp; or || operator shall not contain persistent side effects" verbose="Required The right hand operand of a logical &amp;&amp; or || operator shall not contain persistent side effects" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="91" column="25"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="204" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="243" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="336" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="340" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="368" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="370" column="13"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="372" column="15"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="375" column="13"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="384" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="386" column="13"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="388" column="15"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="391" column="13"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="400" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="460" column="13"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="464" column="13"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="474" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="477" column="9"/>
+        </error>
+        <error id="misra-c2012-15.4" severity="style" msg="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" verbose="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="330" column="76"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="134" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="143" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="155" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="200" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="217" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="239" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="244" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="255" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="325" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="373" column="15"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="389" column="15"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="43" column="22"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="45" column="22"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="133" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="147" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="150" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="154" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="199" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="205" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="208" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="238" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="243" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="324" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="340" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="372" column="13"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="375" column="11"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="388" column="13"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="391" column="11"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="400" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="431" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="460" column="11"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="477" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="486" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="514" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="516" column="5"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="402" column="7"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="472" column="5"/>
+        </error>
+        <error id="misra-c2012-15.7" severity="style" msg="Required All if \342\200\246 else if constructs shall be terminated with an else statement" verbose="Required All if \342\200\246 else if constructs shall be terminated with an else statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="470" column="7"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="156" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="224" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="259" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="361" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="418" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="438" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="443" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="449" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="455" column="15"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="91" column="28"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="93" column="11"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="206" column="14"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="209" column="14"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="141" column="23"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="146" column="44"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="147" column="18"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="224" column="19"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="226" column="14"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="261" column="10"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="356" column="21"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="413" column="21"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="433" column="21"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="302" column="3"/>
+        </error>
+        <error id="misra-c2012-19.2" severity="style" msg="Advisory The union keyword should not be used" verbose="Advisory The union keyword should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="305" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="499" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="500" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="44" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="45" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="46" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="47" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="52" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="61" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="70" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="82" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="100" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="106" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="127" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="138" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="153" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="159" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="165" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="183" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="186" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="217" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="220" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="223" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="229" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="232" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="241" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-plan9.h" line="133" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="40" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="43" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="46" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="49" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="52" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="58" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="67" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="79" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="82" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="88" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="91" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="100" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="112" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="118" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="127" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="130" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="139" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="142" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="145" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="151" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="154" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="166" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="175" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="181" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="184" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="187" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="190" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="193" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="196" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="199" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-win32.h" line="448" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-win32.h" line="451" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="63" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="64" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="65" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="66" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="67" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="68" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="69" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="81" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="82" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="84" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="88" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="89" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="90" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="91" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="96" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="103" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="140" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="142" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="144" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="146" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_memory.h" line="148" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="76" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="870" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="1031" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="297" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="132" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="134" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="136" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="138" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="140" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="142" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="144" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="161" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="164" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="168" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="179" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="184" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="186" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-os400.h" line="46" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-vms.h" line="52" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-vms.h" line="53" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-vms.h" line="378" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="27" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\warnless.c" line="41" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\warnless.c" line="42" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\warnless.c" line="317" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\warnless.h" line="74" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\warnless.h" line="76" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="48" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="259" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="262" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="162" column="0"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\memdebug.h" line="173" column="0"/>
+        </error>
+        <error id="misra-c2012-20.10" severity="style" msg="Advisory The # and ## preprocessor operators should not be used" verbose="Advisory The # and ## preprocessor operators should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="333" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="135" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="223" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="226" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-os400.h" line="303" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-plan9.h" line="130" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="187" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-riscos.h" line="190" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\config-win32.h" line="506" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="92" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="95" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="376" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="856" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="859" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-vms.h" line="39" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-vms.h" line="54" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="97" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="100" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="103" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="106" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="109" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="112" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="115" column="0"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" verbose="Required #define and #undef shall not be used on a reserved identifier or reserved macro name" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\setup-win32.h" line="118" column="0"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="132" column="21"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="153" column="21"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="215" column="27"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="253" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="263" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="323" column="19"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="483" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="489" column="11"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup.h" line="463" column="0"/>
+        </error>
+        <error id="misra-c2012-21.10" severity="style" msg="Required The Standard Library time and date functions shall not be used" verbose="Required The Standard Library time and date functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\lib\curl_setup_once.h" line="35" column="0"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="337" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="423" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="465" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="475" column="7"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/getpart.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\getpart.c" line="72" column="22"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="line_length" lineNumber="87"/>
+    <functiondecl functionName="readline" lineNumber="125"/>
+    <functiondecl functionName="appenddata" lineNumber="190"/>
+    <functiondecl functionName="decodedata" lineNumber="231"/>
+    <functiondecl functionName="getpart" lineNumber="290"/>
+    <functiondecl functionName="line_length" lineNumber="87"/>
+    <functiondecl functionName="readline" lineNumber="125"/>
+    <functiondecl functionName="appenddata" lineNumber="190"/>
+    <functiondecl functionName="decodedata" lineNumber="231"/>
+    <functiondecl functionName="getpart" lineNumber="290"/>
+    <functiondecl functionName="line_length" lineNumber="87"/>
+    <functiondecl functionName="readline" lineNumber="125"/>
+    <functiondecl functionName="appenddata" lineNumber="190"/>
+    <functiondecl functionName="decodedata" lineNumber="231"/>
+    <functiondecl functionName="getpart" lineNumber="290"/>
+    <functiondecl functionName="line_length" lineNumber="87"/>
+    <functiondecl functionName="readline" lineNumber="125"/>
+    <functiondecl functionName="appenddata" lineNumber="190"/>
+    <functiondecl functionName="decodedata" lineNumber="231"/>
+    <functiondecl functionName="getpart" lineNumber="290"/>
+    <functiondecl functionName="line_length" lineNumber="87"/>
+    <functiondecl functionName="readline" lineNumber="125"/>
+    <functiondecl functionName="appenddata" lineNumber="190"/>
+    <functiondecl functionName="decodedata" lineNumber="231"/>
+    <functiondecl functionName="getpart" lineNumber="290"/>
+    <functioncall functionName="CURLE_OK"/>
+    <functioncall functionName="Curl_nop_stmt"/>
+    <functioncall functionName="Curl_strdup"/>
+    <functioncall functionName="Curl_wcsdup"/>
+    <functioncall functionName="ISSPACE"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="STATE_INMAIN"/>
+    <functioncall functionName="STATE_INSUB"/>
+    <functioncall functionName="STATE_OUTER"/>
+    <functioncall functionName="STATE_OUTSIDE"/>
+    <functioncall functionName="_strdup"/>
+    <functioncall functionName="appenddata"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="curl_calloc_callback"/>
+    <functioncall functionName="curl_free_callback"/>
+    <functioncall functionName="curl_malloc_callback"/>
+    <functioncall functionName="curl_realloc_callback"/>
+    <functioncall functionName="curl_strdup_callback"/>
+    <functioncall functionName="curlx_base64_decode"/>
+    <functioncall functionName="curlx_uztosi"/>
+    <functioncall functionName="decodedata"/>
+    <functioncall functionName="fgets"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="line_length"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="readline"/>
+    <functioncall functionName="realloc"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="strdup"/>
+    <functioncall functionName="strstr"/>
+  </FileInfo>
+</analyzerinfo>

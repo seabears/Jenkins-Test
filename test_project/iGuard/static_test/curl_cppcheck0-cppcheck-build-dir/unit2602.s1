@@ -1,0 +1,3 @@
+unit_setup
+unit_stop
+test call:[Curl_dyn_free,Curl_dyn_init,Curl_dyn_ptr,Curl_dynhds_add,Curl_dynhds_cadd,Curl_dynhds_ccontains,Curl_dynhds_ccount_name,Curl_dynhds_cget,Curl_dynhds_contains,Curl_dynhds_count,Curl_dynhds_count_name,Curl_dynhds_cremove,Curl_dynhds_free,Curl_dynhds_get,Curl_dynhds_h1_cadd_line,Curl_dynhds_h1_dprint,Curl_dynhds_init,Curl_dynhds_remove,Curl_dynhds_reset,Curl_dynhds_set,fprintf,return,strcmp,unit_setup,unit_stop,while] noreturn:[Curl_dyn_free,unit_stop,while]

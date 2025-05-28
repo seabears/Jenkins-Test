@@ -1,0 +1,2 @@
+show_dir_errno call:[errorf]
+create_dir_hierarchy call:[curlx_dyn_addn,curlx_dyn_free,curlx_dyn_init,curlx_dyn_ptr,mkdir,show_dir_errno,strcspn,strlen,strspn]

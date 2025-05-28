@@ -1,0 +1,4 @@
+curlx_base64_decode global:[decodetable] call:[free,malloc,memcpy,memset,sizeof,strlen]
+base64_encode call:[malloc,strlen] noreturn:[strlen]
+curlx_base64_encode global:[base64encdec] call:[base64_encode] noreturn:[base64_encode]
+curlx_base64url_encode global:[base64url] call:[base64_encode] noreturn:[base64_encode]

@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<dumps language="c">
+  <platform name="win64" char_bit="8" short_bit="16" int_bit="32" long_bit="32" long_long_bit="64" pointer_bit="64"/>
+  <rawtokens>
+    <file index="0" name="C:/test_workspace/curl-master/docs/examples/imap-fetch.c"/>
+    <tok fileIndex="0" linenr="1" column="1" str="/***************************************************************************x *                                  _   _ ____  _x *  Project                     ___| | | |  _ \| |x *                             / __| | | | |_) | |x *                            | (__| |_| |  _ &lt;| |___x *                             \___|\___/|_| \_\_____|x *x * Copyright (C) Daniel Stenberg, &lt;daniel@haxx.se&gt;, et al.x *x * This software is licensed as described in the file COPYING, whichx * you should have received as part of this distribution. The termsx * are also available at https://curl.se/docs/copyright.html.x *x * You may opt to use, copy, modify, merge, publish, distribute and/or sellx * copies of the Software, and permit persons to whom the Software isx * furnished to do so, under the terms of the COPYING file.x *x * This software is distributed on an &quot;AS IS&quot; basis, WITHOUT WARRANTY OF ANYx * KIND, either express or implied.x *x * SPDX-License-Identifier: curlx *x ***************************************************************************/"/>
+    <tok fileIndex="0" linenr="25" column="1" str="/* &lt;DESC&gt;x * Retrieve IMAP emailsx * &lt;/DESC&gt;x */"/>
+    <tok fileIndex="0" linenr="30" column="1" str="#"/>
+    <tok fileIndex="0" linenr="30" column="2" str="include"/>
+    <tok fileIndex="0" linenr="30" column="10" str="&lt;stdio.h&gt;"/>
+    <tok fileIndex="0" linenr="31" column="1" str="#"/>
+    <tok fileIndex="0" linenr="31" column="2" str="include"/>
+    <tok fileIndex="0" linenr="31" column="10" str="&lt;curl/curl.h&gt;"/>
+    <tok fileIndex="0" linenr="33" column="1" str="/* This is a simple example showing how to fetch mail using libcurl&apos;s IMAP * capabilities. * * Note that this example requires libcurl 7.30.0 or above. */"/>
+    <tok fileIndex="0" linenr="39" column="1" str="int"/>
+    <tok fileIndex="0" linenr="39" column="5" str="main"/>
+    <tok fileIndex="0" linenr="39" column="9" str="("/>
+    <tok fileIndex="0" linenr="39" column="10" str="void"/>
+    <tok fileIndex="0" linenr="39" column="14" str=")"/>
+    <tok fileIndex="0" linenr="40" column="1" str="{"/>
+    <tok fileIndex="0" linenr="41" column="3" str="CURL"/>
+    <tok fileIndex="0" linenr="41" column="8" str="*"/>
+    <tok fileIndex="0" linenr="41" column="9" str="curl"/>
+    <tok fileIndex="0" linenr="41" column="13" str=";"/>
+    <tok fileIndex="0" linenr="42" column="3" str="CURLcode"/>
+    <tok fileIndex="0" linenr="42" column="12" str="res"/>
+    <tok fileIndex="0" linenr="42" column="16" str="="/>
+    <tok fileIndex="0" linenr="42" column="18" str="CURLE_OK"/>
+    <tok fileIndex="0" linenr="42" column="26" str=";"/>
+    <tok fileIndex="0" linenr="44" column="3" str="curl"/>
+    <tok fileIndex="0" linenr="44" column="8" str="="/>
+    <tok fileIndex="0" linenr="44" column="10" str="curl_easy_init"/>
+    <tok fileIndex="0" linenr="44" column="24" str="("/>
+    <tok fileIndex="0" linenr="44" column="25" str=")"/>
+    <tok fileIndex="0" linenr="44" column="26" str=";"/>
+    <tok fileIndex="0" linenr="45" column="3" str="if"/>
+    <tok fileIndex="0" linenr="45" column="5" str="("/>
+    <tok fileIndex="0" linenr="45" column="6" str="curl"/>
+    <tok fileIndex="0" linenr="45" column="10" str=")"/>
+    <tok fileIndex="0" linenr="45" column="12" str="{"/>
+    <tok fileIndex="0" linenr="46" column="5" str="/* Set username and password */"/>
+    <tok fileIndex="0" linenr="47" column="5" str="curl_easy_setopt"/>
+    <tok fileIndex="0" linenr="47" column="21" str="("/>
+    <tok fileIndex="0" linenr="47" column="22" str="curl"/>
+    <tok fileIndex="0" linenr="47" column="26" str=","/>
+    <tok fileIndex="0" linenr="47" column="28" str="CURLOPT_USERNAME"/>
+    <tok fileIndex="0" linenr="47" column="44" str=","/>
+    <tok fileIndex="0" linenr="47" column="46" str="&quot;user&quot;"/>
+    <tok fileIndex="0" linenr="47" column="52" str=")"/>
+    <tok fileIndex="0" linenr="47" column="53" str=";"/>
+    <tok fileIndex="0" linenr="48" column="5" str="curl_easy_setopt"/>
+    <tok fileIndex="0" linenr="48" column="21" str="("/>
+    <tok fileIndex="0" linenr="48" column="22" str="curl"/>
+    <tok fileIndex="0" linenr="48" column="26" str=","/>
+    <tok fileIndex="0" linenr="48" column="28" str="CURLOPT_PASSWORD"/>
+    <tok fileIndex="0" linenr="48" column="44" str=","/>
+    <tok fileIndex="0" linenr="48" column="46" str="&quot;secret&quot;"/>
+    <tok fileIndex="0" linenr="48" column="54" str=")"/>
+    <tok fileIndex="0" linenr="48" column="55" str=";"/>
+    <tok fileIndex="0" linenr="50" column="5" str="/* This fetches message 1 from the user&apos;s inbox */"/>
+    <tok fileIndex="0" linenr="51" column="5" str="curl_easy_setopt"/>
+    <tok fileIndex="0" linenr="51" column="21" str="("/>
+    <tok fileIndex="0" linenr="51" column="22" str="curl"/>
+    <tok fileIndex="0" linenr="51" column="26" str=","/>
+    <tok fileIndex="0" linenr="51" column="28" str="CURLOPT_URL"/>
+    <tok fileIndex="0" linenr="51" column="39" str=","/>
+    <tok fileIndex="0" linenr="52" column="22" str="&quot;imap://imap.example.com/INBOX/;UID=1&quot;"/>
+    <tok fileIndex="0" linenr="52" column="60" str=")"/>
+    <tok fileIndex="0" linenr="52" column="61" str=";"/>
+    <tok fileIndex="0" linenr="54" column="5" str="/* Perform the fetch */"/>
+    <tok fileIndex="0" linenr="55" column="5" str="res"/>
+    <tok fileIndex="0" linenr="55" column="9" str="="/>
+    <tok fileIndex="0" linenr="55" column="11" str="curl_easy_perform"/>
+    <tok fileIndex="0" linenr="55" column="28" str="("/>
+    <tok fileIndex="0" linenr="55" column="29" str="curl"/>
+    <tok fileIndex="0" linenr="55" column="33" str=")"/>
+    <tok fileIndex="0" linenr="55" column="34" str=";"/>
+    <tok fileIndex="0" linenr="57" column="5" str="/* Check for errors */"/>
+    <tok fileIndex="0" linenr="58" column="5" str="if"/>
+    <tok fileIndex="0" linenr="58" column="7" str="("/>
+    <tok fileIndex="0" linenr="58" column="8" str="res"/>
+    <tok fileIndex="0" linenr="58" column="12" str="!="/>
+    <tok fileIndex="0" linenr="58" column="15" str="CURLE_OK"/>
+    <tok fileIndex="0" linenr="58" column="23" str=")"/>
+    <tok fileIndex="0" linenr="59" column="7" str="fprintf"/>
+    <tok fileIndex="0" linenr="59" column="14" str="("/>
+    <tok fileIndex="0" linenr="59" column="15" str="stderr"/>
+    <tok fileIndex="0" linenr="59" column="21" str=","/>
+    <tok fileIndex="0" linenr="59" column="23" str="&quot;curl_easy_perform() failed: %s\n&quot;"/>
+    <tok fileIndex="0" linenr="59" column="57" str=","/>
+    <tok fileIndex="0" linenr="60" column="15" str="curl_easy_strerror"/>
+    <tok fileIndex="0" linenr="60" column="33" str="("/>
+    <tok fileIndex="0" linenr="60" column="34" str="res"/>
+    <tok fileIndex="0" linenr="60" column="37" str=")"/>
+    <tok fileIndex="0" linenr="60" column="38" str=")"/>
+    <tok fileIndex="0" linenr="60" column="39" str=";"/>
+    <tok fileIndex="0" linenr="62" column="5" str="/* Always cleanup */"/>
+    <tok fileIndex="0" linenr="63" column="5" str="curl_easy_cleanup"/>
+    <tok fileIndex="0" linenr="63" column="22" str="("/>
+    <tok fileIndex="0" linenr="63" column="23" str="curl"/>
+    <tok fileIndex="0" linenr="63" column="27" str=")"/>
+    <tok fileIndex="0" linenr="63" column="28" str=";"/>
+    <tok fileIndex="0" linenr="64" column="3" str="}"/>
+    <tok fileIndex="0" linenr="66" column="3" str="return"/>
+    <tok fileIndex="0" linenr="66" column="10" str="("/>
+    <tok fileIndex="0" linenr="66" column="11" str="int"/>
+    <tok fileIndex="0" linenr="66" column="14" str=")"/>
+    <tok fileIndex="0" linenr="66" column="15" str="res"/>
+    <tok fileIndex="0" linenr="66" column="18" str=";"/>
+    <tok fileIndex="0" linenr="67" column="1" str="}"/>
+  </rawtokens>
+  <suppressions>
+  </suppressions>
+<dump cfg="">
+  <standards>
+    <c version="c11"/>
+    <cpp version="c++23"/>
+  </standards>
+  <directivelist>
+    <directive file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="30" str="#include &lt;stdio.h&gt;"/>
+    <directive file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="31" str="#include &lt;curl/curl.h&gt;"/>
+  </directivelist>
+  <tokenlist>
+    <token id="15771456750" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="39" column="1" str="int" scope="1575762efb0" type="name"/>
+    <token id="15771455970" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="39" column="5" str="main" scope="1575762efb0" type="name" function="157530bad10"/>
+    <token id="15771455d30" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="39" column="9" str="(" scope="1575762efb0" isRemovedVoidParameter="true" link="15771456090" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="15771456090" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="39" column="14" str=")" scope="1575762efb0" link="15771455d30"/>
+    <token id="15771456450" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="40" column="1" str="{" scope="15757631df0" link="15771458310"/>
+    <token id="15771456c90" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="41" column="3" str="CURL" scope="15757631df0" type="name" astParent="15771455910"/>
+    <token id="15771455910" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="41" column="8" str="*" scope="15757631df0" type="op" isArithmeticalOp="true" astOperand1="15771456c90" astOperand2="15771455eb0"/>
+    <token id="15771455eb0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="41" column="9" str="curl" scope="15757631df0" type="name" varId="1" exprId="1" variable="15743c64310" astParent="15771455910"/>
+    <token id="15771456210" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="41" column="13" str=";" scope="15757631df0"/>
+    <token id="15771455df0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="42" column="3" str="CURLcode" scope="15757631df0" type="name"/>
+    <token id="15771456e70" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="42" column="12" str="res" scope="15757631df0" type="name" varId="2" exprId="2" variable="15743c62cc0"/>
+    <token id="15771456e10" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="42" column="16" str=";" scope="15757631df0" isSplittedVarDeclEq="true"/>
+    <token id="157714578f0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="42" column="12" str="res" scope="15757631df0" type="name" varId="2" exprId="2" variable="15743c62cc0" astParent="15771458370"/>
+    <token id="15771458370" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="42" column="16" str="=" scope="15757631df0" type="op" isAssignmentOp="true" exprId="1073741828" astOperand1="157714578f0" astOperand2="15771456150"/>
+    <token id="15771456150" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="42" column="18" str="CURLE_OK" scope="15757631df0" type="name" exprId="3" astParent="15771458370"/>
+    <token id="15771456ed0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="42" column="26" str=";" scope="15757631df0"/>
+    <token id="15771456b10" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="44" column="3" str="curl" scope="15757631df0" type="name" varId="1" exprId="1" variable="15743c64310" astParent="15771455a30"/>
+    <token id="15771455a30" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="44" column="8" str="=" scope="15757631df0" type="op" isAssignmentOp="true" exprId="1073741829" astOperand1="15771456b10" astOperand2="15771456810"/>
+    <token id="157714568d0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="44" column="10" str="curl_easy_init" scope="15757631df0" type="name" astParent="15771456810"/>
+    <token id="15771456810" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="44" column="24" str="(" scope="15757631df0" link="15771455f70" exprId="1073741830" astParent="15771455a30" astOperand1="157714568d0"/>
+    <token id="15771455f70" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="44" column="25" str=")" scope="15757631df0" link="15771456810"/>
+    <token id="15771455c70" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="44" column="26" str=";" scope="15757631df0"/>
+    <token id="15771456990" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="45" column="3" str="if" scope="15757631df0" type="name" astParent="15771456f90"/>
+    <token id="15771456f90" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="45" column="5" str="(" scope="15757631df0" link="15771455a90" exprId="1073741831" astOperand1="15771456990" astOperand2="157714565d0"/>
+    <token id="157714565d0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="45" column="6" str="curl" scope="15757631df0" type="name" varId="1" exprId="1" variable="15743c64310" astParent="15771456f90"/>
+    <token id="15771455a90" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="45" column="10" str=")" scope="15757631df0" link="15771456f90"/>
+    <token id="15771456870" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="45" column="12" str="{" scope="1575762e1f0" link="15771458790"/>
+    <token id="157714562d0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="47" column="5" str="curl_easy_setopt" scope="1575762e1f0" type="name" astParent="157714560f0"/>
+    <token id="157714560f0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="47" column="21" str="(" scope="1575762e1f0" link="15771455af0" exprId="1073741832" astOperand1="157714562d0" astOperand2="15771456930"/>
+    <token id="15771455d90" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="47" column="22" str="curl" scope="1575762e1f0" type="name" varId="1" exprId="1" variable="15743c64310" values="157465083a0" astParent="15771456ab0"/>
+    <token id="15771456ab0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="47" column="26" str="," scope="1575762e1f0" astParent="15771456930" astOperand1="15771455d90" astOperand2="15771457050"/>
+    <token id="15771457050" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="47" column="28" str="CURLOPT_USERNAME" scope="1575762e1f0" type="name" astParent="15771456ab0"/>
+    <token id="15771456930" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="47" column="44" str="," scope="1575762e1f0" astParent="157714560f0" astOperand1="15771456ab0" astOperand2="157714569f0"/>
+    <token id="157714569f0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="47" column="46" str="&quot;user&quot;" scope="1575762e1f0" type="string" strlen="4" values="15746507ea0" astParent="15771456930" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="15771455af0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="47" column="52" str=")" scope="1575762e1f0" link="157714560f0"/>
+    <token id="15771455b50" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="47" column="53" str=";" scope="1575762e1f0"/>
+    <token id="157714561b0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="48" column="5" str="curl_easy_setopt" scope="1575762e1f0" type="name" astParent="15771456a50"/>
+    <token id="15771456a50" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="48" column="21" str="(" scope="1575762e1f0" link="15771457b30" exprId="1073741833" astOperand1="157714561b0" astOperand2="15771456270"/>
+    <token id="15771455bb0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="48" column="22" str="curl" scope="1575762e1f0" type="name" varId="1" exprId="1" variable="15743c64310" astParent="15771456b70"/>
+    <token id="15771456b70" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="48" column="26" str="," scope="1575762e1f0" astParent="15771456270" astOperand1="15771455bb0" astOperand2="15771456ff0"/>
+    <token id="15771456ff0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="48" column="28" str="CURLOPT_PASSWORD" scope="1575762e1f0" type="name" astParent="15771456b70"/>
+    <token id="15771456270" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="48" column="44" str="," scope="1575762e1f0" astParent="15771456a50" astOperand1="15771456b70" astOperand2="15771456330"/>
+    <token id="15771456330" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="48" column="46" str="&quot;secret&quot;" scope="1575762e1f0" type="string" strlen="6" values="15746507c60" astParent="15771456270" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="15771457b30" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="48" column="54" str=")" scope="1575762e1f0" link="15771456a50"/>
+    <token id="157714577d0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="48" column="55" str=";" scope="1575762e1f0"/>
+    <token id="15771458670" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="51" column="5" str="curl_easy_setopt" scope="1575762e1f0" type="name" astParent="15771457b90"/>
+    <token id="15771457b90" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="51" column="21" str="(" scope="1575762e1f0" link="15771457a70" exprId="1073741834" astOperand1="15771458670" astOperand2="15771457290"/>
+    <token id="15771457bf0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="51" column="22" str="curl" scope="1575762e1f0" type="name" varId="1" exprId="1" variable="15743c64310" astParent="157714576b0"/>
+    <token id="157714576b0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="51" column="26" str="," scope="1575762e1f0" astParent="15771457290" astOperand1="15771457bf0" astOperand2="15771457950"/>
+    <token id="15771457950" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="51" column="28" str="CURLOPT_URL" scope="1575762e1f0" type="name" astParent="157714576b0"/>
+    <token id="15771457290" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="51" column="39" str="," scope="1575762e1f0" astParent="15771457b90" astOperand1="157714576b0" astOperand2="157714588b0"/>
+    <token id="157714588b0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="52" column="22" str="&quot;imap://imap.example.com/INBOX/;UID=1&quot;" scope="1575762e1f0" type="string" strlen="36" values="157465078c0" astParent="15771457290" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="15771457a70" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="52" column="60" str=")" scope="1575762e1f0" link="15771457b90"/>
+    <token id="15771458610" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="52" column="61" str=";" scope="1575762e1f0"/>
+    <token id="15771457fb0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="55" column="5" str="res" scope="1575762e1f0" type="name" varId="2" exprId="2" variable="15743c62cc0" astParent="15771458190"/>
+    <token id="15771458190" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="55" column="9" str="=" scope="1575762e1f0" type="op" isAssignmentOp="true" exprId="1073741835" astOperand1="15771457fb0" astOperand2="157714571d0"/>
+    <token id="15771457710" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="55" column="11" str="curl_easy_perform" scope="1575762e1f0" type="name" astParent="157714571d0"/>
+    <token id="157714571d0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="55" column="28" str="(" scope="1575762e1f0" link="15771458490" exprId="1073741836" astParent="15771458190" astOperand1="15771457710" astOperand2="15771457c50"/>
+    <token id="15771457c50" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="55" column="29" str="curl" scope="1575762e1f0" type="name" varId="1" exprId="1" variable="15743c64310" astParent="157714571d0"/>
+    <token id="15771458490" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="55" column="33" str=")" scope="1575762e1f0" link="157714571d0"/>
+    <token id="15771457230" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="55" column="34" str=";" scope="1575762e1f0"/>
+    <token id="157714582b0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="58" column="5" str="if" scope="1575762e1f0" type="name" astParent="15771458550"/>
+    <token id="15771458550" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="58" column="7" str="(" scope="1575762e1f0" link="157714572f0" exprId="1073741837" astOperand1="157714582b0" astOperand2="157714584f0"/>
+    <token id="15771458430" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="58" column="8" str="res" scope="1575762e1f0" type="name" varId="2" exprId="2" variable="15743c62cc0" astParent="157714584f0"/>
+    <token id="157714584f0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="58" column="12" str="!=" scope="1575762e1f0" type="op" isComparisonOp="true" exprId="1073741838" values="15746508780" astParent="15771458550" astOperand1="15771458430" astOperand2="15771457650" valueType-type="bool" valueType-reference="None"/>
+    <token id="15771457650" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="58" column="15" str="CURLE_OK" scope="1575762e1f0" type="name" exprId="3" astParent="157714584f0"/>
+    <token id="157714572f0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="58" column="23" str=")" scope="1575762e1f0" link="15771458550"/>
+    <token id="15771458850" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="58" column="0" str="{" scope="1575762faf0" link="15771457e90"/>
+    <token id="157714586d0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="59" column="7" str="fprintf" scope="1575762faf0" type="name" astParent="15771457170"/>
+    <token id="15771457170" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="59" column="14" str="(" scope="1575762faf0" link="157714585b0" exprId="1073741839" astOperand1="157714586d0" astOperand2="15771457ad0" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-originalTypeName="int"/>
+    <token id="15771457350" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="59" column="15" str="stderr" scope="1575762faf0" type="name" astParent="15771457cb0"/>
+    <token id="15771457cb0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="59" column="21" str="," scope="1575762faf0" astParent="15771457ad0" astOperand1="15771457350" astOperand2="157714579b0"/>
+    <token id="157714579b0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="59" column="23" str="&quot;curl_easy_perform() failed: %s\n&quot;" scope="1575762faf0" type="string" strlen="31" values="15746507ee0" astParent="15771457cb0" valueType-type="char" valueType-pointer="1" valueType-constness="1" valueType-reference="None"/>
+    <token id="15771457ad0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="59" column="57" str="," scope="1575762faf0" astParent="15771457170" astOperand1="15771457cb0" astOperand2="157714587f0"/>
+    <token id="157714581f0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="60" column="15" str="curl_easy_strerror" scope="1575762faf0" type="name" astParent="157714587f0"/>
+    <token id="157714587f0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="60" column="33" str="(" scope="1575762faf0" link="15771457770" exprId="1073741840" astParent="15771457ad0" astOperand1="157714581f0" astOperand2="157714575f0"/>
+    <token id="157714575f0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="60" column="34" str="res" scope="1575762faf0" type="name" varId="2" exprId="2" variable="15743c62cc0" astParent="157714587f0"/>
+    <token id="15771457770" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="60" column="37" str=")" scope="1575762faf0" link="157714587f0"/>
+    <token id="157714585b0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="60" column="38" str=")" scope="1575762faf0" link="15771457170"/>
+    <token id="15771457830" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="60" column="39" str=";" scope="1575762faf0"/>
+    <token id="15771457e90" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="60" column="0" str="}" scope="1575762faf0" link="15771458850"/>
+    <token id="15771457d70" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="63" column="5" str="curl_easy_cleanup" scope="1575762e1f0" type="name" astParent="15771457d10"/>
+    <token id="15771457d10" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="63" column="22" str="(" scope="1575762e1f0" link="15771458730" exprId="1073741841" astOperand1="15771457d70" astOperand2="15771457890"/>
+    <token id="15771457890" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="63" column="23" str="curl" scope="1575762e1f0" type="name" varId="1" exprId="1" variable="15743c64310" astParent="15771457d10"/>
+    <token id="15771458730" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="63" column="27" str=")" scope="1575762e1f0" link="15771457d10"/>
+    <token id="15771457a10" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="63" column="28" str=";" scope="1575762e1f0"/>
+    <token id="15771458790" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="64" column="3" str="}" scope="1575762e1f0" link="15771456870"/>
+    <token id="15771457dd0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="66" column="3" str="return" scope="15757631df0" type="name" astOperand1="157714573b0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="157714573b0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="66" column="10" str="(" scope="15757631df0" isCast="true" link="15771457410" exprId="1073741842" astParent="15771457dd0" astOperand1="15771458250" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="15771457e30" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="66" column="11" str="int" scope="15757631df0" type="name"/>
+    <token id="15771457410" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="66" column="14" str=")" scope="15757631df0" link="157714573b0"/>
+    <token id="15771458250" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="66" column="15" str="res" scope="15757631df0" type="name" varId="2" exprId="2" variable="15743c62cc0" astParent="157714573b0"/>
+    <token id="15771457ef0" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="66" column="18" str=";" scope="15757631df0"/>
+    <token id="15771458310" file="C:/test_workspace/curl-master/docs/examples/imap-fetch.c" linenr="67" column="1" str="}" scope="15757631df0" link="15771456450"/>
+  </tokenlist>
+  <scopes>
+    <scope id="1575762efb0" type="Global">
+      <functionList>
+        <function id="157530bad10" token="15771455970" tokenDef="15771455970" name="main" type="Function" access="Public"/>
+      </functionList>
+    </scope>
+    <scope id="15757631df0" type="Function" className="main" bodyStart="15771456450" bodyEnd="15771458310" nestedIn="1575762efb0" function="157530bad10">
+      <varlist>
+        <var id="15743c64310"/>
+        <var id="15743c62cc0"/>
+      </varlist>
+    </scope>
+    <scope id="1575762e1f0" type="If" bodyStart="15771456870" bodyEnd="15771458790" nestedIn="15757631df0"/>
+    <scope id="1575762faf0" type="If" bodyStart="15771458850" bodyEnd="15771457e90" nestedIn="1575762e1f0"/>
+  </scopes>
+  <variables>
+    <var id="15743c62cc0" nameToken="15771456e70" typeStartToken="15771455df0" typeEndToken="15771455df0" access="Local" scope="15757631df0" constness="0" isArray="false" isClass="true" isConst="false" isExtern="false" isPointer="false" isReference="false" isStatic="false" isVolatile="false"/>
+    <var id="15743c64310" nameToken="15771455eb0" typeStartToken="15771456c90" typeEndToken="15771455910" access="Local" scope="15757631df0" constness="0" isArray="false" isClass="false" isConst="false" isExtern="false" isPointer="true" isReference="false" isStatic="false" isVolatile="false"/>
+  </variables>
+  <valueflow>
+    <values id="157465083a0">
+      <value intvalue="0" bound="Point" condition-line="45" impossible="true" path="0"/>
+    </values>
+    <values id="15746507ea0">
+      <value tokvalue="157714569f0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="15746507c60">
+      <value tokvalue="15771456330" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="157465078c0">
+      <value tokvalue="157714588b0" bound="Point" known="true" path="0"/>
+    </values>
+    <values id="15746508780">
+      <value intvalue="-1" bound="Upper" impossible="true" path="0"/>
+      <value intvalue="2" bound="Lower" impossible="true" path="0"/>
+    </values>
+    <values id="15746507ee0">
+      <value tokvalue="157714579b0" bound="Point" known="true" path="0"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

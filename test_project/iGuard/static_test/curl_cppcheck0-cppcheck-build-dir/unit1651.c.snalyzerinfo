@@ -1,0 +1,3 @@
+unit_setup
+unit_stop
+test global:[cert] call:[Curl_extract_certinfo,curl_easy_cleanup,curl_easy_init,curl_global_cleanup,curl_global_init,fprintf,return,sizeof,unit_setup,unit_stop,while] noreturn:[curl_easy_cleanup,curl_global_cleanup,unit_stop,while]

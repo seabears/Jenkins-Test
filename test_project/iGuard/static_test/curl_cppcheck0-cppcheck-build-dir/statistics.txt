@@ -1,0 +1,7 @@
+[12.05.2025]
+1747031520851
+cppcheck-error:73
+cppcheck-warning:244
+cppcheck-style:37254
+cppcheck-performance:0
+cppcheck-portability:7

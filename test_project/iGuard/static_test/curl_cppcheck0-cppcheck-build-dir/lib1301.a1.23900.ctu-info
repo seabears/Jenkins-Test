@@ -1,0 +1,3 @@
+{"summary": "MisraExternalIdentifiers", "data": [{"name": "test", "file": "C:/test_workspace/curl-master/tests/libtest/lib1301.c", "line": 26, "column": 10, "decl": false}]}
+{"summary": "MisraInternalIdentifiers", "data": []}
+{"summary": "MisraLocalIdentifiers", "data": [{"name": "rc", "file": "C:/test_workspace/curl-master/tests/libtest/lib1301.c", "line": 28, "column": 7}, {"name": "URL", "file": "C:/test_workspace/curl-master/tests/libtest/lib1301.c", "line": 26, "column": 21}]}

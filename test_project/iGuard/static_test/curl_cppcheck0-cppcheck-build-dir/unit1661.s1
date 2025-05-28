@@ -1,0 +1,4 @@
+test_free global:[freecount] call:[fprintf,free,while] noreturn:[free]
+unit_setup global:[bufref] call:[Curl_bufref_init]
+unit_stop global:[bufref] call:[Curl_bufref_free] noreturn:[Curl_bufref_free]
+test global:[bufref,freecount] call:[Curl_bufref_free,Curl_bufref_len,Curl_bufref_memdup,Curl_bufref_ptr,Curl_bufref_set,curl_easy_strerror,fprintf,malloc,return,strcmp,unit_setup,unit_stop,while] noreturn:[unit_stop,while]

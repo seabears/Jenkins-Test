@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11975123771652507227">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="34" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="36" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_printf.h&quot; not found." verbose="Include file: &quot;curl_printf.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="45" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testutil.h" line="26" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="28" column="0"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;trace_cfg&apos; can be declared as pointer to const" verbose="Variable &apos;trace_cfg&apos; can be declared as pointer to const" cwe="398" file0="C:/test_workspace/curl-master/tests/libtest/testtrace.c">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="90" column="29" info="Variable &apos;trace_cfg&apos; can be declared as pointer to const"/>
+            <symbol>trace_cfg</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/testtrace.c:36:6" call-funcname="libtest_debug_dump" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/testtrace.c" line="141" col="21" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/testtrace.c:36:6" my-argnr="1" my-argname="timebuf" file="C:/test_workspace/curl-master/tests/libtest/testtrace.c" line="48" col="48" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/testtrace.c:36:6" my-argnr="2" my-argname="text" file="C:/test_workspace/curl-master/tests/libtest/testtrace.c" line="48" col="57" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/testtrace.c:36:6" my-argnr="3" my-argname="stream" file="C:/test_workspace/curl-master/tests/libtest/testtrace.c" line="48" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/testtrace.c:36:6" my-argnr="3" my-argname="stream" file="C:/test_workspace/curl-master/tests/libtest/testtrace.c" line="48" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/testtrace.c:36:6" call-funcname="libtest_debug_dump" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/testtrace.c" line="141" col="21" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/testtrace.c:36:6" my-argnr="1" my-argname="timebuf" file="C:/test_workspace/curl-master/tests/libtest/testtrace.c" line="48" col="48" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/testtrace.c:36:6" my-argnr="2" my-argname="text" file="C:/test_workspace/curl-master/tests/libtest/testtrace.c" line="48" col="57" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/testtrace.c:36:6" my-argnr="3" my-argname="stream" file="C:/test_workspace/curl-master/tests/libtest/testtrace.c" line="48" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/testtrace.c:36:6" my-argnr="3" my-argname="stream" file="C:/test_workspace/curl-master/tests/libtest/testtrace.c" line="48" col="11" value="0"/>
+  </FileInfo>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;sys/select.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;sys/select.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="40" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;unistd.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="42" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/tests/libtest/testtrace.c:36:6" call-funcname="libtest_debug_dump" call-argnr="1" file="C:/test_workspace/curl-master/tests/libtest/testtrace.c" line="141" col="21" call-argexpr="timebuf" call-argvaluetype="7" call-argvalue="20"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/testtrace.c:36:6" my-argnr="1" my-argname="timebuf" file="C:/test_workspace/curl-master/tests/libtest/testtrace.c" line="48" col="48" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/testtrace.c:36:6" my-argnr="2" my-argname="text" file="C:/test_workspace/curl-master/tests/libtest/testtrace.c" line="48" col="57" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/testtrace.c:36:6" my-argnr="3" my-argname="stream" file="C:/test_workspace/curl-master/tests/libtest/testtrace.c" line="48" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/tests/libtest/testtrace.c:36:6" my-argnr="3" my-argname="stream" file="C:/test_workspace/curl-master/tests/libtest/testtrace.c" line="48" col="11" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="33" column="15"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="32" column="15"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="67" column="17"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="68" column="21"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="69" column="17"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="72" column="42"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="73" column="26"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="76" column="17"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="77" column="21"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="78" column="17"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="90" column="39"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="58" column="18"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="64" column="38"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="67" column="21"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="76" column="21"/>
+        </error>
+        <error id="misra-c2012-14.2" severity="style" msg="Required A for loop shall be well-formed" verbose="Required A for loop shall be well-formed" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="69" column="9"/>
+        </error>
+        <error id="misra-c2012-14.2" severity="style" msg="Required A for loop shall be well-formed" verbose="Required A for loop shall be well-formed" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="78" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="44" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="102" column="5"/>
+        </error>
+        <error id="misra-c2012-15.4" severity="style" msg="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" verbose="Advisory There should be no more than one break or goto statement used to terminate any iteration statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="64" column="52"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="118" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="138" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="44" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="57" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="58" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="60" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="48" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="53" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="59" column="18"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="61" column="16"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="72" column="14"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="82" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="84" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\testtrace.c" line="117" column="12"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/testtrace.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\test.h" line="522" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="libtest_debug_dump" lineNumber="36"/>
+    <functiondecl functionName="libtest_debug_cb" lineNumber="87"/>
+    <functiondecl functionName="libtest_debug_dump" lineNumber="36"/>
+    <functiondecl functionName="libtest_debug_cb" lineNumber="87"/>
+    <functiondecl functionName="libtest_debug_dump" lineNumber="36"/>
+    <functiondecl functionName="libtest_debug_cb" lineNumber="87"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="fflush"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="fputc"/>
+    <functioncall functionName="fputs"/>
+    <functioncall functionName="libtest_debug_dump"/>
+    <functioncall functionName="localtime"/>
+    <functioncall functionName="msnprintf"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="tutil_tvnow"/>
+  </FileInfo>
+</analyzerinfo>

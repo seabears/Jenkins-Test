@@ -1,0 +1,7 @@
+SyncTime_CURL_WriteOutput call:[fwrite]
+SyncTime_CURL_WriteHeader global:[AutoSyncTime,MthStr,SYSTime,ShowAllHeader] call:[fprintf,sscanf,strcmp,strlen,strncmp] noreturn:[fprintf]
+SyncTime_CURL_Init call:[curl_easy_setopt,strlen] noreturn:[curl_easy_setopt]
+SyncTime_CURL_Fetch call:[curl_easy_perform,curl_easy_setopt,fclose,fopen] noreturn:[curl_easy_setopt,fclose]
+showUsage call:[fprintf]
+conf_init
+main global:[AutoSyncTime,DayStr,DefaultTimeServer,LOCALTime,MthStr,SYSTime,ShowAllHeader] call:[GetLocalTime,GetSystemTime,SetSystemTime,SyncTime_CURL_Fetch,SyncTime_CURL_Init,conf_init,curl_easy_cleanup,curl_easy_init,curl_global_init,difftime,fprintf,gmtime,localtime,mktime,showUsage,sizeof,snprintf,strcmp,strncmp,time] noreturn:[curl_easy_cleanup,fprintf,snprintf]

@@ -1,0 +1,4 @@
+select_wrapper call:[SET_SOCKERRNO,select] noreturn:[select]
+wait_ms call:[curlx_mstotv,select_wrapper] noreturn:[select_wrapper]
+hexdump call:[msnprintf] noreturn:[msnprintf]
+main global:[libtest_arg2,libtest_arg3,libtest_arg4,test_argc,test_argv] call:[CURL_SET_BINMODE,CURLcode,fprintf,return,test_func]

@@ -1,0 +1,3 @@
+unescape_word call:[curlx_dyn_addn,curlx_dyn_init,curlx_dyn_ptr] noreturn:[curlx_dyn_addn,curlx_dyn_ptr]
+sendf global:[Curl_cfree] call:[Curl_cfree,Curl_debug,Curl_xfer_send,curl_mvaprintf,strlen,va_end,va_start]
+dict_do global:[Curl_cfree] call:[Curl_cfree,Curl_failf,Curl_infof,Curl_urldecode,Curl_xfer_setup1,curl_strnequal,sendf,sizeof,strchr,unescape_word,while] noreturn:[Curl_infof,Curl_xfer_setup1,while]

@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11178836037717876317">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="37" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="38" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;uv.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;uv.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="39" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="40" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/docs/examples/multi-uv.c:55:24" call-funcname="create_curl_context" call-argnr="2" file="C:/test_workspace/curl-master/docs/examples/multi-uv.c" line="200" col="36" my-id="C:/test_workspace/curl-master/docs/examples/multi-uv.c:187:12" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/multi-uv.c:71:13" my-argnr="1" my-argname="handle" file="C:/test_workspace/curl-master/docs/examples/multi-uv.c" line="73" col="48" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/multi-uv.c:104:13" my-argnr="1" my-argname="context" file="C:/test_workspace/curl-master/docs/examples/multi-uv.c" line="112" col="41" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/multi-uv.c:141:13" my-argnr="1" my-argname="req" file="C:/test_workspace/curl-master/docs/examples/multi-uv.c" line="145" col="48" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/multi-uv.c:158:13" my-argnr="1" my-argname="req" file="C:/test_workspace/curl-master/docs/examples/multi-uv.c" line="160" col="48" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/multi-uv.c:71:13" my-argnr="1" my-argname="handle" file="C:/test_workspace/curl-master/docs/examples/multi-uv.c" line="73" col="48" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/multi-uv.c:141:13" my-argnr="1" my-argname="req" file="C:/test_workspace/curl-master/docs/examples/multi-uv.c" line="145" col="48" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/docs/examples/multi-uv.c:158:13" my-argnr="1" my-argname="req" file="C:/test_workspace/curl-master/docs/examples/multi-uv.c" line="160" col="48" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="200" column="7"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="213" column="22"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="214" column="28"/>
+        </error>
+        <error id="misra-c2012-13.4" severity="style" msg="Advisory The result of an assignment operator should not be used" verbose="Advisory The result of an assignment operator should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="112" column="18"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="112" column="8"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="128" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="147" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="149" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="161" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="212" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="93" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="231" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="147" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="149" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="174" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="177" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="204" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="206" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="230" column="3"/>
+        </error>
+        <error id="misra-c2012-16.3" severity="style" msg="Required An unconditional break statement shall terminate every switch-clause" verbose="Required An unconditional break statement shall terminate every switch-clause" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="220" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="88" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="92" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="101" column="10"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="124" column="13"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="129" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="134" column="14"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="178" column="18"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="244" column="13"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="60" column="38"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="74" column="7"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="37" column="0"/>
+        </error>
+        <error id="misra-c2012-21.8" severity="style" msg="Required The Standard Library functions abort, exit, getenv and system of &lt;stdlib.h&gt; shall not be used" verbose="Required The Standard Library functions abort, exit, getenv and system of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/multi-uv.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\multi-uv.c" line="219" column="10"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="create_curl_context" lineNumber="55"/>
+    <functiondecl functionName="curl_close_cb" lineNumber="71"/>
+    <functiondecl functionName="destroy_curl_context" lineNumber="77"/>
+    <functiondecl functionName="add_download" lineNumber="82"/>
+    <functiondecl functionName="check_multi_info" lineNumber="104"/>
+    <functiondecl functionName="on_uv_socket" lineNumber="141"/>
+    <functiondecl functionName="on_uv_timeout" lineNumber="158"/>
+    <functiondecl functionName="cb_timeout" lineNumber="170"/>
+    <functiondecl functionName="cb_socket" lineNumber="187"/>
+    <functiondecl functionName="main" lineNumber="225"/>
+    <functioncall functionName="CURLINFO_EFFECTIVE_URL"/>
+    <functioncall functionName="CURLINFO_PRIVATE"/>
+    <functioncall functionName="CURLMOPT_SOCKETDATA"/>
+    <functioncall functionName="CURLMOPT_SOCKETFUNCTION"/>
+    <functioncall functionName="CURLMOPT_TIMERDATA"/>
+    <functioncall functionName="CURLMOPT_TIMERFUNCTION"/>
+    <functioncall functionName="CURLOPT_PRIVATE"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURLOPT_WRITEDATA"/>
+    <functioncall functionName="CURL_GLOBAL_ALL"/>
+    <functioncall functionName="CURL_SOCKET_TIMEOUT"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="UV_RUN_DEFAULT"/>
+    <functioncall functionName="abort"/>
+    <functioncall functionName="add_download"/>
+    <functioncall functionName="cb_socket"/>
+    <functioncall functionName="cb_timeout"/>
+    <functioncall functionName="check_multi_info"/>
+    <functioncall functionName="create_curl_context"/>
+    <functioncall functionName="curl_close_cb"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_getinfo"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_global_init"/>
+    <functioncall functionName="curl_multi_add_handle"/>
+    <functioncall functionName="curl_multi_assign"/>
+    <functioncall functionName="curl_multi_cleanup"/>
+    <functioncall functionName="curl_multi_info_read"/>
+    <functioncall functionName="curl_multi_init"/>
+    <functioncall functionName="curl_multi_remove_handle"/>
+    <functioncall functionName="curl_multi_setopt"/>
+    <functioncall functionName="curl_multi_socket_action"/>
+    <functioncall functionName="destroy_curl_context"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="on_uv_socket"/>
+    <functioncall functionName="on_uv_timeout"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="snprintf"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="uv_close"/>
+    <functioncall functionName="uv_default_loop"/>
+    <functioncall functionName="uv_poll_init_socket"/>
+    <functioncall functionName="uv_poll_start"/>
+    <functioncall functionName="uv_poll_stop"/>
+    <functioncall functionName="uv_run"/>
+    <functioncall functionName="uv_timer_init"/>
+    <functioncall functionName="uv_timer_start"/>
+    <functioncall functionName="uv_timer_stop"/>
+  </FileInfo>
+</analyzerinfo>

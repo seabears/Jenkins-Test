@@ -1,0 +1,3 @@
+unit_setup call:[curl_global_init]
+unit_stop call:[curl_global_cleanup] noreturn:[curl_global_cleanup]
+test call:[fprintf,return,unit_setup,unit_stop,while] noreturn:[unit_stop,while]

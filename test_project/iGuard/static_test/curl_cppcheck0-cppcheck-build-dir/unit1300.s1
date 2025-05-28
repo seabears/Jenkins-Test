@@ -1,0 +1,4 @@
+test_Curl_llist_dtor
+unit_setup global:[llist,llist_destination] call:[Curl_llist_init]
+unit_stop
+test global:[llist,llist_destination] call:[Curl_llist_append,Curl_llist_count,Curl_llist_destroy,Curl_llist_head,Curl_llist_insert_next,Curl_llist_tail,Curl_node_elem,Curl_node_next,Curl_node_prev,Curl_node_remove,Curl_node_uremove,fprintf,return,unit_setup,unit_stop,while] noreturn:[Curl_llist_destroy,unit_stop,while]

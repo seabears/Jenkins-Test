@@ -1,0 +1,434 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11064606356038468055">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="27" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="28" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdint.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdint.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.h" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stddef.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stddef.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.h" line="30" column="0"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="105" column="12"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="111" column="12"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="117" column="12"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="123" column="12"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="132" column="14"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="148" column="16"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="155" column="14"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="168" column="16"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="175" column="14"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="181" column="14"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="187" column="14"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="203" column="14"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="214" column="12"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="227" column="12"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="248" column="12"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="252" column="12"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="285" column="12"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="289" column="12"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="295" column="12"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="336" column="14"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="346" column="16"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="352" column="14"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="369" column="10"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="391" column="10"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="409" column="10"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="425" column="10"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="443" column="10"/>
+        </error>
+        <error id="misra-c2012-7.2" severity="style" msg="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" verbose="Required A \342\200\234u\342\200\235 or \342\200\234U\342\200\235 suffix shall be applied to all integer constants that are represented in an unsigned type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="459" column="10"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.h" line="103" column="29"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.h" line="106" column="31"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.h" line="120" column="33"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.h" line="124" column="30"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.h" line="134" column="19"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.h" line="142" column="21"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.h" line="149" column="19"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.h" line="157" column="21"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.h" line="164" column="26"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.h" line="169" column="27"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.h" line="172" column="27"/>
+        </error>
+        <error id="misra-c2012-8.2" severity="style" msg="Required Function types shall be in prototype form with named parameters" verbose="Required Function types shall be in prototype form with named parameters" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.h" line="177" column="29"/>
+        </error>
+        <error id="misra-c2012-8.9" severity="style" msg="Advisory An object should be defined at block scope if its identifier only appears in a single function" verbose="Advisory An object should be defined at block scope if its identifier only appears in a single function" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="47" column="20"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="69" column="27"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="115" column="30"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="335" column="21"/>
+        </error>
+        <error id="misra-c2012-11.2" severity="style" msg="Required Conversions shall not be performed between a pointer to an incomplete type and any other type" verbose="Required Conversions shall not be performed between a pointer to an incomplete type and any other type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="221" column="28"/>
+        </error>
+        <error id="misra-c2012-11.2" severity="style" msg="Required Conversions shall not be performed between a pointer to an incomplete type and any other type" verbose="Required Conversions shall not be performed between a pointer to an incomplete type and any other type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="298" column="18"/>
+        </error>
+        <error id="misra-c2012-11.3" severity="style" msg="Required A cast shall not be performed between a pointer to object type and a pointer to a different object type" verbose="Required A cast shall not be performed between a pointer to object type and a pointer to a different object type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="298" column="18"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="69" column="14"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="136" column="9"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="152" column="9"/>
+        </error>
+        <error id="misra-c2012-11.5" severity="style" msg="Advisory A conversion should not be performed from pointer to void into pointer to object" verbose="Advisory A conversion should not be performed from pointer to void into pointer to object" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="210" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="141" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="143" column="11"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="162" column="9"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="179" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="190" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="193" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="196" column="7"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="198" column="12"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="265" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="307" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="310" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="325" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="328" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="331" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="349" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="71" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="105" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="111" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="117" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="123" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="132" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="145" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="148" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="155" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="168" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="175" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="181" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="187" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="203" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="214" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="227" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="248" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="252" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="285" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="289" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="295" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="336" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="346" column="9"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="352" column="7"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="70" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="104" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="141" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="143" column="9"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="190" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="193" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="196" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="198" column="10"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="247" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="265" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="284" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="307" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="310" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="325" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="328" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="335" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="349" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="351" column="5"/>
+        </error>
+        <error id="misra-c2012-16.3" severity="style" msg="Required An unconditional break statement shall terminate every switch-clause" verbose="Required An unconditional break statement shall terminate every switch-clause" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="170" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="72" column="9"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="206" column="11"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="231" column="9"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="231" column="16"/>
+        </error>
+        <error id="misra-c2012-20.7" severity="style" msg="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" verbose="Required Expressions resulting from the expansion of macro parameters shall be enclosed in parentheses" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.h" line="32" column="0"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="69" column="22"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="184" column="32"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="201" column="11"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="210" column="17"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="212" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="224" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="225" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="255" column="7"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="269" column="9"/>
+        </error>
+        <error id="misra-c2012-21.3" severity="style" msg="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" verbose="Required The memory allocation and deallocation functions of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="311" column="9"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="27" column="0"/>
+        </error>
+        <error id="misra-c2012-21.8" severity="style" msg="Required The Standard Library functions abort, exit, getenv and system of &lt;stdlib.h&gt; shall not be used" verbose="Required The Standard Library functions abort, exit, getenv and system of &lt;stdlib.h&gt; shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/stub_gssapi.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\libtest\stub_gssapi.c" line="114" column="17"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="my_strndup" lineNumber="67"/>
+    <functiondecl functionName="gss_init_sec_context" lineNumber="77"/>
+    <functiondecl functionName="gss_delete_sec_context" lineNumber="241"/>
+    <functiondecl functionName="gss_release_buffer" lineNumber="262"/>
+    <functiondecl functionName="gss_import_name" lineNumber="276"/>
+    <functiondecl functionName="gss_release_name" lineNumber="304"/>
+    <functiondecl functionName="gss_display_status" lineNumber="316"/>
+    <functiondecl functionName="gss_display_name" lineNumber="360"/>
+    <functiondecl functionName="gss_inquire_context" lineNumber="372"/>
+    <functiondecl functionName="gss_wrap" lineNumber="394"/>
+    <functiondecl functionName="gss_unwrap" lineNumber="412"/>
+    <functiondecl functionName="gss_seal" lineNumber="428"/>
+    <functiondecl functionName="gss_unseal" lineNumber="446"/>
+    <functioncall functionName="GSS_INVALID_ARGS"/>
+    <functioncall functionName="GSS_INVALID_CREDS"/>
+    <functioncall functionName="GSS_INVALID_CTX"/>
+    <functioncall functionName="GSS_NO_MECH"/>
+    <functioncall functionName="GSS_NO_MEMORY"/>
+    <functioncall functionName="GSS_SERVER_ERR"/>
+    <functioncall functionName="KRB5"/>
+    <functioncall functionName="NTLM1"/>
+    <functioncall functionName="NTLM3"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="getenv"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="my_strndup"/>
+    <functioncall functionName="snprintf"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="strdup"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="strstr"/>
+  </FileInfo>
+</analyzerinfo>

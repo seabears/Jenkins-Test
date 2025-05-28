@@ -1,0 +1,8 @@
+my_md5_body call:[while]
+my_md5_init
+my_md5_update call:[memcpy,my_md5_body] noreturn:[memcpy,my_md5_body]
+my_md5_final call:[curlx_ultouc,memset,my_md5_body,sizeof] noreturn:[memset]
+Curl_md5it call:[curlx_uztoui,my_md5_final,my_md5_init,my_md5_update] noreturn:[my_md5_final]
+Curl_MD5_init global:[Curl_cfree,Curl_cmalloc] call:[Curl_cfree,Curl_cmalloc,sizeof]
+Curl_MD5_update
+Curl_MD5_final global:[Curl_cfree] call:[Curl_cfree]

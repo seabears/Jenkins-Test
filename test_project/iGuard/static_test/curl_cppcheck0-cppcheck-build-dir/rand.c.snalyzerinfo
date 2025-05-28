@@ -1,0 +1,5 @@
+weak_random call:[Curl_infof,curlx_now,memcpy,while] noreturn:[Curl_infof,memcpy]
+randit call:[sizeof,weak_random] noreturn:[weak_random]
+Curl_rand_bytes call:[randit,sizeof,while]
+Curl_rand_hex call:[Curl_hexencode,Curl_rand_bytes,sizeof,while]
+Curl_rand_alnum global:[alnum] call:[randit,sizeof,while]

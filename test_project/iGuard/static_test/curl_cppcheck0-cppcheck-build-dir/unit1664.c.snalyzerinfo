@@ -1,0 +1,3 @@
+unit_setup call:[global_init]
+unit_stop call:[curl_global_cleanup] noreturn:[curl_global_cleanup]
+test call:[Curl_str_hex,Curl_str_newline,Curl_str_number,Curl_str_octal,Curl_str_quotedword,Curl_str_single,Curl_str_singlespace,Curl_str_until,Curl_str_word,fprintf,printf,return,unit_setup,unit_stop,while] noreturn:[printf,unit_stop,while]

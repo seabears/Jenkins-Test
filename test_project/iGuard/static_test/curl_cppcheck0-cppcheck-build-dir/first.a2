@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8115100405130637739">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\server\first.c" line="24" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\tests\server\first.c" line="25" column="0"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/first.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\first.c" line="35" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/first.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\first.c" line="52" column="5"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/first.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\first.c" line="30" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/first.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\first.c" line="34" column="12"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/first.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\first.c" line="51" column="12"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/first.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\first.c" line="55" column="3"/>
+        </error>
+        <error id="misra-c2012-17.8" severity="style" msg="Advisory A function parameter should not be modified" verbose="Advisory A function parameter should not be modified" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/first.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\first.c" line="56" column="3"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/first.a2.23900.dump">
+            <location file="C:\test_workspace\curl-master\tests\server\first.c" line="24" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="28"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="main_func"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="ptr"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strcmp"/>
+  </FileInfo>
+</analyzerinfo>

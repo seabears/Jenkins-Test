@@ -1,0 +1,18 @@
+Curl_hash_init call:[while]
+hash_elem_create global:[Curl_cmalloc] call:[Curl_cmalloc,memcpy,sizeof]
+hash_elem_clear_ptr call:[dtor,while] noreturn:[dtor]
+hash_elem_destroy global:[Curl_cfree] call:[Curl_cfree,hash_elem_clear_ptr] noreturn:[Curl_cfree]
+hash_elem_unlink
+hash_elem_link
+Curl_hash_add2 global:[Curl_ccalloc] call:[Curl_ccalloc,comp_func,hash_elem_clear_ptr,hash_elem_create,hash_elem_link,hash_func,sizeof,while]
+Curl_hash_add call:[Curl_hash_add2] noreturn:[Curl_hash_add2]
+Curl_hash_delete call:[comp_func,hash_elem_destroy,hash_elem_unlink,hash_func,while]
+Curl_hash_pick call:[comp_func,hash_func,while]
+Curl_hash_destroy global:[Curl_cfree] call:[Curl_cfree,Curl_hash_clean,while] noreturn:[while]
+Curl_hash_clean call:[hash_elem_destroy,hash_elem_unlink,while] noreturn:[hash_elem_destroy]
+Curl_hash_count call:[while]
+Curl_hash_clean_with_criterium call:[comp,hash_elem_destroy,hash_elem_unlink,while] noreturn:[hash_elem_destroy]
+Curl_hash_str call:[return] noreturn:[return]
+Curl_str_key_compare call:[memcmp]
+Curl_hash_start_iterate call:[while]
+Curl_hash_next_element call:[while]

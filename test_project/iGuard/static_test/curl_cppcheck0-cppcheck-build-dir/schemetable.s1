@@ -1,0 +1,3 @@
+calc
+showtable global:[ix,num,scheme] call:[calc,printf] noreturn:[calc,printf]
+main global:[ix,num,scheme] call:[calc,showtable] noreturn:[showtable]

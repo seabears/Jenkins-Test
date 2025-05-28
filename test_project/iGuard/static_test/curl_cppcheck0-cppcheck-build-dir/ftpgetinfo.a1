@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="8867416532957260265">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpgetinfo.c" line="24" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpgetinfo.c" line="25" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpgetinfo.c" line="27" column="0"/>
+        </error>
+        <error id="misra-c2012-7.4" severity="style" msg="Required A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235" verbose="Required A string literal shall not be assigned to an object unless the object\342\200\231s type is \342\200\234pointer to const-qualified char\342\200\235" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpgetinfo.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpgetinfo.c" line="45" column="19"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpgetinfo.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpgetinfo.c" line="55" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpgetinfo.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpgetinfo.c" line="77" column="7"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpgetinfo.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpgetinfo.c" line="73" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpgetinfo.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpgetinfo.c" line="78" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpgetinfo.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpgetinfo.c" line="83" column="14"/>
+        </error>
+        <error id="misra-c2012-18.4" severity="style" msg="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" verbose="Advisory The +, -, += and -= operators should not be applied to an expression of pointer type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpgetinfo.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpgetinfo.c" line="50" column="47"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/ftpgetinfo.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\docs\examples\ftpgetinfo.c" line="24" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="throw_away" lineNumber="34"/>
+    <functiondecl functionName="main" lineNumber="43"/>
+    <functioncall functionName="CURLINFO_CONTENT_LENGTH_DOWNLOAD_T"/>
+    <functioncall functionName="CURLINFO_FILETIME"/>
+    <functioncall functionName="CURLOPT_FILETIME"/>
+    <functioncall functionName="CURLOPT_HEADER"/>
+    <functioncall functionName="CURLOPT_HEADERFUNCTION"/>
+    <functioncall functionName="CURLOPT_NOBODY"/>
+    <functioncall functionName="CURLOPT_URL"/>
+    <functioncall functionName="CURL_GLOBAL_DEFAULT"/>
+    <functioncall functionName="ctime"/>
+    <functioncall functionName="curl_easy_cleanup"/>
+    <functioncall functionName="curl_easy_getinfo"/>
+    <functioncall functionName="curl_easy_init"/>
+    <functioncall functionName="curl_easy_perform"/>
+    <functioncall functionName="curl_easy_setopt"/>
+    <functioncall functionName="curl_global_cleanup"/>
+    <functioncall functionName="curl_global_init"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strrchr"/>
+    <functioncall functionName="throw_away"/>
+  </FileInfo>
+</analyzerinfo>

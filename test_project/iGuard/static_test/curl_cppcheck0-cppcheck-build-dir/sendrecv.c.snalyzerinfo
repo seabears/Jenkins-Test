@@ -1,0 +1,2 @@
+wait_on_socket call:[FD_SET,FD_ZERO,select] noreturn:[FD_SET]
+main call:[curl_easy_cleanup,curl_easy_getinfo,curl_easy_init,curl_easy_perform,curl_easy_recv,curl_easy_send,curl_easy_setopt,curl_easy_strerror,printf,sizeof,strlen,wait_on_socket,while] noreturn:[curl_easy_cleanup,printf]

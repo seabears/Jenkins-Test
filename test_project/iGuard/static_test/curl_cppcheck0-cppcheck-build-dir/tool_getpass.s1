@@ -1,0 +1,2 @@
+ttyecho
+getpass_r global:[tool_stderr] call:[close,fputs,open,read,ttyecho] noreturn:[close,ttyecho]

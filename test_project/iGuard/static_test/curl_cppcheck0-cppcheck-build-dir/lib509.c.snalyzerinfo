@@ -1,0 +1,6 @@
+custom_calloc global:[seen] call:[return]
+custom_malloc global:[seen] call:[return]
+custom_strdup global:[seen] call:[return]
+custom_realloc global:[seen] call:[return]
+custom_free global:[seen]
+test global:[seen] call:[curl_easy_cleanup,curl_easy_escape,curl_easy_init,curl_easy_setopt,curl_free,curl_global_cleanup,curl_global_init_mem,fprintf,printf,sizeof] noreturn:[curl_free,printf]

@@ -1,0 +1,4 @@
+unit_setup call:[global_init]
+unit_stop call:[curl_global_cleanup] noreturn:[curl_global_cleanup]
+test_parse call:[Curl_parse_interface,fprintf,free,strcmp,while] noreturn:[free,while]
+test call:[fprintf,return,test_parse,unit_setup,unit_stop,while] noreturn:[test_parse,unit_stop,while]

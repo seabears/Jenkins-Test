@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="617719418558380774">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\vms\curl_crtl_init.c" line="59" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\vms\curl_crtl_init.c" line="60" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;descrip.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;descrip.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\vms\curl_crtl_init.c" line="63" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;lnmdef.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;lnmdef.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\vms\curl_crtl_init.c" line="64" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stsdef.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stsdef.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\packages\vms\curl_crtl_init.c" line="65" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:91:7" call-funcname="SYS$TRNLNM" call-argnr="1" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="130" col="22" call-argexpr="&amp;attr" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:91:7" call-funcname="SYS$TRNLNM" call-argnr="3" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="130" col="22" call-argexpr="&amp;name_dsc" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:91:7" call-funcname="SYS$TRNLNM" call-argnr="4" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="130" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:91:7" call-funcname="SYS$TRNLNM" call-argnr="5" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="130" col="22" call-argexpr="itlst" call-argvaluetype="7" call-argvalue="-1"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:97:7" call-funcname="SYS$CRELNM" call-argnr="1" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="170" col="23" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:97:7" call-funcname="SYS$CRELNM" call-argnr="2" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="170" col="23" call-argexpr="&amp;proc_table_dsc" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:97:7" call-funcname="SYS$CRELNM" call-argnr="3" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="170" col="23" call-argexpr="&amp;logname_dsc" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:97:7" call-funcname="SYS$CRELNM" call-argnr="4" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="170" col="23" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:97:7" call-funcname="SYS$CRELNM" call-argnr="5" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="170" col="23" call-argexpr="item_list" call-argvaluetype="7" call-argvalue="-1"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:88:7" call-funcname="decc$feature_set_value" call-argnr="2" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="194" col="28" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:106:12" call-funcname="sys_trnlnm" call-argnr="2" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="204" col="22" call-argexpr="unix_shell_name" call-argvaluetype="7" call-argvalue="255"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:187:13" call-funcname="set_feature_default" call-argnr="2" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="220" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:87:7" call-funcname="decc$feature_get_index" call-argnr="1" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="191" col="11" my-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:187:13" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:106:12" my-argnr="1" my-argname="logname" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="125" col="34" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:143:12" my-argnr="2" my-argname="value" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="162" col="32" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:106:12" my-argnr="1" my-argname="logname" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="125" col="34" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:143:12" my-argnr="2" my-argname="value" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="162" col="32" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:91:7" call-funcname="SYS$TRNLNM" call-argnr="1" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="130" col="22" call-argexpr="&amp;attr" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:91:7" call-funcname="SYS$TRNLNM" call-argnr="3" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="130" col="22" call-argexpr="&amp;name_dsc" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:91:7" call-funcname="SYS$TRNLNM" call-argnr="4" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="130" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:91:7" call-funcname="SYS$TRNLNM" call-argnr="5" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="130" col="22" call-argexpr="itlst" call-argvaluetype="7" call-argvalue="-1"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:97:7" call-funcname="SYS$CRELNM" call-argnr="1" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="170" col="23" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:97:7" call-funcname="SYS$CRELNM" call-argnr="2" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="170" col="23" call-argexpr="&amp;proc_table_dsc" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:97:7" call-funcname="SYS$CRELNM" call-argnr="3" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="170" col="23" call-argexpr="&amp;logname_dsc" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:97:7" call-funcname="SYS$CRELNM" call-argnr="4" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="170" col="23" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:97:7" call-funcname="SYS$CRELNM" call-argnr="5" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="170" col="23" call-argexpr="item_list" call-argvaluetype="7" call-argvalue="-1"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:106:12" call-funcname="sys_trnlnm" call-argnr="2" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="204" col="22" call-argexpr="unix_shell_name" call-argvaluetype="7" call-argvalue="255"/><function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:143:12" call-funcname="sys_crelnm" call-argnr="1" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="184" col="3" my-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:182:13" my-argnr="1"/>
+<function-call call-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:143:12" call-funcname="sys_crelnm" call-argnr="2" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="184" col="3" my-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:182:13" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:106:12" my-argnr="1" my-argname="logname" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="125" col="34" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:143:12" my-argnr="2" my-argname="value" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="162" col="32" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:106:12" my-argnr="1" my-argname="logname" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="125" col="34" value="0"/>
+    <unsafe-usage my-id="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c:143:12" my-argnr="2" my-argname="value" file="C:/test_workspace/curl-master/packages/vms/curl_crtl_init.c" line="162" col="32" value="0"/>
+  </FileInfo>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/curl_crtl_init.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\vms\curl_crtl_init.c" line="328" column="9"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/curl_crtl_init.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\vms\curl_crtl_init.c" line="310" column="15"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/curl_crtl_init.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\vms\curl_crtl_init.c" line="205" column="64"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" verbose="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/curl_crtl_init.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\vms\curl_crtl_init.c" line="126" column="28"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" verbose="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/curl_crtl_init.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\vms\curl_crtl_init.c" line="152" column="34"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" verbose="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/curl_crtl_init.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\vms\curl_crtl_init.c" line="157" column="31"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" verbose="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/curl_crtl_init.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\vms\curl_crtl_init.c" line="164" column="25"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/curl_crtl_init.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\vms\curl_crtl_init.c" line="132" column="5"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/curl_crtl_init.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\vms\curl_crtl_init.c" line="250" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/curl_crtl_init.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\vms\curl_crtl_init.c" line="193" column="3"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/curl_crtl_init.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\vms\curl_crtl_init.c" line="194" column="28"/>
+        </error>
+        <error id="misra-c2012-21.6" severity="style" msg="Required The Standard Library input/output functions shall not be used" verbose="Required The Standard Library input/output functions shall not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/curl_crtl_init.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\vms\curl_crtl_init.c" line="59" column="0"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="Required The value returned by a function having non-void return type shall be used" verbose="Required The value returned by a function having non-void return type shall be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/curl_crtl_init.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\packages\vms\curl_crtl_init.c" line="184" column="13"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="sys_trnlnm" lineNumber="106"/>
+    <functiondecl functionName="sys_crelnm" lineNumber="143"/>
+    <functiondecl functionName="set_feature_default" lineNumber="187"/>
+    <functiondecl functionName="set_features" lineNumber="198"/>
+    <functiondecl functionName="sys_trnlnm" lineNumber="106"/>
+    <functiondecl functionName="sys_crelnm" lineNumber="143"/>
+    <functiondecl functionName="set_feature_default" lineNumber="182"/>
+    <functiondecl functionName="set_features" lineNumber="198"/>
+    <functioncall functionName="$DESCRIPTOR"/>
+    <functioncall functionName="$VMS_STATUS_SUCCESS"/>
+    <functioncall functionName="DSC$K_CLASS_S"/>
+    <functioncall functionName="DSC$K_DTYPE_T"/>
+    <functioncall functionName="LIB$INITIALIZE"/>
+    <functioncall functionName="LNM$M_CASE_BLIND"/>
+    <functioncall functionName="LNM$_STRING"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="SYS$CRELNM"/>
+    <functioncall functionName="SYS$TRNLNM"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="decc$feature_get_index"/>
+    <functioncall functionName="decc$feature_set_value"/>
+    <functioncall functionName="set_feature_default"/>
+    <functioncall functionName="set_features"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="sys_crelnm"/>
+    <functioncall functionName="sys_trnlnm"/>
+    <functioncall functionName="table_dsc"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,3 @@
+Curl_gss_init_sec_context call:[Curl_infof,gss_init_sec_context,while] noreturn:[Curl_infof,gss_init_sec_context,while]
+display_gss_error call:[GSS_ERROR,curl_msnprintf,gss_display_status,gss_release_buffer,while] noreturn:[curl_msnprintf,gss_release_buffer]
+Curl_gss_log_error call:[Curl_infof,display_gss_error,while] noreturn:[Curl_infof,display_gss_error,while]

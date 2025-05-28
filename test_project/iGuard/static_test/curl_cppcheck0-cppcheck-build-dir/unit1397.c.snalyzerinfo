@@ -1,0 +1,3 @@
+unit_setup
+unit_stop
+test global:[tests] call:[Curl_cert_hostcheck,fprintf,return,strlen,unit_setup,unit_stop,while] noreturn:[unit_stop,while]

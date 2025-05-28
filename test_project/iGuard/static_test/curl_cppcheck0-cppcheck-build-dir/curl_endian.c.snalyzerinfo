@@ -1,0 +1,3 @@
+Curl_read16_le call:[return]
+Curl_read32_le call:[return]
+Curl_read16_be call:[return]

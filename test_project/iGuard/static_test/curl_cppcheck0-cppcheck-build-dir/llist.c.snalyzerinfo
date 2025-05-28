@@ -1,0 +1,12 @@
+Curl_llist_init
+Curl_llist_insert_next call:[while]
+Curl_llist_append call:[Curl_llist_insert_next,while] noreturn:[Curl_llist_insert_next]
+Curl_node_take_elem call:[while]
+Curl_node_uremove call:[Curl_node_take_elem,_dtor,while] noreturn:[_dtor]
+Curl_node_remove call:[Curl_node_uremove] noreturn:[Curl_node_uremove]
+Curl_llist_destroy call:[Curl_node_uremove,while] noreturn:[Curl_node_uremove]
+Curl_llist_head call:[while]
+Curl_llist_count call:[while]
+Curl_node_elem call:[while]
+Curl_node_next call:[while]
+Curl_node_llist call:[while]

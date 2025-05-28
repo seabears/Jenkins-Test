@@ -1,0 +1,2 @@
+Curl_ipvalid call:[Curl_ipv6works] noreturn:[Curl_ipv6works]
+Curl_getaddrinfo call:[Curl_getaddrinfo_ex,Curl_infof,Curl_ipv6works,curl_msnprintf,curlx_inet_pton,memset,sizeof,while] noreturn:[Curl_infof]

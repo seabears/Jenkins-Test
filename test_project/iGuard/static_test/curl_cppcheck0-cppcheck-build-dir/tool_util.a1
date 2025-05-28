@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11963739417141769307">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curl_setup.h&quot; not found." verbose="Include file: &quot;curl_setup.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="38" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;curl/curl.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;timeval.h&quot; not found." verbose="Include file: &quot;timeval.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;curlx.h&quot; not found." verbose="Include file: &quot;curlx.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="28" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;memdebug.h&quot; not found." verbose="Include file: &quot;memdebug.h&quot; not found.">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="29" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;strings.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="79" column="0"/>
+        </error>
+        <error id="misra-c2012-11.8" severity="style" msg="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" verbose="Required A cast shall not remove any const or volatile qualification from the type pointed to by a pointer" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="81" column="27"/>
+        </error>
+        <error id="misra-c2012-11.9" severity="style" msg="Required The macro NULL shall be the only permitted form of integer null pointer constant" verbose="Required The macro NULL shall be the only permitted form of integer null pointer constant" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="72" column="15"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="72" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="74" column="5"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="71" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="73" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="100" column="3"/>
+        </error>
+        <error id="misra-c2012-15.6" severity="style" msg="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" verbose="Required The body of an iteration-statement or a selection-statement shall be a compound-statement" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="103" column="3"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="46" column="0"/>
+        </error>
+        <error id="misra-c2012-20.1" severity="style" msg="Advisory #include directives should only be preceded by preprocessor directives or comments" verbose="Advisory #include directives should only be preceded by preprocessor directives or comments" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="48" column="0"/>
+        </error>
+        <error id="misra-c2012-20.5" severity="style" msg="Advisory #undef should not be used" verbose="Advisory #undef should not be used" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_setup.h" line="107" column="0"/>
+        </error>
+        <error id="misra-c2012-8.4" severity="style" msg="Required A compatible declaration shall be visible when an object or function with external linkage is defined" verbose="Required A compatible declaration shall be visible when an object or function with external linkage is defined" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="96" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="101" column="5"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="104" column="5"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="121" column="10"/>
+        </error>
+        <error id="misra-c2012-10.4" severity="style" msg="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" verbose="Required Both operands of an operator in which the usual arithmetic conversions are performed shall have the same essential type category" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="129" column="39"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="121" column="14"/>
+        </error>
+        <error id="misra-c2012-12.1" severity="style" msg="Advisory The precedence of operators within expressions should be made explicit" verbose="Advisory The precedence of operators within expressions should be made explicit" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="129" column="27"/>
+        </error>
+        <error id="misra-c2012-14.4" severity="style" msg="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" verbose="Required The controlling expression of an if statement and the controlling expression of an iteration-statement shall have essentially Boolean type" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="124" column="7"/>
+        </error>
+        <error id="misra-c2012-15.5" severity="style" msg="Advisory A function should have a single point of exit at the end" verbose="Advisory A function should have a single point of exit at the end" file0="C:/test_workspace/curl-master/curl_cppcheck0-cppcheck-build-dir/tool_util.a1.23900.dump">
+            <location file="C:\test_workspace\curl-master\src\tool_util.c" line="132" column="9"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="tvrealnow" lineNumber="54"/>
+    <functiondecl functionName="struplocompare" lineNumber="69"/>
+    <functiondecl functionName="struplocompare4sort" lineNumber="79"/>
+    <functiondecl functionName="tvrealnow" lineNumber="54"/>
+    <functiondecl functionName="struplocompare" lineNumber="69"/>
+    <functiondecl functionName="struplocompare4sort" lineNumber="79"/>
+    <functiondecl functionName="tvrealnow" lineNumber="54"/>
+    <functiondecl functionName="struplocompare" lineNumber="69"/>
+    <functiondecl functionName="struplocompare4sort" lineNumber="79"/>
+    <functiondecl functionName="tvrealnow" lineNumber="54"/>
+    <functiondecl functionName="struplocompare" lineNumber="69"/>
+    <functiondecl functionName="struplocompare4sort" lineNumber="79"/>
+    <functiondecl functionName="tvrealnow" lineNumber="54"/>
+    <functiondecl functionName="struplocompare" lineNumber="69"/>
+    <functiondecl functionName="struplocompare4sort" lineNumber="79"/>
+    <functiondecl functionName="tvrealnow" lineNumber="54"/>
+    <functiondecl functionName="struplocompare" lineNumber="69"/>
+    <functiondecl functionName="struplocompare4sort" lineNumber="79"/>
+    <functiondecl functionName="tool_ftruncate64" lineNumber="96"/>
+    <functiondecl functionName="tvrealnow" lineNumber="33"/>
+    <functiondecl functionName="struplocompare" lineNumber="69"/>
+    <functiondecl functionName="struplocompare4sort" lineNumber="79"/>
+    <functiondecl functionName="tool_ftruncate64" lineNumber="96"/>
+    <functiondecl functionName="tvrealnow" lineNumber="54"/>
+    <functiondecl functionName="struplocompare" lineNumber="69"/>
+    <functiondecl functionName="struplocompare4sort" lineNumber="79"/>
+    <functiondecl functionName="tool_ftruncate64" lineNumber="96"/>
+    <functiondecl functionName="tvrealnow" lineNumber="33"/>
+    <functiondecl functionName="struplocompare" lineNumber="69"/>
+    <functiondecl functionName="struplocompare4sort" lineNumber="79"/>
+    <functiondecl functionName="tool_ftruncate64" lineNumber="96"/>
+    <functiondecl functionName="tool_execpath" lineNumber="112"/>
+    <functioncall functionName="DIR_CHAR"/>
+    <functioncall functionName="FOPEN_READTEXT"/>
+    <functioncall functionName="GetModuleFileNameA"/>
+    <functioncall functionName="GetSystemTime"/>
+    <functioncall functionName="HANDLE"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="SetEndOfFile"/>
+    <functioncall functionName="SystemTimeToFileTime"/>
+    <functioncall functionName="_get_osfhandle"/>
+    <functioncall functionName="_lseeki64"/>
+    <functioncall functionName="_stricmp"/>
+    <functioncall functionName="curl_uint64_t"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="gettimeofday"/>
+    <functioncall functionName="lseek"/>
+    <functioncall functionName="msnprintf"/>
+    <functioncall functionName="strcasecmp"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strcmpi"/>
+    <functioncall functionName="stricmp"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="strrchr"/>
+    <functioncall functionName="struplocompare"/>
+    <functioncall functionName="time"/>
+  </FileInfo>
+</analyzerinfo>
