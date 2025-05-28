@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "bsp.h": "c",
+        "dht22.h": "c",
+        "stdint.h": "c",
+        "stdbool.h": "c",
+        "ifx_types.h": "c",
+        "asclin.h": "c",
+        "ifxstdif_dpipe.h": "c"
+    }
+}
