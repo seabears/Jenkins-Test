@@ -1,7 +1,0 @@
-<map id="play_song" name="play_song">
-<area shape="rect" id="Node000001" title=" " alt="" coords="131,31,211,57"/>
-<area shape="rect" id="Node000002" href="$classmusic__player_1_1_music_screen.html#aee1403ca4307026a36d94a4867c9c3ca" title=" " alt="" coords="5,5,83,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,36,83,29,84,24,116,30"/>
-<area shape="rect" id="Node000003" href="$classmusic__player_1_1_music_screen.html#aaedec7aca4555d6bc0b3e2383733e6c3" title=" " alt="" coords="5,56,83,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="116,58,84,64,83,59,115,52"/>
-</map>

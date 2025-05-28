@@ -1,8 +1,0 @@
-curl_escape call:[curl_easy_escape] noreturn:[curl_easy_escape]
-curl_unescape call:[curl_easy_unescape] noreturn:[curl_easy_unescape]
-curl_easy_escape global:[Curl_cstrdup] call:[Curl_cstrdup,Curl_hexbyte,curlx_dyn_addn,curlx_dyn_init,curlx_dyn_ptr,strlen] noreturn:[Curl_cstrdup,curlx_dyn_ptr]
-Curl_urldecode global:[Curl_cfree,Curl_cmalloc,Curl_hexasciitable] call:[Curl_cfree,Curl_cmalloc,strlen,while]
-curl_easy_unescape global:[Curl_cfree] call:[Curl_cfree,Curl_urldecode,curlx_uztosi,while] noreturn:[curlx_uztosi,while]
-curl_free global:[Curl_cfree] call:[Curl_cfree] noreturn:[Curl_cfree]
-Curl_hexencode call:[Curl_hexbyte,while]
-Curl_hexbyte

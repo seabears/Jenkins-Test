@@ -1,6 +1,0 @@
-unit_setup
-unit_stop
-tail_err
-dump_bufq call:[fprintf,tail_err] noreturn:[fprintf]
-check_bufq global:[test_data] call:[Curl_bufcp_free,Curl_bufcp_init,Curl_bufq_free,Curl_bufq_init2,Curl_bufq_initp,Curl_bufq_is_empty,Curl_bufq_is_full,Curl_bufq_len,Curl_bufq_read,Curl_bufq_reset,Curl_bufq_unwrite,Curl_bufq_write,dump_bufq,fprintf,memcmp,sizeof,while] noreturn:[Curl_bufcp_free,Curl_bufq_init2,Curl_bufq_initp,Curl_bufq_reset,while]
-test call:[Curl_bufq_free,Curl_bufq_init,Curl_bufq_read,check_bufq,fprintf,return,unit_setup,unit_stop,while] noreturn:[unit_stop,while]

@@ -1,1 +1,0 @@
-main call:[assert,atoi,curl_global_sslset,curl_version,fprintf,isdigit,printf,strcmp] noreturn:[curl_global_sslset,printf]

@@ -1,3 +1,0 @@
-resolver_alloc_cb_fail global:[TEST_DATA_STRING,cb_count] call:[exit,fprintf,strcmp] noreturn:[exit]
-resolver_alloc_cb_pass global:[TEST_DATA_STRING,cb_count] call:[exit,fprintf,strcmp] noreturn:[exit]
-test global:[TEST_DATA_STRING,cb_count] call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_global_cleanup,curl_global_init,fprintf]

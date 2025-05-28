@@ -1,2 +1,0 @@
-write_response call:[fwrite] noreturn:[fwrite]
-main call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_easy_strerror,fclose,fopen,fprintf] noreturn:[curl_easy_cleanup,fprintf]

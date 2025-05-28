@@ -1,3 +1,0 @@
-unit_setup
-unit_stop
-test call:[CURL_ARRAYSIZE,doh_req_encode,fprintf,return,sizeof,strlen,unit_setup,unit_stop,while] noreturn:[unit_stop,while]

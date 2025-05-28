@@ -1,3 +1,0 @@
-{"summary": "MisraExternalIdentifiers", "data": [{"name": "main", "file": "C:/test_workspace/curl-master/docs/examples/parseurl.c", "line": 35, "column": 5, "decl": false}]}
-{"summary": "MisraInternalIdentifiers", "data": []}
-{"summary": "MisraLocalIdentifiers", "data": [{"name": "host", "file": "C:/test_workspace/curl-master/docs/examples/parseurl.c", "line": 39, "column": 9}, {"name": "path", "file": "C:/test_workspace/curl-master/docs/examples/parseurl.c", "line": 40, "column": 9}, {"name": "uc", "file": "C:/test_workspace/curl-master/docs/examples/parseurl.c", "line": 38, "column": 13}, {"name": "h", "file": "C:/test_workspace/curl-master/docs/examples/parseurl.c", "line": 37, "column": 10}]}

@@ -1,5 +1,0 @@
-max5data call:[CURL_OFF_T_C,msnprintf] noreturn:[msnprintf]
-xferinfo_cb call:[curl_easy_pause] noreturn:[curl_easy_pause]
-time2str call:[CURL_OFF_T_C,msnprintf,strcpy] noreturn:[msnprintf]
-progress_meter global:[all_dlalready,all_dltotal,all_ulalready,all_ultotal,all_xfers,indexwrapped,speedindex,speedstore,tool_stderr,transfers] call:[curlx_now,curlx_timediff,fprintf,fputs,max5data,msnprintf,sizeof,time2str] noreturn:[fputs,msnprintf,time2str]
-progress_finalize global:[all_dlalready,all_dltotal,all_ulalready,all_ultotal]

@@ -1,3 +1,0 @@
-{"summary": "MisraExternalIdentifiers", "data": [{"name": "main", "file": "C:/test_workspace/curl-master/docs/examples/ipv6.c", "line": 31, "column": 5, "decl": false}]}
-{"summary": "MisraInternalIdentifiers", "data": []}
-{"summary": "MisraLocalIdentifiers", "data": [{"name": "curl", "file": "C:/test_workspace/curl-master/docs/examples/ipv6.c", "line": 33, "column": 9}, {"name": "res", "file": "C:/test_workspace/curl-master/docs/examples/ipv6.c", "line": 34, "column": 12}]}

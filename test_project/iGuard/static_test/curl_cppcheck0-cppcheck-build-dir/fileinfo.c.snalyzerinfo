@@ -1,2 +1,0 @@
-Curl_fileinfo_alloc global:[Curl_ccalloc] call:[Curl_ccalloc,sizeof] noreturn:[Curl_ccalloc]
-Curl_fileinfo_cleanup global:[Curl_cfree] call:[Curl_cfree,curlx_dyn_free] noreturn:[Curl_cfree]

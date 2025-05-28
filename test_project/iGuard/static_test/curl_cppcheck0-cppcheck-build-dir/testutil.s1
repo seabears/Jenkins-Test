@@ -1,3 +1,0 @@
-tutil_tvnow call:[time]
-tutil_tvdiff call:[return]
-tutil_tvdiff_secs call:[return]

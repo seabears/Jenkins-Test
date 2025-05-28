@@ -1,3 +1,0 @@
-Curl_auth_create_plain_message global:[Curl_cmalloc] call:[Curl_bufref_set,Curl_cmalloc,memcpy,strlen] noreturn:[memcpy]
-Curl_auth_create_login_message call:[Curl_bufref_set,strlen] noreturn:[Curl_bufref_set]
-Curl_auth_create_external_message call:[Curl_auth_create_login_message] noreturn:[Curl_auth_create_login_message]

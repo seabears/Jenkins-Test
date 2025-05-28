@@ -1,3 +1,0 @@
-unit_setup global:[s_login,s_password]
-unit_stop global:[s_login,s_password] call:[Curl_safefree] noreturn:[Curl_safefree]
-test global:[s_login,s_password] call:[CURL_UNCONST,Curl_netrc_cleanup,Curl_netrc_init,Curl_parsenetrc,fprintf,free,return,strncmp,unit_setup,unit_stop,while] noreturn:[Curl_netrc_cleanup,unit_stop,while]

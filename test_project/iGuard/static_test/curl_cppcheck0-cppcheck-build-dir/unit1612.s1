@@ -1,3 +1,0 @@
-unit_setup
-unit_stop
-test call:[Curl_hmacit,fprintf,hexdump,memcmp,return,strlen,unit_setup,unit_stop,while] noreturn:[unit_stop,while]

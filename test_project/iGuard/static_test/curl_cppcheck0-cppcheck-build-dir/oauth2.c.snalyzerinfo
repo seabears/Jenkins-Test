@@ -1,2 +1,0 @@
-Curl_auth_create_oauth_bearer_message call:[Curl_bufref_set,curl_maprintf,strlen] noreturn:[curl_maprintf]
-Curl_auth_create_xoauth_bearer_message call:[Curl_bufref_set,curl_maprintf,strlen]

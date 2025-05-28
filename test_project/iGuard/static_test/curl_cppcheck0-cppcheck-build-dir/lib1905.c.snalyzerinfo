@@ -1,1 +1,0 @@
-test global:[libtest_arg2] call:[FD_ZERO,curl_easy_cleanup,curl_easy_init,curl_easy_setopt,curl_global_cleanup,curl_global_init,curl_multi_add_handle,curl_multi_cleanup,curl_multi_fdset,curl_multi_init,curl_multi_perform,curl_multi_remove_handle,curl_multi_timeout,curl_share_cleanup,curl_share_init,curl_share_setopt,curlx_mstotv,select] noreturn:[curlx_mstotv,select]

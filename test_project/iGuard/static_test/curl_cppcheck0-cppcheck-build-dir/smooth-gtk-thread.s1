@@ -1,7 +1,0 @@
-write_file call:[fwrite] noreturn:[fwrite]
-run_one global:[urls] call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,fclose,fopen,printf] noreturn:[curl_easy_cleanup]
-pull_one_url global:[j,lock,num_urls,urls] call:[g_free,g_strdup_printf,pthread_mutex_lock,pthread_mutex_unlock,run_one] noreturn:[g_free,pthread_mutex_lock]
-pulse_bar call:[GTK_PROGRESS_BAR,gdk_threads_enter,gdk_threads_leave,gtk_progress_bar_pulse]
-create_thread global:[num_urls,urls] call:[GPOINTER_TO_INT,G_OBJECT,fprintf,g_object_get_data,g_source_remove,gtk_widget_destroy,pthread_create,pthread_join] noreturn:[fprintf]
-cb_delete call:[gtk_main_quit]
-main call:[GINT_TO_POINTER,GTK_CONTAINER,GTK_FRAME,GTK_PROGRESS_BAR,G_CALLBACK,G_OBJECT,curl_global_init,g_object_set_data,g_signal_connect,g_thread_create,g_thread_init,g_timeout_add,g_warning,gdk_threads_enter,gdk_threads_init,gdk_threads_leave,gtk_container_add,gtk_container_set_border_width,gtk_frame_new,gtk_frame_set_shadow_type,gtk_init,gtk_main,gtk_progress_bar_new,gtk_progress_bar_pulse,gtk_widget_show_all,gtk_window_new,printf] noreturn:[g_warning]

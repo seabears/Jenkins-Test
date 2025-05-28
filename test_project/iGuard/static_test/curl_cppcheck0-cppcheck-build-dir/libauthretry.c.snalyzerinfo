@@ -1,5 +1,0 @@
-send_request call:[curl_easy_perform,curl_easy_setopt,fprintf,free,malloc,msnprintf,strlen]
-send_wrong_password call:[send_request] noreturn:[send_request]
-send_right_password call:[send_request] noreturn:[send_request]
-parse_auth_name call:[curl_strequal]
-test global:[libtest_arg2,libtest_arg3] call:[curl_easy_cleanup,curl_easy_init,curl_global_cleanup,curl_global_init,fprintf,parse_auth_name,send_right_password,send_wrong_password]

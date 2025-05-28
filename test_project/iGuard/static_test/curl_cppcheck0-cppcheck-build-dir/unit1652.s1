@@ -1,5 +1,0 @@
-debugf_cb global:[output] call:[memcpy,memset,sizeof]
-unit_setup global:[testdata] call:[curl_easy_init,curl_easy_setopt,curl_global_cleanup,global_init]
-unit_stop global:[testdata] call:[curl_easy_cleanup,curl_global_cleanup] noreturn:[curl_global_cleanup]
-verify call:[strchr,strncmp] noreturn:[strncmp]
-test global:[input,output,testdata] call:[Curl_infof,fprintf,memset,msnprintf,return,sizeof,strlen,unit_setup,unit_stop,verify,while] noreturn:[unit_stop,while]

@@ -1,5 +1,0 @@
-my_md4_body call:[while]
-MD4_Init
-MD4_Update call:[memcpy,my_md4_body] noreturn:[memcpy,my_md4_body]
-MD4_Final call:[curlx_ultouc,memset,my_md4_body,sizeof] noreturn:[memset]
-Curl_md4it call:[MD4_Final,MD4_Init,MD4_Update,curlx_uztoui]

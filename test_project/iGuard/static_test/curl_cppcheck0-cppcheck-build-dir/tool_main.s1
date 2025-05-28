@@ -1,4 +1,0 @@
-main_init call:[config_init,curl_global_init,errorf,free,get_libcurl_info,malloc,sizeof] noreturn:[free]
-free_globalconfig call:[curlx_safefree,fclose] noreturn:[curlx_safefree,fclose]
-main_free call:[config_free,curl_global_cleanup,free_globalconfig]
-main call:[errorf,main_free,main_init,memset,operate,return,sizeof,tool_init_stderr,while] noreturn:[main_free]

@@ -1,1 +1,0 @@
-main call:[$VMS_STATUS_SUCCESS,LIB$SET_SYMBOL,dlclose,dlopen,dlsym,puts,ssl_version,strlen] noreturn:[dlsym]

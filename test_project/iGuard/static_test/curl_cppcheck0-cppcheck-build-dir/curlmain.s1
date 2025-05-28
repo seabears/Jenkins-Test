@@ -1,1 +1,0 @@
-main global:[ebcdic_argc,ebcdic_argv] call:[QadrtFreeConversionTable,QadrtFreeEnviron,free,iconv,iconv_close,iconv_open,main_a,malloc,setlocale_a,sizeof,while] noreturn:[iconv]

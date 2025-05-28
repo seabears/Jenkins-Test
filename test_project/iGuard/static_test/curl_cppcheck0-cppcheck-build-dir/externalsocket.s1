@@ -1,5 +1,0 @@
-write_data call:[fwrite]
-closecb call:[printf]
-opensocket
-sockopt_callback
-main call:[close,connect,curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,htons,inet_addr,memset,printf,sizeof,socket,strerror]

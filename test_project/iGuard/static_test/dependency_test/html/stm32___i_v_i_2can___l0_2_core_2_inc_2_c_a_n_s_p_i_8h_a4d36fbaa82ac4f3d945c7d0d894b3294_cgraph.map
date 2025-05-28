@@ -1,9 +1,0 @@
-<map id="CANSPI_Transmit" name="CANSPI_Transmit">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,136,83"/>
-<area shape="rect" id="Node000002" href="$stm32___i_v_i_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#a85cfeaacfe5f8cdc8d793747abba26ce" title=" " alt="" coords="184,5,371,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,53,204,34,206,39,129,58"/>
-<area shape="rect" id="Node000003" href="$stm32___i_v_i_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#a07e01388c4b19b7dd6a6b7588de2bf40" title=" " alt="" coords="200,56,355,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="136,67,184,67,184,72,136,72"/>
-<area shape="rect" id="Node000004" href="$stm32___i_v_i_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#aeb8ce761748fdcc5506439ea62ad1b4b" title=" " alt="" coords="188,107,367,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="129,81,206,100,204,105,128,86"/>
-</map>

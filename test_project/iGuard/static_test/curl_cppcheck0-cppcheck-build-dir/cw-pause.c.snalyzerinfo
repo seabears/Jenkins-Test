@@ -1,8 +1,0 @@
-cw_pause_buf_create global:[Curl_ccalloc] call:[Curl_bufq_init,Curl_bufq_init2,Curl_ccalloc,sizeof] noreturn:[Curl_bufq_init,Curl_bufq_init2]
-cw_pause_buf_free global:[Curl_cfree] call:[Curl_bufq_free,Curl_cfree] noreturn:[Curl_cfree]
-cw_pause_init
-cw_pause_bufs_free call:[cw_pause_buf_free]
-cw_pause_close call:[cw_pause_bufs_free] noreturn:[cw_pause_bufs_free]
-cw_pause_flush global:[Curl_trc_feat_write] call:[Curl_bufq_is_empty,Curl_bufq_peek,Curl_bufq_skip,Curl_cwriter_is_content_decoding,Curl_cwriter_is_paused,Curl_cwriter_write,Curl_trc_write,cw_pause_buf_free,while] noreturn:[Curl_trc_write,while]
-cw_pause_write global:[Curl_trc_feat_write] call:[Curl_bufq_cwrite,Curl_cwriter_is_content_decoding,Curl_cwriter_is_paused,Curl_cwriter_write,Curl_trc_write,cw_pause_buf_create,cw_pause_flush,while] noreturn:[Curl_bufq_cwrite,Curl_trc_write]
-Curl_cw_pause_flush global:[Curl_cwt_pause] call:[Curl_cwriter_get_by_type,cw_pause_flush] noreturn:[cw_pause_flush]

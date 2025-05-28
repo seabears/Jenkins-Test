@@ -1,2 +1,0 @@
-tool_read_cb call:[CURL_SETERRNO,FD_SET,FD_ZERO,curlx_now,curlx_timediff,read,return,select,warnf]
-tool_readbusy_cb call:[curl_easy_pause,curlx_now,curlx_timediff,tool_go_sleep] noreturn:[curl_easy_pause,tool_go_sleep]

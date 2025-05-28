@@ -1,6 +1,0 @@
-store_errmsg global:[msgbuff] call:[msnprintf,sizeof,strerror] noreturn:[msnprintf]
-close_file_descriptors global:[num_open,testfd] call:[close,free] noreturn:[close]
-fopen_works global:[msgbuff] call:[fclose,fopen,fprintf,store_errmsg] noreturn:[fclose]
-rlim2str call:[msnprintf,sizeof] noreturn:[msnprintf]
-test_rlimit global:[msgbuff,num_open,testfd] call:[close,close_file_descriptors,dup,fopen_works,fprintf,free,getrlimit,malloc,msnprintf,open,realloc,rlim2str,setrlimit,sizeof,store_errmsg,while] noreturn:[close_file_descriptors,fprintf]
-test global:[msgbuff] call:[close_file_descriptors,curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_global_cleanup,curl_global_init,fprintf,strcmp,test_rlimit]

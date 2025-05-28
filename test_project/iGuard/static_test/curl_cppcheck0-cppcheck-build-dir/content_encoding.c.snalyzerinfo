@@ -1,6 +1,0 @@
-Curl_all_content_encodings global:[general_unencoders] call:[curl_strequal,sizeof,strcpy,strlen,while] noreturn:[strcpy]
-error_do_init
-error_do_write call:[Curl_all_content_encodings,Curl_cwriter_write,Curl_failf,sizeof] noreturn:[Curl_cwriter_write,Curl_failf]
-error_do_close
-find_unencode_writer global:[general_unencoders,transfer_unencoders] call:[curl_strnequal]
-Curl_build_unencoding_stack global:[Curl_trc_feat_write,error_writer] call:[Curl_cwriter_add,Curl_cwriter_count,Curl_cwriter_create,Curl_cwriter_free,Curl_cwriter_get_by_name,Curl_cwriter_get_by_type,Curl_failf,Curl_trc_write,curl_strnequal,find_unencode_writer,while] noreturn:[Curl_failf,Curl_trc_write]

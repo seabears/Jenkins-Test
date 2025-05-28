@@ -1,3 +1,0 @@
-{"summary": "MisraExternalIdentifiers", "data": [{"name": "main", "file": "C:/test_workspace/curl-master/tests/server/disabled.c", "line": 125, "column": 5, "decl": false}]}
-{"summary": "MisraInternalIdentifiers", "data": [{"name": "disabled", "file": "C:/test_workspace/curl-master/tests/server/disabled.c", "line": 40, "column": 20, "inlinefunc": false}]}
-{"summary": "MisraLocalIdentifiers", "data": [{"name": "i", "file": "C:/test_workspace/curl-master/tests/server/disabled.c", "line": 127, "column": 7}, {"name": "argc", "file": "C:/test_workspace/curl-master/tests/server/disabled.c", "line": 125, "column": 14}, {"name": "argv", "file": "C:/test_workspace/curl-master/tests/server/disabled.c", "line": 125, "column": 27}]}

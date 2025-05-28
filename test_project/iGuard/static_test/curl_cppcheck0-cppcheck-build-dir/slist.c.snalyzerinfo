@@ -1,5 +1,0 @@
-slist_get_last
-Curl_slist_append_nodup global:[Curl_cmalloc] call:[Curl_cmalloc,sizeof,slist_get_last,while]
-curl_slist_append global:[Curl_cfree,Curl_cstrdup] call:[Curl_cfree,Curl_cstrdup,Curl_slist_append_nodup] noreturn:[Curl_cfree]
-Curl_slist_duplicate call:[curl_slist_append,curl_slist_free_all]
-curl_slist_free_all global:[Curl_cfree] call:[Curl_cfree,while] noreturn:[while]

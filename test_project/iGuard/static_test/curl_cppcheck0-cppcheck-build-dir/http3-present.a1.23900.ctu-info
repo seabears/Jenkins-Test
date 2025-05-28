@@ -1,3 +1,0 @@
-{"summary": "MisraExternalIdentifiers", "data": [{"name": "main", "file": "C:/test_workspace/curl-master/docs/examples/http3-present.c", "line": 31, "column": 5, "decl": false}]}
-{"summary": "MisraInternalIdentifiers", "data": []}
-{"summary": "MisraLocalIdentifiers", "data": [{"name": "ver", "file": "C:/test_workspace/curl-master/docs/examples/http3-present.c", "line": 33, "column": 27}]}

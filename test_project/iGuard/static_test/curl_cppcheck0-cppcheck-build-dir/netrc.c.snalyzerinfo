@@ -1,6 +1,0 @@
-file2memory call:[Curl_str_passblanks,curlx_dyn_add,curlx_dyn_free,curlx_dyn_init,curlx_dyn_ptr,curlx_get_line,fclose,fopen] noreturn:[fclose]
-parsenetrc global:[Curl_cfree,Curl_cstrdup] call:[Curl_cfree,Curl_cstrdup,Curl_str_passblanks,Curl_timestrcmp,curl_strequal,curlx_dyn_addn,curlx_dyn_free,curlx_dyn_init,curlx_dyn_ptr,curlx_dyn_reset,file2memory,strchr,while] noreturn:[Curl_cfree,Curl_timestrcmp,strchr,while]
-Curl_netrc_strerror
-Curl_parsenetrc global:[Curl_cfree] call:[Curl_cfree,curl_getenv,curl_maprintf,geteuid,getpwuid,parsenetrc] noreturn:[Curl_cfree,parsenetrc]
-Curl_netrc_init call:[curlx_dyn_init]
-Curl_netrc_cleanup call:[curlx_dyn_free]

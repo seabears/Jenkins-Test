@@ -1,6 +1,0 @@
-unit_setup
-unit_stop
-fake_t_startsingle_time call:[Curl_pgrsTime]
-usec_matches_seconds global:[usec_magnitude] call:[fprintf]
-expect_timer_seconds call:[fprintf,msnprintf,sizeof,usec_matches_seconds,while] noreturn:[while]
-test call:[Curl_now,Curl_pgrsTime,expect_timer_seconds,fake_t_startsingle_time,fprintf,return,unit_setup,unit_stop,while] noreturn:[unit_stop,while]

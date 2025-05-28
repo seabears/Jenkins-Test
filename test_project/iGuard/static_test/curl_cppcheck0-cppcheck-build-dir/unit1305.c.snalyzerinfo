@@ -1,5 +1,0 @@
-unit_setup global:[hp,testdata] call:[Curl_dnscache_init,curl_easy_init,curl_global_cleanup]
-unit_stop global:[data_key,data_node,hp,testdata] call:[Curl_dnscache_destroy,Curl_freeaddrinfo,curl_easy_cleanup,curl_global_cleanup,free] noreturn:[curl_global_cleanup,free]
-fake_ai call:[calloc,memcpy,sizeof]
-create_node global:[data_key,data_node] call:[aprintf,calloc,fake_ai,sizeof]
-test global:[data_key,data_node,hp] call:[Curl_hash_add,create_node,fprintf,return,strcmp,strlen,unit_setup,unit_stop,while] noreturn:[unit_stop,while]

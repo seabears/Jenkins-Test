@@ -1,7 +1,0 @@
-easysrc_free global:[easysrc_clean,easysrc_code,easysrc_data,easysrc_decl,easysrc_toohard] call:[slist_wc_free_all]
-easysrc_add call:[easysrc_free,slist_wc_append]
-easysrc_addf call:[curl_free,easysrc_add,va_end,va_start,vaprintf] noreturn:[curl_free]
-easysrc_init global:[easysrc_code] call:[easysrc_add] noreturn:[easysrc_add]
-easysrc_perform global:[easysrc_code,easysrc_toohard,srchard] call:[easysrc_add,slist_wc_free_all] noreturn:[easysrc_add]
-easysrc_cleanup global:[easysrc_code] call:[easysrc_add] noreturn:[easysrc_add]
-dumpeasysrc global:[easysrc_clean,easysrc_code,easysrc_data,easysrc_decl,srcend,srchead] call:[easysrc_free,fclose,fopen,fprintf,strcmp,warnf] noreturn:[easysrc_free,fclose,fprintf,warnf]

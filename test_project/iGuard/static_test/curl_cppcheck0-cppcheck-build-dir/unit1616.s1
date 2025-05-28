@@ -1,4 +1,0 @@
-mydtor call:[free] noreturn:[free]
-unit_setup global:[hash_static] call:[Curl_hash_offt_init]
-unit_stop global:[hash_static] call:[Curl_hash_offt_destroy] noreturn:[Curl_hash_offt_destroy]
-test global:[hash_static] call:[Curl_hash_offt_clear,Curl_hash_offt_get,Curl_hash_offt_set,fprintf,free,malloc,return,sizeof,unit_setup,unit_stop,while] noreturn:[free,unit_stop,while]

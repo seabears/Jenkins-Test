@@ -1,5 +1,0 @@
-Curl_freeaddrinfo global:[Curl_cfree] call:[Curl_cfree] noreturn:[Curl_cfree]
-Curl_getaddrinfo_ex global:[Curl_cmalloc] call:[Curl_cmalloc,Curl_freeaddrinfo,freeaddrinfo,getaddrinfo,memcpy,sizeof,strlen] noreturn:[freeaddrinfo,memcpy,sizeof]
-Curl_ip2addr global:[Curl_ccalloc] call:[Curl_ccalloc,htons,memcpy,sizeof,strlen,while] noreturn:[sizeof]
-Curl_str2addr call:[Curl_ip2addr,curlx_inet_pton] noreturn:[Curl_ip2addr]
-Curl_unix2addr global:[Curl_ccalloc,Curl_cfree] call:[Curl_ccalloc,Curl_cfree,memcpy,offsetof,sizeof,strlen] noreturn:[memcpy]

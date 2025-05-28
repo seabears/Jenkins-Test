@@ -1,1 +1,0 @@
-test call:[curl_easy_strerror,curl_global_cleanup,curl_global_init,curl_multi_cleanup,curl_multi_init,curl_multi_setopt,fprintf,while]

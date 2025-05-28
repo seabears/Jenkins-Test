@@ -1,3 +1,0 @@
-{"summary": "MisraExternalIdentifiers", "data": [{"name": "main", "file": "C:/test_workspace/curl-master/docs/examples/multi-single.c", "line": 38, "column": 5, "decl": false}]}
-{"summary": "MisraInternalIdentifiers", "data": []}
-{"summary": "MisraLocalIdentifiers", "data": [{"name": "http_handle", "file": "C:/test_workspace/curl-master/docs/examples/multi-single.c", "line": 40, "column": 9}, {"name": "multi_handle", "file": "C:/test_workspace/curl-master/docs/examples/multi-single.c", "line": 41, "column": 10}, {"name": "mc", "file": "C:/test_workspace/curl-master/docs/examples/multi-single.c", "line": 58, "column": 15}, {"name": "still_running", "file": "C:/test_workspace/curl-master/docs/examples/multi-single.c", "line": 42, "column": 7}]}

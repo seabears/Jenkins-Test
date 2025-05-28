@@ -1,8 +1,0 @@
-print_category global:[helptext] call:[printf,strlen] noreturn:[printf]
-get_category_content global:[categories] call:[CURL_ARRAYSIZE,curl_strequal,print_category,printf]
-get_categories global:[categories] call:[CURL_ARRAYSIZE,printf] noreturn:[printf]
-get_categories_list global:[categories] call:[CURL_ARRAYSIZE,printf,strlen] noreturn:[printf]
-tool_help global:[tool_stderr] call:[curl_strequal,fprintf,free,get_categories,get_categories_list,get_category_content,get_terminal_columns,print_category,puts] noreturn:[fprintf,free,get_categories,print_category,puts]
-is_debug global:[feature_names] call:[curl_strequal]
-tool_version_info global:[built_in_protos,curlinfo,feature_count,feature_names,tool_stderr] call:[curl_strnequal,curl_version,fprintf,free,is_debug,malloc,memcpy,printf,puts,qsort,sizeof,strcmp] noreturn:[fprintf,free,printf,puts]
-tool_list_engines call:[curl_easy_cleanup,curl_easy_getinfo,curl_easy_init,curl_slist_free_all,printf,puts] noreturn:[curl_easy_cleanup,printf,puts]

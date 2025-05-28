@@ -1,2 +1,0 @@
-libtest_debug_dump call:[fflush,fprintf,fputc,fputs] noreturn:[fflush,fprintf,fputc,fputs]
-libtest_debug_cb global:[epoch_offset,known_offset] call:[fprintf,libtest_debug_dump,localtime,msnprintf,sizeof,time,tutil_tvnow] noreturn:[msnprintf]

@@ -1,3 +1,0 @@
-unit_setup
-unit_stop call:[curl_global_cleanup] noreturn:[curl_global_cleanup]
-test call:[Curl_altsvc_cleanup,Curl_altsvc_init,Curl_altsvc_load,Curl_altsvc_parse,Curl_altsvc_save,Curl_llist_count,curl_easy_cleanup,curl_easy_init,curl_global_init,fprintf,msnprintf,return,sizeof,unit_setup,unit_stop,while] noreturn:[Curl_altsvc_cleanup,unit_stop,while]

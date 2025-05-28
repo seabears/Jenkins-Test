@@ -1,6 +1,0 @@
-clean_getout call:[curlx_safefree,single_transfer_cleanup] noreturn:[single_transfer_cleanup]
-output_expected call:[checkprefix]
-stdin_upload call:[strcmp] noreturn:[strcmp]
-urlerr_cvt
-add_file_name_to_url call:[aprintf,curl_easy_escape,curl_free,curl_url,curl_url_cleanup,curl_url_get,curl_url_set,free,strrchr,urlerr_cvt] noreturn:[aprintf]
-get_url_file_name call:[curl_free,curl_url,curl_url_cleanup,curl_url_get,curl_url_set,strdup,strrchr,urlerr_cvt,warnf] noreturn:[strdup,urlerr_cvt,warnf]

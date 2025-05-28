@@ -1,1 +1,0 @@
-test call:[curl_easy_escape,curl_easy_unescape,curl_escape,curl_free,curl_global_cleanup,curl_global_init,curl_unescape,fprintf,memcmp,printf,sizeof,strlen]

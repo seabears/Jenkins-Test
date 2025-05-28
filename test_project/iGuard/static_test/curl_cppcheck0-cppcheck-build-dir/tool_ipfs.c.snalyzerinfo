@@ -1,3 +1,0 @@
-ensure_trailing_slash call:[curlx_dyn_addn,curlx_dyn_init,curlx_dyn_ptr,curlx_safefree,strlen] noreturn:[curlx_dyn_ptr]
-ipfs_gateway call:[aprintf,curl_getenv,curlx_dyn_addn,curlx_dyn_init,curlx_dyn_len,curlx_dyn_ptr,curlx_safefree,ensure_trailing_slash,fclose,fopen,getc,getenv] noreturn:[aprintf,curlx_dyn_ptr,ensure_trailing_slash,fclose]
-ipfs_url_rewrite global:[tool_stderr] call:[aprintf,curl_free,curl_url,curl_url_cleanup,curl_url_get,curl_url_set,curlx_safefree,ensure_trailing_slash,free,helpf,ipfs_gateway,strdup]

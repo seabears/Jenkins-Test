@@ -1,2 +1,0 @@
-read_callback call:[memcpy,strlen]
-test global:[libtest_arg2,testdata] call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_global_cleanup,curl_global_init,curl_mime_addpart,curl_mime_data_cb,curl_mime_filedata,curl_mime_free,curl_mime_init,curl_mime_name,fprintf,strlen] noreturn:[fprintf]

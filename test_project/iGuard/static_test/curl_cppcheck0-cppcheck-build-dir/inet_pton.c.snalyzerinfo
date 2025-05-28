@@ -1,3 +1,0 @@
-curlx_inet_pton call:[inet_pton4,inet_pton6]
-inet_pton4 call:[memcpy]
-inet_pton6 global:[Curl_hexasciitable] call:[inet_pton4,memcpy,memset]

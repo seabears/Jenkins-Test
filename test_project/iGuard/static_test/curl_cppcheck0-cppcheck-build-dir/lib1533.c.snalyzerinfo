@@ -1,5 +1,0 @@
-reset_data
-read_callback call:[memset]
-write_callback call:[curl_easy_pause] noreturn:[curl_easy_pause]
-perform_and_check_connections call:[curl_easy_getinfo,curl_easy_perform,fprintf]
-test call:[curl_easy_cleanup,curl_easy_init,curl_easy_setopt,curl_global_cleanup,curl_global_init,fprintf,perform_and_check_connections,reset_data]

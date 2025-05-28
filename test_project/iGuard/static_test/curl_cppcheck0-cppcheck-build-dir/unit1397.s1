@@ -1,3 +1,0 @@
-unit_setup
-unit_stop
-test call:[fprintf,return,unit_setup,unit_stop,while] noreturn:[unit_stop,while]

@@ -1,2 +1,0 @@
-writecb call:[curl_ws_meta,fprintf] noreturn:[fprintf]
-main call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_easy_strerror,fprintf] noreturn:[curl_easy_cleanup,fprintf]

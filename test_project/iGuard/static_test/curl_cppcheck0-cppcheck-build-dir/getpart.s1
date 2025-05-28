@@ -1,5 +1,0 @@
-line_length
-readline call:[calloc,curlx_uztosi,fgets,line_length,memset,realloc,return]
-appenddata call:[memcpy,realloc]
-decodedata call:[curlx_base64_decode,free,memcpy]
-getpart call:[ISSPACE,appenddata,decodedata,free,malloc,memcpy,readline,strcmp,strcpy,strstr]

@@ -1,1 +1,0 @@
-test call:[Curl_safefree,curl_easy_escape,curl_free,curl_global_cleanup,curl_global_init,fprintf,malloc,sizeof] noreturn:[curl_free]

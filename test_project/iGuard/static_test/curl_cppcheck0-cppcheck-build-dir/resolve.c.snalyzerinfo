@@ -1,1 +1,0 @@
-main global:[ipv_inuse] call:[CURL_UNCONST,gethostbyname,printf,puts,strcmp] noreturn:[printf]

@@ -1,2 +1,0 @@
-pull_one_url call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt]
-main global:[urls] call:[curl_global_init,fprintf,pthread_create,pthread_join] noreturn:[fprintf]

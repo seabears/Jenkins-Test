@@ -1,5 +1,0 @@
-mydtor
-my_elem_dtor global:[elem_dtor_calls]
-unit_setup global:[hash_static,slots] call:[Curl_hash_init]
-unit_stop global:[hash_static] call:[Curl_hash_destroy] noreturn:[Curl_hash_destroy]
-test global:[elem_dtor_calls,hash_static,slots] call:[Curl_hash_add,Curl_hash_add2,Curl_hash_clean,Curl_hash_delete,Curl_hash_pick,Curl_hash_str,fprintf,return,strlen,unit_setup,unit_stop,while] noreturn:[fprintf,unit_stop,while]

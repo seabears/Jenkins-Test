@@ -1,8 +1,0 @@
-Curl_initinfo global:[Curl_cfree] call:[Curl_cfree,memset,sizeof]
-getinfo_char
-getinfo_long call:[Curl_getconnectinfo]
-getinfo_offt
-getinfo_double
-getinfo_slist call:[Curl_cookie_list,Curl_ssl_backend]
-getinfo_socket call:[Curl_getconnectinfo]
-Curl_getinfo call:[getinfo_char,getinfo_double,getinfo_long,getinfo_offt,getinfo_slist,getinfo_socket,va_arg,va_end,va_start] noreturn:[getinfo_char,getinfo_double,getinfo_long,getinfo_offt,getinfo_slist,getinfo_socket]

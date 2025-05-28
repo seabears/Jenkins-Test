@@ -1,4 +1,0 @@
-unit_setup call:[global_init]
-unit_stop call:[curl_global_cleanup] noreturn:[curl_global_cleanup]
-test_parse call:[Curl_parse_login_details,fprintf,free,strcmp,strlen,while] noreturn:[free,while]
-test call:[Curl_close,Curl_connect,Curl_freeset,Curl_init_do,Curl_init_userdefined,Curl_open,fprintf,return,test_parse,unit_setup,unit_stop,while] noreturn:[unit_stop,while]

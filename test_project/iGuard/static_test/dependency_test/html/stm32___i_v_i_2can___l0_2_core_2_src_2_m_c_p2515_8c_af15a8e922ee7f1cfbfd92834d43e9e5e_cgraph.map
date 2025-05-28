@@ -1,9 +1,0 @@
-<map id="MCP2515_ReadCANMessage" name="MCP2515_ReadCANMessage">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,205,83"/>
-<area shape="rect" id="Node000002" href="$stm32__boot_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#ab5d80f4bbd31f9a04b116f9314afe6ef" title=" " alt="" coords="278,5,420,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,53,266,33,267,38,173,58"/>
-<area shape="rect" id="Node000003" href="$stm32__boot_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#a4c7c196db5bc3a7e4d6b910f63c79b30" title=" " alt="" coords="277,56,421,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,67,261,67,261,72,205,72"/>
-<area shape="rect" id="Node000004" href="$stm32__boot_2can___l0_2_core_2_src_2_m_c_p2515_8c.html#ad15d9c368f38e7c95707437a6d465835" title=" " alt="" coords="253,107,445,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="173,81,267,100,266,106,172,86"/>
-</map>

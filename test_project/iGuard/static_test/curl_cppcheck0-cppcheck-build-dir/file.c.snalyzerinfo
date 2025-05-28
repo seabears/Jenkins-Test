@@ -1,6 +1,0 @@
-file_setup_connection global:[Curl_ccalloc] call:[Curl_ccalloc,sizeof]
-file_connect global:[Curl_cfree] call:[Curl_cfree,Curl_failf,Curl_urldecode,file_done,memchr,open,while]
-file_done global:[Curl_cfree] call:[Curl_cfree,close,while] noreturn:[close]
-file_disconnect call:[file_done] noreturn:[file_done]
-file_upload call:[Curl_client_read,Curl_failf,Curl_multi_xfer_ulbuf_borrow,Curl_multi_xfer_ulbuf_release,Curl_pgrsSetUploadCounter,Curl_pgrsSetUploadSize,Curl_pgrsUpdate,Curl_speedcheck,close,curlx_now,fstat,open,strchr,write] noreturn:[Curl_pgrsSetUploadSize,Curl_speedcheck]
-file_do global:[Curl_month,Curl_wkday] call:[Curl_client_write,Curl_failf,Curl_gmtime,Curl_meets_timecondition,Curl_multi_xfer_buf_borrow,Curl_multi_xfer_buf_release,Curl_pgrsSetDownloadSize,Curl_pgrsUpdate,Curl_range,Curl_speedcheck,S_ISDIR,curl_msnprintf,curlx_now,curlx_sotouz,file_upload,fstat,lseek,read,sizeof] noreturn:[Curl_client_write,Curl_pgrsSetDownloadSize,Curl_speedcheck,file_upload]

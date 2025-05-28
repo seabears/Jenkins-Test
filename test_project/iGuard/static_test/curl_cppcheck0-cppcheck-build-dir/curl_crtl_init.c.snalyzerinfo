@@ -1,4 +1,0 @@
-sys_trnlnm call:[$DESCRIPTOR,$VMS_STATUS_SUCCESS,SYS$TRNLNM,strlen]
-sys_crelnm call:[SYS$CRELNM,strlen]
-set_feature_default call:[sys_crelnm] noreturn:[sys_crelnm]
-set_features call:[$VMS_STATUS_SUCCESS,set_feature_default,sizeof,sys_trnlnm] noreturn:[set_feature_default]

@@ -1,4 +1,0 @@
-hms_for_sec call:[localtime,msnprintf,sizeof]
-log_line_start call:[fprintf,fputs] noreturn:[fprintf,fputs]
-tool_debug_cb global:[tool_stderr] call:[FALLTHROUGH,curl_easy_getinfo,dump,fopen,fprintf,fwrite,hms_for_sec,log_line_start,msnprintf,sizeof,strcmp,tvrealnow,warnf] noreturn:[fwrite,log_line_start,msnprintf]
-dump call:[fflush,fprintf,fputc,fputs] noreturn:[fflush,fprintf,fputc,fputs]

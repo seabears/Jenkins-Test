@@ -1,2 +1,0 @@
-read_callback call:[exit,fprintf,time] noreturn:[exit]
-test global:[testname] call:[FD_ZERO,Sleep,curl_easy_cleanup,curl_easy_init,curl_easy_pause,curl_easy_setopt,curl_global_cleanup,curl_global_init,curl_mime_addpart,curl_mime_data_cb,curl_mime_free,curl_mime_init,curl_mime_name,curl_multi_add_handle,curl_multi_cleanup,curl_multi_fdset,curl_multi_info_read,curl_multi_init,curl_multi_perform,curl_multi_remove_handle,fprintf,select,time] noreturn:[Sleep,curl_easy_pause,select]

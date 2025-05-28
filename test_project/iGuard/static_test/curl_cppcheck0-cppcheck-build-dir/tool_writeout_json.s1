@@ -1,4 +1,0 @@
-jsonquoted call:[curlx_dyn_addf,curlx_dyn_addn,return] noreturn:[curlx_dyn_addf,curlx_dyn_addn]
-jsonWriteString call:[curlx_dyn_free,curlx_dyn_init,curlx_dyn_len,curlx_dyn_ptr,fputc,fputs,jsonquoted,strlen] noreturn:[curlx_dyn_free,fputc,fputs]
-ourWriteOutJSON call:[curl_version,fprintf,fputs,jsonWriteString,writefunc] noreturn:[fprintf,fputs]
-headerJSON call:[curl_easy_header,curl_easy_nextheader,fputc,fputs,jsonWriteString,while] noreturn:[fputc,fputs]

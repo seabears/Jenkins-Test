@@ -1,4 +1,0 @@
-unit_setup
-unit_stop call:[curl_global_cleanup] noreturn:[curl_global_cleanup]
-showsts call:[printf] noreturn:[printf]
-test global:[headers] call:[Curl_hsts,Curl_hsts_cleanup,Curl_hsts_init,Curl_hsts_loadfile,Curl_hsts_parse,Curl_hsts_save,Curl_llist_count,curl_easy_cleanup,curl_easy_init,curl_global_cleanup,curl_global_init,fprintf,msnprintf,printf,return,showsts,sizeof,strlen,unit_setup,unit_stop,while] noreturn:[curl_global_cleanup,showsts,unit_stop,while]

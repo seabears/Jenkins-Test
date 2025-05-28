@@ -1,3 +1,0 @@
-unit_setup global:[easy] call:[curl_easy_init,curl_global_cleanup,global_init]
-unit_stop global:[easy] call:[curl_easy_cleanup,curl_global_cleanup] noreturn:[curl_global_cleanup]
-test global:[easy] call:[curl_easy_escape,curl_easy_unescape,fprintf,return,unit_setup,unit_stop,while] noreturn:[unit_stop,while]

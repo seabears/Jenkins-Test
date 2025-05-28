@@ -1,3 +1,0 @@
-config_init call:[curlx_dyn_init,memset,sizeof] noreturn:[curlx_dyn_init]
-free_config_fields call:[curl_mime_free,curl_slist_free_all,curlx_dyn_free,curlx_safefree,tool_mime_free] noreturn:[curlx_safefree]
-config_free call:[free,free_config_fields]

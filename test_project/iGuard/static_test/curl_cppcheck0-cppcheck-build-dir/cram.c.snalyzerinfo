@@ -1,1 +1,0 @@
-Curl_auth_create_cram_md5_message global:[Curl_HMAC_MD5] call:[Curl_HMAC_final,Curl_HMAC_init,Curl_HMAC_update,Curl_bufref_len,Curl_bufref_ptr,Curl_bufref_set,curl_maprintf,curlx_uztoui,strlen] noreturn:[Curl_HMAC_update]

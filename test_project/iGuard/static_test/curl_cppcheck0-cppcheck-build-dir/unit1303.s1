@@ -1,3 +1,0 @@
-unit_setup global:[testdata] call:[curl_easy_init,curl_global_cleanup,global_init]
-unit_stop global:[testdata] call:[curl_easy_cleanup,curl_global_cleanup] noreturn:[curl_global_cleanup]
-test global:[testdata] call:[CURL_ARRAYSIZE,Curl_timeleft,fprintf,return,unit_setup,unit_stop,while] noreturn:[unit_stop,while]

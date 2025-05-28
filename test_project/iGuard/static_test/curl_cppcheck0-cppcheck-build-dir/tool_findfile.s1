@@ -1,2 +1,0 @@
-checkhome call:[aprintf,close,curl_free,open,strdup] noreturn:[aprintf,curl_free]
-findfile global:[conf_list] call:[DEBUGASSERT,aprintf,checkhome,curl_free,curl_getenv]

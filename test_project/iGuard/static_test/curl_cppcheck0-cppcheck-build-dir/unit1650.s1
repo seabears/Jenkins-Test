@@ -1,3 +1,0 @@
-unit_setup
-unit_stop
-test global:[full49,req,resp] call:[CURL_ARRAYSIZE,Curl_dyn_ptr,de_cleanup,de_init,doh_req_encode,doh_resp_decode,fprintf,hexdump,memcmp,memset,msnprintf,return,sizeof,strcmp,strlen,unit_setup,unit_stop,while] noreturn:[unit_stop,while]

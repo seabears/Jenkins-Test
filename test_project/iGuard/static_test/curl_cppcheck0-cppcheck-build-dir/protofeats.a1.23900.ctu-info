@@ -1,3 +1,0 @@
-{"summary": "MisraExternalIdentifiers", "data": [{"name": "main", "file": "C:/test_workspace/curl-master/docs/examples/protofeats.c", "line": 35, "column": 5, "decl": false}]}
-{"summary": "MisraInternalIdentifiers", "data": []}
-{"summary": "MisraLocalIdentifiers", "data": [{"name": "ver", "file": "C:/test_workspace/curl-master/docs/examples/protofeats.c", "line": 37, "column": 27}, {"name": "ptr", "file": "C:/test_workspace/curl-master/docs/examples/protofeats.c", "line": 38, "column": 22}]}

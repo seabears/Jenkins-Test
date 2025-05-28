@@ -1,2 +1,0 @@
-payload_source global:[payload_text] call:[memcpy,strlen]
-main call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_easy_strerror,curl_slist_append,curl_slist_free_all,fprintf,return] noreturn:[curl_easy_cleanup,fprintf]

@@ -1,4 +1,0 @@
-unit_setup
-unit_stop call:[curl_global_cleanup] noreturn:[curl_global_cleanup]
-parse_port call:[Curl_dyn_add,Curl_dyn_free,Curl_dyn_init,Curl_parse_port]
-test global:[u] call:[curl_free,curl_url,curl_url_cleanup,curl_url_get,fprintf,free,parse_port,return,strcmp,strdup,unit_setup,unit_stop,while] noreturn:[curl_url_cleanup,unit_stop,while]

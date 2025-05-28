@@ -1,1 +1,0 @@
-main call:[curl_free,curl_url,curl_url_cleanup,curl_url_get,curl_url_set,printf] noreturn:[curl_free]

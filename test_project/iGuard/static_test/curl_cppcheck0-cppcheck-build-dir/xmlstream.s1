@@ -1,5 +1,0 @@
-startElement call:[free]
-characterDataHandler call:[fprintf,memcpy,realloc]
-endElement call:[printf] noreturn:[printf]
-parseStreamCallback call:[XML_ErrorString,XML_GetErrorCode,XML_GetUserData,XML_Parse,fprintf]
-main call:[XML_ErrorString,XML_GetErrorCode,XML_Parse,XML_ParserCreateNS,XML_ParserFree,XML_SetCharacterDataHandler,XML_SetElementHandler,XML_SetUserData,curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_easy_strerror,curl_global_cleanup,curl_global_init,fprintf,free,memset,printf,sizeof] noreturn:[fprintf,printf]

@@ -1,3 +1,0 @@
-{"summary": "MisraExternalIdentifiers", "data": [{"name": "main", "file": "C:/test_workspace/curl-master/docs/examples/smtp-expn.c", "line": 42, "column": 5, "decl": false}]}
-{"summary": "MisraInternalIdentifiers", "data": []}
-{"summary": "MisraLocalIdentifiers", "data": [{"name": "curl", "file": "C:/test_workspace/curl-master/docs/examples/smtp-expn.c", "line": 44, "column": 9}, {"name": "recipients", "file": "C:/test_workspace/curl-master/docs/examples/smtp-expn.c", "line": 46, "column": 22}, {"name": "res", "file": "C:/test_workspace/curl-master/docs/examples/smtp-expn.c", "line": 45, "column": 12}]}

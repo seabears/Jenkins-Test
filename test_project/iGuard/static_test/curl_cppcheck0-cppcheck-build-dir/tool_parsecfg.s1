@@ -1,4 +1,0 @@
-parseconfig call:[DEBUGASSERT,ISBLANK,ISSPACE,config_init,curlx_dyn_free,curlx_dyn_init,curlx_dyn_ptr,curlx_safefree,errorf,fclose,findfile,fopen,free,getparameter,malloc,my_get_line,param2text,sizeof,strcmp,strlen,unslashquote,warnf] noreturn:[curlx_safefree,fclose,fopen,unslashquote,warnf]
-unslashquote
-get_line call:[curlx_dyn_addn,curlx_dyn_len,curlx_dyn_reset,curlx_dyn_setlen,feof,fgets,sizeof,strlen] noreturn:[curlx_dyn_setlen]
-my_get_line call:[ISBLANK,curlx_dyn_len,curlx_dyn_ptr,get_line,while]

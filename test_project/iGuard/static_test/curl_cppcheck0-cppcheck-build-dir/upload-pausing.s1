@@ -1,6 +1,0 @@
-log_line_start call:[fprintf,fputs] noreturn:[fprintf,fputs]
-debug_cb call:[curl_easy_getinfo,curl_msnprintf,fprintf,fwrite,log_line_start,sizeof] noreturn:[curl_msnprintf,fwrite,log_line_start]
-read_callback global:[total_read] call:[fprintf]
-progress_callback
-usage call:[fprintf] noreturn:[fprintf]
-main call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_free,curl_global_cleanup,curl_global_init,curl_global_trace,curl_msnprintf,curl_slist_append,curl_slist_free_all,curl_url,curl_url_cleanup,curl_url_get,curl_url_set,fprintf,getopt,memset,return,sizeof,strcmp,usage,while] noreturn:[curl_easy_cleanup,while]

@@ -1,5 +1,0 @@
-emptyWriteFunc
-set_easy call:[curl_easy_setopt,curl_easy_strerror,fprintf,while]
-test_run call:[curl_easy_cleanup,curl_easy_init,curl_multi_add_handle,curl_multi_cleanup,curl_multi_info_read,curl_multi_init,curl_multi_perform,curl_multi_poll,curl_multi_remove_handle,curl_multi_setopt,curl_multi_strerror,curl_multi_waitfds,fprintf,set_easy,while] noreturn:[while]
-empty_multi_test call:[CURL_UNCONST,curl_easy_cleanup,curl_easy_init,curl_multi_add_handle,curl_multi_cleanup,curl_multi_init,curl_multi_remove_handle,curl_multi_strerror,curl_multi_waitfds,fprintf,set_easy,while]
-test call:[curl_easy_strerror,curl_global_cleanup,curl_global_init,empty_multi_test,fprintf,test_run,while]

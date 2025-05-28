@@ -1,3 +1,0 @@
-{"summary": "MisraExternalIdentifiers", "data": [{"name": "main", "file": "C:/test_workspace/curl-master/docs/examples/imap-lsub.c", "line": 39, "column": 5, "decl": false}]}
-{"summary": "MisraInternalIdentifiers", "data": []}
-{"summary": "MisraLocalIdentifiers", "data": [{"name": "curl", "file": "C:/test_workspace/curl-master/docs/examples/imap-lsub.c", "line": 41, "column": 9}, {"name": "res", "file": "C:/test_workspace/curl-master/docs/examples/imap-lsub.c", "line": 42, "column": 12}]}

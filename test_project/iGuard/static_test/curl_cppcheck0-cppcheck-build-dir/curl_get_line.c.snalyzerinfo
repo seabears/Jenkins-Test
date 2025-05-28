@@ -1,1 +1,0 @@
-curlx_get_line call:[curlx_dyn_addn,curlx_dyn_len,curlx_dyn_reset,feof,fgets,sizeof,strlen]

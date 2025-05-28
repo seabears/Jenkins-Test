@@ -1,3 +1,0 @@
-Curl_input_ntlm call:[Curl_auth_decode_ntlm_type2_message,Curl_bufref_free,Curl_bufref_init,Curl_bufref_set,Curl_http_auth_cleanup_ntlm,Curl_infof,Curl_str_passblanks,curl_strnequal,curlx_base64_decode,sizeof,strlen,while] noreturn:[Curl_bufref_free,Curl_http_auth_cleanup_ntlm,Curl_infof]
-Curl_output_ntlm global:[Curl_cfree] call:[Curl_auth_create_ntlm_type1_message,Curl_auth_create_ntlm_type3_message,Curl_bufref_free,Curl_bufref_init,Curl_bufref_len,Curl_bufref_ptr,Curl_cfree,curl_maprintf,curlx_base64_encode,while]
-Curl_http_auth_cleanup_ntlm call:[Curl_auth_cleanup_ntlm] noreturn:[Curl_auth_cleanup_ntlm]

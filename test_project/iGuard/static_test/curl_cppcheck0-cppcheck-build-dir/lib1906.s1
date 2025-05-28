@@ -1,1 +1,0 @@
-test call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_easy_strerror,curl_free,curl_global_cleanup,curl_url,curl_url_cleanup,curl_url_get,curl_url_set,fprintf,while] noreturn:[fprintf]

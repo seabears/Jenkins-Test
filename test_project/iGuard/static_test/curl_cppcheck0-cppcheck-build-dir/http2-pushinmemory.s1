@@ -1,5 +1,0 @@
-write_cb call:[memcpy,printf,realloc]
-init_memory call:[malloc]
-setup global:[files] call:[curl_easy_setopt,init_memory] noreturn:[curl_easy_setopt]
-server_push_callback global:[files,pushindex] call:[curl_easy_setopt,curl_pushheader_byname,fprintf,init_memory] noreturn:[fprintf]
-main global:[files,pushindex] call:[curl_easy_cleanup,curl_easy_init,curl_multi_add_handle,curl_multi_cleanup,curl_multi_info_read,curl_multi_init,curl_multi_perform,curl_multi_remove_handle,curl_multi_setopt,curl_multi_wait,free,setup,while] noreturn:[curl_easy_cleanup,free,while]

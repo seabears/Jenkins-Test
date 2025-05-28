@@ -1,3 +1,0 @@
-unit_setup
-unit_stop
-test call:[CURL_ARRAYSIZE,Curl_timediff,fprintf,printf,return,unit_setup,unit_stop,while] noreturn:[unit_stop,while]

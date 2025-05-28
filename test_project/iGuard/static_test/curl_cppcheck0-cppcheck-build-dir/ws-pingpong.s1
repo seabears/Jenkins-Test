@@ -1,5 +1,0 @@
-ping call:[curl_ws_send,fprintf,strlen]
-recv_pong call:[curl_ws_recv,fprintf,memcmp,sizeof,strlen]
-websocket_close call:[curl_ws_send,fprintf] noreturn:[fprintf]
-pingpong call:[fprintf,ping,recv_pong,usleep,websocket_close]
-main call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_global_cleanup,curl_global_init,fprintf,pingpong,return] noreturn:[curl_easy_cleanup,pingpong]

@@ -1,4 +1,0 @@
-websocket_close call:[curl_ws_send,fprintf] noreturn:[fprintf]
-websocket_frame call:[assert,curl_ws_recv,fwrite,printf,sizeof] noreturn:[assert]
-websocket global:[libtest_arg2] call:[fclose,fopen,websocket_close,websocket_frame] noreturn:[websocket_close]
-test global:[libtest_debug_config] call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_easy_strerror,curl_global_cleanup,curl_global_init,fprintf,websocket,while] noreturn:[curl_easy_cleanup,websocket]

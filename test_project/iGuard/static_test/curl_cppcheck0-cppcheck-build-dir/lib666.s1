@@ -1,1 +1,0 @@
-test global:[testbuf] call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_global_cleanup,curl_global_init,curl_mime_addpart,curl_mime_data,curl_mime_encoder,curl_mime_filename,curl_mime_free,curl_mime_init,curl_mime_name,fprintf,sizeof]

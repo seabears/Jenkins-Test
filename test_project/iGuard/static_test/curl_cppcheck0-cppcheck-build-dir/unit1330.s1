@@ -1,3 +1,0 @@
-unit_setup
-unit_stop
-test call:[Curl_safefree,fprintf,malloc,return,unit_setup,unit_stop,while] noreturn:[unit_stop,while]

@@ -1,3 +1,0 @@
-tvrealnow call:[time]
-struplocompare call:[strcmp] noreturn:[strcmp]
-struplocompare4sort call:[struplocompare] noreturn:[struplocompare]

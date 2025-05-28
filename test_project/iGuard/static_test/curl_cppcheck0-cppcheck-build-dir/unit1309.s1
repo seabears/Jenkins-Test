@@ -1,4 +1,0 @@
-unit_setup
-unit_stop
-splayprint call:[printf,splayprint] noreturn:[printf,splayprint]
-test call:[Curl_splayget,Curl_splaygetbest,Curl_splayinsert,Curl_splayremove,Curl_splayset,fprintf,printf,puts,return,splayprint,unit_setup,unit_stop,while] noreturn:[Curl_splaygetbest,Curl_splayinsert,unit_stop,while]

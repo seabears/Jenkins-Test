@@ -1,2 +1,0 @@
-dirslash call:[curlx_dyn_addn,curlx_dyn_init,curlx_dyn_ptr,strlen,while] noreturn:[curlx_dyn_ptr]
-Curl_fopen global:[Curl_cfree] call:[Curl_cfree,Curl_rand_alnum,S_ISREG,close,curl_maprintf,dirslash,fclose,fdopen,fileno,fopen,fstat,open,sizeof,unlink] noreturn:[Curl_cfree,unlink]

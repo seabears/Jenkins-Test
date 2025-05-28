@@ -1,4 +1,0 @@
-please_continue call:[curl_easy_pause,fprintf] noreturn:[curl_easy_pause]
-header_callback call:[fwrite]
-write_callback call:[fwrite,printf] noreturn:[printf]
-test global:[libtest_debug_config,tv_test_start] call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_easy_strerror,curl_global_cleanup,curl_global_init,fprintf,memset,sizeof,tutil_tvnow,while] noreturn:[tutil_tvnow]

@@ -1,8 +1,0 @@
-<map id="HW_VCOM_Init" name="HW_VCOM_Init">
-<area shape="rect" id="Node000001" title=" " alt="" coords="319,5,435,32"/>
-<area shape="rect" id="Node000002" href="$stm32___i_v_i_2can___l0_2_core_2_src_2main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="5,5,55,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="304,21,55,21,55,16,304,16"/>
-<area shape="rect" id="Node000003" href="$stm32___i_v_i_2can___l0_2_core_2_src_2usart_8c.html#a052088fe5bb3f807a4b2502e664fd4fd" title=" " alt="" coords="103,31,271,57"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="304,31,272,35,271,30,303,26"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="87,30,55,25,55,20,88,25"/>
-</map>

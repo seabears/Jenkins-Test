@@ -1,5 +1,0 @@
-getcontentlengthfunc call:[sscanf]
-discardfunc
-readfunc call:[ferror,fread]
-upload call:[curl_easy_perform,curl_easy_setopt,curl_easy_strerror,fclose,fopen,fprintf,fseek,perror] noreturn:[curl_easy_perform,curl_easy_setopt]
-main call:[curl_easy_cleanup,curl_easy_init,curl_global_cleanup,curl_global_init,upload]

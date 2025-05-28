@@ -1,3 +1,0 @@
-writefunction call:[fwrite]
-sslctx_function call:[BIO_free,BIO_new_mem_buf,PEM_X509_INFO_read_bio,SSL_CTX_get_cert_store,STACK_OF,X509_STORE_add_cert,X509_STORE_add_crl,sizeof,sk_X509_INFO_num,sk_X509_INFO_pop_free,sk_X509_INFO_value] noreturn:[X509_STORE_add_cert,X509_STORE_add_crl]
-main call:[curl_easy_cleanup,curl_easy_init,curl_easy_perform,curl_easy_setopt,curl_global_cleanup,curl_global_init,printf,return] noreturn:[printf]
