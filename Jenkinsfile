@@ -12,10 +12,9 @@ pipeline {
             steps {
                 echo '변경된 파일 목록 추출 중...'
 
-                // 변경된 *.c, *.h 파일만 필터링해서 변수에 저장
                 script {
                     def changedFiles = sh(
-                        script: "git diff --name-only origin/main | grep -E '\\.(c|h)$' || true",
+                        script: 'git diff --name-only origin/main | grep -E "\\.(c|h)$" || true',
                         returnStdout: true
                     ).trim()
 
@@ -27,7 +26,6 @@ pipeline {
 
                     echo "변경된 파일:\n${changedFiles}"
 
-                    // cppcheck를 변경된 파일 목록에 대해서만 실행
                     sh "cppcheck --enable=all --inconclusive --quiet --force ${changedFiles}"
                 }
             }
